@@ -6,7 +6,7 @@ It compares the magnitude of recent gains to recent losses in a range between 0 
 
 - Like any other indicators, RSI too is more reliable on a higher time frame charts.
 - The only downside to using indicators on higher time frame charts is that it tends to give lesser opportunities.
-- The trade off is whether you want more opportunities in a short term charts or you want more reliable opportunities in a long term charts.
+- The trade off is whether you want `more opportunities` in a short term charts or you want `more reliable opportunities` in a long term charts.
 
 ---
 

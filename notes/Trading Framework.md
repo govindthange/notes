@@ -5,11 +5,13 @@
 - Exit - when wrong!
 - Exit - when right.
 
-# Market Structure
+# Market Structure - Macro Analysis
 
 Observe ==The Lay of The Land== from all possible point of views:
 
 ## Trend
+
+[[Indicators#Moving Averages | Analyze Moving Averages]]
 
 ## [[Support & Resistance]]
 
@@ -18,7 +20,7 @@ Observe ==The Lay of The Land== from all possible point of views:
 - Observe Highs and Lows.
 - Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
 
-# [[Area of Value]]
+# [[Area of Value]] - Micro Analysis
 
 ## [[Chart Patterns]]
 
@@ -49,3 +51,9 @@ For maximum success use all of the below aspects for an **Entry Trigger**
 - Candlestick Patterns
 
 ## [[Indicators]]
+
+# Exit
+
+## Exiting when wrong
+
+## Exiting when right

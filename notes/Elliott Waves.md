@@ -8,7 +8,6 @@ Label: [[Trading Framework#Area of Value]]
 
 ## Rule 3
 
-
 # Counting Waves
 
 ## [[Elliott Wave 1]]

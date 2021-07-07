@@ -1,5 +1,7 @@
 # Support & Resistance
 
+Although [[Chart Patterns]] give you an edge by anticipating what may happen, S&R is where the live action takes place. S&R is the area where the  bulls and bears fight intensly. We cant ignore this and hope our posistion works out just because we spotted some pattern. We must monitor all S&R levels around the current price action to see how this fight is changing the shape of the market.
+
 ## Support
 
 The thing that bears the weight of something or keeps it upright.

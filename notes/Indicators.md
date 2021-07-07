@@ -1,10 +1,25 @@
-A guiding system just to aid in confirming entries, tracking progress, and exiting the trade when wrong and riding the profit when right.
+Indicators are just a guiding system to aid in confirming your entries, tracking progress, and exiting the trade when wrong or riding the profit when right.
+
+> Do not obsess over using many indicators. Make it work with whatever strategy you are deploying. Focusing on refining the startegy and let indicators just confirm your logic.
 
 # Trend Indicators
 
-Analyze the direction and strength of the trend based on the past pirice data. Since its based on the past data the singals are given after the trend ahas already been establish.
+Analyze the direction and strength of the trend based on the past price data. Since Trend Indicators are based on the past price data, the singals come long after the trend has establish.
 
 ## Moving Averages
+
+### Simple Moving Averages
+
+- 20 Week SMA
+- 50 Week SMA
+- 100 Week SMA
+- 200 Week SMA
+
+#### Death Cross
+
+#### Golden Cross
+
+### Exponential Moving Averages
 
 ## MACD
 
@@ -16,7 +31,7 @@ Analyze the direction and strength of the trend based on the past pirice data. S
 
 Measure the relative strength of the recent price moves and plot a value between 0 and 100. If the price rises strongly then oscillator follows and reaches the overbought level giving a sell signal. Similarly if the price falls, the oscillator reaches an oversold level giving a buy signal.
 
-## [[RSI | Relative Strength Indicator]] Oscillator
+## [[RSI]] Oscillator
 
 - Its better for longer time frames.
 - Its not good for short term time frames.
@@ -24,9 +39,9 @@ Measure the relative strength of the recent price moves and plot a value between
 - Does not take into account the wicks (i.e, full range of the price movement). So in volatile market where wicks are long and open and close are just about at the same level then RSI indicate pretty flate line.
 - RSI only takes into account opening and closing price
 
-## [[DeMarker]]
+## [[DeMarker]] Oscillator
 
-## [[Stochastic RSI Oscillator]]
+## [[Stochastic RSI]] Oscillator
 
 - Its more responsive and sensitive to the price action.
 - It does respond to longer wicks.
@@ -50,6 +65,7 @@ Measure the rate at which the price is changing regardless of its direction. The
 ## Bollinger Bands
 
 ## [[Average True Range]]
+
 - Put your stop loss 2.5 times of ATR.
 
 

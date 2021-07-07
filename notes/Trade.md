@@ -2,7 +2,7 @@
 
 Retail Traders look for confirmation and their S.L. will be too close & tight and then get taken out in the noise.
 
-Institutional Traders use Fibonacci Levels, Trend Lines, Simple S&R Levels to actually look for confluences to try and place their orders. Then they [[Average True Range]] to determine S.L. Put your stop loss 2.5 times of ATR.
+Institutional Traders use Fibonacci Levels, Trend Lines, Simple S&R Levels to actually look for confluences to try and place their orders. They use [[Average True Range]] to determine S.L. Put your stop loss 2.5 times of ATR.
 
 # Bid-Ask Spread
 
