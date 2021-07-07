@@ -47,7 +47,7 @@ Make quick Entry-Exits by infusing high sensitivity using extreme settings (2 pe
 # [[Exit Only]]
 
 ## Time your exits
-Use some other strategy by [[Combining Technical Indicators]] with [[Price Action]] to enter a trade but use RSI only to plan your exits at OB/OS Levels to exit.
+Use some other strategy by combining various [[Indicators]] with [[Price Action]] to enter a trade but use RSI only to plan your exits at OB/OS Levels to exit.
 
 - If are in a long position, then exit when RSI enters the 70% overbought zone. You may also choose to hang around in the overbought zone and exit when RSI leaves the 70% overbought zone thereby squeezing the profits.
 - If you are in a short position, then exit when RSI enters the 30% oversold zone. You may also choose to hang around in the oversold zone and exit when RSI leaves the 30% oversold zone thereby sequeezing the profits.
