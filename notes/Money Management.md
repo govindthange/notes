@@ -1,10 +1,28 @@
-Money Management rules are the most importnat ones.
-
-Anyone who applies good money management will always be a winner.
-
 A proper money management is a way of actually avoiding having to be disciplined.
 
-Capital in trading is not an investment vehicle, its just a tool. Do not do percent returns on every trade. You have to analyze your results after 100 trades quarterly in a year.
+Money Management rules are the most importnat ones. Anyone who applies good money management will always be a winner.
+
+
+# Trade Size
+
+Before entering a trade you have to ask following job interviews o/w you are literally just throwing money in the bin.
+
+- Is there a lot of stake in this single trade?
+- Do you really believe you will surely win?
+- Will the amount you are trading with hurt you emotionally?
+- How would you cope with 3 or 4 losses in a row?
+
+[- Zak Mir](https://www.youtube.com/watch?v=Pye8eeqAD6c)
+
+# Perspective
+
+Capital in trading is not an investment vehicle, it is a tool. Do not do percent returns on every trade. You have to analyze your results after 100 trades quarterly in a year.
+
+While trading if you loose a little bit of money you gotta see it as paying for `the education of trading with the real money`. Jot down lessons learned as you loose a trade.
+
+> You are not trading until you've got a position.
+
+Once you have a position in something you are forced to learn and monitor your risks.
 
 [[Stop Loss]]
 

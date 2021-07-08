@@ -10,6 +10,7 @@ Analyze the direction and strength of the trend based on the past price data. Si
 
 ### Simple Moving Averages
 
+- 10 Week SMA
 - 20 Week SMA
 - 50 Week SMA
 - 100 Week SMA
