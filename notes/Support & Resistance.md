@@ -25,3 +25,6 @@ The refusal to accept or comply with something.
 - Do not focus too much on precisely drawing lines to touch the lower/upper most tip of the wick. Its fine if the line cuts through the candle.
 - Identify levels which converted from support to resistance or resistance to support.
 - Identify levels which **repeatedly** acted as a level where price was refused again and again or a level which **repeatedly** held as a support.
+
+# Warning
+Statistically speaking 80% of the time market is in a range and buying support and selling resistance is a great strategy. The problem is the more certain the range is the more fakeout you will have at either ends of the range. In this case it really becomes more of a stop loss hunting excercise which requires more skills. If you are experienced and seasoned in these matters and you dont jump the gun you will do well but you could still lose a lot of money trying to trade the range which is actually relatively stable but where there is just enough volatility at either ends to confuse you.

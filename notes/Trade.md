@@ -1,3 +1,15 @@
+# Choosing a Broker
+
+https://www.youtube.com/watch?v=LoIJZEbOLuc
+
+Just because spreads are tight and commissions are low doesn't mean its a good thing. It may mean that the brokers are going to try and turn your account over more aggressively so that you pay them as much money.
+
+## Commission Aspect
+
+Cost of trade is important but its even more important that you find brokers that aren't aggressively taking the other sides of your trades because thats a very huge conflict of interest. In the products like spread betting and CFDs a lot of them still do.
+
+## Spread Aspect
+
 # Stop Loss
 
 Retail Traders look for confirmation and their S.L. will be too close & tight and then get taken out in the noise.
