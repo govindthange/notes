@@ -18,6 +18,8 @@ The refusal to accept or comply with something.
 
 ## Support becomes Resistance
 
+![[MACD#Predicting Reversals Breakouts at S L levels]]
+
 # Tips
 - Draw them in a higher time frame. Prefer drawing S&R levels in 4 Hour or Daily time frames.
 - Draw S&R level such that it encompasses maximum candlestick touches.

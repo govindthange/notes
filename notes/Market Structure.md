@@ -2,23 +2,31 @@
 
 ## The Trends
 
-- Draw major trend lines which are obvious and loud/clear.
+- Draw major trendlines which are obvious and loud/clear.
 
 - Use [[Moving Averages]]] to identify the major trend or key reversal zones using [[Moving Averages#Death Cross]] and [[Moving Averages#Golden Cross]].
 
 This is just to have a high level bias in the direction of the trend.
 
+You may also use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lowere timeframe.
+
+![[MACD#Using MACD as Trend Filter]]
+
 ## The Ranges
 
-- Draw major [[Support & Resistance]] levels which act as a Demand and Supply zones.
+- Draw Demand & Supply zones.
+
+- Draw major [[Support & Resistance]] levels.
 
 - At all times, even before taking the trade and until you exit the posisition, watch out for all the key S&R levels to anticipate potential road blockers.
 	- At the key S&R levels use [[MACD]] on 2 level lower time frame to gauge whether the price can break through the S&R level or bounce back.
 
-- Use [RSI Divergences] to anticipate a potential reversals.
+- Use [RSI Divergences] to anticipate a potential reversal.
 	- [[RSI#Bearish Divergences]]
 	- [[RSI#Bullish Divergences]]
 
+
+- Use [[MACD#Predicting Reversals Breakouts at S L levels | MACD]] to confidently predict the anticipated breakouts and reversals.
 
 ## The Swings
 
