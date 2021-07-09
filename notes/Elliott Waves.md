@@ -1,4 +1,4 @@
-Label: [[Trading Framework#Area of Value]]
+Label: [[Area of Value]]
 
 # Rules
 

@@ -1,3 +1,20 @@
+
+# Simple Moving Averages
+
+- 10 Week SMA
+- 20 Week SMA
+- 50 Week SMA
+- 100 Week SMA
+- 200 Week SMA
+
+## Death Cross
+
+## Golden Cross
+
+# Exponential Moving Averages
+
+---
+
 # Buying Dips using MA
 
 On your way up you buy the dip at 10 Daily SMA/EMA.

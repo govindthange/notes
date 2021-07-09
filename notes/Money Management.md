@@ -16,7 +16,7 @@ Before entering a trade you have to ask following job interviews o/w you are lit
 
 # Perspective
 
-Capital in trading is not an investment vehicle, it is a tool. Do not do percent returns on every trade. You have to analyze your results after 100 trades quarterly in a year.
+Trading Capital is not an investment vehicle, it is a tool/resrouce for doing the business. Do not do percent returns on every trade. You have to analyze your results after 100 trades quarterly in a year.
 
 While trading if you loose a little bit of money you gotta see it as paying for `the education of trading with the real money`. Jot down lessons learned as you loose a trade.
 

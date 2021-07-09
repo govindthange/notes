@@ -24,7 +24,7 @@ A Bid-Ask spread is the amount by which the [[Trade# Ask Price | Ask Price]] exc
 
 It is the difference between the highest price that a buyer is willing to pay and the lowest price that a seller is willing to accept.
 
-[[Trading Framework# Institutional Trading Strategy]]
+[[Area of Value#Institutional Trading Strategies]]
 
 ## Bid Price
 Represends the demand for an asset.

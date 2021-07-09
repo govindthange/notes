@@ -6,23 +6,9 @@ Indicators are just a guiding system to aid in confirming your entries, tracking
 
 Analyze the direction and strength of the trend based on the past price data. Since Trend Indicators are based on the past price data, the singals come long after the trend has establish.
 
-## Moving Averages
+## [[Moving Averages]]
 
-### Simple Moving Averages
-
-- 10 Week SMA
-- 20 Week SMA
-- 50 Week SMA
-- 100 Week SMA
-- 200 Week SMA
-
-#### Death Cross
-
-#### Golden Cross
-
-### Exponential Moving Averages
-
-## MACD
+## [[MACD]]
 
 ## Parabolic SAR
 
