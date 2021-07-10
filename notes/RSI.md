@@ -13,7 +13,7 @@ RSI compares the magnitude of recent gains to recent losses in a range between 0
 # Predicting reversals with [[RSI Divergences]]
 
 
-# Entry/Exit with [[OB/OS Levels]]
+# [[Entry/Exit @ OB/OS Levels]]
 
 Enter a short trade when price comes inside the 70% zone.
 Enter a long trade when price comes inside the 30% zone.
@@ -26,12 +26,12 @@ Enter a long trade when price comes inside the 30% zone.
 - Wait for the market to cool out in the overbought or oversold zone before you start looking for an opportunity. You may miss opportunity this way but it will be less riskier.
 - Do not trade against the trend. i.e. do not sell in an uptrend even if RSI shows sell signals.
 
-# Entry/Exit with [[Extreme Settings]]
+# [[Entry/Exit @ Extreme OB/OS Levels]]
 Make quick Entry-Exits by infusing high sensitivity using extreme settings (2 period, 95%, 5%).
 
 > Althought this will make RSI very noisy and choppy but having 95% and 5% for OB/OS levels will filter out lot of noise.
 
-# [[Exit Only]]
+# [[Only Exit @ OB/OS Levels]]
 
 ## Time your exits
 Use some other strategy by combining various [[Indicators]] with [[Price Action]] to enter a trade but use RSI only to plan your exits at OB/OS Levels to exit.
@@ -42,14 +42,14 @@ Use some other strategy by combining various [[Indicators]] with [[Price Action]
 ## Ride profit and then exit
 Essentially once you enter a trade using some other strategy you can use RSI only to **ride profits** as much as you can and then exit at overbought or oversold levels.
 
-# Exit with [[Midline Crosses]]
+# [[Exit @ Midline Crosses]]
 Call it a `Counter Trend Trade` using a `Mean Reversion` strategy where you dont think the price will reverse to its full extent but hope that it will relax a bit after a rally. So you don't use mean of the price but mean of the RSI level.
 
 1. Enter at OB/OS levels where RSI is at extreme end.
 2. Wait for it to move towards its mean (50% level). We don't hope there will be a full reversal.
 3. Exit when RSI crosses its mean (50%)
 
-# Entry with [[Trend Pullbacks]]
+# [[Entry @ Trend Pullbacks]]
 
 1. You are following a trend. Price is being pushed in one direction only.
 2. You notice that RSI continuously shows an Over Bought (or Over Sold) level without any osicillations.
@@ -64,13 +64,13 @@ Example:
 - Ride the trend.
 
 
-# Entry with [[Trend Line]] & RSI Value
+# [[Entry @ RSI Value marked with Trendline]] & RSI Value
 
 This is a dynamic strategy where you would want to keep adjusting the desired RSI level as per the trend line and price action.
 
-1. For a given uptrend, draw a trend line touching all the points when price retraced back.
-2. For couple of those points and spot the RSI value at those very points. It will be generally around 50% or around that in an uptrend.
-3. Use that RSI value for entry the next time price swings.
+1. For a given uptrend, draw a trend line touching all the points when price retraces back.
+2. Note down the RSI value for the above marked points. It will be generally around 50% in an uptrend.
+3. Use this RSI value to enter the next time price swings to this level.
 4. Keep observing the trend line till price breaks it. This is the time to revise RSI entry value. After a rally, the price tends to consolidates taking RSI entry approximiation back to 30% level.
 
 ---
