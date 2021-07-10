@@ -40,15 +40,15 @@ Center of the MACD chart
 
 [By Rayner Teo](https://www.youtube.com/watch?v=eob4wv2v--k)
 
-# Predicting Reversals & Breakouts at S&L levels
+# Predicting Reversals & Breakouts around key levels
 
-Whenever price comes close to the S&R level, you don't directly go Long/Short. You must analyze how the price is approaching the Support & Resistance level.
+Whenever price comes close to the key levels (like Support, Resistance or Trendlines), you don't directly go Long/Short. You must analyze how the price is approaching those key areas.
 
-If the price move is showing `momentum` i.e. it approaches the key levels (S&R/Trendlines) with strong & clean moves with big candles then there is a high probability of a reversal.
+If the price move is showing `momentum` i.e. it approaches the key levels with strong & clean moves (i.e. big candles) then there is a high probability of a reversal.
 
-If the price move is showing `a lacks of moementum` i.e. it approaches the key levels (S&R/trendline) with lot of slow and choppy moves (smaller candles or candles with long wicks) then there is a high probability of seeing a breakout.
+If the price move is showing `a lacks of moementum` i.e. it approaches the key levels slowly with choppy moves (smaller candles or candles with long wicks) then there is a high probability of seeing a breakout.
 - If the price approaches resistance by making higher highs, higher lows and some side ways movements then it is highly likely that it will break through the resistance.
-- If the price approaches support by making lower highs, lower lows while and some side ways movement then it is highly likely that it will break through the support.
+- If the price slowly approaches the support by making lower highs, lower lows with lot of side ways movement then it is highly likely that it will break through the support.
 
 `So how do you know whether the momentum is strong or not?`
 You look at the size of the histogram bar size.
@@ -57,7 +57,7 @@ You look at the size of the histogram bar size.
 
 ### Identifying Market Turning Points
 
-1. A move into [[Market Structure]] like support/resistance or a trendline.
+1. A move into the [[Market Structure]] like support, resistance or a trendline.
 2. MACD histogram shows momentum
 3. Price rejection at the S&R level or trendline. Take confluence from candlestick reversal patterns (hammer, shooting star etc).
 
@@ -92,7 +92,7 @@ To choose a higher timeframe use a factor from 4 to 6 like so:
 
 ## High Probability Breakouts
 
-1. Look for a build up at [[Market Structure]] like support/resistance or a trendline.
+1. Look for a build up in the [[Market Structure]] around support, resistance, or trendlines.
 2. MACD histogram shows a build up with low to no momentum. The histogram is almost flat along the Zero Line.
 
 With shrinking histogram bars indicates sign of breakout however note that predicting a direction is anyone's guess. Its difficult to point out a specific direction. Whats clear though is that a big move is eminent.
