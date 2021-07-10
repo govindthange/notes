@@ -20,9 +20,9 @@ MACD histogram is the difference between the MACD Line and the Signal Line.
 
 `MACD Histogram` = `MACD Line` - `Signal Line`
 
-- If the blue line crossesover the organge line upwards then the histogram shows green bars.
+- If the blue line crossesover the organge line upwards then the histogram shows green bars above the Zero Line.
 
-- If the blue line crossesover the orange line downards then the histogram shows red bars.
+- If the blue line crossesover the orange line downards then the histogram shows red bars below the Zero Line.
 
 The size of the histogram bars indicates the strength of the momentum.
 

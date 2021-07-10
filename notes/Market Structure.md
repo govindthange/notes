@@ -21,9 +21,9 @@ You may also use MACD at a higher timeframe to filter trend and have a stronger 
 - At all times, even before taking the trade and until you exit the posisition, watch out for all the key S&R levels to anticipate potential road blockers.
 	- At the key S&R levels use [[MACD]] on 2 level lower time frame to gauge whether the price can break through the S&R level or bounce back.
 
-- Use [RSI Divergences] to anticipate a potential reversal.
-	- [[RSI#Bearish Divergences]]
-	- [[RSI#Bullish Divergences]]
+- Use [[RSI Divergences]] to anticipate a potential reversal/continuation of trend.
+	- [[RSI Divergences#Regular Divergences for predicting Trend Reversals]]
+	- [[RSI Divergences#Hidden Divergences for predicting Trend Continuation]]
 
 
 - Use [[MACD#Predicting Reversals Breakouts at S L levels | MACD]] to confidently predict the anticipated breakouts and reversals.

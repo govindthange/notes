@@ -1,30 +1,17 @@
 # Relative Strenght Index
 
-Developed by [Dr. Alexander Elder](https://www.elder.com/)
+RSI was developed by [Dr. Alexander Elder](https://www.elder.com/)
 
-It compares the magnitude of recent gains to recent losses in a range between 0 to 100.
+RSI compares the magnitude of recent gains to recent losses in a range between 0 to 100.
 
-- Like any other indicators, RSI too is more reliable on a higher time frame charts.
-- The only downside to using indicators on higher time frame charts is that it tends to give lesser opportunities.
+- Like many other indicators, RSI is more reliable on a higher timeframe charts.
+- The downside to using indicators on higher timeframe charts is that it gives lesser opportunities.
 - The trade off is whether you want `more opportunities` in a short term charts or you want `more reliable opportunities` in a long term charts.
 
 ---
 
-# Predicting reversals with [[Divergences]]
+# Predicting reversals with [[RSI Divergences]]
 
-## Bearish Divergences
-
-Compare swing highs in the price to the swing highis in the RSI.
-
-Price makes Higher Highs but RSI makes lower highs or remain flat.
-A possible reversal signal to start planning a short trade.
-
-## Bullish Divergences
-
-Compare swing lows in the price to the swing lows in the RSI.
-
-Price makes Lower Lows but RSI makes higher lows or remain flat.
-A possible reversal signal to start planning a long trade.
 
 # Entry/Exit with [[OB/OS Levels]]
 
