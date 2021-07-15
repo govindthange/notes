@@ -1,3 +1,5 @@
+# Moving Average Convergence Divergence
+
 MACD is a trend following indicator and the momentum indicator. It has 4 components:
 
 ## 1. MACD Line (Blue)
@@ -35,6 +37,51 @@ The size of the histogram bars indicates the strength of the momentum.
 ## 4. Zero Line
 
 Center of the MACD chart
+
+
+# Rules & Guidlines
+
+[By Trading Rush](https://www.youtube.com/watch?v=6DE_eEMfOP8&list=WL&index=6)
+
+## Do multi timeframe analysis first
+
+![[Trading Framework#Multi Timeframe Analysis]]
+
+Multi-timeframe analysis helps in identifying price points where MACD can give good entry signal.
+
+## Always trade in the direction of the trend.
+
+MACD indicator at the core is a trend following indicator and works really good when the market is trending.
+
+When using SMA, make sure it does not look flat.
+
+## Avoid MACD when 200 SMA looks flat with sideways/choppy price action.
+
+## Avoid trades where the price makes significant move in your favor before entry
+
+Sometimes the MACD signal candle may already have moved significantly in your favor right at the crossover point there by completely invalidating the signal.
+
+You must completely avoid such trades as the price would have already made the move you were anticipating. Furthermore, even if you had taken the entry after this big MACD signal candle the S.L would have been so big that the price would have had to trave a lot of distance to get a decent risk-to-reward ratio.
+
+## Avoid trades that have way too big S.L.
+
+
+## Avoid confusing setups
+
+Do not trade MACD setup that look confusing and does not inspire much confidence.
+
+## Set S.L. just above/below the pullbacks
+
+Identify exactly the end of the pullback by recognizing swing highs/lows.
+
+## Do not judge MACD after 10 trades.
+
+![[Money Management#Risk to Reward Ratio]]
+
+`Take Profit` = 1.5 X `Stop Loss`
+`Win Rate` = 60% (approx.)
+
+MACD gives upto 68% success rate if all the rules are followed correctly.
 
 ---
 
@@ -97,65 +144,3 @@ To choose a higher timeframe use a factor from 4 to 6 like so:
 
 With shrinking histogram bars indicates sign of breakout however note that predicting a direction is anyone's guess. Its difficult to point out a specific direction. Whats clear though is that a big move is eminent.
 
-
----
-
-Use MACD to identifying the short term momentum using the crossover betweeen MACD line and Signal lines.
-
-# Trending Market Strategy
-
-MACD is best suited in a trending market. MACD are more effective when used with a long term trend indicator like 100 EMA.
-
-## MACD Crossovers with 100 EMA
-
-- Use `100 EMA` to determine the long term trend.
-	- If price is above the 100 EMA then it is an uptrend.
-	- If price i sbelow the 100 EMA then it is a down trend.
-- Look for the `crossovers` on the MACD and have a trend bias.
-	- In an uptrend do as follows:
-		- If price is above 100 EMA then buy when blue line (MACD line) crosses over the orange line (signal line) to the upside.
-		- Stop Loss should be at the nearest swing low
-		- Take Profit should be at 1.5X of the Stop Loss.
-	- In a downtrend do as follows:
-		- If the price is below 100 EMA then sell when the blue line crosses the orange line to the downside.
-			- Stop Loss should be at the nearest swing high.
-			- Take Profit at 1.5 X of the Stop Loss.
-
-
-# Range Bound Market Strategy
-
-Note that MACD gives many false signal in a range-bound market (sideways/consolidating price).
-
-## MACD Crossovers with Price Action and S&R
-
-[by Data Trader](https://www.youtube.com/watch?v=Yj0yEBxwLVw)
-
-### Testing Resistance
-
-- You are in a 2 Hr time frame.
-- Say the price had already touched the resistance once in the previous swing.
-- Price is approaching the resistance to attempt a breakout or a pullback the 2nd time.
-- Wait for the price to touch the resistance.
-- Observe the price action using candlestick patterns and anticipate a breakout vs pullback.
-- Use MACD to confirm the anticipated breakout/retracement like so:
-	- Go to 45 min time frame (2 level below the 2 hr). Using MACD at the same timeframe will give a delayed signal and reducing profitability.
-	- Wait for the blue MACD line to crossdown the orange signal line.
-	- A successful downward crossover will confirm the higher probability of a pullback.
-- Exit Strategy
-	- Stop Loss: A few pips above the resistance.
-	- Take Profit: 1.5 times the Stop Loss.
-
-### Testing Support
-
-- You are in a 2 Hr time frame.
-- Say the price had already touched the support line once in the previous swing.
-- Price is approaching the support to attempt a breakdown or a bounce back the 2nd time.
-- Wait for the price to touch the support.
-- Observe the price action using candlestick patterns and anticipate a breakdown vs bounce back.
-- Use MACD to confirm the anticipated breakdown/bounce back like so:
-	- Go to 45 min time frame (2 level below the 2 hr)
-	- Wait for the blue MACD line to crossover the orange signal line.
-	- A successful upward crossover will confirms the higher probability of a bounce back.
-- Exit Strategy
-	- Stop Loss: A few pips below the support.
-	- Take Profit: 1.5 times the Stop Loss.

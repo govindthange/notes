@@ -55,6 +55,22 @@ Measure the rate at which the price is changing regardless of its direction. The
 
 - Put your stop loss 2.5 times of ATR.
 
+# Trade Assist Indicators
+
+## Parabolic SAR
+
+### Trend Direction Indicator
+
+### Entry Signal Generation
+
+### Trailing Stop Loss
+
+### Exit Signal Generation
+
+## [[#Average True Range]]
+
+Helps in determining Stop Loss based on current volatility
+
 
 
 

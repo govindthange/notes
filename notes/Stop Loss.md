@@ -1,3 +1,5 @@
+> Always trade from the position of strength. Do not get wrecked!
+
 Its always better that market stops you rather than you choosing a number and getting stopped out by 1 point and then market going in your favor.
 
 Having an open trade is like having a child.
@@ -66,6 +68,8 @@ If you have to do anything in terms of spread betting its all about Stop Loss ma
 Getting that `Stop Loss` upto the `Break Even` as quickly as you can is the name of the game.
 
 > The secret is how long/quickly it takes for that position to get away from the battleground of your entry point.
+
+![[Risk Management#S L Moving Strategy]]
 
 You will quickly discover for your self that a position where a stop loss isn't hit in the first few minutes on a tight day trading position or there is no pullback below the entry point will tend to be a very big winner.
 

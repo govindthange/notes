@@ -32,3 +32,14 @@ You may also use MACD at a higher timeframe to filter trend and have a stronger 
 
 - Observe the Highs and Lows.
 	- Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
+
+
+# Change of Market Structure
+
+Market structure changes in cycles like so:
+
+1. Higher Highs/Higher Low gradually changes to either Stage #2 or Stage #3
+2. Range Bound movement gradually changes to either Stage #1 or Stage #3
+3. Lower Highs/Lower Lows gradually changes to either Stage 1 or Stage #2
+
+You can spot these changes using indicators like [[RSI]] and [[MACD]] or using [[Elliott Waves]] principles.

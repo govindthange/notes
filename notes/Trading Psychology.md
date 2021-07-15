@@ -1,4 +1,19 @@
 
+# Psychology
+
+- You take bad decisions if you put evertying online.
+- Do not trade with an amount more than you can afford to lose comfortably.
+- If you trade with a huge capital you will get emotional eventually and end up making decisions.
+- With trading its not about how much money you make in this single trade or how much money you make this week/money. 
+- Trading is about choosing a strategy wisely, executing it like a robot/program/script, then looking into the next 100, 200 or 300 trades and ensuring that overall you are profitable in all these trades.
+- You must have enough in your account balance, but be trading with just enough (1% to 2% of your trading kitty) to handle a continuous streaks of losing trades without blowing up your entire trading account. With no more than 2% in each trade it will require a streak of over 50 losing trades in a row. It is a very low probability.
+
+## Blowing up the whole accounts
+
+- It is inevitable and part of a trading journey.
+- Every great trader has blown up his account once or twice in the beginging.
+- The risk of blowing up the whole trading account during the initial days is very high. Its the part of trader's journey so you must ensure that you do not trade with more than you can comfortably lose in the first few years of your trading journey.
+
 # Why people suck at trading?
 [Ross Williams](https://www.youtube.com/watch?v=sSj57fpHlb4)
 

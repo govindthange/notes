@@ -5,7 +5,7 @@ Money Management rules are the most importnat ones. Anyone who applies good mone
 
 # Trade Size
 
-Before entering a trade you have to ask following job interviews o/w you are literally just throwing money in the bin.
+Before entering a trade you have to ask following job interview questions o/w you are literally just throwing money in the bin.
 
 - Is there a lot of stake in this single trade?
 - Do you really believe you will surely win?
@@ -34,3 +34,16 @@ In terms of day to day strategy, it should not really matter unless the market i
 Once you've got your methodology correct and you are literally trading with just stop losses and allowing the market to hit your stop loss to determine profit take or money management position, you shouldn't really be bothered or have to decide anything. Just put your stop loss and keep moving it according to your position and let the market hit it.
 
 [- Zak Mir](https://www.youtube.com/watch?v=FZmmvFQFM8E)
+
+# Risk to Reward Ratio
+
+Win rate goes up with a poor Reward to Risk ratio and vice versa.
+
+If you focus on taking more profits then risk-to-reward ratio will be compromised.
+
+`Win Rate` = 90 <-- Say you want 90% of your trades to be successful.
+`Risk to Reward` = 10 <-- To get 90% win rate you will have to expose yourself to all possibilities that can get you that kind of win rate. Generally by risking $10 for making $1 you would be exposing yourself enough to be rewarded with 90% of the successful trades. 
+
+(90 * 10) + (10 * 100) = -100 loss <-- Get wrecked!
+
+On the contrary, if your win rate is very low, say 20%, you can still make decent profits in the long run by having a good risk-to-reward ratio.
