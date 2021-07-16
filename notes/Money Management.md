@@ -5,6 +5,14 @@ Money Management rules are the most importnat ones. Anyone who applies good mone
 
 # Trade Size
 
+`Total Trading Capital` < 10% of `Investment Portfolio Size`
+
+`Trade Size` < 2% of `Total Trading Capital`
+
+`Contract Size` = `Trade Size` / `Stop Loss Size`
+
+[- Greg Secker](https://youtu.be/7yW44mdHFIw?t=1354)
+
 Before entering a trade you have to ask following job interview questions o/w you are literally just throwing money in the bin.
 
 - Is there a lot of stake in this single trade?

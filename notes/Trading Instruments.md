@@ -1,7 +1,14 @@
 
 # Forex Pairs
+Trends are very shallow and generally stick more the ranges.
+
+- EUR/USD
+- AUD/USD
+- EUR/GBP
+- USD/YEN
 
 # Indices
+Great for trending.
 
 - Nifty
 - Bank Nifty
@@ -26,6 +33,8 @@
 
 # Crypto Currencies
 
+Its very high volatilie. Sometime get very strong trends and sometime oscillates for months and become very jerky.
+
 - Bitcoin
 - Ethereum
 
@@ -37,6 +46,14 @@
 
 # Commodities
 
+Have super long cycles. Softer commodities like Sugar tend to trend longer.
+
 - Crude Oil
 
 ## Futures Contract
+
+# Stocks
+
+Stocks tend to trend for longer stretches of time. For several years if its a good stock.
+
+# Bonds

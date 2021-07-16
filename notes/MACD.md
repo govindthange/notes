@@ -38,6 +38,10 @@ The size of the histogram bars indicates the strength of the momentum.
 
 Center of the MACD chart
 
+- In an uptrend (`price over 200 EMA`) if the `MACD Line crosses above the Signal Line` and the `crossover is below the Zero Line` it indicates bounce after a deeper pullback.
+
+- In a downtrend (`price below 200 EMA`) if the `MACD Line crosses below the Signal Line` and the `crossover is above the Zero Line` it indicates bounce after a deeper pullback.
+
 
 # Rules & Guidlines
 

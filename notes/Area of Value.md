@@ -1,3 +1,5 @@
+# [[Trendline]]
+
 # [[Support & Resistance]]
 
 # [[Chart Patterns]]

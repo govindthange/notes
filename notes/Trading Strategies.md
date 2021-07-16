@@ -32,13 +32,13 @@ MACD not only utilizes past data to calculate its signals but it also helps in p
 #### Long Setup
 
 Area of Value:
-- Price action is above the 200 EMA
-- MACD Line crosses above the Signal Line
-- MACD crossover is below the Zero Line of the histogram
+- Price action is above the 200 EMA.
+- MACD Line crosses above the Signal Line.
+- MACD crossover is below the Zero Line of the histogram indicating a deeper pullback.
 
 Optional Filters:
 - The Stop Loss risk should not be over 0.30%
-- 200 EMA is not flat and price action is not too choppy around 200 EMA
+- 200 EMA is not flat and price action is not too choppy around 200 EMA.
 
 Long Trade:
 `Stop Loss:` Pullback level at the nearest swing low
@@ -47,13 +47,13 @@ Long Trade:
 #### Short Setup
 
 Area of Value:
-- Price action is below the 200 EMA
-- MACD Line crosses below the Signal Line
-- MACD crossover is above the Zero Line of the histogram
+- Price action is below the 200 EMA.
+- MACD Line crosses below the Signal Line.
+- MACD crossover is above the Zero Line of the histogram indicating a deeper pullback.
 
 Optional Filters:
 - The Stop Loss risk should not be over 0.30%
-- 200 EMA is not flat and price action is not too choppy around 200 EMA
+- 200 EMA is not flat and price action is not too choppy around 200 EMA.
 
 Short Trade:
 `Stop Loss:` Pullback level at the nearest swing high.
