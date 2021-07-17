@@ -1,13 +1,18 @@
+# Crypto Currencies
 
-# Forex Pairs
-Trends are very shallow and generally stick more the ranges.
+Its very high volatilie. Sometime get very strong trends and sometime oscillates for months and become very jerky.
 
-- EUR/USD
-- AUD/USD
-- EUR/GBP
-- USD/YEN
+- Bitcoin
+- Ethereum
+
+## Spot Market
+
+## Futures Contract
+
+## Futures Contract
 
 # Indices
+
 Great for trending.
 
 - Nifty
@@ -28,21 +33,7 @@ Great for trending.
 - Trail your S.L. at newer S/R levels, Pivot levels or Trendlines (Refer it as C, D...).
 - Wait for the market to stop you through Stop Loss.
 
-
-## Options Contract
-
-# Crypto Currencies
-
-Its very high volatilie. Sometime get very strong trends and sometime oscillates for months and become very jerky.
-
-- Bitcoin
-- Ethereum
-
-## Spot Market
-
-## Futures Contract
-
-## Futures Contract
+## [[Option Contract]]
 
 # Commodities
 
@@ -56,4 +47,29 @@ Have super long cycles. Softer commodities like Sugar tend to trend longer.
 
 Stocks tend to trend for longer stretches of time. For several years if its a good stock.
 
+Bank Stocks
+- SBI (SBIN)
+- Axis Bank (AXISBANK)
+- HDFC Bank (HDFCBANK)
+- Kotak Bank (KOTAKBANK)
+- ICICI Bank (ICICIBANK)
+- IDFC FIrst Bank (IDFCFIRSTB)
+- Bank of Baroda (BANKBARODA)
+- (PNB)
+- (CANB)
+- Yes Bank (YESBANK)
+- Federal Bank (FEDERALBNK)
+- RBL Bank (RBLBANK)
+
+Other Stocks
+- Bajaj Finance (BAJAJFINANCE)
+- Reliance
+- COAL India (COALINDIA)
+- Adani Enterprises (ADANIENT)
+- Blue Star (BLUESTARCO)
+
 # Bonds
+
+# [[Forex Pairs]]
+
+Trends are very shallow and generally stick more the ranges.

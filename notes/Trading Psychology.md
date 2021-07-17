@@ -1,3 +1,17 @@
+# Tips
+
+- `Build conviction in your analysis` and respect your plan. This is important because many traders do foolish/dumb exits. i.e. exiting a well planned trade out of fear. Its foolish to realize later that the trade did went as per your plan but you exited due to emotional unstability.
+
+- `Respect your plan`
+	- Respect your `Stop Loss` level and `Take Profit` Level.
+	- Do not get emotionally attached to your `P&L` and change decisions while holding a position.
+	- Always exit as per planned Stop Loss and Take Profit levels.
+	- [This is an example where Anish Singh Thakur followed his planned trade and exited at the Take Profit level.](https://youtu.be/dQ2jM5ATqIg?t=1922)
+
+- Focus on the Process not on the Profits
+	- If you focus on the profit you will never make profit.
+	- Stop repeatedly watching your P&L after taking the trade.[- Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=2759)
+
 
 # Psychology
 

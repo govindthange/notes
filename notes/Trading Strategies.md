@@ -1,19 +1,10 @@
+==PLAN YOUR TRADE AND TRADE YOUR PLAN.==
 
-`Question:` How do you know when to enter the trade? What if the price just move against your posisition as soon you enter the trade?
+> Focus on the process not on the profits! If you focus on the profit you will never make profits.
 
-`Answer:` Use MACD indicator to identifying the short term momentum using the crossover betweeen MACD line and Signal lines.
+# Naked Trading Strategy
 
-> MACD is best suited in a trending market. MACD are more effective when used with a long term trend indicator like 200 SMA or 100 EMA.
-
-> MACD can also be used to confirm entries near the Resistance & Support levels.
-
-
-`MACD is a leading indicator`
-
-MACD not only utilizes past data to calculate its signals but it also helps in predicting the possible change in the given direction before other indicators and hence leads in its signal. It successfully predicts a potential reversal by showing a gradual increase/decrease in the strength of the momentum via its histogram bar size and fading colors. 
-
-
-![[MACD#Rules Guidlines]]
+One of the best trading strategies is to not use any indicators and traing only on the basis of the price action.
 
 # Trending Market Strategy
 

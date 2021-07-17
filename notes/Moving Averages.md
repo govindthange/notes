@@ -1,3 +1,4 @@
+Keep track of price w.r.t 50, 100, 200, and 400 EMA/SMA on all timeframes.
 
 # Simple Moving Averages
 
@@ -13,7 +14,7 @@
 
 # Exponential Moving Averages
 
----
+50 EMA works beautifully on Nifty charts. It respects that line as a strong S/R line.
 
 # Buying Dips using MA
 

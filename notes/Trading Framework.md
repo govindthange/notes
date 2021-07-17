@@ -1,3 +1,7 @@
+==PLAN YOUR TRADE AND TRADE YOUR PLAN.==
+
+> Focus on the process not on the profits! If you focus on the profit you will never make profits.
+
 **MAEEE Formula**
 - Market Structure
 - Area of Value
@@ -6,16 +10,6 @@
 - Exit - when right.
 
 # [[Market Structure]] - Macro Analysis
-
-## Multi Timeframe Analysis
-
-Always do  before entering any trade.
-
-- Multi-timeframe analysis shows you the big picture.
-
-- Multi-timeframe analysis is one of the most important thing one should do before entering any trade.
-
-- Multi-timeframe analysis helps in identifying price points and choosing appropriate indicator that can give good entry signal.
 
 # [[Area of Value]] - Micro Analysis
 

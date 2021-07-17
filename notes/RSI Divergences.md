@@ -8,6 +8,8 @@ People act on RSI divergence far too early without waiting for the momentum to c
 
 The correct approach is to wait for the divergence to fully showup.
 
+Its fine to ignore the wicks while making the divergences. You can even make them on line charts instead of drawing them on candlesticks. [- Anish Singh Thakur ](https://youtu.be/KvZ7TH0iYz4?t=324)
+
 For instance, in an uptrend, in order to spot a bearishing divergence, do as follows:
 - Mark the tops & bottoms on price chart.
 - Wait for proper Higher Highs to get formed on the price charts

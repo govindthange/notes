@@ -1,16 +1,25 @@
+# Multi Timeframe Top-Down Analysis
+
+You must always do a through ==Multi Timeframe Top Down Analysis== Starting from Daily to 4H, 1H, 30M, and 5M charts.
+
+- It shows you the big picture.
+
+- It is the most important thing one should do before entering any trade.
+
+- It is crucial in identifying price points and choosing appropriate indicator that can give good entry signal.
+
 # The Lay of The Land
 
 ## The Trends
 
-- Draw major trendlines which are obvious and loud/clear.
+Identify trends to build a bias in the direction of the trend.
 
-- Use [[Moving Averages]]] to identify the major trend or key reversal zones using [[Moving Averages#Death Cross]] and [[Moving Averages#Golden Cross]].
+- Draw major trendlines which are obvious and clear.
 
-This is just to have a high level bias in the direction of the trend.
+- Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
 
-You may also use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lowere timeframe.
-
-![[MACD#Using MACD as Trend Filter]]
+- Use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lower timeframes.
+	- ![[MACD#Using MACD as Trend Filter]]
 
 ## The Ranges
 
@@ -21,20 +30,33 @@ You may also use MACD at a higher timeframe to filter trend and have a stronger 
 - At all times, even before taking the trade and until you exit the posisition, watch out for all the key S&R levels to anticipate potential road blockers.
 	- At the key S&R levels use [[MACD]] on 2 level lower time frame to gauge whether the price can break through the S&R level or bounce back.
 
-- Use [[RSI Divergences]] to anticipate a potential reversal/continuation of trend.
-	- [[RSI Divergences#Regular Divergences for predicting Trend Reversals]]
-	- [[RSI Divergences#Hidden Divergences for predicting Trend Continuation]]
-
-
 - Use [[MACD#Predicting Reversals Breakouts at S L levels | MACD]] to confidently predict the anticipated breakouts and reversals.
 
 ## The Swings
 
-- Observe the Highs and Lows.
-	- Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
+Observe the Highs and Lows.
 
+- Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
 
-# Change of Market Structure
+## The Reversals
+
+### RSI Divergences
+
+Use [[RSI Divergences]] to anticipate a potential reversal/continuation of trend.
+
+- [[RSI Divergences#Regular Divergences for predicting Trend Reversals]]
+
+- [[RSI Divergences#Hidden Divergences for predicting Trend Continuation]]
+
+### Moving Average Crossovers
+
+Use [[Moving Averages]]] crossovers to anticipate key reversal points.
+
+- [[Moving Averages#Death Cross]]
+
+- [[Moving Averages#Golden Cross]]
+
+# Change in Market Structure
 
 Market structure changes in cycles like so:
 

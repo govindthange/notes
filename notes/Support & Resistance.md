@@ -14,6 +14,24 @@ The refusal to accept or comply with something.
 
 > The level at which the price is refusing to hold on to or comply with.
 
+# S/R Price Action
+
+## Breakouts around S/R Levels
+
+### Betting breakout before confirmation (High Risk)
+
+When multiple candles are formed around S/R level then there is an increasing possibility that it will break through the level.
+
+Generally you are required to wait till a candle closes beyond the S/R level, then the subsequent candle is completely formed outsde of the S/R level, and final pullback test where S becomes R and vice versa.
+
+#### Breakout Trading Tip (Risky!):
+
+Generally if there are 3+ consequent candles formed along the S/R level such that their wicks touches the S/R level, and then the next candle is formed with a strong body closing near the S/R level with its tip (with small/no wick) almost touching the S/R level then you can take the risk of entering such a trade. It is highly likely that the candle will breakout.
+
+Examples:
+- [By Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=221)
+- [By Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=1823)
+
 ## Resistance becomes Support
 
 ## Support becomes Resistance
