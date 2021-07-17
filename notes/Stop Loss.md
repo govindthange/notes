@@ -1,6 +1,12 @@
-You must set system stop loss to save yourself from ==The Risk of Ruin==
+You must set a `System Stop Loss` to save yourself from ==The Risk of Ruin==
 
-# Stop Loss Reasons
+To avoid getting stop hunted this System Stop Loss must be set at a far enough distance but still accurately at a point beyond which the premise of the trade is negated if you get stopped.
+
+After setting the `System Stop Loss` the whole game is about `managing the Stop Loss manually` by giving the price action enough room to stretch and advance in your direction.
+
+The whole goal of managing the Stop Loss manually is to execute the trade as exactly it was planned i.e. either the `Take Profit` level is achieved or the `Stop Loss` is hit at a point where it completely invalides the strategy.
+
+# Stop Loss  Reasons
 
 Having an open trade is like having a child.
 
@@ -75,13 +81,21 @@ You will quickly discover for your self that a position where a stop loss isn't 
 
 ## Goal #2 - Fly & Land
 
-Once your `Stop Loss` reaches the `Break Even` your next goal is to stay in that position as long as possible and ride the profit through trailing stop losses [[#Let the market stop you| until the market stops you out]].
+Once your `Stop Loss` reaches the `Break Even` your next goal is to stay in that position as long as possible (till the market structure does not change) and ride the profit through trailing stop losses [[#Let the market stop you| until the market stops you out]].
 
-Example:
+Examples:
 - [Live trade by Anish Singh Thakur](https://www.youtube.com/watch?v=dQ2jM5ATqIg)
+- [Anish Singh Thakur skillfully adjusting the `Stop Loss` and creating room for price to stretch](https://youtu.be/KvZ7TH0iYz4?t=1212)
+- [Anish Singh Thakur adjusting the `Stop Loss` after seeing a change in market structure](https://youtu.be/KvZ7TH0iYz4?t=1893)
 - ![[#Quit moving stops too soon]]
 
 [- Zak Mir](https://www.youtube.com/watch?v=kY9n8EQqs7w)
+
+
+Note that when you trail your stop loss while market makes new advances in favor of your position, your Stop Loss may get hit. You can re-enter the position and continue the ride.
+
+Examples:
+- Anish Singh Thakur modified his strategy after seeing that the Market Structure was evolving to presenting a possibility of aiming higher targets. [Check his live trade here.] (https://youtu.be/KvZ7TH0iYz4?t=2053)
 
 # Stop Loss Calculation
 
@@ -101,7 +115,13 @@ Calculate the trading size.
 
 Its always better that market stops you rather than you choosing a number and getting stopped out by 1 point and then market going in your favor.
 
+Note that you still want to modify Stop Loss on times when the market structure changes.
+
+Examples:
+- [Anish Singh Thakur adjusting the `Stop Loss` after seeing change in market structure](https://youtu.be/KvZ7TH0iYz4?t=1893)
+
 ## Avoid being stop "hunted"
+
 How to avoid being stop hunted?
 
 [by UKSpreadBetting](https://www.youtube.com/watch?v=Ur3AhuVnd1I)
@@ -118,12 +138,16 @@ Stop loss should only be set at a point where your strategy is completely invali
 
 Market hunts for liquidity. They are not the cartel as such pinging your stops.
 
+Examples:
+- [Anish Singh Thakur shows how the market hunts for liquidity](https://youtu.be/KvZ7TH0iYz4?t=2088)
+
 #### Put your stop far enough
 
 The trouble with putting S.L. too far out of the way is the risk-reward getting skewed.
 
 Example:
 - [Live trade by Anish Singh Thakur](https://www.youtube.com/watch?v=dQ2jM5ATqIg)
+- [Anish Singh Thakur skillfully adjusting the `Stop Loss` and creating room for price to stretch](https://youtu.be/KvZ7TH0iYz4?t=1212)
 
 #### Let other trader's S.L. get stopped out and then you get in.
 

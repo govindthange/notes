@@ -1,3 +1,5 @@
+> RSI Divergence does NOT take precedence over the Market Structure (Trend, S&R Levels, Multi Timeframe Top-Down Analysis). Its just to indicate you what to expect ahead of time. [- Anish Singh Thakur](https://youtu.be/KvZ7TH0iYz4?t=1844)
+
 Usually you will start by marking tops and bottoms on the price swings. For all these tops and bottoms you would look for divergences associated with them.
 
 Essentially a reversal is a break in the market structure. Example: A higher high is broken into higher lows. You must wait enough to see this being played out before making a trend.

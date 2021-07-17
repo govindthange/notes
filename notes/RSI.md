@@ -63,7 +63,6 @@ Example:
 - As soon as price pullbacks and RSI enters the obverbought zone (30%) the **first** time, go long.
 - Ride the trend.
 
-
 # [[Entry @ RSI Value marked with Trendline]] & RSI Value
 
 This is a dynamic strategy where you would want to keep adjusting the desired RSI level as per the trend line and price action.
