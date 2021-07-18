@@ -63,7 +63,7 @@ Center of the MACD chart
 
 [By Trading Rush](https://www.youtube.com/watch?v=6DE_eEMfOP8&list=WL&index=6)
 
-## Do multi timeframe analysis first
+## Do Top-Down Multi-Timeframe Analysis first
 
 ![[Trading Framework#Multi Timeframe Analysis]]
 

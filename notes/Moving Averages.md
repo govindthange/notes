@@ -1,5 +1,7 @@
 Keep track of price w.r.t 50, 100, 200, and 400 EMA/SMA on all timeframes.
 
+Price takes support at common moving averages because big financial institutions, mutual fund companies and retirement funds tend to wait for a pullback around moving averages to accumulate by putting in major holdings.
+
 # Simple Moving Averages
 
 - 10 Week SMA

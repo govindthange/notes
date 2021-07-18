@@ -1,16 +1,72 @@
-# Multi Timeframe Top-Down Analysis
+# Top-Down Multi-Timeframe Analysis
 
-You must always do a through ==Multi Timeframe Top Down Analysis== Starting from Daily to 4H, 1H, 30M, and 5M charts.
-
+You must always do a through ==Top-Down Multi-Timeframe Analysis== using Monthly, Weekly, Daily to 4H, 1H, 30M, and 5M charts.
 - It shows you the big picture.
-
 - It is the most important thing one should do before entering any trade.
-
 - It is crucial in identifying price points and choosing appropriate indicator that can give good entry signal.
+
+For Indices and Stocks 1 Month, 1 Week, 1 Day, 1 Hour, 30 Min, 15 Min, and 5 Min timeframe is to be analyzed in top-down fashion.
+
+Note that 4 Hours is not included since a day session in India is of 6 hours.
+
+4 Hours timeframe can be analyzed for Forex, Commidities and Cryptocurrencies where market is open 24 hours.
+
+For Top-Down analysis you start with a bigger timeframe first. [- Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=173)
+
+## Intraday Top-Down Analysis
+
+Note that for intraday 1 Month and 1 Week charts are not required to be analyzed. Only positional traders who wish to hold position for several months should refer monthly and weekly charts. ([Ref](https://youtu.be/1vXLP1eFvTs?t=207))
+
+Short term traders like Swing Traders, Technical Chart Traders or Price Action Traders should analyze charts in following order.
+
+### 1 Day Chart
+
+Do `candlestick analysis` and just understand how the recent candle was formed. Analyze that single candle for the day! ([Ref](https://youtu.be/1vXLP1eFvTs?t=337))
+
+> Don't draw trendline and analyze trends in daily charts! It makes no sense.
+
+- Is it forming a Doji or an Engulfing candle?
+- Anticipate whether the next candle would complete an evening star formation.
+- Anticipate if the new candle will attempt to break the nearest S/R level?
+- Was this candle the one which broke out of an established trend?
+
+### 1 Hour Chart
+
+Mark [[#The Lay of The Land]] on this chart as described in following sections.
+
+- Identify and mark [[#Trends]] and [[#Swings]].
+- Identify and mark major the [[Support & Resistance]] levels.
+
+### 15 Min Chart
+
+Analyse and identify [[Area of Value]] in conjunction with [[Market Structure]] at minor level.
+
+- Identify and mark [[Area of Value#Chart Patterns]] if any.
+- Identify and mark minor [[#Trends]] and [[#Swings]]
+- Identify and mark minor [[Support & Resistance]] levels.
+- Make use of indicators to spot [[#Reversals]] and other signals.
+
+> Add pivot levels to mark `Take Profit` levels before entering a trade. Pivot level helps when there are no clear S/R levels.
+
+Examples:
+
+- [Top-Down Analysis of Bajaj Finance Ltd for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=585)
+	- The daily candle shows a `Doji`. Indicating indecision. You can anticipate a bigger move next; probably a candle confirming an evening star.
+	- 1 Hour shows a strong `resistance` at All Time High level at 5658 and a strong `Support` at 5462. Mark them.
+	- 15 Min chart shows a `Cup & Handle` pattern. The handle shows a beautiful consolidation implying a possible bigger move. However, the RSI shows a bearish divergence.
+	- Plan trade as follows:
+		- You can place a `Short` below 5542 and `Take Profit` at Pivot levels or at 5462 support marked in 1 Hour chart.
+		- Or `Long` above 5590 if the candle closes near the neck line of `Cup & Handle` and `Take Profit` near the `All Time High` resistance level identifed in the 1 Hour chart.
+- [Top-Down Analysis of Bank Nifty for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=827)
+	- The daily candle shows a formation of `Morning Star`. A red candle and a doji followed by an engulfing green candle. We can have a bullish bias.
+	- 1 Hour chart shows a full range bound price action; best time for option sellers. You can mark a strong resistance @ 36410 and a strong support @ 35613. The price action also shows long wicks at both end of the range showing strong rejections at both levels. There is a high possibility that it will break the next time price tries to test those levels.
+	- 15 min chart again shows long wicks around S/R levels. If the candle closes below the resistance then you may enter a `Short` trade. Similarly if the price breaks resistance, enter a `Long` trade.
+- [Top-Down Analysis of Indusind Bank for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=1056)
+- [Nify, Reliance, TCS, Britannia, and Tech Mahindra for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=1220)
 
 # The Lay of The Land
 
-## The Trends
+## Trends
 
 Identify trends to build a bias in the direction of the trend.
 
@@ -19,9 +75,9 @@ Identify trends to build a bias in the direction of the trend.
 - Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
 
 - Use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lower timeframes.
-	- ![[MACD#Using MACD as Trend Filter]]
+	- ![[MACD#Trend Filtering]]
 
-## The Ranges
+## Ranges
 
 - Draw Demand & Supply zones.
 
@@ -30,15 +86,15 @@ Identify trends to build a bias in the direction of the trend.
 - At all times, even before taking the trade and until you exit the posisition, watch out for all the key S&R levels to anticipate potential road blockers.
 	- At the key S&R levels use [[MACD]] on 2 level lower time frame to gauge whether the price can break through the S&R level or bounce back.
 
-- Use [[MACD#Predicting Reversals Breakouts at S L levels | MACD]] to confidently predict the anticipated breakouts and reversals.
+- Use [[MACD#Predicting Reversals Breakouts around key levels| MACD]] to confidently predict the anticipated breakouts and reversals.
 
-## The Swings
+## Swings
 
 Observe the Highs and Lows.
 
 - Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
 
-## The Reversals
+## Reversals
 
 ### RSI Divergences
 

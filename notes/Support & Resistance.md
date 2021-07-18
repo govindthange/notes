@@ -36,7 +36,7 @@ Examples:
 
 ## Support becomes Resistance
 
-![[MACD#Predicting Reversals Breakouts at S L levels]]
+![[MACD#Predicting Reversals Breakouts around key levels]]
 
 # Tips
 - Draw them in a higher time frame. Prefer drawing S&R levels in 4 Hour or Daily time frames.

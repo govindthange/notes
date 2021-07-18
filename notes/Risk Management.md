@@ -1,3 +1,15 @@
+# Win Rate vs Break Even
+
+| R/R | `Win Rate` for `Break Even` |
+| ---- | ---- |
+| 1:1 | 50% |
+| 1:2 | 33% |
+| 1:3 | 25% |
+| 1:5 | 17% |
+
+Lower Accuracy, Smaller Losses, Bigger Wins
+Higher Accuracy, Smaller Wins
+
 # R/R Ratio
 
 Win rate goes up as R/R goes down and vice versa.

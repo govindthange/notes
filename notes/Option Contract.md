@@ -33,3 +33,27 @@ Volatility is very high on expiry days and premium value vanishes very fast. Eve
 - If you face loss, do not enter another new trade on the expiry day. If your S.L. is hit then close your trade. On other days you can close your trade after 2nd S.L.
 - Do not enter-exit-enter-exit the trade back and forth. Enter just once with full conviction. Do not exit and enter again. You can do this on other days.
 
+
+## Hedging Rules (Unverified!)
+
+To reduce the initial margin requirement cover your option sell position by going LONG on the reverse option contract at OTM strike price.
+
+For covering the SHORT option contract with a LONG contract pick a strike price which has premium around 50% of the premium for SHORTING the main option contract. [- A&A Trading Blog](https://youtu.be/M3Bz_IZpN6Q?t=750)
+
+> Do not buy a `far OTM` options for hedging. [- A&A Trading Blog](https://youtu.be/M3Bz_IZpN6Q?t=722)
+
+Example:
+
+You have a bearish view of NIFTY and would like to go SHORT a CALL option. To minimize initial margin requirement you will create a cover by going LONG on the CALL at an OTM strike price which is not too far and is 50% of the premium required for shorting the CALL.
+
+`Market View:` Bearish. You think nifty will not go above 15000
+`Strategy:` Go `SHORT` on `15,000 CE` @ `269` premium
+`Initial Margin:` 1,35,000 INR
+
+Create cover to reduce the Initial Margin requirement:
+
+Calculate 50% of the premium to be paid for shorting 15000 CE
+=> 134.5 INR
+
+Open `Option Chain` and find an `OTM` `CALL` strike price around 134.5 INR and go `LONG` on that.
+
