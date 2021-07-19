@@ -2,6 +2,8 @@
 
 Although [[Chart Patterns]] give you an edge by anticipating what may happen, S&R is where the live action takes place. S&R is the area where the  bulls and bears fight intensly. We cant ignore this and hope our posistion works out just because we spotted some pattern. We must monitor all S&R levels around the current price action to see how this fight is changing the shape of the market.
 
+> S&R levels are used as trigger to enter a trade and while in trade are very critical in placing trailing `Stop Loss` and `Take Profit` orders.
+
 ## Support
 
 The thing that bears the weight of something or keeps it upright.
@@ -16,7 +18,9 @@ The refusal to accept or comply with something.
 
 # S/R Price Action
 
-## Breakouts around S/R Levels
+## Trading Reversals @ S/R
+
+## Trading Breakouts @ S/R
 
 ### Betting breakout before confirmation (High Risk)
 
@@ -32,9 +36,9 @@ Examples:
 - [A live session from Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=221)
 - [A live session from Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=1823)
 
-## Resistance becomes Support
+#### Resistance becomes Support
 
-## Support becomes Resistance
+#### Support becomes Resistance
 
 ![[MACD#Predicting Reversals Breakouts around key levels]]
 

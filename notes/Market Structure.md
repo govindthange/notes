@@ -19,34 +19,39 @@ Note that for intraday 1 Month and 1 Week charts are not required to be analyzed
 
 Short term traders like Swing Traders, Technical Chart Traders or Price Action Traders should analyze charts in following order.
 
-### 1 Day Chart
+### 1 Day Chart (Trendline & Candlesticks)
 
 Do `candlestick analysis` and just understand how the recent candle was formed. Analyze that single candle for the day! ([Ref](https://youtu.be/1vXLP1eFvTs?t=337))
 
-> Don't draw trendline and analyze trends in daily charts! It makes no sense.
+> Don't draw trendline to conflude its progress into that single daily candle.Trendline are only critical when the candles touch it, or have bounced of it while retesting.
 
-- Is it forming a Doji or an Engulfing candle?
-- Anticipate whether the next candle would complete an evening star formation.
+- Is it forming a Doji/Engulfing candle, a breakout candle, a reversal confirmation candle?
+- Anticipate whether the next candle would complete an evening star formation, or next set of candle are for retesting a level.
 - Anticipate if the new candle will attempt to break the nearest S/R level?
 - Was this candle the one which broke out of an established trend?
 
-### 1 Hour Chart
+### 1 Hour Chart (The Lay of The Land)
 
-Mark [[#The Lay of The Land]] on this chart as described in following sections.
+Mark [[#The Lay of The Land]] on this chart as described in later sections.
 
-- Identify and mark [[#Trends]] and [[#Swings]].
 - Identify and mark major the [[Support & Resistance]] levels.
+- Identify and mark [[#Trends]].
+- Optionally mark [[Area of Value#Chart Patterns]] if you spot any.
 
-### 15 Min Chart
+### 15 Min Chart (Area of Value)
 
 Analyse and identify [[Area of Value]] in conjunction with [[Market Structure]] at minor level.
 
 - Identify and mark [[Area of Value#Chart Patterns]] if any.
-- Identify and mark minor [[#Trends]] and [[#Swings]]
-- Identify and mark minor [[Support & Resistance]] levels.
-- Make use of indicators to spot [[#Reversals]] and other signals.
+- Mark/Refine minor [[#Trends]] and [[#Swings]]
+- Mark/Refine minor [[Support & Resistance]] levels.
+- Use indicators to aniticipate [[#Reversals]] or confirm signals.
 
 > Add pivot levels to mark `Take Profit` levels before entering a trade. Pivot level helps when there are no clear S/R levels.
+
+### 5 Min Chart (No Trading Zone)
+
+Create [[Support & Resistance]] level around the `Current Price` level to identify `No Trading Zone`. Only when the price comes out of the `No Trading Zone` you plan to enter a trade with S/R levels on `15 Min` and `1 Hour` charts as target.
 
 Examples:
 
@@ -63,6 +68,8 @@ Examples:
 	- 15 min chart again shows long wicks around S/R levels. If the candle closes below the resistance then you may enter a `Short` trade. Similarly if the price breaks resistance, enter a `Long` trade.
 - [Top-Down Analysis of Indusind Bank for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=1056)
 - [Nify, Reliance, TCS, Britannia, and Tech Mahindra for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=1220)
+- Top-Down Analysis for Nifty, Bank Nifty, TCS, Indusind Bank etc. ([Ref](https://www.youtube.com/watch?v=BaWCZgdz4_4))
+- Top-Down Analysis for 12 Stocks ([Ref](https://youtu.be/zrEeFLw322M?t=690))
 
 # The Lay of The Land
 
@@ -72,10 +79,16 @@ Identify trends to build a bias in the direction of the trend.
 
 - Draw major trendlines which are obvious and clear.
 
-- Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
+> While drawing trendline ensure that it connects maximum higher-lows (uptrend) and lower-highs (downtrend) and while doing so let the line go through to highlight price action where it breakts the trendline and/or retests after retracing back.
 
-- Use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lower timeframes.
-	- ![[MACD#Trend Filtering]]
+Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
+
+Use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lower timeframes.
+- ![[MACD#Trend Filtering]]
+
+### Trading Breakout @ Trendline
+
+### Trading Reversals @ Trendline
 
 ## Ranges
 
