@@ -2,6 +2,21 @@ A proper money management is a way to actually avoid having to be disciplined.
 
 Money Management rules are the most importnat ones. Anyone who applies good money management will always be a winner.
 
+# Mantra
+
+There are only 6 possible outcomes of a given trade.
+
+1. Big Profit <-- try to look for this.
+2. Medium Profit <-- Try to be consistent with this.
+3. Small Profit <-- Takes care of Small Losses
+4. Breakeven
+5. Small Loss <-- These are fine as long as them kept low and managed. Note that it can't be 100% avoided.
+6. Big Loss <-- ==DO EVERYTHING YOU CAN TO AVOID THIS==
+
+You can survive if you do everything to totally avoid `Big Loss`
+
+[...](https://www.youtube.com/watch?v=lmuTmzFA9q0)
+
 # Calculations
 
 ## Trading Capital
@@ -36,8 +51,7 @@ Do not do percent returns on every trade (Its already preplanned with R/R, Stop 
 [- Greg Secker](https://youtu.be/7yW44mdHFIw?t=1354)
 
 ### Stop Loss for a preplanned Trade Size
-
-[- Anish Singh Thakur](https://youtu.be/3dJcozAX2ug?t=1068)
+[...](https://youtu.be/3dJcozAX2ug?t=1068)
 
 `Total Trading Capital` = 25,00,000 INR
 
@@ -79,7 +93,7 @@ Before entering a trade you have to ask following job interview questions o/w yo
 - Will the amount you are trading with hurt you emotionally?
 - How would you cope with 3 or 4 losses in a row?
 
-[- Zak Mir](https://www.youtube.com/watch?v=Pye8eeqAD6c)
+[...](https://www.youtube.com/watch?v=Pye8eeqAD6c)
 
 While trading if you loose a little bit of money you gotta see it as paying for `the education of trading with the real money`. Jot down lessons learned as you loose a trade.
 
@@ -95,6 +109,6 @@ In terms of day to day strategy, it should not really matter unless the market i
 
 Once you've got your methodology correct and you are literally trading with just stop losses and allowing the market to hit your stop loss to determine profit take or money management position, you shouldn't really be bothered or have to decide anything. Just put your stop loss and keep moving it according to your position and let the market hit it.
 
-[- Zak Mir](https://www.youtube.com/watch?v=FZmmvFQFM8E)
+[...](https://www.youtube.com/watch?v=FZmmvFQFM8E)
 
 [[Risk Management#R R Ratio]]
