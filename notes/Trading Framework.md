@@ -48,6 +48,6 @@ MAEEE Formula
 
 ## [[Area of Value]] - Micro Analysis
 
-## [[Entry Trigger]]
+## [[Entering Trade]]
 
 ## [[Exiting Trade]]
