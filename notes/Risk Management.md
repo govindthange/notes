@@ -34,8 +34,7 @@ Total Profit = (90 * $1) - (10 * $10) = -100 <-- Get wrecked!
 On the contrary, if your win rate is low but keep a reasonable R/R then you can still make decent profits in the long run.
 
 # R/R Guidelines
-
-[By Anish Singh Thakur](https://youtu.be/iXN9FqGOQWM?t=1863)
+[...](https://youtu.be/iXN9FqGOQWM?t=1863)
 
 - One should never have R/R below 1:1.5
 - Swing trades should always have R/R of 1:2. 1:3 is ideal for swing trades.

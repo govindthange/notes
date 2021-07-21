@@ -11,18 +11,19 @@ Note that 4 Hours is not included since a day session in India is of 6 hours.
 
 4 Hours timeframe can be analyzed for Forex, Commidities and Cryptocurrencies where market is open 24 hours.
 
-For Top-Down analysis you start with a bigger timeframe first. [- Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=173)
+For Top-Down analysis you start with a bigger timeframe first. [...](https://youtu.be/1vXLP1eFvTs?t=173)
 
 ## Intraday Top-Down Analysis
+[...](https://youtu.be/1vXLP1eFvTs?t=207)
 
-Note that for intraday 1 Month and 1 Week charts are not required to be analyzed. Only positional traders who wish to hold position for several months should refer monthly and weekly charts. ([Ref](https://youtu.be/1vXLP1eFvTs?t=207))
+Note that for intraday 1 Month and 1 Week charts are not required to be analyzed. Only positional traders who wish to hold position for several months should refer monthly and weekly charts.
 
 Short term traders like Swing Traders, Technical Chart Traders or Price Action Traders should analyze charts in following order.
 
 ### 1 Day Chart (Trendline & Candlesticks)
+[...](https://youtu.be/1vXLP1eFvTs?t=337)
 
-Do `candlestick analysis` and just understand how the recent candle was formed. Analyze that single candle for the day! ([Ref](https://youtu.be/1vXLP1eFvTs?t=337))
-
+Do `candlestick analysis` and just understand how the recent candle was formed. Analyze that single candle for the day!
 > Don't draw trendline to conflude its progress into that single daily candle.Trendline are only critical when the candles touch it, or have bounced of it while retesting.
 
 - Is it forming a Doji/Engulfing candle, a breakout candle, a reversal confirmation candle?
@@ -55,21 +56,21 @@ Create [[Support & Resistance]] level around the `Current Price` level to identi
 
 Examples:
 
-- [Top-Down Analysis of Bajaj Finance Ltd for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=585)
+- Top-Down Analysis of Bajaj Finance Ltd for 15/Feb/2021 [...](https://youtu.be/1vXLP1eFvTs?t=585)
 	- The daily candle shows a `Doji`. Indicating indecision. You can anticipate a bigger move next; probably a candle confirming an evening star.
 	- 1 Hour shows a strong `resistance` at All Time High level at 5658 and a strong `Support` at 5462. Mark them.
 	- 15 Min chart shows a `Cup & Handle` pattern. The handle shows a beautiful consolidation implying a possible bigger move. However, the RSI shows a bearish divergence.
 	- Plan trade as follows:
 		- You can place a `Short` below 5542 and `Take Profit` at Pivot levels or at 5462 support marked in 1 Hour chart.
 		- Or `Long` above 5590 if the candle closes near the neck line of `Cup & Handle` and `Take Profit` near the `All Time High` resistance level identifed in the 1 Hour chart.
-- [Top-Down Analysis of Bank Nifty for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=827)
+- Top-Down Analysis of Bank Nifty for 15/Feb/2021 [...](https://youtu.be/1vXLP1eFvTs?t=827)
 	- The daily candle shows a formation of `Morning Star`. A red candle and a doji followed by an engulfing green candle. We can have a bullish bias.
 	- 1 Hour chart shows a full range bound price action; best time for option sellers. You can mark a strong resistance @ 36410 and a strong support @ 35613. The price action also shows long wicks at both end of the range showing strong rejections at both levels. There is a high possibility that it will break the next time price tries to test those levels.
 	- 15 min chart again shows long wicks around S/R levels. If the candle closes below the resistance then you may enter a `Short` trade. Similarly if the price breaks resistance, enter a `Long` trade.
-- [Top-Down Analysis of Indusind Bank for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=1056)
-- [Nify, Reliance, TCS, Britannia, and Tech Mahindra for 15/Feb/2021 by Anish Singh Thakur](https://youtu.be/1vXLP1eFvTs?t=1220)
-- Top-Down Analysis for Nifty, Bank Nifty, TCS, Indusind Bank etc. ([Ref](https://www.youtube.com/watch?v=BaWCZgdz4_4))
-- Top-Down Analysis for 12 Stocks ([Ref](https://youtu.be/zrEeFLw322M?t=690))
+- Top-Down Analysis of Indusind Bank for 15/Feb/2021 [...](https://youtu.be/1vXLP1eFvTs?t=1056)
+- Nify, Reliance, TCS, Britannia, and Tech Mahindra for 15/Feb/2021 [...](https://youtu.be/1vXLP1eFvTs?t=1220)
+- Top-Down Analysis for Nifty, Bank Nifty, TCS, Indusind Bank etc. [...](https://www.youtube.com/watch?v=BaWCZgdz4_4)
+- Top-Down Analysis for 12 Stocks. [...](https://youtu.be/zrEeFLw322M?t=690)
 
 # The Lay of The Land
 

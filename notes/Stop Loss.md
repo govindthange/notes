@@ -84,22 +84,19 @@ You will quickly discover for your self that a position where a stop loss isn't 
 Once your `Stop Loss` reaches the `Break Even` your next goal is to stay in that position as long as possible (till the market structure does not change) and ride the profit through trailing stop losses [[#Let the market stop you| until the market stops you out]].
 
 Examples:
-- [Live trade by Anish Singh Thakur](https://www.youtube.com/watch?v=dQ2jM5ATqIg)
-- [Anish Singh Thakur skillfully adjusting the `Stop Loss` and creating room for price to stretch](https://youtu.be/KvZ7TH0iYz4?t=1212)
-- [Anish Singh Thakur adjusting the `Stop Loss` after seeing a change in market structure](https://youtu.be/KvZ7TH0iYz4?t=1893)
+- [A live trade](https://www.youtube.com/watch?v=dQ2jM5ATqIg)
+- [Adjusting the `Stop Loss` and creating room for price to stretch](https://youtu.be/KvZ7TH0iYz4?t=1212)
+- [Adjusting the `Stop Loss` after seeing a change in market structure](https://youtu.be/KvZ7TH0iYz4?t=1893)
 - ![[#Quit moving stops too soon]]
-
-[- Zak Mir](https://www.youtube.com/watch?v=kY9n8EQqs7w)
-
+[...](https://www.youtube.com/watch?v=kY9n8EQqs7w)
 
 Note that when you trail your stop loss while market makes new advances in favor of your position, your Stop Loss may get hit. You can re-enter the position and continue the ride.
 
 Examples:
-- Anish Singh Thakur modified his strategy after seeing that the Market Structure was evolving to presenting a possibility of aiming higher targets. [Check his live trade here.] (https://youtu.be/KvZ7TH0iYz4?t=2053)
+- Check how one modifies strategy after seeing the Market Structure was evolve to present possibilities of aiming higher targets. [...](https://youtu.be/KvZ7TH0iYz4?t=2053)
 
 # Stop Loss Calculation
-
-[By Anish Singh Thakur](https://youtu.be/3dJcozAX2ug?t=1068)
+[...](https://youtu.be/3dJcozAX2ug?t=1068)
 
 Calculate the trading size.
 
@@ -118,13 +115,12 @@ Its always better that market stops you rather than you choosing a number and ge
 Note that you still want to modify Stop Loss on times when the market structure changes.
 
 Examples:
-- [Anish Singh Thakur adjusting the `Stop Loss` after seeing change in market structure](https://youtu.be/KvZ7TH0iYz4?t=1893)
+- [Adjusting `Stop Loss` after seeing a change in the market structure](https://youtu.be/KvZ7TH0iYz4?t=1893)
 
 ## Avoid being stop "hunted"
+[...](https://www.youtube.com/watch?v=Ur3AhuVnd1I)
 
 How to avoid being stop hunted?
-
-[by UKSpreadBetting](https://www.youtube.com/watch?v=Ur3AhuVnd1I)
 
 ### Putting tight stops
 
@@ -139,15 +135,15 @@ Stop loss should only be set at a point where your strategy is completely invali
 Market hunts for liquidity. They are not the cartel as such pinging your stops.
 
 Examples:
-- [Anish Singh Thakur shows how the market hunts for liquidity](https://youtu.be/KvZ7TH0iYz4?t=2088)
+- [A video on how the market hunts for liquidity](https://youtu.be/KvZ7TH0iYz4?t=2088)
 
 #### Put your stop far enough
 
 The trouble with putting S.L. too far out of the way is the risk-reward getting skewed.
 
 Example:
-- [Live trade by Anish Singh Thakur](https://www.youtube.com/watch?v=dQ2jM5ATqIg)
-- [Anish Singh Thakur skillfully adjusting the `Stop Loss` and creating room for price to stretch](https://youtu.be/KvZ7TH0iYz4?t=1212)
+- [A live trade](https://www.youtube.com/watch?v=dQ2jM5ATqIg)
+- [Adjusting the `Stop Loss` and creating room for price to stretch](https://youtu.be/KvZ7TH0iYz4?t=1212)
 
 #### Let other trader's S.L. get stopped out and then you get in.
 
@@ -167,7 +163,7 @@ The beginning stages of a trade is important so don't move S.L. in the initial s
 
 Give price enough rooom to oscillate and absorb noise before it makes further gains. Let the time pass by and after that gradually moveup, but not immeidately after entering the trade.
 
-[Anish Singh Thakur Live Trade for Trailing Stop Loss](https://youtu.be/dQ2jM5ATqIg?t=2072)
+[A live trade to demonstrate trailing stop loss](https://youtu.be/dQ2jM5ATqIg?t=2072)
 	- When the price is far away from the `Take Profit` level, do not move `Stop Loss`.
 	- When the price has covered over 80% of its journey to `Take Profit` level only then start aggressive trailing the Stop Loss in order to protect your large gains so far.
 
@@ -177,12 +173,11 @@ Follow these approaches after entering a trade:
 - Wait for price to form new S&L level and then `move your S.L. to the new S&R level`. Think as if it was your new entry point.
 - If you are really fearful about being stopped out, scale out of your posistion. `Exit some part of your trade` instead of moving S.L.
 - You may choose to `move some part of your S.L.` instead of moving all of it.
-- Example: [Anish Singh Thakur Live Trade](https://youtu.be/dQ2jM5ATqIg?t=2072)
+- Example: [A live trade](https://youtu.be/dQ2jM5ATqIg?t=2072)
 ### S.L. Moving Strategy
+[...](https://www.youtube.com/watch?v=Fd9daCR0vjQ)
 
 - As soon your position reaches 1 X of the S.L do as follows:
 - Take out 25% of the profit
 - Move S.L. to the `Break Even` point
 - Optionally advace the `Take Profit` level from 1.5 times to 2 times of the original Stop Loss level.
-
-[-by UKSpreakBetting](https://www.youtube.com/watch?v=Fd9daCR0vjQ)

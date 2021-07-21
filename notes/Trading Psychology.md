@@ -6,11 +6,11 @@
 	- Respect your `Stop Loss` level and `Take Profit` Level.
 	- Do not get emotionally attached to your `P&L` and change decisions while holding a position.
 	- Always exit as per planned Stop Loss and Take Profit levels.
-	- [This is an example where Anish Singh Thakur followed his planned trade and exited at the Take Profit level.](https://youtu.be/dQ2jM5ATqIg?t=1922)
+	- [This is an example of following a well defined trade plan trade and exiting at preplanned `Take Profit` level.](https://youtu.be/dQ2jM5ATqIg?t=1922)
 
 - Focus on the Process not on the Profits
 	- If you focus on the profit you will never make profit.
-	- Stop repeatedly watching your P&L after taking the trade.[- Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=2759)
+	- Stop repeatedly watching your P&L after taking the trade. [...](https://youtu.be/2fPVlSa5wYE?t=2759)
 
 
 # Psychology
@@ -21,7 +21,7 @@
 - With trading its not about how much money you make in this single trade or how much money you make this week/money. 
 - Trading is about choosing a strategy wisely, executing it like a robot/program/script, then looking into the next 100, 200 or 300 trades and ensuring that overall you are profitable in all these trades.
 - You must have enough in your account balance, but be trading with just enough (1% to 2% of your trading kitty) to handle a continuous streaks of losing trades without blowing up your entire trading account. With no more than 2% in each trade it will require a streak of over 50 losing trades in a row. It is a very low probability.
-- Everytime you trade it depletes your mental energy regardless of whether you make profit or loss. Mental capital is more important than financial capital. [- Anish Singh Thakur](https://youtu.be/KvZ7TH0iYz4?t=2933)
+- Everytime you trade it depletes your mental energy regardless of whether you make profit or loss. Mental capital is more important than financial capital. [...](https://youtu.be/KvZ7TH0iYz4?t=2933)
 
 ## Blowing up the whole accounts
 
@@ -30,7 +30,7 @@
 - The risk of blowing up the whole trading account during the initial days is very high. Its the part of trader's journey so you must ensure that you do not trade with more than you can comfortably lose in the first few years of your trading journey.
 
 # Why people suck at trading?
-[Ross Williams](https://www.youtube.com/watch?v=sSj57fpHlb4)
+[...](https://www.youtube.com/watch?v=sSj57fpHlb4)
 
 Avoiding behavioral traits of people who consistently lose in the market should be everyone's first goal (i.e. survival)
 

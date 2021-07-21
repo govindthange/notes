@@ -7,8 +7,7 @@
 One of the best trading strategies is to not use any indicators and traing only on the basis of the price action.
 
 # Trending Market Strategy
-
-[By Trading Rush](https://www.youtube.com/watch?v=RzGIdibpo8Q&list=WL&index=6)
+[...](https://www.youtube.com/watch?v=RzGIdibpo8Q&list=WL&index=6)
 
 `Question:` How do you know whether the strength of the trend is strong or weak at the point you are choosing to enter?
 
@@ -66,8 +65,7 @@ Short Trade:
 Note that MACD gives many false signal in a range-bound market (sideways/consolidating price).
 
 ## MACD Crossovers with Price Action and S&R
-
-[by Data Trader](https://www.youtube.com/watch?v=Yj0yEBxwLVw)
+[...](https://www.youtube.com/watch?v=Yj0yEBxwLVw)
 
 ### Testing Resistance
 

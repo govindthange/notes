@@ -7,8 +7,7 @@ Chikou Span: The Pink `Lagging Span` Line.
 Kumo: The Cloud
 
 # Ichimoku Entry Trigger
-
-[by MetaStock](https://www.youtube.com/watch?v=EKcH0zaPIf0)
+[...](https://www.youtube.com/watch?v=EKcH0zaPIf0)
 
 When all the following are in the same direction then you are in a trend. Most traders wait for all the 6 to be in the same direction before they enter a trade. Some enter by just having 4 in order.
 

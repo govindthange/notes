@@ -37,8 +37,7 @@ Tip: Just shift the decimal of the lot size one decimal to the right)
 - If lot size = 2.34 then 1 pip movement = $23.4
 
 # Technical Analysis
-
-[By Anish Singh Thakur](https://www.youtube.com/watch?v=iXN9FqGOQWM)
+[...](https://www.youtube.com/watch?v=iXN9FqGOQWM)
 
 You do not watch 5 min charts.
 

@@ -33,8 +33,8 @@ Generally you are required to wait till a candle closes beyond the S/R level, th
 Generally if there are 3+ consequent candles formed along the S/R level such that their wicks touches the S/R level, and then the next candle is formed with a strong body closing near the S/R level with its tip (with small/no wick) almost touching the S/R level then you can take the risk of entering such a trade. It is highly likely that the candle will breakout.
 
 Examples:
-- [A live session from Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=221)
-- [A live session from Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=1823)
+- [A live session](https://youtu.be/2fPVlSa5wYE?t=221)
+- [A live session](https://youtu.be/2fPVlSa5wYE?t=1823)
 
 #### Resistance becomes Support
 

@@ -16,10 +16,9 @@ Create a watchlist of 10-12 stocks from different sectors.
 
 
 #### Top Gainers/Losers
+[...](youtube.com/watch?v=rYCvvixaHJ8)
 
 Do not prepare this list just before 9:15 AM. You must be ready with all your stock selection and `Plan your Trade` the prevous night. When the trading session starts your entire focus should only be in executing the plan (i.e. in `Trading your Plan`).
-
-([Ref](youtube.com/watch?v=rYCvvixaHJ8))
 
 #### Weekly Schedule
 
@@ -72,6 +71,7 @@ Price action is relatively non choppy and you would most likely see a correction
 Extremly volatile period. Advanced traders can take profit in small window.
 
 ### The 3 innings:
+[...](https://youtu.be/tmL3P2GkCfE?t=438)
 
 So in intraday there are 3 main periods where the trend either starts or ends.
 
@@ -83,6 +83,3 @@ So in intraday there are 3 main periods where the trend either starts or ends.
 	- If you started a trade at 1:30 then that you can keep it till 3 PM.
 - 02:30 PM - 03:30 PM - high volatility
 - 03:00 PM - 03:30 PM - price from here will either stay there or will move massively. YOu know you must exit this by 3:30 PM. If you decide to enter at this time, exit quickly. If its going to be a massive move, you will know in the beginning itself.
-
-([Ref](https://youtu.be/tmL3P2GkCfE?t=438))
-

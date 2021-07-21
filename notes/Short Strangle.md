@@ -32,7 +32,7 @@ Once you take the position its all about managing the mechanics of the Strangle 
 - If the price soars you bring the `Put` down and rollout; i.e. add a new `Put`
 
 ## Rules
-([Ref.](https://youtu.be/Eqzmq_RkBaY?t=758))
+[...](https://youtu.be/Eqzmq_RkBaY?t=758)
 
 - Be convervative and keep the position size down. It is the most important thing!
 	- Keeping the size down is the only defence you have against the bad trades. Size is when Genius fails.
@@ -107,7 +107,7 @@ Low Δ value implies:
 - Generally 5 δ is a low delta value good for beginners.
 - Position need not be managed frequently.
 
-- [Choosing Delta by Sasha Evdakov](https://www.youtube.com/watch?v=ZPKqHhHyPfs)
+- [Choosing Delta](https://www.youtube.com/watch?v=ZPKqHhHyPfs)
 
 > You can start with 5 to 10 delta value and as you master the mechanics of managing strangle then you can graduate to using 20 delta and beyond.
 

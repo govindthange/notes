@@ -1,4 +1,4 @@
-> RSI Divergence does NOT take precedence over the Market Structure (Trend, S&R Levels, Top-Down Multi-Timeframe Analysis). Its just to indicate you what to expect ahead of time. [- Anish Singh Thakur](https://youtu.be/KvZ7TH0iYz4?t=1844)
+> RSI Divergence does NOT take precedence over the Market Structure (Trend, S&R Levels, Top-Down Multi-Timeframe Analysis). Its just to indicate you what to expect ahead of time. [...](https://youtu.be/KvZ7TH0iYz4?t=1844)
 
 Usually you will start by marking tops and bottoms on the price swings. For all these tops and bottoms you would look for divergences associated with them.
 
@@ -10,7 +10,7 @@ People act on RSI divergence far too early without waiting for the momentum to c
 
 The correct approach is to wait for the divergence to fully showup.
 
-Its fine to ignore the wicks while making the divergences. You can even make them on line charts instead of drawing them on candlesticks. [- Anish Singh Thakur ](https://youtu.be/KvZ7TH0iYz4?t=324)
+Its fine to ignore the wicks while making the divergences. You can even make them on line charts instead of drawing them on candlesticks. [...](https://youtu.be/KvZ7TH0iYz4?t=324)
 
 For instance, in an uptrend, in order to spot a bearishing divergence, do as follows:
 - Mark the tops & bottoms on price chart.
@@ -28,7 +28,7 @@ Here are the 6 confluences needed to predict reversal in an uptrend:
 - A break in the Market Structure i.e. Higher High changing to Lower Highs
 - A retest into a Moving Average or the Trendline.
 - Entering below the 50% level on the RSI
-- The 3 Line Strike Candlestick with a Bearish Engulfing Candle. [REF.](https://www.youtube.com/watch?v=i5tkR91YUqI)
+- The 3 Line Strike Candlestick with a Bearish Engulfing Candle. [...](https://www.youtube.com/watch?v=i5tkR91YUqI)
 
 # Regular Divergences for predicting Trend Reversals
 

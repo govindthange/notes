@@ -60,8 +60,7 @@ Center of the MACD chart
 
 
 # Rules & Guidlines
-
-[By Trading Rush](https://www.youtube.com/watch?v=6DE_eEMfOP8&list=WL&index=6)
+[...](https://www.youtube.com/watch?v=6DE_eEMfOP8&list=WL&index=6)
 
 ## Do Top-Down Multi-Timeframe Analysis first
 
@@ -105,7 +104,7 @@ MACD gives upto 68% success rate if all the rules are followed correctly.
 
 ---
 
-[By Rayner Teo](https://www.youtube.com/watch?v=eob4wv2v--k)
+[...](https://www.youtube.com/watch?v=eob4wv2v--k)
 
 # Predicting Reversals & Breakouts around key levels
 
