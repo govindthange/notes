@@ -3,7 +3,6 @@ Options Trading Tools:
 - Option Oracle
 - Sensibull
 
-
 # Covered Call
 #  Covered Strangle
 # [[Short Strangle]]

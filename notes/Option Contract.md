@@ -1,6 +1,15 @@
+You can make money by doing the following:
+
+- Option Buying
+	- Do not do option buying if you have 5 Lakh or less.
+- Option Selling
+	- Do this if you are beginner or have less than 5 lakhs.
+- Option Hedging
+	- Do this if you have less than 5 lakhs.
+
 # Tips
 
-- You must trade ITM options on the day of expiry. In long positions, one red candle can wipe out 60% capital with just one red candle. [- Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=2244)
+- You must trade ITM options on the day of expiry. In long positions, one red candle can wipe out 60% capital with just one red candle. [...](https://youtu.be/2fPVlSa5wYE?t=2244)
 
 - Trading is about emotional intelligence rather than logic intelligence.
 
@@ -13,9 +22,9 @@
 - In options trading S.L. is to be put on the premium chart.
 - Premium chart is different for every strike price so the actual Stop Loss can only be tracked on Spot/Index chart.
 - You must consider the logical Stop Loss on the Index/Spot Chart as the real Stop Loss and the physical Stop Loss on the premium chart is to be tracked and adjusted in tandem with the logical stop loss on the index/spot chart.
-- While tracking S.L. level on Spot/Index charts, the price should not just touch S.L, the candle should also get closed on or beyond that S.L. level. [- Anish Singh Thakur](https://youtu.be/2fPVlSa5wYE?t=2871)
+- While tracking S.L. level on Spot/Index charts, the price should not just touch S.L, the candle should also get closed on or beyond that S.L. level. [...](https://youtu.be/2fPVlSa5wYE?t=2871)
 - Note that its very difficult to put S.L. accurately on the Premium Chart due to the dynamic interplay of greeks in the calculation. If you are an option buyer then there is a `Theta Decay` on the premium chart where as price action is normal on the Sport/Index chart.
-- Again, you should hold & respect the logical `Stop Loss` on the index chart while tracking the actual Stop Loss on the premium chart by shifting it gradually in tandem approximation with index/spot chart. [- Anish Singh Thakur](https://youtu.be/dQ2jM5ATqIg?t=2000)
+- Again, you should hold & respect the logical `Stop Loss` on the index chart while tracking the actual Stop Loss on the premium chart by shifting it gradually in tandem approximation with index/spot chart. [...](https://youtu.be/dQ2jM5ATqIg?t=2000)
 - Once you become emotionally stable you must decide that as soon as the price touches the S.L and closes there on the Spot/Index chart, you will exit your position on the Premium chart.
 - This is the reason you should only risk 8% to 10% of your entire trading capital into Options Trading.
 - Place S.L. on the Spot/Index chart, track it and as soon as price comes at that level and closes on/beyond it, you exit the position.
@@ -38,9 +47,9 @@ Volatility is very high on expiry days and premium value vanishes very fast. Eve
 
 To reduce the initial margin requirement cover your option sell position by going LONG on the reverse option contract at OTM strike price.
 
-For covering the SHORT option contract with a LONG contract pick a strike price which has premium around 50% of the premium for SHORTING the main option contract. [- A&A Trading Blog](https://youtu.be/M3Bz_IZpN6Q?t=750)
+For covering the SHORT option contract with a LONG contract pick a strike price which has premium around 50% of the premium for SHORTING the main option contract. [...](https://youtu.be/M3Bz_IZpN6Q?t=750)
 
-> Do not buy a `far OTM` options for hedging. [- A&A Trading Blog](https://youtu.be/M3Bz_IZpN6Q?t=722)
+> Do not buy a `far OTM` options for hedging. [...](https://youtu.be/M3Bz_IZpN6Q?t=722)
 
 Example:
 
