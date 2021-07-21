@@ -35,11 +35,15 @@ Trading Capital is not an investment vehicle, it is simply a tool for doing the 
 
 ## Maximum Risk Per Trade
 
-`Maximum Risk Per Trade` = 2% * `Total Trading Capital`
+`Maximum Risk Per Trade` = 2% x `Total Trading Capital`
 
  Beginners should limit `Maximum Risk Per Trade` to 1% of the `Total Trading Capital`
 
-## Trade Size & Stop Loss
+## Trade Size and Stop Loss
+
+Generally `Reversal Trades` are less riskier than `Breakout Trades` so do as follows:
+- If you are planning a `Breakout Trade` then limit your `Trade Size` to 1% of the `Trading Capital`.
+- If you are an experienced trader and planning a `Reversal Trade` then you can stretech your `Trade Size` to 2% of the `Trading Capital`.
 
 ### Trade Size for a preplanned Stop Loss
 
@@ -55,8 +59,8 @@ Do not do percent returns on every trade (Its already preplanned with R/R, Stop 
 
 `Total Trading Capital` = 25,00,000 INR
 
-`Maximum Risk Per Trade` => 2% * `Total Trading Capital`
-					 => 2% * 25,00,000
+`Maximum Risk Per Trade` => 2% x `Total Trading Capital`
+					 => 2% x 25,00,000
 					 => 50,000 INR
 
 `Trade` = `SHORT` NIFTY 8th JULY 15900 CE
