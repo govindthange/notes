@@ -25,6 +25,8 @@
 
 ## Blowing up the whole accounts
 
+Remember you are always one step away from wiping out your whole account. Be very careful about what you are doing.
+
 - It is inevitable and part of a trading journey.
 - Every great trader has blown up his account once or twice in the beginging.
 - The risk of blowing up the whole trading account during the initial days is very high. Its the part of trader's journey so you must ensure that you do not trade with more than you can comfortably lose in the first few years of your trading journey.

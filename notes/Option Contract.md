@@ -8,6 +8,7 @@ You can make money by doing the following:
 	- Do this if you have less than 5 lakhs.
 
 # Tips
+[...](https://tastytradenetwork.squarespace.com/tt/blog/-tastytrade-trading-commandments)
 
 - You must trade ITM options on the day of expiry. In long positions, one red candle can wipe out 60% capital with just one red candle. [...](https://youtu.be/2fPVlSa5wYE?t=2244)
 
@@ -16,6 +17,21 @@ You can make money by doing the following:
 - Beginners should not trade Options. Stick to futures. With futures S.L. managment is easier.
 
 - You can start trading options once you become an advanced trader and can comfortably watch winning and losing trades without becoming too fearful or excited.
+
+
+## Greek Ratios
+
+### Delta:Theta (δ:θ) Ratio
+
+{ `δ:θ` < `0.3 to 0.4` } => "You have `No Directoinal Risks`!"
+
+{ `δ:θ` > `0.4` } => "You have `Directional Risks`"
+
+> `δ:θ Ratio` helps traders who aim to earn regular monthly income rather than long term investment.
+
+### Vega:Theta (v:θ) Ratio
+
+{ `v:θ` < `300% to 400%` } => "You have `No Volatility Risks`!"
 
 # Stop Loss
 

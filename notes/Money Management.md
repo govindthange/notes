@@ -2,18 +2,20 @@ A proper money management is a way to actually avoid having to be disciplined.
 
 Money Management rules are the most importnat ones. Anyone who applies good money management will always be a winner.
 
-# Mantra
+# Survival Mantra
 
-There are only 6 possible outcomes of a given trade.
+There are only 6 kinds of trades based on their outcomes.
 
-1. Big Profit <-- try to look for this.
-2. Medium Profit <-- Try to be consistent with this.
-3. Small Profit <-- Takes care of Small Losses
-4. Breakeven
-5. Small Loss <-- These are fine as long as them kept low and managed. Note that it can't be 100% avoided.
-6. Big Loss <-- ==DO EVERYTHING YOU CAN TO AVOID THIS==
+1. `Big Profit Trades` <-- try to look for this.
+2. `Medium Profit Trades` <-- Try to be consistent with this.
+3. `Small Profit Trades` <-- This will take care of your `Small Loss Trades`.
+4. `Breakeven Trades`
+5. `Small Loss Trades` <-- These are fine as long as them kept low and managed. Note that it can't be 100% avoided.
+6. `Big Loss Trades` <-- ==DO EVERYTHING TO AVOID SUCH TRADES==
 
-You can survive if you do everything to totally avoid `Big Loss`
+> You can survive and make reasonable living if you never encounter `Big Loss Trades`.
+
+Resolve to grab `Big Profit Trades` whenever you see an opportunity (say in `Reversal Trades`), on normal trading situations like `Breakout Trades`, take very less risk and avoid `Big Loss Trades` at all costs.
 
 [...](https://www.youtube.com/watch?v=lmuTmzFA9q0)
 

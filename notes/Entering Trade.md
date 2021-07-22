@@ -24,11 +24,16 @@ Enter with 100% `Trade Size`
 ## Step Entry
 [...](https://youtu.be/lmuTmzFA9q0?t=1120)
 
-`Part 1.` Enter trade with 50% of `Trade Size`
-`Part 2.` Add remaining 50% upon a successful `Pullback Test`
+`Step 1 Entry.`
+- Enter trade with 50% of `Trade Size` if you trading with 1% of your `Trading Capital`.
+- Enter with 40% if you are trading with 2% of your `Trading Capital`.
+
+`Step 2 Entry.` Upon a successful `Pullback Test` add position as follows:
+- Add remaining 50%  `Trade Size` if you trading with 1% of your `Trading Capital`.
+- Add remaining 60% if you are trading with 2% of your `Trading Capital`.
 
 Generally Trade Size should not be more than 1% of your entire Trading Capital. But if you are an advanced trader and feel confident then you can stretch your trade size to 2%.
 
-Since Breakout Trades are riskly you should stick to 1% of your trading capital.
+Since `Breakout Trades` are riskier you should stick to 1% of your `Trading Capital`.
 
-Reversal trades are relatively less resikier and you can trade with 2% of your Trading Capital.
+`Reversal Trades` are relatively less resikier and with little experience you may trade with upto 2% of your `Trading Capital` by taking `Stepped Entries`.

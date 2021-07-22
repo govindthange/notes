@@ -34,13 +34,9 @@ Once you take the position its all about managing the mechanics of the Strangle 
 ## Rules
 [...](https://youtu.be/Eqzmq_RkBaY?t=758)
 
-- Be convervative and keep the position size down. It is the most important thing!
-	- Keeping the size down is the only defence you have against the bad trades. Size is when Genius fails.
-	- There are only 2 kind of trades viz: `Good Trades` and `Bad Trades`.
-	- You need not worry about Good Trades.
-	- With Bad Trades, if you have the buying power, and you give your self a little time and manage those then you only have Good Trades.
+[[Option Strategies#Rules]]
+
 - Ensure that 50% of your buying power is free just so that you can freely roleover and re-adjust your strangle position.
-- Take profits at around 50%.
 - If there is an Earning Declaration by companies then you skew your strangle position to the upside.
 	- These days when earnings are declared, if its good you know the price will shoot to 30% but if its not good, then it may not crash by 30%.
 	- So, you can select a `Put` with 15 δ.
