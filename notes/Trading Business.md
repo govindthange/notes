@@ -13,7 +13,9 @@
 10. 5 days a week of 1/2 day work.
 11. No work on government holidays.
 
-> 90% of the people fail in it because it is extremely easy to enter this business and 90% enter without any knoweldge/experience and start trading with a huge capital like gamblers.
+> To become successful at this business you need to be a more statistically driven numerically based trader.
+
+90% of the people fail in it because it is extremely easy to enter this business and 90% enter without any knoweldge/experience and start trading with a huge capital like gamblers.
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Ul6S95Kkk9Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 

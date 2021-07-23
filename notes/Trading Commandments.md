@@ -16,4 +16,4 @@
 12. Extend duration to give your position time to be right.
 13. Trade often to help probabilities work in your favor.
 14. Use volatility.
-15. Size Kills; trade small and trade often.
+15. Size Kills; trade small and trade often. Our goal is to stay small and come back to play everyday.

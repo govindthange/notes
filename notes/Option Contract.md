@@ -1,3 +1,6 @@
+# Why Option Contract?
+https://www.youtube.com/watch?v=D0I-VXz3FcI
+
 You can make money by doing the following:
 
 - Option Buying

@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=RgHkKwPJDBA
+
 Directional heroes generally lose lot of money because the market is in conslidation phase 70% of the time.
 
 Short Strangle is when you have a neutral view of the market and so you sell `OTM Call` and `OTM Put`.
@@ -36,6 +38,8 @@ Once you take the position its all about managing the mechanics of the Strangle 
 
 [[Option Strategies#Rules]]
 
+- Our goal is to stay small and come back to play everyday.
+- By limiting the number of strangles and by keeping our trade size down, we get to increase the potential returns without adding much risk overall to our portfolio.
 - Ensure that 50% of your buying power is free just so that you can freely roleover and re-adjust your strangle position.
 - If there is an Earning Declaration by companies then you skew your strangle position to the upside.
 	- These days when earnings are declared, if its good you know the price will shoot to 30% but if its not good, then it may not crash by 30%.
