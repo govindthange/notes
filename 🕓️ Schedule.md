@@ -1,4 +1,4 @@
-# Study Schedule
+# 📜 Study Schedule
 
 ## Wednesday - Sunday
 
@@ -11,7 +11,7 @@
 | 04:30 AM - 06:30 PM | DevOps             |
 | 09:00 AM - 11:00 AM | Architecture       |
 
-# Binge Reading
+# 📚 Binge Reading
 
 ## Monday - Tuesday
 
