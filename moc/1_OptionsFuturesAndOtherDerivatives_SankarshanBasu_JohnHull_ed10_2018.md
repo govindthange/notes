@@ -9,7 +9,7 @@
 - Futures Contract
 - Option Contract
 - Swap
-- ==Securiization (8)==
+- ==Securitization (8)==
 
 ### 2007 Credit Crisis (8)
 
@@ -30,6 +30,19 @@ Derivatives are valued using following XVAs:
 ## Interest Rate Derivatives (28-29)
 
 ### Valuation (28)
+
+```mermaid
+graph LR;
+	ts(Term Structure)
+		ts-->ts_srm(Short Rate)
+			ts_srm-->tssrm_em(31. Equilibrium Model)
+				tssrm_em-->tssrmem_1fmm(One-Factor Markov Models)
+					tssrmem_1fmm-->tssrmem1fmm_vm(Vasicek Model)
+					tssrmem_1fmm-->tssrmem1fmm_c(Cox, Ingersoll & Ross Model)
+				tssrm_em-->tssrmem_2fmm(Two-Factor Markov Models)
+			ts_srm-->tssrm_nam(32. Non-Arbitrage Model)
+		ts-->irrfn_frm(33. Forward Rate)
+```
 
 # Forward Contracts (5)
 
@@ -53,10 +66,18 @@ graph LR;
 
 # Swaps (7, 34)
 
+## LIBOR for Fixed Interest Rates
+
+
+Vanilla Swaps
+Compounding Swaps
+Currency Swaps
+Equity Swaps
+
 # Options (10-24,26-27,30,36)
 
 These are `vanilla` Option Contracts for Financial Assets
-
+## LIBOR for Fixed Interest Rates
 ## Various Types & Inner Workings (10-18,20-21,23,26-27,30,36)
 
 ```mermaid
@@ -67,7 +88,7 @@ graph LR;
 		so-->so_p(11. Properties)
 		so-->so_s(12. Strategies)
 		so-->so_v(Valuation)
-		so_v-->sov_ad(Valuing American-style Derivatives)
+		so_v-.-|of|sov_ad(American-style Derivatives)
 			sov_ad-->sov_wtm(w/ Models)
 				sov_wtm-->sovwtm_bt(13. Binomial Trees)
 				sov_wtm-->sovwtm_pp(14. Various Pricing Processes)
@@ -79,11 +100,10 @@ graph LR;
 			sov_ad-->sovad_v(w/ Volatility)
 				sovad_v-->sovadv_vs(20. Volatility Smile)
 				sovad_v-->sovadv_ev(23. Estimating Volatilities & Correlations)
-		so_v-->sov_ed(30. Valuing European-style Derivatives)
+		so_v-.-|of|sov_ed(30. European-style Derivatives)
 			sov_ed-->soved_ca(Convexity Adjustments)
 			sov_ed-->soved_ta(Timing Adjustments)
 			sov_ed-->soved_q(Quantos)
-		so-->so_mo(15. Model)
 		so-->so_t(Types)
 		so_t-->sot_es(16. Employee Stocks)
 		so_t-->sot_i(17. Indices)
@@ -132,7 +152,4 @@ graph LR;
 ---
 
 Pending:
-- Chapter 31
-- Chapter 32
-- Chapter 33
 - Chapter 37
