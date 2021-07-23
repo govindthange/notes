@@ -1,6 +1,6 @@
 ==PLAN YOUR TRADE AND TRADE YOUR PLAN.==
 
-> Focus on the process not on the profits! If you focus on the profit you will never make profits.
+> Focus on the process not on the profits! If you focus on the profit you will never make profit.
 
 Your goal is to make the whole process scalable and sustainable. [...](https://www.youtube.com/watch?v=Cm2gkiT5bV8)
 

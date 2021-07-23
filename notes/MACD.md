@@ -148,13 +148,13 @@ Use MACD to filter trend and have a bias so that you are always by default tradi
 To choose a higher timeframe use a factor from 4 to 6 like so:
 
 | Trading Timeframe | Higher Timeframe | Factor |
-| ---- | ---- | --- |
-| Daily | Weekly | 5 |
-| 4 Hour | Daily | 6 |
-| 1 Hour | 4 Hour | 4 |
-| 15 Min | 1 Hour | 4 |
-| 5 Min | 15 Min | 3 |
-| 1 Min | 5 Min | 5 |
+|-------------------|------------------|--------|
+| Daily             | Weekly           | 5      |
+| 4 Hour            | Daily            | 6      |
+| 1 Hour            | 4 Hour           | 4      |
+| 15 Min            | 1 Hour           | 4      |
+| 5 Min             | 15 Min           | 3      |
+| 1 Min             | 5 Min            | 5      |
 
 ## High Probability Breakouts
 

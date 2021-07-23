@@ -2,7 +2,6 @@
 
 # 20 Trading Commandments
 
-
 1. Place trades that limit your upside in return for a higher probability of success.
 2. Define portfolio by strategy diversification and its probabilty of success not by asset class diversification.
 3. Success probability should be 65% to 70%
