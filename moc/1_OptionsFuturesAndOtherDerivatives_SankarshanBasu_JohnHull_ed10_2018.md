@@ -25,11 +25,15 @@ Derivatives are valued using following XVAs:
 
 ---
 
-# Interest Rates (4)
+# Interest Rates (4, 28-29)
 
-# Forward Contract (5)
+## Interest Rate Derivatives (28-29)
 
-# Futures Contract (3, 6)
+### Valuation (28)
+
+# Forward Contracts (5)
+
+# Futures (3, 6)
 
 ## Hedging (3)
 
@@ -47,11 +51,13 @@ graph LR;
 ```
 
 
-# Swaps (7)
+# Swaps (7, 34)
 
-# Vanilla Option Contract for Financial Assets (10-24,27,30)
+# Options (10-24,26-27,30,36)
 
-## Various Types & Inner Workings (10-18,21,27,30)
+These are `vanilla` Option Contracts for Financial Assets
+
+## Various Types & Inner Workings (10-18,20-21,23,26-27,30,36)
 
 ```mermaid
 graph LR;
@@ -61,15 +67,18 @@ graph LR;
 		so-->so_p(11. Properties)
 		so-->so_s(12. Strategies)
 		so-->so_v(Valuation)
-		so_v-->sov_ad(Valuing American Derivatives)
+		so_v-->sov_ad(Valuing American-style Derivatives)
 			sov_ad-->sov_wtm(w/ Models)
 				sov_wtm-->sovwtm_bt(13. Binomial Trees)
 				sov_wtm-->sovwtm_pp(14. Various Pricing Processes)
 					sovwtm_pp-->sovwtm_wp(Wiener Processes)
-					sovwtm_pp-->sovwtm_mcs(Montel Carlo Simulation)
+					sovwtm_pp-->sovwtm_mcs(Monte Carlo Simulation)
 				sov_wtm-->sovwtm_bsm(15. Black-Scholes-Merton)
 			sov_ad-->sov_wom(w/o Models)
 				sov_wom-->sovwom_bnp(21,27. Numerical Procedures)
+			sov_ad-->sovad_v(w/ Volatility)
+				sovad_v-->sovadv_vs(20. Volatility Smile)
+				sovad_v-->sovadv_ev(23. Estimating Volatilities & Correlations)
 		so_v-->sov_ed(30. Valuing European-style Derivatives)
 			sov_ed-->soved_ca(Convexity Adjustments)
 			sov_ed-->soved_ta(Timing Adjustments)
@@ -84,9 +93,22 @@ graph LR;
 	fo(18. Future Options)
 	subgraph " "
     end
+	
+	eo(26. Exotic Options)
+	subgraph " "
+    end
+	
+	ro(36. Real Options)
+	subgraph " "
+    end
 ```
 
-## Risks (19,20,22-24)
+
+> `Exotic Options` (aka Exotics) are `Over The Counter (OTC)` derivative products for financial assets.
+
+> `Real Options` are option contracts for real assets like land, buildings, plant and equipiments.
+
+## Risks (19,20,22,24)
 
 ```mermaid
 graph LR;
@@ -95,9 +117,6 @@ graph LR;
 	r-->r_tr(22. Total Risk)
 		r_tr-->rtr_var("Value at Risk (VaR)")
 		r_tr-->rtr_es("Expected Shortfall (ES)")
-	r-->r_v(20. Volatility)
-	r_v-->rv_ev(23. Estimating Volatilities & Correlations)
-
 	r_cr(24. Credit Risks)
 ```
 
@@ -108,23 +127,12 @@ graph LR;
 	cd(25. Credit Derivatives)
 ```
 
-# Exotic Option Contract (26)
-
-Exotic Options (aka Exotics) are `Over The Counter (OTC)` derivative product for financial assets.
-
-
-```mermaid
-graph LR;
-	cd(26. Exotic Options)
-```
-
-# Interest Rate Derivatives (28-29)
-
-### Valuation (28)
-
-# Swaps (34)
-
 # Energy & Commodity Derivatives (35)
 
-# Real Option Contract for Real Assets (36)
-Options for real assets like land, buildings, plant and equipiments.
+---
+
+Pending:
+- Chapter 31
+- Chapter 32
+- Chapter 33
+- Chapter 37
