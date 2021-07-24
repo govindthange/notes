@@ -1,35 +1,25 @@
 1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.pdf
 
-# Derivative Market (1-2, 8)
+# Derivatives Market (1-2, 8)
 
-## How derivative market works? (1-2)
+## How it works? (1-2)
 
-## What are different ways of transferring risks? (8)
+## What are the different ways of transferring risks? (8)
 - Forward Contract
 - Futures Contract
 - Option Contract
 - Swap
 - ==Securitization (8)==
 
-### 2007 Credit Crisis (8)
-
-## What are various price adjustments important in derivative market? (9)
-
-Derivatives are valued using following XVAs:
-
-- Credit Valuation Adjustment (CVA)
-- Debit Valuation Adjustment (DVA)
-- Funding Valuation Adjustment (FVA)
-- Margin Valuation Adjustment (MVA)
-- Capital Valuation Adjustment (KVA)
-
 ---
 
-# Interest Rates (4, 28-29)
+# Interest Rates (4, 28-29,31-33)
 
 ## Interest Rate Derivatives (28-29)
 
 ### Valuation (28)
+
+## Interest Rate Term Structure (31-33)
 
 ```mermaid
 graph LR;
@@ -44,30 +34,33 @@ graph LR;
 		ts-->irrfn_frm(33. Forward Rate)
 ```
 
+
+## LIBOR for Fixed Interest Rates
+
 # Forward Contracts (5)
 
 # Futures (3, 6)
 
-## Hedging (3)
-
-## Types (6)
+## Hedging Strategies (3)
 
 ```mermaid
 graph LR;
-	s(Stocks)
-	c(Commodities)
-	i(Indices)
-	f(Foreign Currencies)
-	ir(4. Interest Rates)
-	ir-->ir_tb(6. Treasury Bonds)
-	ir-->ir_ed(6. Eurodollar Futures)
+	f(Futures)
+	f-->f_s(Strategies)
+		f_s-->fs_h(3. Hedging)
+	f-->v(5. Valuation)
+	f-->f_t(Types)
+	f_t-->ft_s(Stocks)
+	f_t-->ft_c(Commodities)
+	f_t-->ft_i(Indices)
+	f_t-->ft_f(Foreign Currencies)
+	f_t-->ft_irf(6. Interest Rate Futures)
+		ft_irf-->ftirf_tb(6. Treasury Bonds)
+		ft_irf-->ftirf_ed(6. Eurodollar Futures)
 ```
 
 
 # Swaps (7, 34)
-
-## LIBOR for Fixed Interest Rates
-
 
 Vanilla Swaps
 Compounding Swaps
@@ -77,7 +70,7 @@ Equity Swaps
 # Options (10-24,26-27,30,36)
 
 These are `vanilla` Option Contracts for Financial Assets
-## LIBOR for Fixed Interest Rates
+
 ## Various Types & Inner Workings (10-18,20-21,23,26-27,30,36)
 
 ```mermaid
@@ -85,29 +78,48 @@ graph LR;
 	so(10. Spot Options)
 	subgraph " "
 		so-->so_me(10. Mechanics)
-		so-->so_p(11. Properties)
 		so-->so_s(12. Strategies)
 		so-->so_v(Valuation)
-		so_v-.-|of|sov_ad(American-style Derivatives)
+		so_v-.-|in|sov_ad(American-style)
+			sov_ad-->sovad_wp(w/ Process)
+				sovad_wp-->sovadwp_s(14. Stochastic Process)
+					sovadwp_s-.-|based on|sovadwps_s(Sampling)
+						sovadwps_s-->sovadwpss_rpo(Random Process Outcomes)
+					sovadwp_s-.-|based on|sovadwps_t(Time)
+						sovadwps_t-->sovadwpst_d(Discrete)
+						sovadwps_t-->sovadwpst_c(Continuous)
+							sovadwpst_c-->sovadwpstc_dr(Drift Rate)
+							sovadwpst_c-->sovadwpstc_vr(Variance Rate)
+					sovadwp_s-.-|based on|sovadwps_v(Variable)
+						sovadwps_v-->sovadwpsv_d(Discrete)
+						sovadwps_v-->sovadwpsv_c(Continuous)
+					sovadwp_s==>sovadwp_mp(Markov Process)
+					sovadwp_s==>sovadwp_wp(Wiener Process)
+					sovadwp_mp-.->sovadwp_wp
+					sovadwp_wp-.-sovadwpst_c
+					sovadwp_s==>sovadwp_ip(Itô process)
+					sovadwp_wp-.->sovadwp_ip
+					sovadwp_ip-.-sovadwpst_c
+					sovadwp_s==>sovadwp_mcs(Monte Carlo Simulation)
+					sovadwp_mcs-.-sovadwpss_rpo
 			sov_ad-->sov_wtm(w/ Models)
 				sov_wtm-->sovwtm_bt(13. Binomial Trees)
-				sov_wtm-->sovwtm_pp(14. Various Pricing Processes)
-					sovwtm_pp-->sovwtm_wp(Wiener Processes)
-					sovwtm_pp-->sovwtm_mcs(Monte Carlo Simulation)
 				sov_wtm-->sovwtm_bsm(15. Black-Scholes-Merton)
 			sov_ad-->sov_wom(w/o Models)
 				sov_wom-->sovwom_bnp(21,27. Numerical Procedures)
 			sov_ad-->sovad_v(w/ Volatility)
 				sovad_v-->sovadv_vs(20. Volatility Smile)
 				sovad_v-->sovadv_ev(23. Estimating Volatilities & Correlations)
-		so_v-.-|of|sov_ed(30. European-style Derivatives)
+		so_v-.-|in|sov_ed(30. European-style)
 			sov_ed-->soved_ca(Convexity Adjustments)
 			sov_ed-->soved_ta(Timing Adjustments)
 			sov_ed-->soved_q(Quantos)
 		so-->so_t(Types)
-		so_t-->sot_es(16. Employee Stocks)
-		so_t-->sot_i(17. Indices)
-		so_t-->sot_c(17. Commodities)
+		so_t-->sot_so(Stock Options)
+			sot_so-->sotso_p(11. Properties)
+		so_t-->sot_es(16. Employee Stock Options)
+		so_t-->sot_i(17. Indices Options)
+		so_t-->sot_c(17. Commodities Options)
     end
 	
 	fo(18. Future Options)
@@ -138,6 +150,13 @@ graph LR;
 		r_tr-->rtr_var("Value at Risk (VaR)")
 		r_tr-->rtr_es("Expected Shortfall (ES)")
 	r_cr(24. Credit Risks)
+		r_cr-->rcr_cc2007(8. 2007 Credit Crisis)
+		r_cr-->rcr_pa("9. Derivatives Price Adjustments (XVAs)")
+			rcr_pa-->rcrpa_cva(CVA)
+			rcr_pa-->rcrpa_dva(DVA)
+			rcr_pa-->rcrpa_fva(FVA)
+			rcr_pa-->rcrpa_mva(MVA)
+			rcr_pa-->rcrpa_kva(KVA)
 ```
 
 # Credit Derivatives (25)
