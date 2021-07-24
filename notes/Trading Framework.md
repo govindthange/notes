@@ -32,13 +32,13 @@ Your goal is to make the whole process scalable and sustainable. [...](https://w
 
 ## Price Action Analysis
 
-MAEEE Formula
-
-# MAEEE Formula
+# MAERPEE Formula
 - Market Structure
 - Area of Value
 - Entry Trigger
-- Exit - when wrong!
+- Risk Transfer
+- Positional Adjustments
+- Exiting Trade - when wrong!
 - Exit - when right.
 
 ## [[Market Structure]] - Macro Analysis
@@ -48,6 +48,12 @@ MAEEE Formula
 ### [[Market Structure#The Lay of The Land]]
 
 ## [[Area of Value]] - Micro Analysis
+
+## [[Entry Trigger]]
+
+## [[Risk Transfer]]
+
+## [[Positional Adjustment]]
 
 ## [[Entering Trade]]
 

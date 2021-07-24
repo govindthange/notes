@@ -108,7 +108,23 @@ Observe the Highs and Lows.
 
 - Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
 
-## Reversals
+## Pivots
+
+## VWAPs
+
+## Fibonacci Ratios
+
+# Change in Market Structure
+
+Market structure changes in cycles like so:
+
+1. Higher Highs/Higher Low gradually changes to either Stage #2 or Stage #3
+2. Range Bound movement gradually changes to either Stage #1 or Stage #3
+3. Lower Highs/Lower Lows gradually changes to either Stage 1 or Stage #2
+
+You can spot these changes using indicators like [[RSI]] and [[MACD]] or using [[Elliott Waves]] principles.
+
+## Reversals/Breakouts
 
 ### RSI Divergences
 
@@ -125,13 +141,3 @@ Use [[Moving Averages]]] crossovers to anticipate key reversal points.
 - [[Moving Averages#Death Cross]]
 
 - [[Moving Averages#Golden Cross]]
-
-# Change in Market Structure
-
-Market structure changes in cycles like so:
-
-1. Higher Highs/Higher Low gradually changes to either Stage #2 or Stage #3
-2. Range Bound movement gradually changes to either Stage #1 or Stage #3
-3. Lower Highs/Lower Lows gradually changes to either Stage 1 or Stage #2
-
-You can spot these changes using indicators like [[RSI]] and [[MACD]] or using [[Elliott Waves]] principles.
