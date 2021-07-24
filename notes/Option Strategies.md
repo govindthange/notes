@@ -12,6 +12,15 @@
 - See where the IV is.
 - Never close your position unless you do atleast rolls. Give your positoin a little time.
 
+# Guidelines
+
+## Small Account Traders
+[...](https://www.youtube.com/watch?v=HaoM4nqxYhU)
+
+- If you have a small account `avoid trading naked options`.
+- If you have a small account `avoid trading directional trades`.
+- If you have a small account `keep the variety of strategies to a minimum`.
+
 # Tools
 1. [Option Opstra](https://opstra.definedge.com/options-simulator)
 2. Option Oracle
@@ -84,12 +93,7 @@
 
 ## Covered Strangle
 
-## Vertical Spread
-
-### Put Spread
-
-Use this if the market is far away from the mean.
-Many positoins will close fast if the market is strongly trending (either up/down).
+## [[Vertical Spread]]
 
 ## Iron Fly
 
