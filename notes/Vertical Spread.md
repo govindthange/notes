@@ -18,11 +18,9 @@
 
 ## Buying Vertical Call Spreads
 
-> Although we are bearish we don't need a big move to the downside. We just need the market to stay below the strike we sold `CE` at (a resistance level) till the expiry.
+Our view is bullish!
 
-==This is why we say, you could be wrong but right with the option trading.==
-
--  Buying a call spread is a `bullish` tread.
+-  Buying a call spread is a `bullish` trade.
 -  Creating a spread `defines the risk` of the trade compared to buying a naked call option.
 - The most we make, our profit, is the width of the spread, minus the amount we pay to buy the spread.
 	- You can certainly make profit, but then you will have to widen the spread width and be ready to pay more and therefore risk more.
@@ -50,7 +48,12 @@ The action you take with the `Front Option` (i.e. option that is closest to the 
 
 ## Selling Vertical Call Spreads
 
-Our view is that the market will stay below a certain resistance level.
+Our view is bearish!
+
+> Although we are bearish we don't need a big move to the downside. We just need the market to stay below the strike we sold `CE` at (a resistance level) till the expiry.
+
+==This is why we say, you could be wrong but right with the option trading.==
+
 
 - Selling a call spread is a bearish trade.
 - Creating a spread defines the risk of the trade compared to selling a naked call option.
