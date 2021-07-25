@@ -87,7 +87,7 @@
 57. Strip Strangle: A simple volatile trading strategy suitable for beginners.
 58. Synthetic Covered Call, Short Straddle, and Straddle: See Synthetic Options Strategies.
 
-# Miscellaneous
+# Popular Strategies
 
 ## Poor Man's Covered Call
 
@@ -95,7 +95,7 @@
 
 ## [[Vertical Spread]]
 
-## Iron Fly
+## [[Iron Fly]]
 
 # Comparison
 
