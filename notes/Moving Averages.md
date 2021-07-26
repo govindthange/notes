@@ -6,6 +6,8 @@ Price takes support at common moving averages because big financial institutions
 
 `20, 50, 100, & 200 Weekly SMAs:` Good for doing long term analysis in positional trading that lasts several months to a couple of years.
 
+When you fall below 20 Week SMA then technically its a bear market. [...](https://youtu.be/Lb1cDioHxF8?t=2243)
+
 ## Death Cross
 
 ## Golden Cross

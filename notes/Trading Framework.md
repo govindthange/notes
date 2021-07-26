@@ -6,17 +6,13 @@ Your goal is to make the whole process scalable and sustainable. [...](https://w
 
 # 360 Market Overview
 
-## Miscellaenous
+## Global Indices
 
-### Nift Heatmap (Opstra Options Analytics)
-### Maximum Deliveries
-### Top Volume Buzzers
+## Stock Open Interests
 
-## Stock Open Interest Analysis
+## Index Open Interests
 
-## Index Open Interest Analysis
-
-## Futures Open Interest Analysis
+## Futures Open Interests
 
 ### Top Price Gainers & Losers
 ### Combined Open Interest (COI)
@@ -25,21 +21,27 @@ Your goal is to make the whole process scalable and sustainable. [...](https://w
 ### Top Long Unwinding
 ### Futures Buildup Screener
 
-## Options Open Interest Analysis
+## Options Open Interests
 
 ### Top OI Gainers & Losers
 ### Top IV Gainers & Losers
 
-## Price Action Analysis
+## Miscellaenous
+
+### Nifty Heatmap (Opstra Options Analytics)
+### Maximum Deliveries
+### Top Volume Buzzers
 
 # MAERPEE Formula
+`MAERPEE` is eveolved from Rayner Teo's `MAEEE` model
+
 - Market Structure
 - Area of Value
 - Entry Trigger
 - Risk Transfer
-- Positional Adjustments
-- Exiting Trade - when wrong!
-- Exit - when right.
+- Positional Adjustment
+- Entering Trade
+- Exiting Trade
 
 ## [[Market Structure]] - Macro Analysis
 
@@ -53,7 +55,17 @@ Your goal is to make the whole process scalable and sustainable. [...](https://w
 
 ## [[Risk Transfer]]
 
+### [[Money Management]]
+
+### [[Risk Management]]
+
+### Transfering Risk using [[Option Strategies]]
+
 ## [[Positional Adjustment]]
+
+### [[Adjusting Option Strategy]]
+
+### [[Trailing Stop Loss]]
 
 ## [[Entering Trade]]
 

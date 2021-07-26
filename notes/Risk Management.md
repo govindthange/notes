@@ -47,7 +47,9 @@ Before entering a trade most of the retail traders wait for a confirmation signa
 
 Institutional Traders use Fibonacci Levels, Trend Lines, Simple S&R Levels to actually look for confluences to try and place their orders. They use [[Average True Range]] to determine S.L. Put your stop loss 2.5 times of ATR.
 
-![[Area of Value#Institutional Trading Strategies]]
+![[Entering Trade#Put entries where the masses put their Stop Loss]]
+
+# [[Stop Loss]]
 
 
 

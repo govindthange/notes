@@ -82,10 +82,18 @@ Identify trends to build a bias in the direction of the trend.
 
 > While drawing trendline ensure that it connects maximum higher-lows (uptrend) and lower-highs (downtrend) and while doing so let the line go through to highlight price action where it breakts the trendline and/or retests after retracing back.
 
+Bearmarkets are of 2 following types: [...](https://youtu.be/Lb1cDioHxF8?t=2376)
+1. Bearmarket which follows market cycle top.
+2. Bearmarket which follows intermediate rallys.
+
+The length of the bearmarket depends on where you are in the cycle.
+
 Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
 
 Use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lower timeframes.
 - ![[MACD#Trend Filtering]]
+
+Use [[Bullmarket Support Band]] on trading view. [...](https://www.youtube.com/watch?v=NUr2rzn-GIw) [...](https://youtu.be/Lb1cDioHxF8?t=1123)
 
 ### Trading Breakout @ Trendline
 
@@ -96,6 +104,8 @@ Use MACD at a higher timeframe to filter trend and have a stronger long/short bi
 - Draw Demand & Supply zones.
 
 - Draw major [[Support & Resistance]] levels.
+
+- Analyze [[Option Chain]] for [[Option Chain#Open Interest Analysis]]
 
 - At all times, even before taking the trade and until you exit the posisition, watch out for all the key S&R levels to anticipate potential road blockers.
 	- At the key S&R levels use [[MACD]] on 2 level lower time frame to gauge whether the price can break through the S&R level or bounce back.
@@ -108,11 +118,18 @@ Observe the Highs and Lows.
 
 - Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
 
-## Pivots
-
-## VWAPs
-
 ## Fibonacci Ratios
+
+## Turning Points
+
+## Intradays Levels
+
+### Day's High & Day's Lows (DH/DL)
+### Previous Day's High & Previous Day's Low (PDH/PDL)
+### Pivots
+### CPR & Virgin CPRs
+### VWAPs
+### Gap Borders
 
 # Change in Market Structure
 

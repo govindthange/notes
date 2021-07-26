@@ -174,6 +174,7 @@ Follow these approaches after entering a trade:
 - If you are really fearful about being stopped out, scale out of your posistion. `Exit some part of your trade` instead of moving S.L.
 - You may choose to `move some part of your S.L.` instead of moving all of it.
 - Example: [A live trade](https://youtu.be/dQ2jM5ATqIg?t=2072)
+
 ### S.L. Moving Strategy
 [...](https://www.youtube.com/watch?v=Fd9daCR0vjQ)
 
