@@ -1,36 +1,61 @@
 # Support & Resistance
 
 ### Support
+
 Its a level at which the price is able to hold.
-`Meaning:` The thing that bears the weight of something or keeps it upright. `Definition:` An area in your chart where buying pressure could step in.
+
+`Meaning:` The thing that bears the weight of something or keeps it upright.
+
+`Definition:` An area in your chart where buying pressure could step in.
 
 ### Resistance
+
 Its a level at which the price is refusing to hold on to or comply with.
+
 `Meaning:` The refusal to accept or comply with something.
+
 `Definition:` An area in your chart where selling pressure could step in.
 
 #### Why it is important?
-Although [[Chart Patterns]] give you an edge by anticipating what may happen, S&R is where the live action takes place. S&R is the area where the  bulls and bears fight. We cant ignore this and hope our posistion works out just because we spotted some pattern.
+
+Although [[Chart Patterns]] give you an edge by helping you anticipate what may happen, S&R is where the live action takes place. S&R is the area where the  bulls and bears fight. We cant ignore this and hope our posistion works out just because we spotted some pattern.
 
 > S&R levels are used as trigger to enter a trade and while in trade are very critical in placing trailing `Stop Loss` and `Take Profit` orders.
 
 #### Warning
+
 Statistically speaking 80% of the time market is in a range and buying support and selling resistance is a great strategy. The problem is the more certain the range is the more fakeout you will have at either ends of the range. In this case it really becomes more of a stop loss hunting excercise which requires more skills. If you are experienced and seasoned in these matters and you dont jump the gun you will do well but you could still lose a lot of money trying to trade the range which is actually relatively stable but where there is just enough volatility at either ends to confuse you.
 
 ### Drawing S/R
-- Draw them in a higher time frame.
-	- For crypto intraday trading draw them in 4 Hour or daily timeframes.
-	- For nifty intraday draw them in 1 hour or daily timeframe.
-- Draw S&R level such that it encompasses maximum candlestick touches.
-	- You may also consider levels where price showed too much of small choppy moves. Here the line would cut through all the candles.
+[...](https://www.youtube.com/watch?v=qm90uTnxY1U)
+
+- Draw S/R on a 1 level higher timeframe.
+	- If you do intraday in 15min then choose 1 hr timeframe.
+	- To trade crypto on 1 hr draw them on 4 Hour chart.
+	- To trade nifty on 1 hr draw them on Daily chart.
+	- ![[Market Structure#Choosing Higher Timeframe]]
+
+- Zoom out.
+	- On tradingview reset the chart by pressing [Alt] + [R]
+	- Click on [-] button 10 times.
+
+- Just mark 4 S/R levels.
+	- Draw 2 Resistance lines above and 2 Support lines below the current price.
+	- As and when price crosses these levels, you can add more levels limiting to 2 level above and 2 levels below the price action.
+
+- Draw the most obvious levels.
+	- Identify levels which converted from support to resistance or resistance to support.
+	- Identify levels which **repeatedly** acted as a level where price was refused again and again or a level which **repeatedly** held as a support.
+
+- Adjust levels to get the most number of touches.
+	- While encmopassing maximum candlestick touches around swing high & low area do not completely skip their wicks to favor wicks that are faraway in middle area which may not be very important. Use commonsense.
+	- You may also consider levels where price showed too much of small choppy moves. Here the line would cut through multiple candle bodies.
 	- Do not focus too much on precisely drawing lines to touch the lower/upper most tip of the wick. Its fine if the line cuts through the candle.
-- Identify levels which converted from support to resistance or resistance to support.
-- Identify levels which **repeatedly** acted as a level where price was refused again and again or a level which **repeatedly** held as a support.
 
 ## S/R in a Range
 [...](https://youtu.be/nuVv0ZWUfs4?t=565)
 
-> In range markets, identify highs and lows to draw your S/R.
+> In range markets, identify the highs and lows to draw your S/R.
 
 Just mark 4 levels, 2 resistances above and 2 supports below the current price and then monitor how the bear-bull fight changes the market structure. We continue marking subsequent levels and at all times we just care about 4 levels. No point in putting so many levels on the chart if 90% of them you won't bother with.
 

@@ -13,6 +13,20 @@ Note that 4 Hours is not included since a day session in India is of 6 hours.
 
 For Top-Down analysis you start with a bigger timeframe first. [...](https://youtu.be/1vXLP1eFvTs?t=173)
 
+### Choosing Higher Timeframe
+
+To choose a higher timeframe use a factor from 4 to 6 like so:
+
+| Trading Timeframe | Higher Timeframe | Factor |
+|-------------------|------------------|--------|
+| Daily             | Weekly           | 5      |
+| 4 Hour            | Daily            | 6      |
+| 1 Hour            | Daily (intraday) | 4      |
+| 1 Hour            | 4 Hour (crypto)  | 4      |
+| 15 Min            | 1 Hour           | 4      |
+| 5 Min             | 15 Min           | 3      |
+| 1 Min             | 5 Min            | 5      |
+
 ## Intraday Top-Down Analysis
 [...](https://youtu.be/1vXLP1eFvTs?t=207)
 
