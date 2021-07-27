@@ -7,13 +7,13 @@
 - Iron Condor Spread has extremely `poor R/R`.
 
 # Long Iron Condor
-=> Our view is a lbig move to the up/down side. We sell this strategy to someone who expects a no price move and price trades in a range.
+=> Our view is a big move to the up or down side. We sell this strategy to someone who expects a no price move and price trades in a range.
 
 # Short Iron Condor
 => Our view is neutral. We sell our strategy to someone who expects a big move to the up/down side.
 
 - A Short Iron Condor is a directionally neutral strategy.
-- Its created by simulataneously `selling` a `Vertical Call Spread` and a `Vertical Put Spread` of the same expiry.
+- Its created by simulataneously `selling` two [[Vertical Spread]] i.e. a `Vertical Call Spread` and a `Vertical Put Spread` of the same expiry.
 	- When we are selling a `Call Spread` component we only want price to stay below a certain strike (the resistance). We don't really expect a big move to the downside though. 
 	- When we are selling a `Put Spread` component we only want prices to stay above a certain strike (the support. We don't really expeect a big move to the upside though.
 - Iron Condors take advantage of the `passage of time` and `high option prices`.
@@ -54,13 +54,13 @@ LONG `155PE 1/19 (64d)` @ $1.15 (Payable)
 `Exit Price` = ??
 
 `Total Received Spread Cost` => `Received CE Spread Cost` + `Received PE Spread Cost` => $64 + $71 => $135
-`Max Risk` => (`Spread Width` x `Lot Size`) - `Total Received Spread Cost`
+`Max Loss` => (`Spread Width` x `Lot Size`) - `Total Received Spread Cost`
  		=> (5 x 100) - $135 => $365
-`Max Profit` => `Total Received Spread Cost` => $135
+`Max Gain` => `Total Received Spread Cost` => $135
 
 ### Note
 
-If you widen the `Spread Width` then your `Max Profit` goes down and `Max Risk` increases. Its all about balance.
+If you widen the `Spread Width` then your `Max Gain` goes down and `Max Loss` increases. Its all about balance.
 
 # Adjusting Position
 [...](https://www.youtube.com/watch?v=cUfJ3-6uHiM)
@@ -104,9 +104,9 @@ LONG `10900PE 11/12 (7d)` @ $14.2 (Payable)
 `Exit Price` = ??
 
 `Total Received Spread Cost` => `Received CE Spread Cost` + `Received PE Spread Cost` => $1143.75 + $1162.5 => $2306.25
-`Max Risk` => (`Spread Width` x `Lot Size`) - `Total Received Spread Cost`
+`Max Loss` => (`Spread Width` x `Lot Size`) - `Total Received Spread Cost`
  		=> (150 x 75) - $2306.25 => $8943.75
-`Max Profit` => `Total Received Spread Cost` => $2306.25
+`Max Gain` => `Total Received Spread Cost` => $2306.25
 
 
 ### Adjustment Steps

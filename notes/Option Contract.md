@@ -1,3 +1,13 @@
+Meaning:
+
+`LONG CALL:` A LONG CALL allows the owner to buy shares at a discount, if it has intrinsic value at expiration i.e. if the stock price is above the strike price by good amount at expiration. Bying Call is an insurance.
+
+`SHORT CALL:` Selling Call @ OTM Strike is like shorting shares at higher price than the market was initially offering.
+
+`LONG PUT:` A LONG PUT allows the owner to sell his shares at a higher price than the market it it has intrinsic value at expiration. Buying Put is a good insurance against a potential downtrend.
+
+`SHORT PUT:` Selling Put @ OTM Strike is like owning shares at lower price than what the stock was trading initially. In this case you would own shares at its strike price instead of the old market price and still keep the premium you collected for selling the put in the first place. Put Seller = Being an Insurance Broker.
+
 # Why Option Contract?
 https://www.youtube.com/watch?v=D0I-VXz3FcI
 
