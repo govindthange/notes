@@ -26,9 +26,9 @@ For maximum sucess use all of the below aspects for an **Entry Trigger**
 
 # Entry Methods
 
-`Trade Size` is 1% of the total `Trading Capital`
+`Trade Size` is 1% of the `Trading Account Capital`
 
-![[Money Management#Trade Size and Stop Loss]]
+![[Money Management#Position Size and Stop Loss]]
 
 ## Normal Entry
 
@@ -38,15 +38,15 @@ Enter with 100% `Trade Size`
 [...](https://youtu.be/lmuTmzFA9q0?t=1120)
 
 `Step 1 Entry.`
-- Enter trade with 50% of `Trade Size` if you trading with 1% of your `Trading Capital`.
-- Enter with 40% if you are trading with 2% of your `Trading Capital`.
+- Enter a trade with 50% of the designated `Trade Size` when you are trading with 1% of your `Trading Account Capital`.
+- Enter with 40% if you are trading with 2% of your `Trading Account Capital`.
 
 `Step 2 Entry.` Upon a successful `Pullback Test` add position as follows:
-- Add remaining 50%  `Trade Size` if you trading with 1% of your `Trading Capital`.
-- Add remaining 60% if you are trading with 2% of your `Trading Capital`.
+- Add remaining 50% of the designated `Trade Size` if you trading with 1% of your `Trading Account Capital`.
+- Add remaining 60% if you are trading with 2% of your `Trading Account Capital`.
 
-Generally Trade Size should not be more than 1% of your entire Trading Capital. But if you are an advanced trader and feel confident then you can stretch your trade size to 2%.
+Generally Trade Size should not be more than 1% of your entire `Trading Account Capital`. But if you are an advanced trader and feel confident then you can stretch your trade size to 2%.
 
-Since `Breakout Trades` are riskier you should stick to 1% of your `Trading Capital`.
+Since `Breakout Trades` are riskier you should stick to 1% of your `Trading Account Capital`.
 
-`Reversal Trades` are relatively less resikier and with little experience you may trade with upto 2% of your `Trading Capital` by taking `Stepped Entries`.
+`Reversal Trades` are relatively less resikier and with little experience you may trade with upto 2% of your `Trading Account Capital` by taking `Stepped Entries`.

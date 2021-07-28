@@ -57,7 +57,7 @@ You can make money by doing the following:
 - Note that its very difficult to put S.L. accurately on the Premium Chart due to the dynamic interplay of greeks in the calculation. If you are an option buyer then there is a `Theta Decay` on the premium chart where as price action is normal on the Sport/Index chart.
 - Again, you should hold & respect the logical `Stop Loss` on the index chart while tracking the actual Stop Loss on the premium chart by shifting it gradually in tandem approximation with index/spot chart. [...](https://youtu.be/dQ2jM5ATqIg?t=2000)
 - Once you become emotionally stable you must decide that as soon as the price touches the S.L and closes there on the Spot/Index chart, you will exit your position on the Premium chart.
-- This is the reason you should only risk 8% to 10% of your entire trading capital into Options Trading.
+- This is the reason you should only risk 8% to 10% of your entire `Trading Account Capital` into Options Trading.
 - Place S.L. on the Spot/Index chart, track it and as soon as price comes at that level and closes on/beyond it, you exit the position.
 - If you still want to put S.L. put it far away.
 
