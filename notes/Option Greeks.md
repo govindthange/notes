@@ -39,7 +39,7 @@ When you apply calendar spread you will find (+) Vega. That is why hedges done v
 
 ### Increasing VIX
 
-=> 70% of the time VIX increases when market is going down.
+=> 70% of the time VIX increases when the market is going down.
 => Option Price will not decrease
 => This favours Option Buyers.
 => When VIX is rising and market is falling you should LONG PE @ ITM or ATM strikes to hedge your position.
@@ -55,7 +55,7 @@ Since increasing VIX favours Option Buyers you can NOT continue becoming an Opti
 
 ### Decreasing VIX
 
-=> 70% of the time VIS decreases when market is going up.
+=> 70% of the time VIS decreases when the market is going up.
 => This favours Option Writers.
 => When VIX and Market both are rising you should SHORT PE to hedge your position.
 
@@ -87,10 +87,16 @@ Example:
 - Gamma dominates in absence of Theta.
 - Gamma is extremely powerful on the day of expiry. [...](https://youtu.be/9E2PETrQ01M?t=580)
 	- When you short an option, you feel safe because of the time decay. Theta is your friend.
-	- Say you shorted nifty at ₹15 and days from Monday to Wednesday pass by with no major moves in the market. When you are on Thursday the premium would likely be around ₹2 to ₹3. But now you don't have any Theta left to cause premium to further lose its value.
-	- On Thursday, the day of expiry, you dont have Theta to compensate for the radical directional moves.
-	- On Thursday if market does move it will cause Gamma to pump and in turn accelerate Delta. If Detla is at 0.2 it will quickly become 0.5. If your premium was ₹3, it can potentially become ₹30 in no time.
-	- So all Option writers should disappear before 1 PM on thursday. Leave last ₹2 to ₹3 for Gamma players.
+
+#### Example
+
+Say you shorted nifty at ₹15.
+
+- Days from Monday to Wednesday pass by with no major moves in the market.
+- When you are on Thursday the premium would likely be around ₹2 to ₹3. But now you don't have any Theta left to cause premium to further lose its value.
+- On Thursday, the day of expiry, you dont have Theta to compensate for the radical directional moves.
+- On Thursday if market does move it will cause Gamma to pump and in turn accelerate Delta. If Detla is at 0.2 it will quickly become 0.5. If your premium was ₹3, it can potentially become ₹30 in no time.
+- So all Option writers should disappear before 1 PM on thursday. Leave last ₹2 to ₹3 for Gamma players.
 
 ## Theta
 

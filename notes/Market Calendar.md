@@ -8,7 +8,7 @@
 
 # Govt. Budget
 
-# Ellection
+# Election
 
 # Acquisition News
 
