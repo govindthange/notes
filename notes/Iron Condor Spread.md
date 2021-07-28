@@ -78,35 +78,35 @@ Keep adjusting position by rolling over the winning side of the spread till the 
 
 ## Example
 
-Your analysis says that market is more likely to stay somewhere between 11050 and 12400 rather than above $190 or below $155.
+As per your analysis Nifty would stay between 11050 and 12400 rather than above 12550 or below 10900.
 
 ### Vertical Call Spread
 
-SHORT `12400CE 11/12 (7d)` @ $28.25 (Receivable)
-LONG `12550CE 11/12 (7d)` @ $13 (Payable)
+SHORT `12400CE 11/12 (7d)` @ ₹28.25 (Receivable)
+LONG `12550CE 11/12 (7d)` @ ₹13 (Payable)
 `Spread Width` => 12550 - 12400 => 150
 
 `Lot Size` = 75
-`Received CE Spread Cost` => `Lost Size` x (`Received $28.25` - `Paid $13`) => $1143.75
+`Received CE Spread Cost` => `Lost Size` x (`Received ₹28.25` - `Paid ₹13`) => ₹1143.75
 
 ### Vertical Put Spread
 
-SHORT `11050PE 11/12 (7d)` @ $29.7 (Receivable)
-LONG `10900PE 11/12 (7d)` @ $14.2 (Payable)
+SHORT `11050PE 11/12 (7d)` @ ₹29.7 (Receivable)
+LONG `10900PE 11/12 (7d)` @ ₹14.2 (Payable)
 `Spread Width` => 11050 - 10900 => 150
 
 `Lot Size` = 75
-`Received PE Spread Cost` => `Lost Size` x (`Received $29.7` - `Paid $14.2`) => $1162.5
+`Received PE Spread Cost` => `Lost Size` x (`Received ₹29.7` - `Paid ₹14.2`) => ₹1162.5
 
 ### P&L
 
 `Spot Price` = 171.58
 `Exit Price` = ??
 
-`Total Received Spread Cost` => `Received CE Spread Cost` + `Received PE Spread Cost` => $1143.75 + $1162.5 => $2306.25
+`Total Received Spread Cost` => `Received CE Spread Cost` + `Received PE Spread Cost` => ₹1143.75 + ₹1162.5 => ₹2306.25
 `Max Loss` => (`Spread Width` x `Lot Size`) - `Total Received Spread Cost`
- 		=> (150 x 75) - $2306.25 => $8943.75
-`Max Gain` => `Total Received Spread Cost` => $2306.25
+ 		=> (150 x 75) - ₹2306.25 => ₹8943.75
+`Max Gain` => `Total Received Spread Cost` => ₹2306.25
 
 
 ### Adjustment Steps

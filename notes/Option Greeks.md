@@ -86,12 +86,12 @@ Example:
 - Gamma is a catalyst for Delta.
 - Gamma dominates in absence of Theta.
 - Gamma is extremely powerful on the day of expiry. [...](https://youtu.be/9E2PETrQ01M?t=580)
-	- When you short an option, you feel safe because of time decay. Theta is your friend.
-	- Say you Shorted nifty @ Rs. 15, Monday to Wed pass by with no major moves in the market. When you are on Thursday the premium would likely be around Rs. 2 to Rs. 3 due to time decay but note that now you don't have any Theta left to cause further decay.
-	- On Thursday there is not enough theta left to help your shorted position to further lose its value.
-	- So on the day of expiry, when you are left with Rs. 2-3, you dont have any friend to save you from radical market moves.
-	- On thursday if market does move it will cause Delta to pump and accelerate Delta. If its in 0.2 it will quickly become 0.5. If your premium was Rs. 3, it can potentially become Rs. 30 in no time.
-	- So all Option writers should disappear before 1 PM on thursday. Leave last 2 to 3 Rs for Gamma players.
+	- When you short an option, you feel safe because of the time decay. Theta is your friend.
+	- Say you shorted nifty at ₹15 and days from Monday to Wednesday pass by with no major moves in the market. When you are on Thursday the premium would likely be around ₹2 to ₹3. But now you don't have any Theta left to cause premium to further lose its value.
+	- On Thursday, the day of expiry, you dont have Theta to compensate for the radical directional moves.
+	- On Thursday if market does move it will cause Gamma to pump and in turn accelerate Delta. If Detla is at 0.2 it will quickly become 0.5. If your premium was ₹3, it can potentially become ₹30 in no time.
+	- So all Option writers should disappear before 1 PM on thursday. Leave last ₹2 to ₹3 for Gamma players.
+
 ## Theta
 
 => Option Writer's friend.
@@ -119,7 +119,7 @@ Intraday is tough for Option Sellers because [...](https://youtu.be/9E2PETrQ01M?
 
 - Have (+)ve Theta
 - Convert to `Debit Strategy` (by buying otpions to add hedges) if VIX rises.
-- Exit strategy before the day of expiry and be safe from Gamma.
+- Exit strategy before the day of expiry and be safe from Gamma. Do not hold your positoin beyond 01:00 PM on Thursday.
 
 ## Adjusting Debit Strategy
 
@@ -133,5 +133,5 @@ Intraday is tough for Option Sellers because [...](https://youtu.be/9E2PETrQ01M?
 - With `Debit Strategy` then prefer (-)ve Theta.
 - If VIX rises adjust strategy to `Debit`.
 - If VIX falls adjust strategy to `Credit`.
-- Exit `Credit Strategy` before the day of expiry.
+- Exit `Credit Strategy` before the day of expiry. Do not hold beyond 01:00 PM on Thursday.
 - You may hold `Debit Strategy` till expiry in anticipation of a directional move.
