@@ -2,7 +2,7 @@ https://www.youtube.com/watch?v=RgHkKwPJDBA
 
 Directional heroes generally lose lot of money because the market is in conslidation phase 70% of the time.
 
-Short Strangle is when you have a neutral view of the market and so you sell `OTM Call` and `OTM Put`.
+Short Strangle is when you have a neutral view of the market and so you sell `OTM Call` and `OTM Put` simultaneously in the same security in the same expiration cycle.
 - Extremely risk due to unlimited loss.
 - Decent profit but limited.
 - Trade management is the key to success in this strategy.
