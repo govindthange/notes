@@ -1,14 +1,63 @@
-Meaning:
+# Call
 
-`LONG CALL:` A LONG CALL allows the owner to buy shares at a discount, if it has intrinsic value at expiration i.e. if the stock price is above the strike price by good amount at expiration.
+## Long Call
 
-`SHORT CALL:` Selling Call @ OTM Strike is like shorting shares at higher price than the market was initially offering.
+It allows the call owner to buy shares at a discount on a future date (i.e. expiration) if it has intrinsic value at expiration i.e. the spot price is above the strike price by a good amount (that difference is the discount).
 
-`LONG PUT:` A LONG PUT allows the owner to sell his shares at a higher price than the market it it has intrinsic value at expiration. Buying a Put is a good insurance against a potential downtrend.
+> Buying at a discount in future.
 
-`SHORT PUT:` Selling Put @ OTM Strike is like owning shares at lower price than what the stock was trading initially. In this case you would own shares at its strike price instead of the old market price and still keep the premium you collected for selling the put in the first place.
+## Short Call
 
-Buying option is like buying an insurance and an option seller/writer is like an Insurance Broker.
+Selling Call @ OTM Strike is like Shorting shares at a higher price than the market was initially offering.
+
+> Selling at a higher price today.
+
+### Example
+
+- ABC is trading at ₹100 today i.e. on 23-July.
+- Your view on ABC is not bullish in the near future i.e. till 29-July expiry.
+- As per your analysis ABC will trade sideways, trend down, or may slightly go up but not substantially to rally beyond ₹120.
+- You think ₹120 level can act as a strong resistance where sellers would take charge.
+- If your analysis is correct then you can benefit from this situtation by `selling a Call @ OTM strike`.
+- When you short `120CE 7/29 (6d)` at ₹5 you are obligated to sell ABC @ ₹120 on 29-July if it gains intrinsic value.
+- But, in today's context, when ABC is trading at ₹100 you are getting to sell ABC at a higher price of ₹120 and also get to collect ₹5 premium just by selling the Call. And you don't even need to own ABC to short it.
+- By selling an OTM Call option you make money when market trades sideways, goes down, or even goes up but stays below ₹120. You only loose when market rallies beyond ₹120 by 29-July. Your Probability of success is high.
+
+# Put
+
+## Long Put
+
+It allows the put owner to sell his shares at a higher price than the market on a future date (expiration) if it has intrinsic value at expiration. Buying a Put is a good insurance against a potential downtrend.
+
+> Selling at a higher price in future.
+
+## Short Put
+
+Selling Put @ OTM Strike is like owning shares at a lower price than what the stock was trading initially. In this case you would own shares at its strike price instead of the old market price and still keep the premium you collected for selling the put in the first place.
+
+> Buying at a discount today.
+
+### Example
+
+- ABC is trading at ₹100 today i.e. on 23-July.
+- Your view on ABC is not bearish in the near future i.e. till 29-July expiry.
+- As per your anlaysis ABC will trade sideways, trend up, or may slightly go down but not substantially to crash below ₹80.
+- You think ₹80 level can act as a strong support where buyers would jump in to prevent further drop in price.
+- If your analysis is correct then you can benefit from this situtation by `selling a Put @ OTM strike`.
+- When you short `80PE 7/29 (6d)` at ₹7 you are obligated to buy ABC @ ₹80 on 29-July if it gains intrinsic value.
+- But, in today's context, when ABC is trading at ₹100 you are getting to buy ABC at a far lower price of ₹80 and also get to collect ₹7 premium just by selling the Put.
+- By selling an OTM Put option you make money when market trades sideways, goes up, or even goes down but stays above ₹80. You only loose when market trends below ₹80 by 29-July. Your Probability of success is high.
+
+# Buy Low Sell High
+
+| If your view is   | but definitely NOT | then to profit | how?       | when?     | with     |
+|-------------------|--------------------|----------------|------------|-----------|----------|
+| bullish today     | in future          | buy            | @ discount | today     | Short PE |
+| bullish in future | today              | buy            | @ discount | in future | Long CE  |
+| bearish today     | in future          | sell           | high       | today     | Short CE |
+| bearish in future | today              | sell           | high       | in future | Long PE  |
+
+Buying options is like buying an insurance and an option seller/writer is like an Insurance Broker.
 
 # Why Option Contract?
 https://www.youtube.com/watch?v=D0I-VXz3FcI
@@ -25,7 +74,7 @@ You can make money by doing the following:
 # Tips
 [...](https://tastytradenetwork.squarespace.com/tt/blog/-tastytrade-trading-commandments)
 
-- You must trade ITM options on the day of expiry. In long positions, one red candle can wipe out 60% capital with just one red candle. [...](https://youtu.be/2fPVlSa5wYE?t=2244)
+- You must trade ITM options on the day of expiry. In Long positions, one red candle can wipe out 60% capital with just one red candle. [...](https://youtu.be/2fPVlSa5wYE?t=2244)
 
 - Trading is about emotional intelligence rather than logic intelligence.
 
@@ -42,7 +91,7 @@ You can make money by doing the following:
 
 { `δ:θ` > `0.4` } => "You have `Directional Risks`"
 
-> `δ:θ Ratio` helps traders who aim to earn regular monthly income rather than long term investment.
+> `δ:θ Ratio` helps traders who aim to earn regular monthly income rather than Long term investment.
 
 ### Vega:Theta (v:θ) Ratio
 
@@ -76,24 +125,24 @@ Volatility is very high on expiry days and premium value vanishes very fast. Eve
 
 ## Hedging Rules (Unverified!)
 
-To reduce the initial margin requirement cover your option sell position by going LONG on the reverse option contract at OTM strike price.
+To reduce the initial margin requirement cover your option sell position by going Long on the reverse option contract at OTM strike price.
 
-For covering the SHORT option contract with a LONG contract pick a strike price which has premium around 50% of the premium for SHORTING the main option contract. [...](https://youtu.be/M3Bz_IZpN6Q?t=750)
+For covering the Short option contract with a Long contract pick a strike price which has premium around 50% of the premium for ShortING the main option contract. [...](https://youtu.be/M3Bz_IZpN6Q?t=750)
 
 > Do not buy a `far OTM` options for hedging. [...](https://youtu.be/M3Bz_IZpN6Q?t=722)
 
 Example:
 
-You have a bearish view of NIFTY and would like to go SHORT a CALL option. To minimize initial margin requirement you will create a cover by going LONG on the CALL at an OTM strike price which is not too far and is 50% of the premium required for shorting the CALL.
+You have a bearish view of NIFTY and would like to go Short a CALL option. To minimize initial margin requirement you will create a cover by going Long on the CALL at an OTM strike price which is not too far and is 50% of the premium required for Shorting the CALL.
 
 `Market View:` Bearish. You think nifty will not go above 15000
-`Strategy:` Go `SHORT` on `15,000 CE` @ `269` premium
+`Strategy:` Go `Short` on `15,000 CE` @ `269` premium
 `Initial Margin:` 1,35,000 INR
 
 Create cover to reduce the Initial Margin requirement:
 
-Calculate 50% of the premium to be paid for shorting 15000 CE
+Calculate 50% of the premium to be paid for Shorting 15000 CE
 => 134.5 INR
 
-Open `Option Chain` and find an `OTM` `CALL` strike price around 134.5 INR and go `LONG` on that.
+Open `Option Chain` and find an `OTM` `CALL` strike price around 134.5 INR and go `Long` on that.
 

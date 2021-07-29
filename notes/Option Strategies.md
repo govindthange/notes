@@ -1,8 +1,40 @@
+# Analysis & Strategies
+
+## Buy Low Sell High
+
+`v1.0`
+
+| If your view is   | but definitely NOT | then to profit | how?       | when?     | with     |
+|-------------------|--------------------|----------------|------------|-----------|----------|
+| bullish today     | in future          | buy            | @ discount | today     | Short PE |
+| bullish in future | today              | buy            | @ discount | in future | Long CE  |
+| bearish today     | in future          | sell           | high       | today     | Short CE |
+| bearish in future | today              | sell           | high       | in future | Long PE  |
+
+`v2.0`
+
+| If your view is | when?     | but definitely NOT | when      | then to profit | how?       | when?     | with     |
+|-----------------|-----------|--------------------|-----------|----------------|------------|-----------|----------|
+| bullish         | today     | bullish            | in future | buy shares     | @ discount | today     | SHORT PE |
+| bullish         | in future | bullish            | today     | buy shares     | @ discount | in future | LONG CE  |
+| bearish         | today     | bearish            | in future | sell shares    | high       | today     | SHORT CE |
+| bearish         | in future | bearish            | today     | sell shares    | high       | in future | LONG PE  |
+
+
+`v3.0`
+
+| If your view is | when?     | i.e. the market will          | but definitely NOT | when?     | then to profit | how?       | when?     | with     |
+|-----------------|-----------|-------------------------------|--------------------|-----------|----------------|------------|-----------|----------|
+| NOT bearish     | today     | be sideways to little bullish | bullish            | in future | buy shares     | @ discount | today     | SHORT PE |
+| bullish         | in future | start trending up             | bullish            | today     | buy shares     | @ discount | in future | LONG CE  |
+| NOT bullish     | today     | be sideways to little bearish | bearish            | in future | sell shares    | high       | today     | SHORT CE |
+| bearish         | in future | start trending down           | bearish            | today     | sell shares    | high       | in future | LONG PE  |
+
 # Rules
 
 [[Trading Commandments]]
 
-- Be convervative and keep the position size down. It is the most important thing!
+- Be conservative and keep the position size down. It is the most important thing!
 	- Keeping the size down is the only defence you have against the bad trades. Size is where Genius fails.
 	- There are only 2 kind of trades viz: `Good Trades` and `Bad Trades`.
 	- You need not worry about Good Trades.
