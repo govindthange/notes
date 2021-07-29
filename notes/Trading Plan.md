@@ -70,3 +70,7 @@ Experts prefer selling a Naked Put when volatility is cheap as you get paid more
 - Smallest trading capital
 - Good win rate
 - Good R/R
+
+# Case Studies
+
+[[Case Study 1 - Karen the supertrader]]
