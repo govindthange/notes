@@ -50,11 +50,11 @@ Once you take the position its all about managing the mechanics of the Strangle 
 # Fixed Strike Price Method
 
 1. Pick a fixed strike price like so:
-	- For Bank Nifty select `CE @ 115 Rs.` and `PE @ 115 Rs.` premiums with `Take Profit` at Rs. 4,000 level.
-	- For Nifty select `CE @ ? 25` and `PE @ ? 25` premiums wiht `Take Profit` at Rs. 3,000 level.
+	- For Bank Nifty select `CE @ ₹115` and `PE @ ₹115` premiums with `Take Profit` at ₹4000 level.
+	- For Nifty select `CE @ ? 25` and `PE @ ? 25` premiums wiht `Take Profit` at ₹3000 level.
 
 2. Hedge your strangle by buying `Heldge Legs` as follow:
-	1. For `Bank Nifty` go `Long` on `CE @ 25 Rs.` and `PE @ 25 Rs.`
+	1. For `Bank Nifty` go `Long` on `CE @ ₹25` and `PE @ ₹25`
 	2. For `Nifty` go `Long` on ???
 
 3. Exit when current week's premium falls below 80%.
@@ -66,7 +66,7 @@ Once you take the position its all about managing the mechanics of the Strangle 
 ```
 Example:
 
-You go `Short` on `CE @ 100 Rs.` and `PE @ 100 Rs.` @ `Current Week Expiry`
+You go `Short` on `CE @ ₹100` and `PE @ ₹100` @ `Current Week Expiry`
 
 During the week whenever the premium starts trading close to 20 Points you should exit the trade. It may not be exactly 20. It could be anwhere between 18 to 22.
 ```
@@ -77,7 +77,7 @@ During the week whenever the premium starts trading close to 20 Points you shoul
 
 5 Rules of adjusting the premium.
 
-`Rule 1.` Exit the trade as soon you make Rs 4,000/- in profits in Bank Nifty or Rs 3,000/- in profits in Nifty.
+`Rule 1.` Exit the trade as soon you make ₹4000 in profits in Bank Nifty or ₹3000 in profits in Nifty.
 
 `Rule 2.` Adjust your position only when one side of the premium falls below 50% of the higher trading premium.
 

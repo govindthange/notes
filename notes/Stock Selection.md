@@ -40,7 +40,7 @@ You will use this category as a filter once you open your trading terminal based
 ### Watchlist Rules
 - Do not add stocks which are in prime time news. Stocks which are in news becomes very volatile and choppy.
 - Do not add low volume stocks. Stick to stocks which are in Nifty 50 universe to avoid issues with low volume and spread.
-- Prefer stocks which are between 100 Rs to 5000 Rs range. Beyond 5000 it gets complicated to manage stop loss etc.
+- Prefer stocks which are between ₹100 to ₹5000 range. Beyond 5000 it gets complicated to manage stop loss etc.
 
 ## Wait for the market
 

@@ -35,8 +35,8 @@ OI Analysis would not work for the following:
 - When there are events (like Stock Results) do not rely on Open Interest to base your trades.
 
 - Look for Strike Prices that see more activity.
-	- With Bank Nifty almost all the activity happens with Strike Prices that are multiple of 500. So look for Bank Nifty Strike Price with gap of 500 Rs.
-	- Look for Nifty Strike Prices with gap of 100 Rs.
+	- With Bank Nifty almost all the activity happens with Strike Prices that are multiple of 500. So look for Bank Nifty Strike Price with gap of ₹500.
+	- Look for Nifty Strike Prices with gap of ₹100.
 
 ## Change in OI / Guessing Direction
 [...](https://www.youtube.com/watch?v=CEAR2wmznL8)
@@ -112,7 +112,7 @@ Very High PCR > 1.3 is a Bearish Possibility
 
 Example:
 
-If currently Nifty is @ 11,883.85 Rs and its `Max Pain` = 11800 then as per `Max Pain Theory` this week's expiry will likely happen at around 11800 (approx) because it is the point at which both `Call` and `Put` sellers will face least amount of losses.
+If currently Nifty is @ ₹11883.85 and its `Max Pain` = 11800 then as per `Max Pain Theory` this week's expiry will likely happen at around 11800 (approx) because it is the point at which both `Call` and `Put` sellers will face least amount of losses.
 
 Expiry happening at the strike price causes least damage to the seller. This theory is not scientific; there are loose evidence of this working well.
 
