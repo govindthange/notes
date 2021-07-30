@@ -129,8 +129,37 @@
 
 ## [[Iron Fly]]
 
-# Comparison
+# Comparisons
+
+Covered Call = Short CE + Long Stocks
+
+
 
 ## Strangles vs Iron Condors
 https://www.youtube.com/watch?v=D0I-VXz3FcI
 
+Iron Condor = Strangle + Hedges
+
+## Iron Butterfly vs Regular Butterfly Spread
+[...](https://www.youtube.com/watch?v=gQIIcktL5I8)
+
+### Iron Butterfly
+
+- Uses combinations of CEs and PEs
+- Uses OTM
+- Credit Strategy
+
+### Regular Butterfly Spread
+
+- Uses just CEs (or just PEs)
+- Uses ATM & ITM
+- Debit Strategy
+
+### Similarities
+
+- Both strategies are very similar in terms of Risk Profile and Risk to Reward Ratios.
+- If the stock is very liquid then it doesn't matter which of the 2 strategies you use.
+
+### Differences
+
+If the stock is illiquid and [[Trade#Bid-Ask Spread]] is wide the `Bid-Ask` becomes even more wider for `ITM` options. In such cases use `Iron Butterfly` over `Regular Butterfly Spread` as Iron Butterfly Strategy uses `OTM` options as its component.
