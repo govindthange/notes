@@ -4,65 +4,66 @@ Karen, an Options Trader, makes $105MM profit in the NDX, SPX & RUT.
 
 # Karen's favorite products
 
-Karen started of with stocks and used to manage 30 positions at a time but later she reduced to 10. She faced lot of problem with stocks during Earnings Months and gave up trading stocks and stuck to Indices ever since.
+Karen started of with stocks and used to manage 30 positions at a time but later she reduced to 10. She faced a lot of problems with stocks during `Earnings Months` and eventually gave up trading stocks shifted to trading indices.
 
-She only trades in indices like S&P500, Russel2000 (RUT) as they are highly liquid and importantly not affected by [[Market Calendar#Earning Events]] too much.
+Now Karen only trades in indices such as S&P500, Russel2000 (RUT) as they are highly liquid and importantly not affected by [[Market Calendar#Earning Events]] too much.
 
-Question: Would you consider different product?
-Karen: No.
+`Tom:` Would you reconsider different product in future?
+`Karen:` No.
 
 # Karen's trading style
 
 - Karen's approach is very simplistic.
 	- she trades with very few underlyings (primarily indices)
-	- She is very low-key on the analytics stuff.
-	- She has a very low-key approach to the market in general. No over analyzing the market, no outside noise, no news etc.
-	- Very little technicals.
+	- She is very low-key on the analytical stuff.
+	- She has a very low-key approach to the market in general. No over analyzing of the market, no outside noise, no news etc.
+	- She relies on very little technicals.
 - Karen trades very actively. [...](https://youtu.be/BquDGE9KxZQ?t=552)
-- As far as trading goes she is mainly a theta trader using time decay as her main strategy.
+- As far as trading goes she is mainly a `Theta Trader` using time decay as her main strategy.
 	- She mainly puts contracts on of next month
 	- Closes contracts for profit and put them back on.
 	- When the position gets into the current month, she let them expire and she is already out in the next month's contract depending on the volatility.
 	- If the volatility is high, they flip them (they call it Churning) i.e. just sell and buy back. Selling and buying back as long as they can pull as much time value out of it as possible and then when that dries up they usually let them expire worthless.
 
-There is a term called Laddering. Which means Nov-12 is 30 days, Dec-12 is 56 days and Jan-13 is 90 days from now. This is Laddering out position. How much time Karen choose for her position you may ask.
+`Tom:` There is a term called Laddering. Which means Nov-12 is 30 days, Dec-12 is 56 days and Jan-13 is 90 days from now. This is Laddering out position. How much time Karen choose for her position you may ask.
 
-Karen looks for the maximum time value such as 56 days to expiration but she wants that to start decaying. Theta generally starts decaying in around 45 days. She tries to get as much time value but she don't like to get way out in the future. So if we are on Oct 27 and Decemer is getting close. We will be trading December 1st of next week but we dont want to get into January yet.
+Karen looks for the maximum time value such as 56 days to expiration but she wants that to start decaying. Theta generally starts decaying in around 45 days. She tries to get as much time value but she don't like to get way out in the future. So if we are in mid October and Decemer is getting close. We will be trading December 1st of next week but we dont want to get into January yet.
 
-The longer you go out, the more you define your risk. Its little less risky when you go out a little bit further because you can get a little wider.
+`Tom:` The longer you go out, the more you define your risk. Its little less risky when you go out a little bit further because you can get a little wider.
 
 # Karen's strategy
 
 ## [[Short Strangle]]
 
-Karen does use weekly options. They are not big fan of weekly though. If the volatility is low they can consider it.
+Karen does use weekly options but she is not a big fan of it. If the volatility is low they she considers doing weekly options but not that too often.
 
-56 days expiry is her bread and butter. [...](https://youtu.be/BquDGE9KxZQ?t=818)
-
-- We trick our self into thinking that market has fallen.
+`Karen:` 56 days expiry is our bread and butter. [...](https://youtu.be/BquDGE9KxZQ?t=818)
+- We trick ourselves into thinking that market has fallen.
 	- Note that market does not crash up, it crashes down. So we need to protect ourselves on the downside.
 	- We say that the market is lower than what it really is.
-		- From where the current number is, we pretend that the number has already dropped.
-		- Right now the market is at 1450 but we pretend it is at 1370. We make up this fictional 1370.
-	- Then we drop it down 12% below that i.e. 1205 (approx). Which generally takes you to an `ITM Probability` of 5%.
+	- So from where the current number is now, we pretend that the number has already dropped.
+	- like right now the market is at 1450 but we will pretend it is at 1370. We make up this fictional 1370.
+	- Then we drop it down 12% below that; i.e. 1205 (approx). Which generally takes you to an `ITM Probability` of 5%.
 	- We will then short 1220PE which has `ITM Probability` of 5%.
 	- Then we trade very actively around this December contract (56d for expiry) and turn that 2 or 3 times.
 
-When you sell those puts will you also sell corresponding calls because it does not require any additional capital?
-- We will leg into each side. we will sell calls but doing it today will be bad because market was up today.
-	- Being contrarian we sell calls on upswing and we sell puts on downswing so that we can get further out; we are trying to widen as much we can. We have bollinger bands on our SPX chart at 2 standard deviations
-	- We want to be out from that.
-	- The upside is a much greater challenge than the downside. She is not worried about if the market falls down. Handling upside is tough.
-	- On the upside, we will probably little closer in and looking more around `ITM Probability` of 10% on the upside. So we will look at 1540CE and we also look at the charts where we find strong resistance level was. We would make sure we get above that resistance level so all that comes into play when we are looking at the upside.
+`Tom:` When you sell those puts will you also sell corresponding calls because it does not require any additional capital?
 
-Would you sell equal number of upside and downside?
-No, not necessarily. We are liitle softer on the upside. We will sell more on the put side and make more money and be safer and be out further.
+`Karen:` We will leg into each side. we will sell calls but doing it today will be bad because market was up today.
+- Being contrarian we sell calls on upswing and we sell puts on downswing so that we can get further out; we are trying to widen as much we can. We have bollinger bands on our SPX chart at 2 standard deviations
+- We want to be out from that.
+- The upside is a much greater challenge than the downside. She is not worried about if the market falls down. Handling upside is tough.
+- On the upside, we will probably little closer in and looking more around `ITM Probability` of 10% on the upside. So we will look at 1540CE and we also look at the charts where we find strong resistance level was. We would make sure we get above that resistance level so all that comes into play when we are looking at the upside.
 
-### Karen's Short Strange Approach
+`Tom:` Would you sell equal number of upside and downside?
 
-Karen is little uneven when it comes to the amount of shorts she has on both sides of the market. Her focus is more on the premium collection rather than on the mechanics of being equal on both sides of the market.
+`Karen:` No, not necessarily. We are liitle softer on the upside. We will sell more on the put side and make more money and be safer and be out further.
 
-Karen: It is driven by the analysis; where we are 10% up from the current position and where we are 12% down from the current position. We watch that. That is compared to our net lick and we just dont want to be pushing up close to that net lick. So that drives us much more than the number of contracts or whether our positions are even or not.
+### Karen's Short Strangle Approach
+
+`Tom:` Karen is little uneven when it comes to the amount of shorts she has on both sides of the market. Her focus is more on the premium collection rather than on the mechanics of being equal on both sides of the market.
+
+`Karen:` It is driven by the analysis; where we are 10% up from the current position and where we are 12% down from the current position. We watch that. That is compared to our net lick and we just dont want to be pushing up close to that net lick. So that drives us much more than the number of contracts or whether our positions are even or not.
 
 So Karen is managing her buying power reduction as it relates to her net lick more than managing some kind of mechanics around a specific standard deviation move.
 
