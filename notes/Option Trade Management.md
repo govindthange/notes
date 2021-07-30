@@ -20,10 +20,11 @@ When you buy an option, buy ITM and sell OTM option to compensate for the Time D
 	- Ensure that Theta values of both ITM CE and OTM CE are same.
 	- If you cant match the greeks refer [[#Selecting ITM w o Greeks]].
 
-
 With option buying you can only adjust the winning trades not losing trades.
 - If position moves in your favor, close the position the spot price reaches the strike price of the longed option and reopen a new Bull/Bear Call/Put Spread.
 - If the positoin moves against you then you will have to bear the loss and close the position.
+
+> This strategy works best with Nifty and Bank Nifty. It does not work well with stocks.
 
 ### How to choose Strike Price?
 
@@ -61,6 +62,16 @@ Now you need not worry about Theta Decay in LONG CE position and IV Spike in SHO
 	- Yes, R/R is less in Bull Call Spread created this way but R/R is very high in Bear Put Spread
 - Handling Illiquid Stocks?
 	- [...](https://youtu.be/tulEP6IDLmk?t=572)
+
+
+## Demrits
+[...](https://youtu.be/tulEP6IDLmk?t=905)
+
+- Profit is limited.
+- To make profit you will have to keep shifting your Spread position ahead.
+- In order to timely shift your position you will have to actively monitor your position.
+- With gapup or gapdown you don't get chance to adjust your position.
+- It works better with index than stocks.
 
 # Managing Short Puts
 [...](https://www.tastytrade.com/shows/trade-managers/episodes/short-put-management-01-02-2018)
