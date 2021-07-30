@@ -30,6 +30,8 @@ It is the rate of change of [[#Delta]].
 - It is expressed in percentage/decimal.
 - It reflects the change in delta in response to 1 point movement in spot.
 
+It is the 2nd Order Greek.
+
 ### Characteristics
 
 - Gamma is a catalyst for Delta.
@@ -158,6 +160,19 @@ The farther away the expiry, the more (+)ve will be the Vega.
 
 When you apply calendar spread you will find (+) Vega. That is why hedges done via Calendar spread can handle volatility better i.e. if market moves too much in one direction it does not affect your position a lot.
 
+## Vomma
+
+It measures the sensitivity of [[#Vega]] to the change of the [[#Implied Volatility VIX]]
+
+It is the 2nd Order Greek.
+
+## Vanna
+
+It is the 2nd Order Greek.
+
+## Veta
+
+It is the 2nd Order Greek.
 
 # Greek Ratios
 
