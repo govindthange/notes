@@ -10,13 +10,15 @@ Short Strangle is when you have a neutral view of the market and so you sell `OT
 Only use this strategy for `Nifty` and `Bank Nifty` as the indices, although expensive, are likely to absorb volatility better than stocks.
 - Nifty is safer.
 - Bank Nifty is little riskier.
-- Stocks are the most riskiest due to high volatility.
+- Stocks are the most riskiest due to high volatility and [[Market Calendar#Earning Events]]
 
 Use `Weekly Expiry` over Monthly Expiry due to following reasons:
 - Better % returns
 - Adjustment can be made quickly at weekly expiry
 
-Determine the `Strike Price` for OTM Call and OTM Put by using one of the following methods:
+# Determining OTM Strike Prices
+
+Determine the `Strike Price` for OTM Call and OTM Put by using one/combinations of the following methods:
 
 1. `Observe Price Action` to find a range.
 2. Use `Support & Resistance` to determine the range.
@@ -25,29 +27,9 @@ Determine the `Strike Price` for OTM Call and OTM Put by using one of the follow
 	-  The strike price with the highest OI change on the Put side is to be considered as support and a Put at that strike price should be shorted.
 4. Use a predecided `Delta`.
 5. Use a predecided `Strike Price`.
+6. Use `2 Standard Deviation`. [...](https://www.youtube.com/watch?v=rQootF4smio)
 
-
-## Managing the Strangle Mechanics
-
-Once you take the position its all about managing the mechanics of the Strangle position. You may have to frequently do so based on the volatility. Generally you would rollup the untested side of the position if the price attempts to test one side of the strangle.
-- If the price drops you bring the `Call` down and rollout; i.e. add a new `Call`.
-- If the price soars you bring the `Put` down and rollout; i.e. add a new `Put`
-
-## Rules
-[...](https://youtu.be/Eqzmq_RkBaY?t=758)
-
-[[Option Strategies#Rules]]
-
-- Our goal is to stay small and come back to play everyday.
-- By limiting the number of strangles and by keeping our trade size down, we get to increase the potential returns without adding much risk overall to our portfolio.
-- Ensure that 50% of your buying power is free just so that you can freely roleover and re-adjust your strangle position.
-- If there is an Earning Declaration by companies then you skew your strangle position to the upside.
-	- These days when earnings are declared, if its good you know the price will shoot to 30% but if its not good, then it may not crash by 30%.
-	- So, you can select a `Put` with 15 δ.
-	- If the earnings are not great then you can go aggressive on the call side by keeping δ high.
-- If there is high volatility create a super wide strangle position.
-
-# Fixed Strike Price Method
+## Fixed Strike Price Method
 
 1. Pick a fixed strike price like so:
 	- For Bank Nifty select `CE @ ₹115` and `PE @ ₹115` premiums with `Take Profit` at ₹4000 level.
@@ -73,7 +55,7 @@ During the week whenever the premium starts trading close to 20 Points you shoul
 
 4. Immediately after exiting the position, take entry into the coming week expiry contract.
 
-## Adjusting Position
+### Adjusting Position
 
 5 Rules of adjusting the premium.
 
@@ -91,7 +73,7 @@ References:
 - [The Strategy](https://www.youtube.com/watch?v=_t-vfmCG3Mo)
 - [The Backtesting](https://www.youtube.com/watch?v=GCCWnE-Cu7A)
 
-# Δ Method
+## Δ Method
 
 High Δ value implies:
 - High risk due to high probability of ITM.
@@ -111,7 +93,7 @@ Low Δ value implies:
 
 > You can start with 5 to 10 delta value and as you master the mechanics of managing strangle then you can graduate to using 20 delta and beyond.
 
-## 5-10 δ Strangle
+### 5-10 δ Strangle
 https://www.youtube.com/watch?v=Eqzmq_RkBaY
 
 If you are beginner choose 5-10 δ value to create strangle.
@@ -120,16 +102,16 @@ If you are beginner choose 5-10 δ value to create strangle.
 
 ![[Short Strangle#Rules]]
 
-### Adjusting Position
+#### Adjusting Position
 
-## 16 δ Strangle with 1 SD
+### 16 δ Strangle with 1 SD
 https://www.youtube.com/watch?v=AEwaxiliR-M
 
 Experienced traders can choose 16-20 δ value.
 
-### Adjusting Position
+#### Adjusting Position
 
-## 20-35 δ Strangle
+### 20-35 δ Strangle
 https://www.youtube.com/watch?v=9TEN6Q2BzGc
 
 30-35 δ is an aggressive value for a more advanced traders.
@@ -142,14 +124,37 @@ You can take 10 to 20 simulataneous positions in `uncorrelated` assets like equi
 
 Monthly contracts which goes from 30 days to 45 days.
 
-### Adjusting Position
+#### Adjusting Position
 
 When 20 δ reduces to 10-12 δ then continue holding the position without adjusting.
 
 Adjust when position becomes breakeven by rolling over to the untested side of the position.
 
-### Exiting Position
+#### Exiting Position
 
 When 20 δ reduces to 5 δ then exit the position.
 
+## 2 Standard Deviation Method
+[...](https://www.youtube.com/watch?v=rQootF4smio)
 
+[[Case Study 1 - Karen the supertrader]]
+
+# Managing Strangles
+
+Once you take the position its all about managing the mechanics of the Strangle position. You may have to frequently do so based on the volatility. Generally you would rollup the untested side of the position if the price attempts to test one side of the strangle.
+- If the price drops you bring the `Call` down and rollout; i.e. add a new `Call`.
+- If the price soars you bring the `Put` down and rollout; i.e. add a new `Put`
+
+## Rules
+[...](https://youtu.be/Eqzmq_RkBaY?t=758)
+
+[[Option Strategies#Rules]]
+
+- Our goal is to stay small and come back to play everyday.
+- By limiting the number of strangles and by keeping our trade size down, we get to increase the potential returns without adding much risk overall to our portfolio.
+- Ensure that 50% of your buying power is free just so that you can freely roleover and re-adjust your strangle position.
+- If there is an Earning Declaration by companies then you skew your strangle position to the upside.
+	- These days when earnings are declared, if its good you know the price will shoot to 30% but if its not good, then it may not crash by 30%.
+	- So, you can select a `Put` with 15 δ.
+	- If the earnings are not great then you can go aggressive on the call side by keeping δ high.
+- If there is high volatility create a super wide strangle position.
