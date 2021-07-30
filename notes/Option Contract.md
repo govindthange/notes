@@ -82,21 +82,6 @@ You can make money by doing the following:
 
 - You can start trading options once you become an advanced trader and can comfortably watch winning and losing trades without becoming too fearful or excited.
 
-
-## Greek Ratios
-
-### Delta:Theta (δ:θ) Ratio
-
-{ `δ:θ` < `0.3 to 0.4` } => "You have `No Directoinal Risks`!"
-
-{ `δ:θ` > `0.4` } => "You have `Directional Risks`"
-
-> `δ:θ Ratio` helps traders who aim to earn regular monthly income rather than Long term investment.
-
-### Vega:Theta (v:θ) Ratio
-
-{ `v:θ` < `300% to 400%` } => "You have `No Volatility Risks`!"
-
 # Stop Loss
 
 - In options trading S.L. is to be put on the premium chart.
@@ -122,7 +107,6 @@ Volatility is very high on expiry days and premium value vanishes very fast. Eve
 - If you face loss, do not enter another new trade on the expiry day. If your S.L. is hit then close your trade. On other days you can close your trade after 2nd S.L.
 - Do not enter-exit-enter-exit the trade back and forth. Enter just once with full conviction. Do not exit and enter again. You can do this on other days.
 
-
 ## Hedging Rules (Unverified!)
 
 To reduce the initial margin requirement cover your option sell position by going Long on the reverse option contract at OTM strike price.
@@ -145,4 +129,3 @@ Calculate 50% of the premium to be paid for Shorting 15000 CE
 => 134.5 INR
 
 Open `Option Chain` and find an `OTM` `CALL` strike price around 134.5 INR and go `Long` on that.
-
