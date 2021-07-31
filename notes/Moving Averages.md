@@ -1,4 +1,19 @@
-Keep track of price w.r.t 50, 100, 200, and 400 EMA/SMA on all timeframes.
+Price tends to respects a certain moving average at certain phases of the cycle and if you can recognize that you may be able to use it to time your trade.
+
+Example
+In bear markets Bitcoin tends to hold 200 Moving Average as a strong support on the weekly timeframe so far. This historically is amongst the best time to buy Bitcoin.
+
+Keep track of price w.r.t 20, 50, 100, 200, and 400 EMA/SMA on all timeframes.
+
+`20 or lower EMA/SMA:` Small Term Trend. If price respects 20 EMA/SMA then it indicates a very `strong trend`.
+- You may adjust the period to 21, 13 or 9 (fibo) and check to which EMA/SMA price is responding well and use that to your advantage.
+- There is no rule to stick to one magic number.
+
+`50 EMA/SMA:` Medium Term Trend. It indicates a medium term trend if price boucnes of 50 EMA/SMA then its a `retracement` and becomes a `good entry point`.
+
+`100 EMA/SMA:` Medium-Long Term Trend. If price is around 100 EMA/SMA then indicates a `weak trend`.
+
+`200 EMA/SMA:` Long Term Trend. If price is around 200 EMA/SMA then it indicates an `extremely weak trend`.
 
 Price takes support at common moving averages because big financial institutions, mutual fund companies and retirement funds tend to wait for a pullback around moving averages to accumulate by putting in major holdings.
 
