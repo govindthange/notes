@@ -16,16 +16,17 @@ Now Karen only trades in NDX, Russel2000 (RUT) and SPX indices as they are highl
 
 ## Her Approach
 
-- Using `Bollinger Bands` to see graphical representations of standard deviations.
 - Watch `Price` & `Volume`.
-- Initiating trades outside of two standard deviations to a stock’s current value. [...](https://www.youtube.com/watch?v=rQootF4smio)
-- Sell `2 Standard Deviation`s on pull backs
+- Sticking to `ITM Probability of 5%` and `2 Standard Deviation Moves`.
+	- Using `Bollinger Bands` to see graphical representations of 2 Standard Deviations.
+	- Initiating trades outside of 2 Standard Deviations to a stock’s current value. [...](https://www.youtube.com/watch?v=rQootF4smio)
+	- Sell `2 Standard Deviations on pull backs`.
 - Selling wide Index strangles in NDX, RUT, and SPX.
 - Letting her front month positions expire during low-volatility months.
 - Trading, selling, and collecting premiums constantly during high-volatility times.
-- Selling calls and puts 95% out of the money. (i.e. ITM Probability of 5%)
+- Selling calls and puts `95% Out of The Money`. (i.e. ITM Probability of 5%)
 - Workoff `Theta` - in & out within 56 Days. Selling contracts at 56 days to expiration while sometimes selling after a few weeks or just a few days.
-- Sell 1-2 ratio Calls when going up.
+- Sell `1-2 ratio Calls` when going up.
 - Trade Nimble
 
 ## Her Style
@@ -112,6 +113,8 @@ What does Karen do when a trade goes against her?
 	- If Karen is not comfortable leaving the position where it is, she tweaks it. She moves pieces of it. Rolls a part of it up. Lets say its a call then she would roll a part of it up when its tested to the upside and then put on some more puts in a position. She knows where she feels safe. She makesup for the difference.
 
 "Since we are selling premium, once we get the money we are not giving it back" - Karen
+
+Karen insists on having strategies in place and to not give premium back.
 
 ## Karen's trading scenario
 [...](https://youtu.be/BquDGE9KxZQ?t=1444)
