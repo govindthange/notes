@@ -49,7 +49,10 @@
   content: "✏️ ";
   font-size:1.3em;
 }
-
+.nav-folder-title[data-path="catalog"] .nav-folder-title-content::before {
+  content: "🗃️ ";
+  font-size:1.3em;
+}
 
 /* -----------------------------------------------------------------------------
   Bullet Point Relationship Lines
