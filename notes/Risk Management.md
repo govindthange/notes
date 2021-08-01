@@ -1,3 +1,15 @@
+# Performance Avenues
+
+## Number of Winers/Losers
+
+## Size of Winers/Losers
+
+The average win/loss ratio
+
+## Size of your drawdowns
+
+Average & Maximum drawdowns
+
 # Win Rate vs Break Even
 
 | R/R | `Win Rate` for `Break Even` |
