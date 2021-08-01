@@ -1,3 +1,53 @@
+# Watchlists
+
+## 📈 Investment Funnel
+
+Revise the `📈 Investment` watchlist like so:
+- Go to `Monthly` timeframe.
+- Analyze [[Market Structure]] for all the stocks in [[Nifty-500]] catalog.
+- Add stocks that will be in [[Area of Value]] in the next few months candles.
+- Remove stocks that are out of [[Area of Value]].
+
+## Trading Funnels
+
+### 🎄 Monthly Funnel
+
+Revise the `🎄 Monthly Funnel` watchlist like so:
+- Go to `Weekly` timeframe.
+- Analyze [[Market Structure]] for all the stocks in [[NSE-F&O]] catalog.
+- Add stocks that will be in [[Area of Value]] in the next 1 to 4 weekly candles.
+- Remove stocks that are out of [[Area of Value]].
+
+### 🌿 Weekly Funnel
+
+Revise the `🌿 Weekly Funnel` watchlist like so:
+- Go to the `Daily` timeframe.
+- Analyze [[Market Structure]] for all the shortlisted stocks in the [[#🎄 Monthly Funnel]].
+- Add stocks that will be in [[Area of Value]] in the next 1 to 5 Daily candles.
+- Remove stocks that are out of [[Area of Value]].
+
+### 🌱 Daily Funnel
+
+Revise the `🌱 Daily Funnel` watchlist like so:
+- Go to the `1 Hour` timeframe.
+- Analyze [[Market Structure]] for all the shortlisted stocks in the [[#🌿 Weekly Funnel]].
+- Add stocks that will be in [[Area of Value]] in the next 5 to 20 Hour candles.
+- Remove stocks that are out of [[Area of Value]].
+
+## Trading Watchlist
+
+### 💰 Intraday
+
+Revise the `💰 Intraday` watchlist like so:
+- Go to the `15 Min` timeframe.
+- Analyze [[Market Structure]] for all the shortlisted stocks in the [[#🌱 Daily Funnel]].
+- Add stocks that will be in [[Area of Value]] in the next few 15 minute candles.
+- Remove stocks that are out of [[Area of Value]].
+
+### 💰 Positional
+
+[[#💰 Intraday]]
+
 # Intraday Stock Picking
 
 ## Plan your Trade
@@ -14,7 +64,6 @@ Create a watchlist of 10-12 stocks from different sectors.
 
 - [Money Control](https://www.moneycontrol.com/india/stockmarket/stock-deliverables/marketstatistics/indices/cnx-nifty-1.html)
 
-
 #### Top Gainers/Losers
 [...](youtube.com/watch?v=rYCvvixaHJ8)
 
@@ -22,7 +71,7 @@ Do not prepare this list just before 9:15 AM. You must be ready with all your st
 
 #### Weekly Schedule
 
-Every weekend, before monday morning, revise the watchlist of 10-12 stocks. Add new stocks and delete existing ones based on their last few week's performance.
+Every weekend, or before monday morning, revise the watchlist of 10-12 stocks. Add new stocks and delete existing ones based on their last few week's performance.
 
 Since the idea is to stick to 10-12 stocks you may not be able to cover all the sectors. So revising this list every week will ensure that new performing sectors are timely covered in your revised list of stocks.
 
@@ -38,6 +87,7 @@ While analyzing you will update the stock category for the next day as follows. 
 You will use this category as a filter once you open your trading terminal based on your bias.
 
 ### Watchlist Rules
+
 - Do not add stocks which are in prime time news. Stocks which are in news becomes very volatile and choppy.
 - Do not add low volume stocks. Stick to stocks which are in Nifty 50 universe to avoid issues with low volume and spread.
 - Prefer stocks which are between ₹100 to ₹5000 range. Beyond 5000 it gets complicated to manage stop loss etc.

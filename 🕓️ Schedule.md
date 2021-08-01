@@ -21,19 +21,57 @@
 | 09:00 AM - 11:00 PM | 14    |
 
 
-# 📉 Market
+# 📉 Watchlist
 
-## Monday - Friday
+## 📈 Investment Funnel
+
+### Sunday
+
+| Period              | Hours |
+|---------------------|-------|
+| 03:00 PM - 06:00 PM | 3     |
+
+[[Stock Selection#📈 Investment Funnel]]
+
+## 🎄 Monthly Funnel
+
+### Sunday
+
+| Period              | Hours |
+|---------------------|-------|
+| 06:00 PM - 07:00 PM | 1     |
+
+[[Stock Selection#🎄 Monthly Funnel]]
+
+## 🌿 Weekly Funnel
+
+### Sunday
+
+| Period              | Hours |
+|---------------------|-------|
+| 07:00 PM - 08:00 PM | 1     |
+
+[[Stock Selection#🌿 Weekly Funnel]]
+
+## 🌱 Daily Funnel
+
+### Monday - Friday
+
+| Period              | Min  |
+|---------------------|------|
+| 07:30 PM - 08:00 PM | 30   |
+
+[[Stock Selection#🌱 Daily Funnel]]
+
+## 💰 Trading Watchlist
+
+### Monday - Friday
 
 | Period              | Min  |
 |---------------------|------|
 | 08:45 AM - 09:15 AM | 30   |
 
-## Sunday
-
-| Period              | Hours |
-|---------------------|-------|
-| 07:00 PM - 08:00 PM | 1     |
+[[Stock Selection#Trading Watchlist]]
 
 # 💰 Trading
 
