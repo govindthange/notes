@@ -121,9 +121,11 @@ Use [[Bullmarket Support Band]] on trading view. [...](https://www.youtube.com/w
 
 ## Ranges
 
-- Draw Demand & Supply zones.
+- Draw Supply & Demand zones. Refer [[Support & Resistance#Demand Supply Zone]].
 
 - Draw major [[Support & Resistance]] levels.
+
+- Analyze [[Standard Deviation]]
 
 - Analyze [[Option Chain]] for [[Option Chain#Open Interest Analysis]]
 

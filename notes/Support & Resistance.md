@@ -16,6 +16,13 @@ Its a level at which the price is refusing to hold on to or comply with.
 
 `Definition:` An area in your chart where selling pressure could step in.
 
+
+### Demand & Supply Zone
+
+These are regular Support & Resistance levels but seen in conjunction with the [[Indicators#Volume Indicators]].
+- If volume is noticeably high at S&R level then mark it as Supply/Demand Zone.
+- You may use Moving Average to know whether volume is high or low. For instance if volume is above the 50 Day Moving Average then its a high volume. When its below, its low volume.
+
 #### Why it is important?
 
 Although [[Chart Patterns]] give you an edge by helping you anticipate what may happen, S&R is where the live action takes place. S&R is the area where the  bulls and bears fight. We cant ignore this and hope our posistion works out just because we spotted some pattern.
