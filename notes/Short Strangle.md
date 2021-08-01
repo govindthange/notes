@@ -16,7 +16,7 @@ Use `Weekly Expiry` over Monthly Expiry due to following reasons:
 - Better % returns
 - Adjustment can be made quickly at weekly expiry
 
-# Determining OTM Strike Prices
+# Strike Selection
 
 Determine the `Strike Price` for OTM Call and OTM Put by using one/combinations of the following methods:
 
@@ -27,7 +27,7 @@ Determine the `Strike Price` for OTM Call and OTM Put by using one/combinations 
 	-  The strike price with the highest OI change on the Put side is to be considered as support and a Put at that strike price should be shorted.
 4. Use a predecided `Delta`.
 5. Use a predecided `Strike Price`.
-6. Use `2 Standard Deviation`. [...](https://www.youtube.com/watch?v=rQootF4smio)
+6. Use [[Standard Deviation]]. [...](https://www.youtube.com/watch?v=rQootF4smio)
 
 ## Fixed Strike Price Method
 
@@ -134,8 +134,10 @@ Adjust when position becomes breakeven by rolling over to the untested side of t
 
 When 20 δ reduces to 5 δ then exit the position.
 
-## 2 Standard Deviation Method
+## [[Standard Deviation]] Method
 [...](https://www.youtube.com/watch?v=rQootF4smio)
+
+### Using 2 Standard Deviation
 
 [[Case Study 1 - Karen the supertrader]]
 
