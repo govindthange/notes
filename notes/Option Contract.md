@@ -50,6 +50,7 @@ INFY will be `put to` the investor at ₹1600.
 A call option gives the holder of the option the right to buy an asset by a certain date for a certain price.
 
 ## Put Option
+A put option gives the holder the right to sell an asset by a certain date for a certain price.
 
 # Strategies
 

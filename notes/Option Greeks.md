@@ -81,6 +81,8 @@ It is a measure of predicted future movement.
 - It increases when there is uncertainity or anticipated news.
 - It decreases in times of calm.
 
+[[Standard Deviation#σ vs iv vix]]
+
 ### Characteristics
 
 #### Increasing VIX
