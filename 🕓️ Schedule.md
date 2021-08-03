@@ -29,7 +29,7 @@
 
 | Period              | Hours |
 |---------------------|-------|
-| 02:00 PM - 05:00 PM | 3     |
+| 12:30 PM - 03:30 PM | 3     |
 
 [[Stock Selection#📈 Investment Funnel]]
 
@@ -39,7 +39,7 @@
 
 | Period              | Hours |
 |---------------------|-------|
-| 05:00 PM - 06:00 PM | 1     |
+| 04:00 PM - 06:00 PM | 1     |
 
 [[Stock Selection#🎄 Monthly Funnel]]
 
@@ -59,7 +59,7 @@
 
 | Period              | Min  |
 |---------------------|------|
-| 06:30 PM - 07:00 PM | 30   |
+| 03:30 PM - 04:00 PM | 30   |
 
 [[Stock Selection#🌱 Daily Funnel]]
 
