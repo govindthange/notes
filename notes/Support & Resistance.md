@@ -18,18 +18,34 @@ Its a level at which the price is refusing to hold on to or comply with.
 
 
 ### Demand & Supply Zone
+[...](https://www.youtube.com/watch?v=nKra2M6098Q)
 
-These are regular Support & Resistance levels but seen in conjunction with the [[Indicators#Volume Indicators]].
-- If volume is noticeably high at S&R level then mark it as Supply/Demand Zone.
-- You may use Moving Average to know whether volume is high or low. For instance if volume is above the 50 Day Moving Average then its a high volume. When its below, its low volume.
+- These are regular Support & Resistance levels but seen in conjunction with the [[Indicators#Volume Indicators]].
+	- If volume is noticeably high at S&R level then mark it as Supply/Demand Zone.
+	- Turn on Volume Moving Average in the Volume Indicator to see whether volume is high or low. For instance if volume is above the 50 Day Moving Average then its a high volume. When its below, its low volume.
+- The strength of the zone is determined by the move it makes. Zones with the big and strong move will be more powerful than the zones with smaller zones.
+- New and recent zones will be more powerful than the old zones.
+- Untouched zones are stronger than the zones that have been tested.
 
-#### Why it is important?
+#### Drawing Demand Zone
+
+- Look for a big and steep up move in price i.e. upmove with a successive big green candles. The candles are way bigger than the previous candles.
+- Identify the origin of the move.
+- Mark the highs and lows of the origin candle. The area between these 2 lines will become the demand zone.
+
+#### Drawing Supply Zone.
+
+- Look for a strong and steep down move in price.
+- Find the area where the down move began.
+- Mark the highs and lows of the origin candle. The area between the tese 2 lines will become the supply zone.
+
+##### Why S/R is important?
 
 Although [[Chart Patterns]] give you an edge by helping you anticipate what may happen, S&R is where the live action takes place. S&R is the area where the  bulls and bears fight. We cant ignore this and hope our posistion works out just because we spotted some pattern.
 
 > S&R levels are used as trigger to enter a trade and while in trade are very critical in placing trailing `Stop Loss` and `Take Profit` orders.
 
-#### Warning
+##### Warning
 
 Statistically speaking 80% of the time market is in a range and buying support and selling resistance is a great strategy. The problem is the more certain the range is the more fakeout you will have at either ends of the range. In this case it really becomes more of a stop loss hunting excercise which requires more skills. If you are experienced and seasoned in these matters and you dont jump the gun you will do well but you could still lose a lot of money trying to trade the range which is actually relatively stable but where there is just enough volatility at either ends to confuse you.
 
@@ -93,7 +109,10 @@ Just mark 2-3 levels as explained below. You do not need more than 3 points beca
 
 [[Option Chain#Open Interest Analysis]]
 
-# S/R Price Action
+# Trading D/S
+[...](https://youtu.be/nKra2M6098Q?t=412)
+
+# Trading S/R
 
 ### When do you buy?
 [...](https://youtu.be/nuVv0ZWUfs4?t=1229)
