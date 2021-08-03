@@ -84,7 +84,7 @@ where:
 
 ## Trading Trendlines
 
-### Trading Reversals
+### Trading Trendline Reversals
 
 `Trend-Following Strategy:` In this strategy we catchup moves in an uptrend and catch down moves in a downtrend i.e. we enter trends in pullbacks. [...](https://youtu.be/kmtWd3oTgTY?t=234)
 
@@ -98,7 +98,7 @@ where:
 - Wait for the candlestick pattern to trigger an entry.
 - Enter trade with R/R = 1:2.
 
-### Trading Breakouts
+### Trading Trendline Breakouts
 
 `Trendline Breakout Strategy:` When the price is trending in one direction it will never break its trendline but when the price does break the trendline it can indicate a strong reversal. If we catch the breakout of the trendline we can ride the next trend by entering in its early stage. [...](https://youtu.be/kmtWd3oTgTY?t=440)
 
