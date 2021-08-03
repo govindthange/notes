@@ -90,34 +90,7 @@ Examples:
 
 ## Trends
 
-Identify trends to build a bias in the direction of the trend.
-
-- Always use `Logarithmic Charts` to draw trendlines in Weekly and Monthly timeframes. Do not draw on Arithmatic/Linear charts.
-	- A a very good trend may completely get missed out by an `Aritmatic/Linear Chart` as it will show it as a choppy price movement.
-	- Logaritm Scale correctly depicts the percent change i.e. the distance between $2 and $4 will be same as that between $16 and $32.
-	- In arithmatic/linear scale distance betwen $2 and $4 will be 2 units whereas distance between $16 and $32 is a huge 16 units.
-	- Trendlines are best represented using percent change.
-
-- Draw major trendlines which are obvious and clear.
-
-> While drawing trendline ensure that it connects maximum higher-lows (uptrend) and lower-highs (downtrend) and while doing so let the line go through to highlight price action where it breakts the trendline and/or retests after retracing back.
-
-Bearmarkets are of 2 following types: [...](https://youtu.be/Lb1cDioHxF8?t=2376)
-1. Bearmarket which follows market cycle top.
-2. Bearmarket which follows intermediate rallys.
-
-The length of the bearmarket depends on where you are in the cycle.
-
-Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
-
-Use MACD at a higher timeframe to filter trend and have a stronger long/short bias in the lower timeframes.
-- ![[MACD#Trend Filtering]]
-
-Use [[Bullmarket Support Band]] on trading view. [...](https://www.youtube.com/watch?v=NUr2rzn-GIw) [...](https://youtu.be/Lb1cDioHxF8?t=1123)
-
-### Trading Breakout @ Trendline
-
-### Trading Reversals @ Trendline
+[[Trend]]
 
 ## Ranges
 
