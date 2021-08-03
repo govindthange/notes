@@ -1,5 +1,7 @@
 Price tends to respects a certain moving average at certain phases of the cycle and if you can recognize that you may be able to use it to time your trade.
 
+So market can react to 20 MA, 50 MA, 100 MA or 200 MA so you need to select a MA based on what market is currently reacting to.
+
 Example
 In bear markets Bitcoin tends to hold 200 Moving Average as a strong support on the weekly timeframe so far. This historically is amongst the best time to buy Bitcoin.
 
