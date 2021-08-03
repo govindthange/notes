@@ -154,3 +154,9 @@ Use MACD to filter trend and have a bias so that you are always by default tradi
 
 With shrinking histogram bars indicates sign of breakout however note that predicting a direction is anyone's guess. Its difficult to point out a specific direction. Whats clear though is that a big move is eminent.
 
+
+# Trading MACD
+
+## 200 EMA + MACD Crossovers
+[...](https://www.youtube.com/watch?v=OTCA92tLNXI)
+

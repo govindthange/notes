@@ -24,7 +24,7 @@ One of the best trading strategies is to not use any indicators and traing only 
 Area of Value:
 - Price action is above the 200 EMA.
 - MACD Line crosses above the Signal Line.
-- MACD crossover is below the Zero Line of the histogram indicating a deeper pullback.
+- MACD crossover is below the Zero Line of the histogram indicating a deeper pullback. This is known as a `Bullish Crossover`.
 
 Optional Filters:
 - The Stop Loss risk should not be over 0.30%
@@ -39,7 +39,7 @@ Long Trade:
 Area of Value:
 - Price action is below the 200 EMA.
 - MACD Line crosses below the Signal Line.
-- MACD crossover is above the Zero Line of the histogram indicating a deeper pullback.
+- MACD crossover is above the Zero Line of the histogram indicating a deeper pullback. This is known as a `Bearish Crossover`.
 
 Optional Filters:
 - The Stop Loss risk should not be over 0.30%

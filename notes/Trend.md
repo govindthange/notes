@@ -54,6 +54,8 @@ Use MACD at a higher timeframe to filter trend and have a stronger long/short bi
 
 Use 200 [[Moving Averages]]] to identify the direction of major trend direction.
 
+[[Moving Averages#200 EMA Pullback Trendline]]
+
 Use [[Bullmarket Support Band]] on trading view. [...](https://www.youtube.com/watch?v=NUr2rzn-GIw) [...](https://youtu.be/Lb1cDioHxF8?t=1123)
 
 ## Trendline
@@ -101,6 +103,8 @@ where:
 ### Trading Trendline Breakouts
 
 `Trendline Breakout Strategy:` When the price is trending in one direction it will never break its trendline but when the price does break the trendline it can indicate a strong reversal. If we catch the breakout of the trendline we can ride the next trend by entering in its early stage. [...](https://youtu.be/kmtWd3oTgTY?t=440)
+
+[[Moving Averages#200 EMA Pullback Trendline]]
 
 #### Avoiding Fakeouts
 

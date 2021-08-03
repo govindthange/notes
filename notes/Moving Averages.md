@@ -1,3 +1,13 @@
+A moving average (MA) is a simple line that shows the average price of an asset over a particular period of time.
+
+A moving average helps in:
+1. Identifying the trend.
+	- If the moving average is slopped upwards then its an uptrend.
+	- If the moving average is slopped downwards then its a downtrend.
+	- If the moving average is flat then its a sideways market.
+- Simplifying the price action of the asset.
+- Acts as [[Support & Resistance#Dynamic S R]]
+
 Price tends to respects a certain moving average at certain phases of the cycle and if you can recognize that you may be able to use it to time your trade.
 
 So market can react to 20 MA, 50 MA, 100 MA or 200 MA so you need to select a MA based on what market is currently reacting to.
@@ -7,15 +17,19 @@ In bear markets Bitcoin tends to hold 200 Moving Average as a strong support on 
 
 Keep track of price w.r.t 20, 50, 100, 200, and 400 EMA/SMA on all timeframes.
 
-`20 or lower EMA/SMA:` Small Term Trend. If price respects 20 EMA/SMA then it indicates a very `strong trend`.
-- You may adjust the period to 21, 13 or 9 (fibo) and check to which EMA/SMA price is responding well and use that to your advantage.
-- There is no rule to stick to one magic number.
+`20 or lower EMA/SMA` => Small Term Trend.
+If price respects 20 EMA/SMA then it indicates a very `strong trend`.
+- You may adjust the MA period to 21, 13 or 9 (fibo) and determine a suitable number to which price responds well.
+- There is no magic period which works in all situations.
 
-`50 EMA/SMA:` Medium Term Trend. It indicates a medium term trend if price boucnes of 50 EMA/SMA then its a `retracement` and becomes a `good entry point`.
+`50 EMA/SMA` => Medium Term Trend.
+It indicates a medium term trend if price boucnes of 50 EMA/SMA then its a `retracement` and becomes a `good entry point`.
 
-`100 EMA/SMA:` Medium-Long Term Trend. If price is around 100 EMA/SMA then indicates a `weak trend`.
+`100 EMA/SMA` => Medium-Long Term Trend.
+If price is around 100 EMA/SMA then indicates a `weak trend`.
 
-`200 EMA/SMA:` Long Term Trend. If price is around 200 EMA/SMA then it indicates an `extremely weak trend`.
+`200 EMA/SMA:` Long Term Trend.
+If price is around 200 EMA/SMA then it indicates an `extremely weak trend`.
 
 Price takes support at common moving averages because big financial institutions, mutual fund companies and retirement funds tend to wait for a pullback around moving averages to accumulate by putting in major holdings.
 
@@ -54,3 +68,22 @@ When you fall below 20 Week SMA then technically its a bear market. [...](https:
 - But instead of reversing if the price sideways and chopes 200 EMA for a certain length of time then market is in accumulation phase and is conslidating.
 
 `20 EMA, 100 EMA and 200 EMA:` It indicates a strong accumulation phase When all 3 EMAs run flat in an interleaved/parallel fashion.
+
+# Trading Moving Averages
+[...](https://www.youtube.com/watch?v=KR9WVRSXDKk)
+
+## Moving Averages + [[MACD]]
+
+[[Trading Strategies#MACD Crossovers 200 EMA]]
+
+## Moving Averages + Trendline
+
+### 200 EMA + Pullback Trendline
+
+- Price trading above the 200 EMA
+- We have a long bias
+- Price touches the 200 EMA
+- 200 EMA provides support to the price and the price may bounce off this EMA.
+- For creating a confluence, we draw a short term trendline on the pullback.
+- Wait for the price to break out of this pullback trendline.
+- We enter trade upon a breakout.
