@@ -8,6 +8,8 @@ Revise the `📈 Investment` watchlist like so:
 - Add stocks that will be in [[Area of Value]] in the next few months candles.
 - Remove stocks that are out of [[Area of Value]].
 
+![[🕓️ Schedule#📈 Investment Funnel]]
+
 ## Trading Funnels
 
 ### 🎄 Monthly Funnel
@@ -18,6 +20,8 @@ Revise the `🎄 Monthly Funnel` watchlist like so:
 - Add stocks that will be in [[Area of Value]] in the next 1 to 4 weekly candles.
 - Remove stocks that are out of [[Area of Value]].
 
+![[🕓️ Schedule#🎄 Monthly Funnel]]
+
 ### 🌿 Weekly Funnel
 
 Revise the `🌿 Weekly Funnel` watchlist like so:
@@ -26,6 +30,8 @@ Revise the `🌿 Weekly Funnel` watchlist like so:
 - Add stocks that will be in [[Area of Value]] in the next 1 to 5 Daily candles.
 - Remove stocks that are out of [[Area of Value]].
 
+![[🕓️ Schedule#🌿 Weekly Funnel]]
+
 ### 🌱 Daily Funnel
 
 Revise the `🌱 Daily Funnel` watchlist like so:
@@ -33,6 +39,8 @@ Revise the `🌱 Daily Funnel` watchlist like so:
 - Analyze [[Market Structure]] for all the shortlisted stocks in the [[#🌿 Weekly Funnel]].
 - Add stocks that will be in [[Area of Value]] in the next 5 to 20 Hour candles.
 - Remove stocks that are out of [[Area of Value]].
+
+![[🕓️ Schedule#Monday - Friday]]
 
 ## Trading Watchlist
 
@@ -43,6 +51,8 @@ Revise the `💰 Intraday` watchlist like so:
 - Analyze [[Market Structure]] for all the shortlisted stocks in the [[#🌱 Daily Funnel]].
 - Add stocks that will be in [[Area of Value]] in the next few 15 minute candles.
 - Remove stocks that are out of [[Area of Value]].
+
+![[🕓️ Schedule#💰 Trading Watchlist]]
 
 ### 💰 Positional
 
