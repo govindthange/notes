@@ -1,5 +1,9 @@
 # Market Lingo/Jargons
 
+Short: A short may mean "insufficient supply". Shorting or Short Selling may mean selling more of something than you have. In short selling you sell something that you don't have i.e. you borrow a stock before selling and becomes short of the same. You are obligated to buy back the stock later.
+
+Long: Its a parallel term.
+
 Credit Spread: Selling a Spread
 
 Debit Spread: Buy a Spread
