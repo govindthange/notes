@@ -1,5 +1,9 @@
 [...](https://www.youtube.com/watch?v=h5Z_Yh3riwg) [...](https://www.youtube.com/watch?v=HaoM4nqxYhU)
 
+Buying Vertical Spread = Debit Spread
+
+Selling Vertical Spread = Credit Spread
+
 `Definition:`
 - You buy and sell a `CE` (or `PE`) of the same expiry at different strikes to create a spread.
 - The action you take with the `Front Option` (i.e. option that is closest to the spot price) determines the direction of the trade.
@@ -213,3 +217,134 @@ A lot many times new traders think they are risking less money but essentially t
 
 `Question:` If we have a 30% chance of $70 profit and a 70% chance of a $30 loss, then after fee's, we lose over time. Can you explain the MATHS behind how an options trader can profit from vertical spreads please? is it an expectation of IV reduction or something else?
 `Answer:` We will be profitable due to a number of factors. First is that Implied Volatility is more often overstated. This means that our win rate will be higher than the 70% that the market is pricing in. Additionally, by managing our winners, we are able to increase our win rate even higher. This will put our win rate above 90% and thus make the strategy profitable.
+
+# Case Studies
+
+## Weekly earning 8% with Put Credit Spread
+[...](https://www.youtube.com/watch?v=YfYjNovwph8)
+
+`Transcript:`
+
+- If I think VIX is going to pop during the week then I wont use all the collateral in my account. Leave 20% on the table and exit. Do not risk bombing your account when VIX is going to go high.
+- Track position by doing following calculations:
+	- Where the stock has gone i.e. how much it has risen?
+	- What precent of the expected move is still available to the stock. Do TA to know this. If the stock only has 10% of the move left then I am not going to do a credit spread on that because of lot of risk.
+- I trade around .10 to .12 Delta. If it rises to .20 - 0.25 then I know my spread is gaining value (resulting in loss) then I cap that loss really quick.
+- When your Deltas are around 0.70 then there is a 70% of chance position going ITM. If you are in the middle of the week then get out of your position and clear your mind and get ready for the next week.
+- Worst part of trading spreads is the facts that Futures are going to dictate what happens to the ETFs in the after hours. If you see a massive gains in the futures then you know that you are gain a lot of profits on the the open. If you see a massive drop then you are going to refer to CNBC to see where ETF is going to open.
+
+Executing Put Credit Spread [...](https://youtu.be/YfYjNovwph8?t=1456)
+
+- When you trade Put Credit Spread you have to think like you are the bank.
+- When you get the collateral, its like a loan given to you. And you are going to get a small percent back.
+
+- Right now `SPY` is trading at $326.54
+- Pick a `-0.12 Delta` strike which is `SPY 300PE, 6 NOV 20`
+	- The entry shows 86.51% Probability of OTM.
+	- The entry shows $1.5 as `mark` (=Premium)
+- Now you have to think that __SPY is not going to hit $300__ by the end of next week i.e. by Friday, 6 Nov 20. $300 is the support and SPY will stay above it.
+- You get $26 runway with $326 spot and $300 strike.
+- Now right click, Select `Sell` -> `Vertical`
+
+SHORT `SPY 300PE (6 NOV 20)` @ $1.5 mark (Receivable)
+LONG `SPY SPY 295PE, 6 NOV 20` @ $1.15 mark (Payable)
+`Spread Width` => 300 - 295 => 5
+`Lot Size` = 100
+`Quantity` = 10
+
+`Received Credit`
+=> `Received $1.5` - `Paid $1.15`
+=> 1.5 - 1.15
+=> $0.35
+
+`Total Received Credit`
+=> `Received Credit` x `Quantity` x `Lot Size`
+=> $0.35 x 10 x 1000
+=> $350
+
+`Max Gain` = `Total Received Credit`
+
+`Max Loss`
+=> (`Spread Width` x `Quantity` x `Lot Size`
+=> 5 x 10 x 100
+=> 5000
+
+`Total Collateral` = Max Loss = $5000
+
+
+`Break Even Stock Prices`
+=> `SPY 300PE (6 NOV 20)` Strike - `Received Credit`
+=> 300 - $0.35
+=> $299.65
+
+`Cost of Trade`
+=> `Total Received Credit` - `Commissions` - `Fees`
+=> $350.00 - $13.00 - $0.33
+=> $336.67
+
+`Buying Power Effect`
+=> `Total Collateral` - `Cost of Trade`
+=> $5,000 - $336.67
+=> $4,663.00
+
+`Resulting Buying Power for Stock` = $5,098.67
+`Resulting Buying Power for Optoins` = $2,965.89
+
+## Wheel Strategy
+
+Selling cash secured puts and then if you get assigned you sell covered calls against those shares.
+
+# Tips
+
+- Do not create Spreads using ATM strikes. That will give you a 50% Probability of OTM.
+- Bid Size, Ask Size
+- Delta
+	- If the given option were to become ITM and the underlying stock goes up by 1$ how much will the option increase?
+	- You can think this in terms of `ITM Probability` calculation i.e. if your Delta = 0.20 then read it as there is 20% chance of option becoming ITM. If Delta rises to 0.8 then there is 80% chance you will be ITM.
+- Probability of OTM
+	- Its the derivative of `Black-Scholes-Mertin Option Pricing Model`
+- Mark
+	- Mid point of Bid and Ask quote
+	- The average price of that spread leg will get filled.
+		- Say Mark for  `SPY 301PE (6 NOV 20)` is $1.605 and Mark for  `SPY 300PE (6 NOV 20)` is $1.505
+		- Then that means you will get filled for that spread on an average around 1.105
+- % Change and Net Change
+	- You need to see it in (-)ve when trading spreads. It should fall as days pass by.
+	- If you see this in (+)ve like say 6.. then it means your deltas are moving up into the money (ITM).
+	- Basically the options you have chosen should be going down and not up.
+
+## Ideal Put Credit Spread Setup
+
+You enter position based off of on probabilities alone. like if there is a 92% chance of win then just get into the position.
+
+You don't need FA or TA just 2 numbers.
+
+### 1. The Range of the last candle in a Weekly Chart
+
+- Do a 3 year weekly chart.
+- See OHLC and Range
+- Every week, before going on to the next week. say the last weekly candle close was on 26th October (i.e. last Friday)
+- Then for the next week, you will note down the difference between OPEN & CLOSE and Also the RANGE (i.e. low - high).
+- Say the range is at $20.38.
+- Then for the next week's Put Credit Spread, you need to plan position with $20.38 strike difference lower from the current stock pric e. For example if the currently SPY is at 326.54 and the last week's candle range is of $20.38 then you need to position your strike at around $300 (326.54 - 20.38 = 306.16)
+- Essentially you want to be utside of a 1 Standard Deviation move to the downside.
+- By doing this you want to put yourself at a % probability that you are outside of a 1 Standard Deviation move of the stock.
+
+### 2. [[Option Greeks#Implied Volatility VIX]]
+[...](https://youtu.be/YfYjNovwph8?t=2973)
+
+On the Monday morning check the IV/VID of the instrument you want to take position in.
+
+Lets say IV of `SPY` is 50.11% (±16.54)
+
+Then on monday do as follows:
+
+`Opening Price of SPY` x  `Implied Volatility of SPY on Monday` x √(`Days until Expiration` ÷ 365)
+=> 326.54 x 50.11% x √(5÷360)
+≈ 16.543 ?
+
+This means SPY will move potentially ±16.54 to the up/down side 68% of the times.
+
+So 16.543 is only the half Standard Deviatoin move of the SPY.
+One standard deviation move is going to be around 86%
+1.5 Standard Deviation is around 89.47%
