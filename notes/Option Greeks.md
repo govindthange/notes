@@ -14,15 +14,61 @@ It is the rate of change of `Premium` w.r.t `Spot Price`.
 - It is between 0 to +1 for CE.
 - It is between 0 to -1 for PE.
 
+A 0.2 Delta means for every 100% movement in the underlying the premium will move by 20%.
+
 ### Characteristics
+
+Understanding Delta helps in deciding what strike prices to trade and what strategies to implement.
 
 - It depends on the market momentum.
 - It depends on [[#Implied Volatility VIX]].
 - It drops when VIX is falling and [[#Theta]] is nearing expiry.
 
-#### Example
+### Adjusting Delta
+[...](https://www.youtube.com/watch?v=kfi2YoJVQJY)
 
-A 0.2 means for every 100% movement in the underlying the premium will move by 20%.
+Adjusting delta is the simplest form of risk management.
+
+> Delta is another word for the directional risk so Managing Delta = Managing Position.
+
+In small sized trading accounts knowing and managing deltas is an essential aspect of overall trading strategy. It is an essential risk management tool and a key to succesful trading.
+
+Note that if you have limited capital you can make limited adjustment. It is very important that one understands this adjustment game as you cannot buy/short a lot of stocks.
+
+- Find the overall Delta of your portolio by using the `Beta Weight Function`. For small accounts you weigh it against the index so that you commoditize everything; you want to compare apples for the apples. Check the beta weighted delta insetead of non-weighted delta. [...](https://youtu.be/kfi2YoJVQJY?t=287)
+
+Once you find out your delta then there are many ways to adjust it higher or lower.
+
+#### Way 1. Sell OTM Put or OTM Call Credit Spread
+
+Managing Deltas:
+
+| Short too many Delta | Long too many Delta  |
+|----------------------|----------------------|
+| Sell Put Spread OTM  | Sell Call Spread OTM |
+
+To know that you need to sell a put against a short delta position, to know that you need to sell a call against a long delta position, to know that you can do it to find risk or naked is the key.
+
+
+#### Way 2. Contrarian Play: Selling a Call/Put on Stock
+
+Either sell a Call or a Put on an individual stock that has moved in the direction of the deltas you need to balance.
+
+##### Examples
+
+Scenario 1:
+
+Say Mr. David's account is short on Apple Call with 40 Delta. Apple stock goes up. You need to neutralize this position.
+
+You can neutralize this risk by selling some OTM Put Spread i.e, Sell puts with -20 Delta on SPY Index.
+
+You Sell it one time you take off half your position.
+
+You sell it two times that makes you delta flat.
+
+Since you are short of delta, selling a few put spreads will make you a little long
+
+When you want to define risk in a small sized account use spreads as opposed to naked options. You dont need to have a lot of money and that dont give you a lot of delta but here you need a lot of delta.
 
 ## Gamma
 
