@@ -223,12 +223,13 @@ A lot many times new traders think they are risking less money but essentially t
 ## Weekly earning 8% with Put Credit Spread
 [...](https://www.youtube.com/watch?v=YfYjNovwph8)
 
-`Transcript:`
+### Transcript
 
-- If I think VIX is going to pop during the week then I wont use all the collateral in my account. Leave 20% on the table and exit. Do not risk bombing your account when VIX is going to go high.
+- If I think VIX is going to pop during the week then I wont use all the collateral in my account.
+- Leave 20% on the table and exit. Do not risk bombing your account when VIX is going to go high.
 - Track position by doing following calculations:
 	- Where the stock has gone i.e. how much it has risen?
-	- What precent of the expected move is still available to the stock. Do TA to know this. If the stock only has 10% of the move left then I am not going to do a credit spread on that because of lot of risk.
+	- What precent of the expected move is still available to the stock? Do TA to know this. If the stock only has 10% of the move left then I am not going to do a credit spread on that because of lot of risk.
 - I trade around .10 to .12 Delta. If it rises to .20 - 0.25 then I know my spread is gaining value (resulting in loss) then I cap that loss really quick.
 - When your Deltas are around 0.70 then there is a 70% of chance position going ITM. If you are in the middle of the week then get out of your position and clear your mind and get ready for the next week.
 - Worst part of trading spreads is the facts that Futures are going to dictate what happens to the ETFs in the after hours. If you see a massive gains in the futures then you know that you are gain a lot of profits on the the open. If you see a massive drop then you are going to refer to CNBC to see where ETF is going to open.
@@ -245,8 +246,21 @@ Executing Put Credit Spread [...](https://youtu.be/YfYjNovwph8?t=1456)
 - Now you have to think that __SPY is not going to hit $300__ by the end of next week i.e. by Friday, 6 Nov 20. $300 is the support and SPY will stay above it.
 - You get $26 runway with $326 spot and $300 strike.
 - Now right click, Select `Sell` -> `Vertical`
+- Do not create a wide spread. Keep `Spread Width` in between 5 to 8. [...](https://youtu.be/YfYjNovwph8?t=3539)
+	- If you make it a $20 wide by SHORTing `SPY 315PE (6 NOV 20)` @ $3.735 mark with 70.52% Prob. OTM.
+	- You will collecting $2.23 per spread
+	- That is $2,230 Max Gain.
+	- But you will be putting up $12,783 for that spread. Which is your `Buying Power Effect` or `Max Loss`. This is a too much leverage for a position which will give you too little.
+	- If your Delta rises from 0.75 to 0.85, you will get hurt big time.
+- Do not make your trades as valuable as they can be but do everything to roll the probabilities in your favor. Try to diversify your positoin by taking other positions instead of adding more to this same position.
+- The goal of a trader should be capital preservation.
+- Hold with conviction.
+	- Hold on to your position till expiration or atleast till friday to collect as much as you can because you are at such a high probability of OTM.
+	- Sometimes you take these spreads with 90% Prob. OTM and these positions will be at 99% Prob. OTM in next few days.
+	- You better hold on to such positions till expiration without caring what happens at after hours.
+	- Say in our below example, the 99% Prob. OTM is at 225 strike. If SPY index drops from 326.54 to $225 then we have much bigger problem then market.
 
-SHORT `SPY 300PE (6 NOV 20)` @ $1.5 mark (Receivable)
+SHORT `SPY 300PE (6 NOV 20)` @ $1.5 mark (Receivable) with 86.51% Prob. OTM
 LONG `SPY SPY 295PE, 6 NOV 20` @ $1.15 mark (Payable)
 `Spread Width` => 300 - 295 => 5
 `Lot Size` = 100
@@ -290,14 +304,11 @@ LONG `SPY SPY 295PE, 6 NOV 20` @ $1.15 mark (Payable)
 `Resulting Buying Power for Stock` = $5,098.67
 `Resulting Buying Power for Optoins` = $2,965.89
 
-## Wheel Strategy
-
-Selling cash secured puts and then if you get assigned you sell covered calls against those shares.
-
-# Tips
+### Tips
 
 - Do not create Spreads using ATM strikes. That will give you a 50% Probability of OTM.
 - Bid Size, Ask Size
+	- Look at the volume of Bid-Ask spread indicating a high acceptance. Look for the bracket of acceptance i.e. there should be massive volume around the strikes your position is. If it is low it will be a problem. Trade in a highly liquid instruments that don't have low liquidity or high bid/ask spread.
 - Delta
 	- If the given option were to become ITM and the underlying stock goes up by 1$ how much will the option increase?
 	- You can think this in terms of `ITM Probability` calculation i.e. if your Delta = 0.20 then read it as there is 20% chance of option becoming ITM. If Delta rises to 0.8 then there is 80% chance you will be ITM.
@@ -313,38 +324,128 @@ Selling cash secured puts and then if you get assigned you sell covered calls ag
 	- If you see this in (+)ve like say 6.. then it means your deltas are moving up into the money (ITM).
 	- Basically the options you have chosen should be going down and not up.
 
-## Ideal Put Credit Spread Setup
+### Ideal Put Credit Spread Setup
 
 You enter position based off of on probabilities alone. like if there is a 92% chance of win then just get into the position.
 
 You don't need FA or TA just 2 numbers.
 
-### 1. The Range of the last candle in a Weekly Chart
+#### 1. Open, Close and Range of the last candle in a Weekly Chart
 
-- Do a 3 year weekly chart.
-- See OHLC and Range
-- Every week, before going on to the next week. say the last weekly candle close was on 26th October (i.e. last Friday)
+- Open a 3 year weekly chart.
+- See OHLC and Range of the last weekly candle.
+- Do this every week, before going on to the next week.
+- Say the last weekly candle close was on 26th October (i.e. last Friday)
 - Then for the next week, you will note down the difference between OPEN & CLOSE and Also the RANGE (i.e. low - high).
-- Say the range is at $20.38.
-- Then for the next week's Put Credit Spread, you need to plan position with $20.38 strike difference lower from the current stock pric e. For example if the currently SPY is at 326.54 and the last week's candle range is of $20.38 then you need to position your strike at around $300 (326.54 - 20.38 = 306.16)
-- Essentially you want to be utside of a 1 Standard Deviation move to the downside.
+- Say the range was $20.38.
+- Then for the next week's Put Credit Spread, you need to plan your position with $20.38 strike difference lower from the current price. For example if the currently SPY is at $326.54 and the last week's candle range is of $20.38 then you need to position strike at around $300 (326.54 - 20.38 = 306.16)
+- Essentially you want to be outside of a 1 Standard Deviation move to the downside.
 - By doing this you want to put yourself at a % probability that you are outside of a 1 Standard Deviation move of the stock.
 
-### 2. [[Option Greeks#Implied Volatility VIX]]
+I only use Range of the last weekly candle and do not track S/R levels on weekly charts. To me it makes little sense as its subjective.
+
+#### 2. [[Option Greeks#Implied Volatility VIX]]
 [...](https://youtu.be/YfYjNovwph8?t=2973)
 
-On the Monday morning check the IV/VID of the instrument you want to take position in.
+On the Monday morning check the IV(VIX) of the instrument you want to take position in.
 
 Lets say IV of `SPY` is 50.11% (±16.54)
 
+> `TODO:` check whether the ±16.54 is a Vega value.
+
 Then on monday do as follows:
 
-`Opening Price of SPY` x  `Implied Volatility of SPY on Monday` x √(`Days until Expiration` ÷ 365)
+`Vega` => `Opening Price of SPY` x  `Implied Volatility of SPY on Monday` x √(`Days until Expiration` ÷ 365)
 => 326.54 x 50.11% x √(5÷360)
-≈ 16.543 ?
+≈ ±16.543
 
-This means SPY will move potentially ±16.54 to the up/down side 68% of the times.
+This implies:
+- SPY will potentially move ±16.54, to the up/down side, 68.2% of the times.
+- ±16.543 is only a half σ move of the SPY.
+- A 1 σ move of the SYP is going to be around 86%.
+- A 1.5 σ Standard Deviation is around 89.47% at $295 Strike for SPY. This is what I prefer!
 
-So 16.543 is only the half Standard Deviatoin move of the SPY.
-One standard deviation move is going to be around 86%
-1.5 Standard Deviation is around 89.47%
+### Conclusion
+
+Once you start trading Credit Spreads you would open yourself up to a whole new world of options trading; you would know how the other option strategies work, you would understand the Deltas and Thetas, then you can start to look at how buying along options is a net losing strategy but can be used to hedge against the limited profitability of a credit spread.
+
+So its recommended that you start with the credit spread, it will be really lucrative. Its safest when you use 90% OTM Prob but it gets extremely dangerous if you trade it really tight.
+
+This strategy gives a high probability credit spread because:
+
+- You are outside of 1.5 σ move.
+- You are outside of the expected move range.
+- You are outside of the candle range of the last week.
+
+With SPY currently at $326.54, the strike price of $295 gives you a really long runway to know whats going to happen to SPY over the course of the trade.
+
+
+Beginners can start with 2 σ, then graduate to 1.75 σ and finally to 1.5 σ.
+
+### Risk Management
+[...](https://youtu.be/YfYjNovwph8?t=4380)
+
+#### Delta
+
+My risk management is based off of Deltas.
+
+I exit the trade if the spread value increases by 15% to 20%.
+
+#### Earning Seasons
+[...](https://youtu.be/YfYjNovwph8?t=4520)
+
+Either avoid Earning Seasons or
+
+Or do following calculations using MMM value:
+
+I take the `IV value (VIX)` (±16.543 as calculated above) and add it to `Market Maker Move (MMM)` value (±12.3) to it. So you will add ±28.853 to spot price to get the desired strike price.
+
+## Going Next Level
+[...](https://youtu.be/YfYjNovwph8?t=4652)
+
+Do this if you have capital and you are willing to take risk to maximize  profits.
+
+If you think market has become directional in its move.
+
+### Going LONG Delta
+i.e. buying options and opening yourself to Delta decay against you.
+
+
+#### Reverse Jade Lizard
+
+Take a Put Credit Spread running at 90% OTM probability.
+Gain that money in credit.
+Put up some of that credit to long ATM CALL above the Put Credit Spread (i.e. outside of the Put Credit Spread) to collect any money that goes to the upside. Jack the number of contracts.
+
+One problem with the Put Credit Spread is that if the stock were to shoot up really far away, you are only going to gain the credit between the two options that you have sold.
+
+Reverse Jade Lizard is a great way to gain extra exposure to the upside with the Put Credit Spread.
+
+## Schedule
+[...](https://youtu.be/YfYjNovwph8?t=4829)
+
+In simple words my style is a bracket trading with credit spread underneath the brackets. My positoin on monday is a half Iron Condor which I complete later depending on the market condition.
+
+So essentially it is an Iron Condor which is more dynamic, sperated by time, sometimes skewed to the upside sometimes skewed to the downside depending on what happens to the stock based on what happens on Monday when I am opening my position.
+
+I take the Call Credit Spread if the Put Credit Spread on an average are about 60% profit on the thursday (USA) morning. If the Put Credit Spread is losing then don't take the calls coz then you are just going to put yourself too tight as your spread/option-chain becomes constricted.
+
+| Schedule           | USA               | India                |
+|--------------------|-------------------|----------------------|
+| Put Credit Spread  | Monday - Friday   | Friday - Thursday    |
+| Call Credit Spread | Thursday - Friday | Wednesday - Thursday |
+
+You enter Call Credit Spread when you are already in the Put Credit Spread, the stock is moving up and down.
+
+When you see a put credit spread number below the ±18.6 level (IV/Vega), this number is going to change rapidly. By the time you reach Thursday (USA) this ±18.6 could become ±6, so when you make an Iron Condor you are opening yourself up to not knowing this...
+
+You might know how much risk is there to the downside but may you have no idea what your risk to the upside coz that ±18.6 could increase to ±20 etc..
+Iron condor on monday will get you more credit but doing this with a delay is a safer bet.
+
+The biggest thing about the iron condor though is that on the call credit side I have no Buying Power Reduction. It just adds more risk to your portfolio but its only for a short amount of time.
+
+Continued [...](https://youtu.be/YfYjNovwph8?t=4910)
+
+# Wheel Strategy
+
+Selling cash secured puts and then if you get assigned you sell covered calls against those shares.
