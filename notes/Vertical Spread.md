@@ -4,6 +4,8 @@ Buying Vertical Spread = Debit Spread
 
 Selling Vertical Spread = Credit Spread
 
+Bull Put Spread = Short Put Spread = Put Credit Spread
+
 `Definition:`
 - You buy and sell a `CE` (or `PE`) of the same expiry at different strikes to create a spread.
 - The action you take with the `Front Option` (i.e. option that is closest to the spot price) determines the direction of the trade.
@@ -379,8 +381,15 @@ This strategy gives a high probability credit spread because:
 
 With SPY currently at $326.54, the strike price of $295 gives you a really long runway to know whats going to happen to SPY over the course of the trade.
 
-
 Beginners can start with 2 σ, then graduate to 1.75 σ and finally to 1.5 σ.
+
+Trading spreas will make you money over time you just have to cap your losses quick and limit it to 25% or below because if you take a full 100% loss on a spread then even if you have 90% probability of winning trades, the profits from 90 out of 100 trades would be lesser than losses from remaining 10 trades.
+
+Spread has an excellent win rate but has a very poor risk to reward ratio if you don't know how to control it fast.
+
+The biggest thing about credit spread is:
+- Knowing how to take your high probability chances.
+- And knowing when to exit.
 
 ### Risk Management
 [...](https://youtu.be/YfYjNovwph8?t=4380)
@@ -400,18 +409,18 @@ Or do following calculations using MMM value:
 
 I take the `IV value (VIX)` (±16.543 as calculated above) and add it to `Market Maker Move (MMM)` value (±12.3) to it. So you will add ±28.853 to spot price to get the desired strike price.
 
-## Going Next Level
+### Going Next Level
 [...](https://youtu.be/YfYjNovwph8?t=4652)
 
 Do this if you have capital and you are willing to take risk to maximize  profits.
 
 If you think market has become directional in its move.
 
-### Going LONG Delta
+#### Going LONG Delta
 i.e. buying options and opening yourself to Delta decay against you.
 
 
-#### Reverse Jade Lizard
+##### Reverse Jade Lizard
 
 Take a Put Credit Spread running at 90% OTM probability.
 Gain that money in credit.
@@ -421,7 +430,7 @@ One problem with the Put Credit Spread is that if the stock were to shoot up rea
 
 Reverse Jade Lizard is a great way to gain extra exposure to the upside with the Put Credit Spread.
 
-## Schedule
+### My Schedule
 [...](https://youtu.be/YfYjNovwph8?t=4829)
 
 In simple words my style is a bracket trading with credit spread underneath the brackets. My positoin on monday is a half Iron Condor which I complete later depending on the market condition.
@@ -445,6 +454,65 @@ Iron condor on monday will get you more credit but doing this with a delay is a 
 The biggest thing about the iron condor though is that on the call credit side I have no Buying Power Reduction. It just adds more risk to your portfolio but its only for a short amount of time.
 
 Continued [...](https://youtu.be/YfYjNovwph8?t=4910)
+
+### Q&A
+[...](https://www.youtube.com/watch?v=C7Xs8j1pXIk&list=PLbEa4ew-NWP_0YAc-CY99KN8awyZbqMiN&index=30)
+
+`Logan Lajin:` When not to trade this setup?
+
+`Mazurati:` 2 things:
+- VIX over 25: Trading with VIX above 25 is a dead deal for me because you trade spreads when its non directional. With Vix above 25 makes it a directional bet and it takes away runway from you. So with 25 VIX I usually don't trade that week or trade with an extremly small amount.
+- Credit to Collateral: If you have to put up $2000 to make $10 then I don't take that deal. Putting $2000 to make $100 is fine but nothing lesser than that ratio. Then you can scale that up.
+
+`Logan Lajin:` Once you are already in the spread trade and you are observing the vix and it pops later in the week (say you are on wednesday, and VIX pops 8 bucks overnight but everything else looks smooth), so what is your vix target price? Is there any certain number on the vix at that point when we are like halfway through the week? [...](https://youtu.be/C7Xs8j1pXIk?list=PLbEa4ew-NWP_0YAc-CY99KN8awyZbqMiN&t=128)
+
+`Mazurati:` Once we are already half way into the week then...
+- I'll look at the mark of the index that we are trading. If I sold spread at mark 174. If it is at 181. The runway is of 7... if the runway is greater than 5.. i usually find it safe.. Anything less than 5 (like 2 or 3) then its risky.
+- I look at the delta and make adjustments to spreads around the delta of 0.25.
+- I focus on the actual mark of the underlying and compare it to where I took the spread at, so thats the runway.
+
+`Logan Lajin:` When doing spreads why do you choose to do 5 strikes or more wide? Is it to protect the collateral if the short leg goes ITM?
+
+`Mazurati:` The width of the spread is completly up to investor's discretion based off of how much buying power you have in your account. To me 5 strike wide is the sweet spot for credit to collateral ratio for my account. This is my way of scaling up the strategy by taking 40 contracts of usually a $2000 position.
+
+`Logan Lajin:` When monitoring your runway when do you start to worry or wait for the short leg to go ITM or do you close your position only when it goes ITM.
+
+`Mazurati:` I usually close my positoin when I am a 1 away i.e. my runway is less than 1 or I'm ITM or the premiums on the positoin are higher about 25% so the spreads got increased in price by 25% thats when I usually do a manual close. Note that having to close the position manually is not a good situation you want to be in.
+
+`Logan Lajin:` When doing spread do you leave any money on the sideline in case one goes against you? Is there a number?
+
+`Mazurati:` I usually go 95% into the buying power. I don't go into Calls until I can diversify the number of positions that I'm in. Taking calls on Thrusday is the most risky because the stock can also just shoot up randomly.
+
+`Audience:` Which technical indicators to use?
+
+`Mazurati:` Best thing about spreads is that you do not need indicators.
+- Its a non directional play. [...](https://youtu.be/C7Xs8j1pXIk?list=PLbEa4ew-NWP_0YAc-CY99KN8awyZbqMiN&t=637)
+- When you are taking spreads, you are only talking probabilities.
+- You just need to know VIX (+/- Vega). i.e. if `Spot` = 180.27, `IV (VIX)` = 64.41% then `Vega` => 180.27 x 64.41% x √(7÷360) => ±14.485 (approx)
+
+
+`Audience:` What is your exit strategy when your spread is in the danger zone? When would you close it and what could that cost you?
+
+`Mazurati:` 3 things:
+- Runway less than 1: You are in a danger zone when your runway is less than 1. In that case you just want to get your position off the table and book a loss. But if you have other positions open that can counteract that loss and you could still potentially finish the week in green then you can take that chance.
+- Delta to be between 0.9 to 0.12. I exit the position if the delta rises to 0.25.
+- Also look at the bid/ask spread. If the difference between bid and ask is rising that means premiums are rising too. You exit the position.
+- I sometimes set trigger orders like so:
+	- `Take Profit` = -95% of the shorted premium
+	- `Stop Loss` = +125% of the shorted premium
+
+`Logan Lajin:` Why you trade weekly versus longer expiration?
+
+`Mazurati:`  I think with weekly I have a higher probability of knowing that TQQQ or SPY is not going to hit a certain strike next week. I am exploring Calendar Spreads for 56 days expiry.
+
+`Audience:` What key variables you track?
+
+`Mazurati:` Open, Close and the range of the week to track the expected move of the following week.
+
+https://www.youtube.com/playlist?list=PLbEa4ew-NWP_0YAc-CY99KN8awyZbqMiN
+
+### Demo
+[...](https://youtu.be/C7Xs8j1pXIk?list=PLbEa4ew-NWP_0YAc-CY99KN8awyZbqMiN&t=1653)
 
 # Wheel Strategy
 
