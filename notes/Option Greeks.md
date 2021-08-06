@@ -133,7 +133,9 @@ It is a measure of predicted future movement.
 
 #### Increasing VIX
 
-- 70% of the time VIX increases when the market is going down.
+- Over 70% of the times VIX increases when the market is going down and VIX decreases when the market is going up.
+- In Opstra Options Analytics, the gap between the dashed-blue-line i.e. `t+0 P&L` and the solid-green-line i.e. `P&L`. The dashed-blue-line moves away from the 0 line to the downside. [...](https://youtu.be/Uj1wAy_p_Ko?list=PLpLkTHBumJ3M4shHm45QrcWBdNG9TpSRX&t=583)
+	- If VIX is increasing i.e. blue-line is moving away from the 0 line then you can control this by adding hedge i.e. buying more options.
 - Option Price will not decrease
 - This favours Option Buyers.
 - When VIX is rising and market is falling you should LONG PE @ ITM or ATM strikes to hedge your position.
@@ -149,7 +151,7 @@ Since increasing VIX favours Option Buyers you can NOT continue becoming an Opti
 
 #### Decreasing VIX
 
-- 70% of the time VIX decreases when the market is going up.
+- Over 70% of the times VIX decreases when the market is going up.
 - This favours Option Writers.
 - When VIX and Market both are rising you should SHORT PE to hedge your position.
 
@@ -172,7 +174,7 @@ Its a measure of impact of `changes in the underlying volatility` on the premium
 
 ### Characteristics
 
-- premium goes up as volatility goes up and premium falls as volatility drops.
+- premium goes up as volatility (VIX) goes up and premium falls as volatility drops.
 - Longer term options have a higer vega compared to near term options.
 	- Longer term options are more expensive.
 	- A 1% change in IV would represent larger $ amount of that premium than an option with a lower premium.
@@ -236,6 +238,12 @@ It is the 2nd Order Greek.
 
 { `v:θ` < `300% to 400%` } => "You have `No Volatility Risks`!"
 
+# Controling Greeks
+[...](https://www.youtube.com/watch?v=Uj1wAy_p_Ko)
+
+=> AKA `Trailing Stop Loss for Strategies`
+
+Hedging by buying OTM options to safeguard 800 point movement on up and downside through V shape recovery.
 
 # Greeks in Strategies
 [...](https://youtu.be/9E2PETrQ01M?t=1323)

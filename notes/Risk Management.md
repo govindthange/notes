@@ -2,13 +2,38 @@
 
 ## Number of Winers/Losers
 
+The average win/loss ratio
+
 ## Size of Winers/Losers
 
-The average win/loss ratio
+[[#R R Ratio]]
 
 ## Size of your drawdowns
 
 Average & Maximum drawdowns
+
+# Rules
+
+### Question your position.
+
+#### What can go wrong?
+
+Follow that up with the question
+
+#### If it does go wrong, how much will we lose?
+
+### Mandate on Defining Max Risk before Entering Position
+
+### Monitoring risk at all times
+
+### Exiting Contracts Before Expiry
+[...](https://www.youtube.com/watch?v=rtVFj9nRRDo)
+
+A spread which is allowed to expire worthless may get exercised in after hours. Exchange cutoff is set after Broker cutoff.
+
+In an even where price shoots in the direction against your position, your Short Option will get excercised in after market hours (i.e. before exchange cutoff but after broker terminal cutoff) and you will not be able to exercise your hedged Long Option Contract.
+
+So if broker forgets to execute your Long Option Contract to cover your loss in hedged position and simply honours the assignment on your Short Option Contract you will be exposed to an unlimited risk.
 
 # Win Rate vs Break Even
 
