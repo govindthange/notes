@@ -2,11 +2,20 @@
 
 ## Bear Market
 
+### [[Moving Averages#Death Cross]]
+### Price below 21 Weekly EMA
+### Price below 200 Daily EMA
+
 Bearmarkets are of following 2 types: [...](https://youtu.be/Lb1cDioHxF8?t=2376)
 1. Bearmarket which follows market cycle top.
 2. Bearmarket which follows intermediate rallies.
 
 The length of the bearmarket depends on where you are in the cycle.
+
+##### Scenario
+
+Predicting recovery from the bear market.
+[...](https://www.youtube.com/watch?v=Fl5ycgdTOqM)
 
 # Top-Down Multi-Timeframe Analysis
 
