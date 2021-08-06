@@ -1,4 +1,17 @@
 
+# Badla System (India)
+
+Long = Badla (Byaj) i.e. Contango
+Short = Ulta Badla i.e. Backwardation
+
+A unique system of carry forward of transaction involving 4 parties:
+1. Long Buyer
+2. Financer (stepped in to contribute capital in case of mismatch in purchase position)
+3. Short Seller
+4. Stock Lender (stepped in to contribute stock in case of mismatch in sale position)
+
+Investor protection was the weakest link. There was no mechanism to protect the interests of small investors.
+
 # OTC
 
 # Exchange
@@ -8,6 +21,15 @@
 Exchange standardizes the contracts.
 
 As the two parties don't know each other it provides a mechanism that gives two parties a guarantee that the contract will be honoured.
+
+## Exchange Types
+
+### Regional Exchanges (Single Product)
+
+### National Exchanges (Multi-Commodity Exchanges)
+
+## Exchange Clearing House
+[...](https://youtu.be/AFJ5Il_C4EY?t=770)
 
 ## Exchange Functions
 
@@ -39,6 +61,12 @@ Option contracts costs some upfront fee.
 
 [[Option Contract]]
 
+### Comparison
+
+Futures and Contracts are similar in which they both provide a way in which a type of leverage can be obtained.
+
+The difference is that potential loss and gain in futures is unlimited whereas in option the loss is limited but gains are unlimited.
+
 # Hedging
 [...](https://youtu.be/AFJ5Il_C4EY?t=279)
 
@@ -49,17 +77,18 @@ By hedging the business can `lock in today's prices to meet tomorrow's goals` re
 # Contract Execution
 [...](https://youtu.be/AFJ5Il_C4EY?t=712)
 
-# Exchange Clearing House
-[...](https://youtu.be/AFJ5Il_C4EY?t=770)
-
-# Traders
+# Market Participants (Traders)
 
 ## Hedgers
 
-They want to avoid exposure to the adverse price movement of an asset.
+Hedgers avoid exposure to the adverse price movement of an asset.
 
 ## Speculators
 
-Speculators want to take the position in the market to bet on the direction of the price.
+Speculators take position to bet on the direction of the market (i.e. price).
 
 ## Arbitrageurs
+
+Arbitrageurs take advantage of discrepancy between prices in two different markets. 
+
+Arbitrageurs lock in riskless profit by simultaneously entering into transactions in two or more markets.
