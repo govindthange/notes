@@ -1,3 +1,8 @@
+# 28 Must Know List
+[...](https://optionstrategiesinsider.com/blog/28-option-strategies-that-all-options-traders-should-know/)
+
+# Catalog
+
 1. Albatross Spread: An advanced neutral trading strategy.
 2. Bear Butterfly Spread: A complex bearish trading strategy.
 3. Bear Call Spread: A bearish trading strategy that requires a high trading level.
