@@ -8,7 +8,7 @@
 
 # Open Interest Analysis
 
-`Open Interest (OI)` is the number of Call (or Put) contracts at a strike.
+`Open Interest (OI)` is the total number of contracts outstanding. It is the number of Call (or Put) contracts at a strike.
 
 Usually `Smart Money or Big Institutions` are `Option Sellers`.
 - If there is a huge OI at a call strike above then it means someone big is selling calls thinking market won't go above a certin resistance level.
