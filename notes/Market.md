@@ -58,6 +58,8 @@ A central counterparty (CCP) stands between the two parties.
 
 ## Exchange Tools
 
+Companies take positions in derivatives to offset an exposure to the price of an asset.
+
 ### Forward Contracts
 
 Forwards are private arrangements between two parties whereas futures are traded on exchanges.
@@ -141,11 +143,15 @@ Exchange needs tools to implement its 3 critical functions.
 
 The above 3 Exchange Functions rely on the following 2 basic instruments to separate the risk element from any commodity and allow that risk to be reassigned. This process of risk transfer is called as [[Hedging]].
 
+Companies take positions in derivatives to offset an exposure to the price of an asset.
+
 ### Futures
 
 Futures contracts are standardized and traded in exchanges.
 
-Futures contracts are settled daily (via MTM). Unlike forward contracts there is a range of delivery dates specified.33
+Futures contracts are settled daily (via MTM). Unlike forward contracts there is a range of delivery dates specified.
+
+What distinguishes futures from the forward contracts is the aspect of daily settlement.
 
 A futures contract precisely specifies the following:
 - What (The asset name),

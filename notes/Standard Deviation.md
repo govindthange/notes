@@ -59,7 +59,19 @@ Range => The difference between the MAX and the MIN value in a given series.
 
 ## Variance (σ²)
 
-σ² = Σ(x-μ)²/(n-1)
+Variance
+=> Its a measure of variability of the observation with a set.
+=> The degree of spread in your data set.
+=> Its a measure of how data points differ from the mean.
+=> i.e. `how far a set of numbers are` spread out from their average value.
+=> i.e. the average distance of a set of variable from the average value in that set.
+
+Variance is the average of the squared differences from the mean.
+- Variance uses squares because it weighs outliers more heavily than the data closer to the mean.
+- We square so that negative distances do not cancel positive distances. i.e. differences above the mean do not cancel out those below the mean, which would result in a variance of zero. ^9ab9b8
+- It is calculated by taking the average of squared deviations from the mean.
+
+variance = σ² = Σ(x-μ)²/(n-1)
 
 where:
 - μ is the mean.
@@ -93,18 +105,60 @@ n = 7
    = 308 / 6
    = 51.34
 
+The variance can be useful when you’re using a technique like `ANOVA` or `Regression` and you’re trying to explain the total variance in a model due to specific factors.
+
+##### Example
+
+You might want to understand how much variance in test scores can be explained by IQ and how much variance can be explained by hours studied. If 36% of the variation is due to IQ and 64% is due to hours studied, that’s easy to understand. But if we use the standard deviations of 6 and 8, that’s much less intuitive and doesn’t make much sense in the context of the problem.
+
+Reading:
+- https://chris-said.io/2019/05/18/variance_after_scaling_and_summing/
+
 ## Standard Deviation (σ)
 
 Standard Deviation
+=> Its a measure of [[#Dispersion]] of observation within a set.
+=> Its the average distance that a value lies from the mean while the variance tells us the square of this value.
 => The measure of spread.
 => The amount of variation within data.
+=> i.e. by `how much amount the data is likely to vary` from the average.
 => Distribution of occurrences around the mean (μ).
+=> It calculates how far from the mean a group of numbers is by using the square root of variance.
 
 σ = √(Σ(x-μ)²/(n-1))
 
 Standard Deviation tells how spread out a set of data is. It tells how much does the data vary from the average. Larger the Standard Deviation, the larger the dispersion.
 
 It helps in determining whether the value is statistically significant or a part of expected variation.
+
+### Dispersion
+
+Dispersion means how squeezed or scattered the variable is.
+
+The dispersion means the (..far..) extent to which a numerical data is `likely` (..68% of the time..) to vary around its average value.
+
+#### Types of Measures of Dispersion
+
+There are two main types of dispersion methods in statistics which are:
+
+1. Absolute Measure of Dispersion
+2. Relative Measure of Dispersion
+
+#### Relative measure of Dispersion
+
+It is used to `compare the distribution of two or more data sets`. This measure compares values without units.
+
+Common relative dispersion methods include:
+
+1. Co-efficient of Range
+2. Co-efficient of Variation
+3. Co-efficient of Standard Deviation
+4. Co-efficient of Quartile Deviation
+5. Co-efficient of Mean Deviation
+
+#### Co-efficient of Dispersion
+
+It is calculated (along with the measure of dispersion) `when two series are compared`, that differ widely in their averages. The dispersion coefficient is also used when two series with different measurement units are compared. It is denoted as C.D.
 
 ##### Example
 
@@ -126,6 +180,8 @@ n = 7
 | 28 | 16 | 12    | 144    |
 
 Σ(x-μ)² = 308
+
+![[#^9ab9b8]]
 
 σ² = Σ(x-μ)²/(n-1)
    = 308 / (7-1)
