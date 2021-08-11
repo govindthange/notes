@@ -7,7 +7,7 @@ The option premium changes as:
 	- spot moves away or towards the strike. (Gamma)
 - time pases (Theta)
 
-## Delta
+## Delta (𝛿)
 
 It is the rate of change of `Premium` w.r.t `Spot Price`.
 - It reflects the increase/decrease in premium in response to 1 point movement in spot.
@@ -70,7 +70,7 @@ Since you are short of delta, selling a few put spreads will make you a little l
 
 When you want to define risk in a small sized account use spreads as opposed to naked options. You dont need to have a lot of money and that dont give you a lot of delta but here you need a lot of delta.
 
-## Gamma
+## Gamma (𝛾)
 
 It is the rate of change of [[#Delta]].
 - It is expressed in percentage/decimal.
@@ -99,7 +99,7 @@ Say you shorted nifty at ₹15.
 - On Thursday if market does move it will cause Gamma to pump and in turn accelerate Delta. If Detla is at 0.2 it will quickly become 0.5. If your premium was ₹3, it can potentially become ₹30 in no time.
 - So all Option writers should disappear before 1 PM on thursday. Leave last ₹2 to ₹3 for Gamma players.
 
-## Theta
+## Theta (𝜃)
 
 It is the rate at which options lose its `Time Value`.
 - It reflects the amount by which the premium will decrease every day.
@@ -234,7 +234,7 @@ It is the 2nd Order Greek.
 
 > `δ:θ Ratio` helps traders who aim to earn regular monthly income rather than Long term investment.
 
-## Vega:Theta (v:θ) Ratio
+## Vega:Theta (𝛾:θ) Ratio
 
 { `v:θ` < `300% to 400%` } => "You have `No Volatility Risks`!"
 
