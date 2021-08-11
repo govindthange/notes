@@ -114,14 +114,21 @@ You might want to understand how much variance in test scores can be explained b
 Reading:
 - https://chris-said.io/2019/05/18/variance_after_scaling_and_summing/
 
+### Variance vs Standard Deviation
+
+==TO BE CLARIFIED==
+
+- σ is the measure of dispersion where as variance is the measure of variability.
+- σ tells you to what extent (imagine the size of the bell curve and 64-95-99 % rules) the data is likely to vary around its mean whereas variance tells you how far a set of numbers are spread out from their average value.
+- σ is the average distance that a value lies from the mean while the variance tells us the square of this value.
+
 ## Standard Deviation (σ)
 
 Standard Deviation
 => Its a measure of [[#Dispersion]] of observation within a set.
-=> Its the average distance that a value lies from the mean while the variance tells us the square of this value.
 => The measure of spread.
 => The amount of variation within data.
-=> i.e. by `how much amount the data is likely to vary` from the average.
+=> i.e. `by how much amount the data is likely to vary` around its average.
 => Distribution of occurrences around the mean (μ).
 => It calculates how far from the mean a group of numbers is by using the square root of variance.
 
