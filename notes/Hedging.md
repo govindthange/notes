@@ -7,13 +7,13 @@
 
 ## Problems
 
-- Asset to be hedged may be different from the asset underlying the futures contract.
+- Asset to be hedged may be different from the asset underlying the derivatives contract.
 - The exact date when the asset is to be bought/sold may not be known.
 - The hedge may require the futures contract to be closed out before its delivery month.
 
 ## Basis
 
-The amount by which the spot price exceeds the futures price i.e. the difference between the spot price of an asset and its future price on the day hedge expired.
+The amount by which the spot price exceeds the futures price i.e. the difference between the spot price of an asset and its future price (on the day hedge expires).
 
 `Basis` = `Spot price of asset to be hedged` - `Futures price of contract used`
 
@@ -47,52 +47,63 @@ You enter into a sequence of futures contracts. When the first futures contract 
 
 # Hedge Scenarios
 
+Companies take positions in derivatives to offset exposure (..of their product/service..) to the price of an (..underlying..) asset (..in the market..).
+
 ## Short Hedge Scenarios
 
 This is done when a company plans to sell the underlying asset.
 
-- Hedger already owns an asset and expect to sell it at some time in the future.
-- Hedge does not own an asset right but will be owned and ready for sale at some time in the future.
+A company planning to sell an asset in distant future can lock its sell price today and prevent losses due to drop in prices later.
+- Hedger may already own assets and expect to sell it in future OR
+- Hedger currently may not own any assets but plans to sell soon after acquiring them.
 
 ## Long Hedge Scenarios
 
 This is done when a company plans to buy the underlying asset.
 
-- Copmany knows it will have to purchase a certain asset in the future and wants to lock in a price now.
+A copmany planning to purchase an asset in distant future can lock its buy price today and prevent losses due to rise in prices later.
 
-## No Hedge Scenario
+## No Hedge Scenarios
 
 ### Competition as Hedge
 
-Competitive pressures within the industry may be such that the price of the goods and services produced by the industry fluctuate to reflect the underlying raw material costs, interest rates, exchange rates, and so on.
+No hedging is needed when the competitive pressures within the industry are such that the prices of the goods & services produced by the industry fluctuate to reflect the underlying raw material costs, interest rates, exchange rates, and so on.
 
 Due to this the company that does not hedge can expect its profit margins to be roughly constant. However, a company that does hedge can expect its profit margins to fluctuate!
 
-- Manufacturers of gold jewelry: the cost of jewelry always reflects the price of the underlying gold so no hedging is needed as profit margin is unaffected.
-	- Lets say you did a short hedge to neutralize the effects of "Gold's" price movement by fixing it for today's price.
-	- Now lets say gold price crashes after 3 months. Then although the Gold's price would have been fixed for you, for the market it is available for cheap.
-	- Cheap gold would imply cheaper jewelry. Now for you the profit-margin in the produced jewelry would inevitably go down as the jewelry prices would have gone down in the industry. So now you would be making the cheaper jewelry for the gold that you hedged to lock its 3 months old price (which was higher).
-	- [[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #68]]
-- Harvesting of Corn by farmers
-	- Refer Problem 3.17 (Page #23 in the solutoins manual)
+#### Example
 
-## Cross Hedge Scenario
+##### Manufacturers of gold jewelry
 
-Cross hedging occurs when the asset being hedged is different from the asset underlying the futures.
+The cost of jewelry always reflects the price of the underlying gold so no hedging is needed as profit margin is unaffected.
 
-Cross hedging is when an asset that gives rise to the hedger's exposure is sometimes different from the asset underlying the futures contract that is used for hedging. This leads to an increase in the basis risk.
+- Lets say you did a short hedge to neutralize the effects of "Gold's" price movement by fixing it for today's price.
+- Now lets say gold price crashes after 3 months. Then although the Gold's price would have been fixed for you, for the market it is available for cheap.
+- Cheap gold would imply cheaper jewelry. Now for you the profit-margin in the produced jewelry would inevitably go down as the jewelry prices would have gone down in the industry. So now you would be making the cheaper jewelry for the gold that you hedged to lock its 3 months old price (which was higher).
 
-# Calculating Hedge
+[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #68]]
 
-Companies take positions in derivatives to offset (..their product/service's..) exposure to the price of an asset (..in the market..).
+##### Harvesting of Corn by farmers
 
+Refer Problem 3.17 (Page #23 in the solutions manual)
+
+## Cross Hedge Scenarios
+
+Cross hedging occurs when the asset being hedged is different from the asset underlying the derivative contract.
+
+Cross hedging occurs when an asset that gives rise to the hedger's exposure is sometimes different from the asset underlying the futures contract that is used for hedging. This leads to an increase in the basis risk.
+
+# Calculating Hedge Ratios
+
+It is the ratio of the average change in the spot price for a particular change in the futures price.
+
+```WRONG <-- confirm and delete!
 `Hedge Ratio`
 => `Futures Contract Size` / `Size of the Exposure`
 => `Futures Contract Size` / `Portfolio Size`
+```
 
-`Required number of Futures Contract for Hedging` = B x (`Total Portfolio Value`/`Futures Value of 1 Contract`)
-
-## The Perfect Hedge
+## The Perfect Hedge Ratio
 
 The hedge that completely eliminates the risks (..of price..) is a perfect hedge.
 
@@ -100,15 +111,18 @@ The hedge that completely eliminates the risks (..of price..) is a perfect hedge
 
 It is natural to use hedge ratio of 1.0 when the asset underlying the futures contract is the same as the asset being hedged.
 
-### Optimal Hedge Ratio
-=> `Best Hedge Ratio`
+## The Optimal Hedge Ratio
 => `Minimum Variance Hedge Ratio (hᵛ)`
+=> `Optimal Hedge Ratio`
+=> `Best Hedge Ratio`
 
 In cross hedging, 1.0 hedge ratio is not always an optimal ratio. You are required to calculate the minimum variance hedge ratio to calculate `the optimal number of contracts` for hedging.
 
-#### Step 1. Calculate optimal hedge ratio
+You need optimal hedge ratio to find the optimal number of contracts required for hedging an asset that is not the same asset underlying the contract.
 
-An optimal hedge ratio minimizes `the variance of the value of the hedged position`.
+### Step 1. Calculate optimal hedge ratio
+
+An optimal hedge ratio `minimizes the variance of the hedged position value`.
 
 An optimal hedge ratio depends on the relationship between the changes in the spot prices and changes in the futures price.
 
@@ -128,27 +142,27 @@ hᵛ = Correlation between the variance of the value of an asset and that of the
 
 ∴ hᵛ = The product of coefficient of correlation between ΔS and ΔF
 
-∴ hᵛ = ρ (σₛ / σ𝒻)
+∴ hᵛ = ρ (σₛ / σ꜀)
 
 Where:
 - σₛ is the standard deviation of ΔS
-- σ𝒻 is the standard deviation of ΔF
-- ρ, the rho, is the coefficient of correlation between the σₛ and σ𝒻 i.e. correlation between the futures price and spot price.
+- σ꜀ is the standard deviation of ΔF
+- ρ, the rho, is the coefficient of correlation between the σₛ and σ꜀ i.e. correlation between the futures price and spot price.
 
 Note:
 
-ρ, σₛ and σ𝒻 is usually estimated from historical data on ΔS and ΔF by choosing a number of equal nonoverlapping time intervals and the values of ΔS and ΔF for each of the intervals are observed. Ideally, the length of each time interval is the same as the length of the time interval for which the hedge is in effect.
+ρ, σₛ and σ꜀ is usually estimated from historical data on ΔS and ΔF by choosing a number of equal nonoverlapping time intervals and the values of ΔS and ΔF for each of the intervals are observed. Ideally, the length of each time interval is the same as the length of the time interval for which the hedge is in effect.
 
-#### Step 2. Calculate optimal number of contracts 
+### Step 2. Calculate optimal number of contracts
 
-##### For Forward Contracts
+#### Optimal numbers of forward contracts
 
 The number of `forward` contracts required is given by:
 
 N꜀ = hᵛQₕ/Q꜀
 
 Where:
-- N꜀ is the optimal number of futures contracts for hedging.
+- N꜀ is the optimal number of `forward contracts` for hedging.
 - hᵛ is the `Minimum Variance Hedge Ratio (hᵛ)`, `Best Hedge Ratio` or `Optimal Hedge Ratio`.
 - Qₕ is the size of position being hedged (units)
 - Q꜀ is the size of 1 futures contract (units)
@@ -156,28 +170,46 @@ Where:
 [[min-variance-hedge-ratio.ods]]
 https://financetrain.com/minimum-variance-hedge-ratio/
 
-##### For Futures Contracts
+#### Optimal number of futures contracts for 1 day hedge
 
-If:
-- σₛ is the standard deviation of percentage one-day day changes in the spot price
-- σ𝒻 is the standard deviation of percentage one-day changes in the futures price
-- ρ is correlation between parcentage one-day changes in spot and futures
+`Optimal numbers of Futures Contract for Hedging` = 𝛽 x (`Total Portfolio Value` ÷ `Futures Value of 1 Contract`)
 
-Then:
-- The standard deviation of the one-day change in the vlaue of the position being hedged is `Vₕσₛ`, where `Vₕ` is the value of the position i.e. `Asset Price` times `Qₕ`
-- The standard deviation of the one-day change in the value of the futures position is `V꜀σ𝒻`, where `V꜀` is the `Futures Price` times `Q꜀`.
-
-The optimal number of `futures` contracts for a one-day hedge is is given by:
-
-N꜀ = hVₕ/V꜀
+> The σ of 1 day change in `the value of the position being hedged` is Vₕσₛₚ
 
 Where:
-- N꜀ is the optimal number of futures contracts for hedging.
-- h = ρ (σₛ / σ𝒻)
-- Vₕ is the value of the position (i.e. asset price times Qₕ).
-- V꜀ is the futures price times Q꜀.
+- Vₕ = S x Qₕ
+- Vₕ is the value of the position being hedged
+- S is the spot price
 - Qₕ is the size of position being hedged (units)
+- σₛₚ is σ of 1 day % changes in S
+
+> The σ of 1 day change in `the value of the futures contract` V꜀σ꜀ₚ
+
+Where:
+- V꜀ is the value of the 1 futures contract
+- V꜀ = F x Q꜀
+- F is the futures price
 - Q꜀ is the size of 1 futures contract (units)
+- σ꜀ₚ is σ of 1 day % changes in F
+
+∴ The optimal number of `futures` contracts for a one-day hedge is given by:
+
+=> ρₚ ([The `daily settlement` value of the position being hedged] ÷ [The `daily settlement` value of the futures contract])
+
+=> ρₚ ([The `σ of 1 day change` in the value of the position being hedged] ÷ [The `σ of 1 day change` in the value of the futures contract])
+
+=> ρₚ (Vₕσₛₚ / V꜀σ꜀ₚ)
+
+> ∴ N꜀ = ₕ₁Vₕ/V꜀
+
+Where:
+- N꜀ is the optimal number of `futures contracts` for hedging.
+- ₕ₁ = ρₚ (σₛₚ / σ꜀ₚ)
+- ρₚ is correlation between 1 day % changes in the spot and futures
+- σₛₚ is σ of 1 day % changes in the spot price
+- σ꜀ₚ is σ of 1 day % changes in the futures price
+- Vₕ = S x Qₕ
+- V꜀ = F x Q꜀
 
 ## The Hedge Effectiveness
 
