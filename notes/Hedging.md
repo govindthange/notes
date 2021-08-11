@@ -49,21 +49,25 @@ You enter into a sequence of futures contracts. When the first futures contract 
 
 Companies take positions in derivatives to offset exposure (..of their product/service..) to the price of an (..underlying..) asset (..in the market..).
 
-## Short Hedge Scenarios
+If the exposure is such that the company gains when the price of the asset increases and loses when the price of the asset decreases, a [[#Short Hedge]] is appropriate.
 
-This is done when a company plans to sell the underlying asset.
+If the exposure is the such that the company gains when the price of the asset decreases and loses when the price of the asset increases, a [[#Long Hedge]] is appropriate.
+
+## Short Hedge
+
+This is done when a company plans to sell its asset in future but wants to prevent risks associated potential downturn price movements.
 
 A company planning to sell an asset in distant future can lock its sell price today and prevent losses due to drop in prices later.
 - Hedger may already own assets and expect to sell it in future OR
 - Hedger currently may not own any assets but plans to sell soon after acquiring them.
 
-## Long Hedge Scenarios
+## Long Hedge
 
-This is done when a company plans to buy the underlying asset.
+This is done when a company plans to buy assets in future but wants to prevent risks associated with upturn price movements.
 
 A copmany planning to purchase an asset in distant future can lock its buy price today and prevent losses due to rise in prices later.
 
-## No Hedge Scenarios
+## No Hedge
 
 ### Competition as Hedge
 
@@ -87,7 +91,7 @@ The cost of jewelry always reflects the price of the underlying gold so no hedgi
 
 Refer Problem 3.17 (Page #23 in the solutions manual)
 
-## Cross Hedge Scenarios
+## Cross Hedge
 
 Cross hedging occurs when the asset being hedged is different from the asset underlying the derivative contract.
 
@@ -142,7 +146,7 @@ hᵛ = Correlation between the variance of the value of an asset and that of the
 
 ∴ hᵛ = The product of coefficient of correlation between ΔS and ΔF
 
-∴ hᵛ = ρ (σₛ / σ꜀)
+∴ hᵛ = ρ.(σₛ/σ꜀)
 
 Where:
 - σₛ is the standard deviation of ΔS
@@ -159,7 +163,7 @@ Note:
 
 The number of `forward` contracts required is given by:
 
-N꜀ = hᵛQₕ/Q꜀
+N꜀ = hᵛ.(Qₕ/Q꜀)
 
 Where:
 - N꜀ is the optimal number of `forward contracts` for hedging.
@@ -171,8 +175,6 @@ Where:
 https://financetrain.com/minimum-variance-hedge-ratio/
 
 #### Optimal number of futures contracts for 1 day hedge
-
-`Optimal numbers of Futures Contract for Hedging` = 𝛽 x (`Total Portfolio Value` ÷ `Futures Value of 1 Contract`)
 
 > The σ of 1 day change in `the value of the position being hedged` is Vₕσₛₚ
 
@@ -198,18 +200,39 @@ Where:
 
 => ρₚ ([The `σ of 1 day change` in the value of the position being hedged] ÷ [The `σ of 1 day change` in the value of the futures contract])
 
-=> ρₚ (Vₕσₛₚ / V꜀σ꜀ₚ)
+=> ρₚ.(Vₕ.σₛₚ/V꜀.σ꜀ₚ)
 
-> ∴ N꜀ = ₕ₁Vₕ/V꜀
+> ∴ N꜀ = ₕ₁.(Vₕ/V꜀)
 
 Where:
 - N꜀ is the optimal number of `futures contracts` for hedging.
-- ₕ₁ = ρₚ (σₛₚ / σ꜀ₚ)
+- ₕ₁ = ρₚ.(σₛₚ/σ꜀ₚ)
+- ₕ₁ is the slope of the best-fit line when `% 1 day change in the portfolio` are regressed against `% 1 day changes in the futures price of the index`
 - ρₚ is correlation between 1 day % changes in the spot and futures
 - σₛₚ is σ of 1 day % changes in the spot price
 - σ꜀ₚ is σ of 1 day % changes in the futures price
 - Vₕ = S x Qₕ
 - V꜀ = F x Q꜀
+
+#### Optimal number of futures contracts close to maturity of the hedge
+
+##### Hedging an Equity Portfolio
+
+Note that hedge results in the investor's position growing at the risk-free rate. So you will always find a hedger's position at the end of hedge expiry to be about [risk-free-percent x hedge-period ÷ 12-months] % higher than at the beginning of the months when you entered your hedge position.
+
+𝛽 is the slope of the best-fit line obtained when `excess return on the portfolio over the risk-free rate` is regressed against the `excess return of the index over the risk-free rate`
+
+∴ 𝛽 = (`Expected return on portfolio` - `Risk-free interest rate`) ÷ (`Return on index` - `Risk-free interest rate`)
+
+> N꜀ = 𝛽.(Vₕ/V꜀)
+
+Where:
+- N꜀ is the optimal numbers of futures contract close to maturity of the hedge
+- 𝛽 is the slope of the best-fit line when the `return from the portfolio` is regressed against the `return from the index`.
+- Vₕ is the current value of the portfolio
+- V꜀ is the current value of 1 futures contract
+
+Note that 𝛽 ≈ ₕ₁ from previous section's formula.
 
 ## The Hedge Effectiveness
 
@@ -218,3 +241,33 @@ The proportion of the variance that is eliminated by hedging.
 Hedge Effectiveness
 => R² from the regression of ΔS against ΔF
 => ρ²
+
+
+# Summary
+
+Step #1. Calculate the number of contracts required to cross-hedge an asset.
+- min. variance hedge ratio
+	- s.d. of spots and futures
+	- p
+- value of the portfolio
+- value of 1 futures contract 0
+
+Step #2. Calculate the `P&L for futures position` for a single contract by using initial futures price and the futures price at expiry of the hedge. Multiplying this P&L value to the total number of contracts calculated in above Step #1.
+
+Step #3. Calculate the "expected percent" return on portfolio using:
+- % returns from index
+- % risk-free interest rate
+- beta value
+
+Step #4. Finally calculate p&l by using percent return on portfolio calculated in the above steps #3.
+
+Step #5. Now add results of step #2 and step #4 to get the total value of the positoin.
+
+Conclusion: Total exepcted value of the hedger's position is almost independent of the value of the index. This is what one would expect if the hedge is a good one! So beta and p should be correctly deduced.
+
+
+`Question:` Why the hedger should go to the trouble of using futures contracts to earn the risk-free interest rate, the hedger can simply sell the portfolio and invest the proceeds in a risk-free security?
+
+`Answer:` A hedge using index futures removes the risk arising from market moves and leaves the hedger exposed only to the performance of the portfolio relative to the market.
+
+[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #78, #82]]
