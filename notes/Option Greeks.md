@@ -24,6 +24,9 @@ Understanding Delta helps in deciding what strike prices to trade and what strat
 - It depends on [[#Implied Volatility VIX]].
 - It drops when VIX is falling and [[#Theta]] is nearing expiry.
 
+### Hedging Delta
+https://finance.zacks.com/hedge-stock-index-futures-4584.html
+
 ### Adjusting Delta
 [...](https://www.youtube.com/watch?v=kfi2YoJVQJY)
 
@@ -209,6 +212,11 @@ The farther away the expiry, the more (+)ve will be the Vega.
 ##### Example
 
 When you apply calendar spread you will find (+) Vega. That is why hedges done via Calendar spread can handle volatility better i.e. if market moves too much in one direction it does not affect your position a lot.
+
+### Hedging Vega
+https://finance.zacks.com/hedge-stock-index-futures-4584.html
+
+### Adjusting Vega
 
 ## Vomma
 
