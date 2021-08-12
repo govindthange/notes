@@ -1,5 +1,6 @@
+Hedging is a way of reducing risk.
 
-> With derivatives our primarly goal is to use hedging to neutralize the risk as much as possible.
+> With derivatives our primarly goal is to hedge in order to neutralize the risk (..associated with the price to be received for an asset at time T..) as much as possible.
 
 `Hedge Expiry:` The day you close your hedge position.
 
@@ -33,11 +34,25 @@ Prior to expiration the basis can be positive or negtaive.
 
 44
 
-## Stack & Roll
+## Stack and Roll
 
-Creating a long-dated futures contract by trading a series of short-dated contracts.
+This means creating a long-dated futures contract by trading a series of short-dated contracts.
+
+> You enter into "stacks" of (..sufficient..) contracts to cover exposure to the end of hedging horizon. At the end of contract expiry, you close out all contracts and "roll" them into new contracts to cover the new exposure.
 
 You enter into a sequence of futures contracts. When the first futures contract is near expiration, it is closed out and the hedger enters into a second contract with a later delivery month. When the second contract is close to expiration, it is closed out and the hedger enters into a third contract with a later delivery month; and so on.
+
+### Problems with stack and roll
+
+#### No total compensation
+
+We cannot expect a total compensation for a price decline when futures prices are below spot prices.
+
+[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.pdf | Page #84, Example]]
+
+#### Cash flow pressures
+
+When we roll hedges forward it can lead to cash flow pressure when there are losses at the time of rolling.
 
 # Managing Hedge
 
@@ -47,11 +62,11 @@ You enter into a sequence of futures contracts. When the first futures contract 
 
 # Hedge Scenarios
 
-Companies take positions in derivatives to offset exposure (..of their product/service..) to the price of an (..underlying..) asset (..in the market..).
+Companies take positions in derivatives to offset exposure (..of their portflio/product/service..) to the price of an (..underlying..) asset (..in the market..).
 
-If the exposure is such that the company gains when the price of the asset increases and loses when the price of the asset decreases, a [[#Short Hedge]] is appropriate.
+- If the exposure is such that the company gains when the price of the asset increases and loses when the price of the asset decreases, a [[#Short Hedge]] is appropriate.
 
-If the exposure is the such that the company gains when the price of the asset decreases and loses when the price of the asset increases, a [[#Long Hedge]] is appropriate.
+- If the exposure is the such that the company gains when the price of the asset decreases and loses when the price of the asset increases, a [[#Long Hedge]] is appropriate.
 
 ## Short Hedge
 
@@ -69,7 +84,20 @@ A copmany planning to purchase an asset in distant future can lock its buy price
 
 ## No Hedge
 
-### Competition as Hedge
+Basic governing principle is that there has to be a defined need and exposure for one to enter in to a contract toward hedging an exposure to price.
+
+### Potentially risky hedges
+
+Do not hedge if the basis risk is too high and/or losses from hedges cannot be offsetted by the gains from the portfolio. It becomes very difficult for hedgers to explain this situtation to senior management and bankers.
+
+- Basis Risk
+- [[#Problems with stack and roll]]
+
+### Well-diversified portfolios
+
+One can eliminate many risks by holding a well-diversified portfolios without any hedge.
+
+### Competition is a Hedge
 
 No hedging is needed when the competitive pressures within the industry are such that the prices of the goods & services produced by the industry fluctuate to reflect the underlying raw material costs, interest rates, exchange rates, and so on.
 
@@ -85,7 +113,7 @@ The cost of jewelry always reflects the price of the underlying gold so no hedgi
 - Now lets say gold price crashes after 3 months. Then although the Gold's price would have been fixed for you, for the market it is available for cheap.
 - Cheap gold would imply cheaper jewelry. Now for you the profit-margin in the produced jewelry would inevitably go down as the jewelry prices would have gone down in the industry. So now you would be making the cheaper jewelry for the gold that you hedged to lock its 3 months old price (which was higher).
 
-[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #68]]
+[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.pdf | Page #68]]
 
 ##### Harvesting of Corn by farmers
 
@@ -97,15 +125,49 @@ Cross hedging occurs when the asset being hedged is different from the asset und
 
 Cross hedging occurs when an asset that gives rise to the hedger's exposure is sometimes different from the asset underlying the futures contract that is used for hedging. This leads to an increase in the basis risk.
 
+### Hedging equity portflio with index futures
+
+A hedge using index futures removes the risk arising from market moves and leaves the hedger exposed only to the performance of the portfolio relative to the market.
+
+```
+An index is a weighted average representative sample of the market. There are many indices and each is calculated in a different way and each has a different base value. Changes in indices are calculated from a base value.
+
+A stock index is a means of calculating a change in an economy/market. So the very number that represents an index is not as significant as the index's percentage changes.
+
+Futures contracts on stock indices are marked-to-market and settled in cash on expiry at the closing price of last thrusday of the delivery month.
+```
+
+#### When portfolio mirror the index
+
+N꜀ = Vₕ/V꜀
+
+#### When portfolio does not mirror the index
+
+You can use 𝛽 to calculate the total number of futures contracts needed for hedging and lock the benefits of a good stock picking.
+
+N꜀ = 𝛽.(Vₕ/V꜀)
+
+[[#Hedging an equity portflio with stock index futures]]
+
+##### Use 𝛽 to lock stock picking benefits
+
+𝛽 is the slope of the best-fit line obtained when `excess return on the portfolio over the risk-free rate` is regressed against the `excess return of the index over the risk-free rate`
+
+∴ 𝛽 = (`Expected return on portfolio` - `Risk-free interest rate`) ÷ (`Return on index` - `Risk-free interest rate`)
+
+So if you know `𝛽` of your portfolio against the index then you can predict the `percent return of the portfolio` by using `dividend yield on index` and `risk-free returns` in above formula.
+
+Note that by calculating 𝛽 to buy proportional numbers of Index's futures contracts (N꜀) you have essentially synchronized your porfolio with market's price movement. If everything remains same then your porfolio value will not be impacted by the market as the portfolio returns will offset the market returns. Aafter synchronizing portfolio with index using 𝛽 your portfolio returns will be __relative to the market__ returns i.e. if stocks in your profolio doesn't do anything different from the market then whether market goes up or down, your portfolio will remain unaffected. So in order for you to make money the stocks in your portfolio __must outperform the market__ and only then you will make money.
+
 # Calculating Hedge Ratios
 
 It is the ratio of the average change in the spot price for a particular change in the futures price.
 
-```WRONG <-- confirm and delete!
-`Hedge Ratio`
+Hedge Ratio (<-- TO BE CONFIRMED)
 => `Futures Contract Size` / `Size of the Exposure`
 => `Futures Contract Size` / `Portfolio Size`
-```
+
+[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.pdf | Page #86, Summary section, para #4]]
 
 ## The Perfect Hedge Ratio
 
@@ -216,13 +278,13 @@ Where:
 
 #### Optimal number of futures contracts close to maturity of the hedge
 
-##### Hedging an Equity Portfolio
+##### Hedging an equity portflio with stock index futures
+
+Stock index futures can be used to hedge the systematic risk in an equity portfolio.
 
 Note that hedge results in the investor's position growing at the risk-free rate. So you will always find a hedger's position at the end of hedge expiry to be about [risk-free-percent x hedge-period ÷ 12-months] % higher than at the beginning of the months when you entered your hedge position.
 
-𝛽 is the slope of the best-fit line obtained when `excess return on the portfolio over the risk-free rate` is regressed against the `excess return of the index over the risk-free rate`
-
-∴ 𝛽 = (`Expected return on portfolio` - `Risk-free interest rate`) ÷ (`Return on index` - `Risk-free interest rate`)
+![[#Use 𝛽 to lock benefits of stock picking]]
 
 > N꜀ = 𝛽.(Vₕ/V꜀)
 
@@ -234,6 +296,10 @@ Where:
 
 Note that 𝛽 ≈ ₕ₁ from previous section's formula.
 
+##### Using index futures to change 𝛽
+
+Stock index futures can also be used to change the beta of a portfolio without changing the stocks that make up the portfolio.
+
 ## The Hedge Effectiveness
 
 The proportion of the variance that is eliminated by hedging.
@@ -241,7 +307,6 @@ The proportion of the variance that is eliminated by hedging.
 Hedge Effectiveness
 => R² from the regression of ΔS against ΔF
 => ρ²
-
 
 # Summary
 
@@ -270,4 +335,4 @@ Conclusion: Total exepcted value of the hedger's position is almost independent 
 
 `Answer:` A hedge using index futures removes the risk arising from market moves and leaves the hedger exposed only to the performance of the portfolio relative to the market.
 
-[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #78, #82]]
+[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.pdf | Page #78, #82]]
