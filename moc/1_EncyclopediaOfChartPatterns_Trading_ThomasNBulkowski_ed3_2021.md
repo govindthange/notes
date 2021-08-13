@@ -1,20 +1,34 @@
-# [__] (2)
+This book follows following backtesting approach for finding success rate of a chartpattern in an ideal perfect trade situtation where you have a look-ahead bias. Note that this can't be followed for real time trading as finding the ultimate high in real time (as it's happening) is challenging for a trader (not so much for an investor as he waits for price to come back and retest previous ultimate high/low to exit).
+
+Entry: as per the rules of the pattern
+
+Exit in uptrend: At the `ultimate high` on a historical price chart, not real time.
+- find the highest high `before price drops 20%`, measured from the high to the close.
+- if price closes below the bottom of the chart pattern, then the search for the ultimate high stops, and we use the highest high found after entering the trade
+
+Exit in downtrend: At the `ultimate low` on a historical price chart, not real time.
+- find the lowest low `before price rises 20%`, measured from the low to the close.
+- if price closes above the top of the chart pattern, then the search for the ultimate low ends, and we use the lowest low found after entering the trade
+
+# Chart Patterns
+
+## [__] (2)
 
 - Rectangle Bottoms (ch-51)
 - Rectangle Tops (ch-52)
 
-# ⬗ (2)
+## ⬗ (2)
 
 - Diamond Bottoms (ch-23)
 - Diamond tops (ch-24)
 
-# Δ (3)
+## Δ (3)
 
 - Triangles, Ascending (ch-64)
 - Triangles, Descending (ch-65)
 - Triangles, Symmetrical (ch-66)
 
-# < (6)
+## < (6)
 
 ### Broadening (2)
 
@@ -31,7 +45,7 @@
 - Broadening Wedges, Ascending (ch-12)
 - Broadening Wedges, Descending (ch-13)
 
-# > (4)
+## > (4)
 
 ### Wedges (2)
 
@@ -43,14 +57,14 @@
 - Wolfe Wave, Bearish (ch-75)
 - Wolfe Wave, Bullish (ch-76)
 
-# N (2)
+## N (2)
 
 ### AB=CD (2)
 
 - AB=CD, Bearish (ch-2)
 - AB=CD, Bullish (ch-3)
 
-# U (8)
+## U (8)
 
 ### Cup & Handle (2)
 
@@ -69,7 +83,7 @@
 - Scallops, Descending (ch-59)
 - Scallops, Descending and Inverted (ch-60)
 
-# V (10)
+## V (10)
 
 ### Vs (4)
 
@@ -93,7 +107,7 @@
 - Pipe Bottoms (ch-49)
 - Pipe Tops (ch-50)
 
-# W (18)
+## W (18)
 
 ### Double Bottoms (8)
 
@@ -134,14 +148,14 @@
 - Gartley, Bearish (ch-37)
 - Gartley, Bullish (ch-38)
 
-# VVV (2)
+## VVV (2)
 
 ### Tripple (2)
 
 - Tripple Bottoms (ch-67)
 - Tripple Tops (ch-68)
 
-# } (4)
+## } (4)
 
 ### Head & Shoulder (4)
 
@@ -150,7 +164,7 @@
 - Head-and-Shoulders Tops (ch-41)
 - Head-and-Shoulders Tops, Complex (ch-42)
 
-# Scene (9)
+## Scene (9)
 
 ### ||||\/ (1)
 
@@ -175,7 +189,7 @@
 
 - Island Reversals (ch-45)
 
-# Action (5)
+## Action (5)
 
 ### \_ (2)
 
