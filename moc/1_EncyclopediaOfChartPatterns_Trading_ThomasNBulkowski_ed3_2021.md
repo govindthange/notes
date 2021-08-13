@@ -1,179 +1,192 @@
 # [__] (2)
 
-- Rectangles Bottoms
-- Rectangles Tops
+- Rectangle Bottoms (ch-51)
+- Rectangle Tops (ch-52)
 
 # ⬗ (2)
 
-- Diamond Bottoms
-- Diamond tops
+- Diamond Bottoms (ch-23)
+- Diamond tops (ch-24)
 
 # Δ (3)
 
-- Triangles, Ascending
-- Triangles, Descending
-- Triangles, Symmetrical
+- Triangles, Ascending (ch-64)
+- Triangles, Descending (ch-65)
+- Triangles, Symmetrical (ch-66)
 
 # < (6)
 
 ### Broadening (2)
 
-- Broadening Bottoms
-- Broadening Tops
+- Broadening Bottoms (ch-8)
+- Broadening Tops (ch-11)
 
 ### Broadening Formations (2)
 
-- Broadening Formations, Right-Angled and Ascending
-- Broadening Formations, Right-Angled and Descending
+- Broadening Formations, Right-Angled and Ascending (ch-9)
+- Broadening Formations, Right-Angled and Descending (ch-10)
 
 ### Broadening Wedges (2)
 
-- Broadening Wedges, Ascending
-- Broadening Wedges, Descending
+- Broadening Wedges, Ascending (ch-12)
+- Broadening Wedges, Descending (ch-13)
 
 # > (4)
 
 ### Wedges (2)
 
-- Wedges, Falling
-- Wedges, Rising
+- Wedges, Falling (ch-73)
+- Wedges, Rising (ch-74)
 
 ### Wolfe Waves (2)
 
-- Wolfe Wave, Bearish
-- Wolfe Wave, Bullish
+- Wolfe Wave, Bearish (ch-75)
+- Wolfe Wave, Bullish (ch-76)
 
 # N (2)
 
 ### AB=CD (2)
 
-- AB=CD, Bearish
-- AB=CD, Bullish
+- AB=CD, Bearish (ch-2)
+- AB=CD, Bullish (ch-3)
 
 # U (8)
 
 ### Cup & Handle (2)
 
-- Cup-with-Handle
-- Cup-with-Handle, Inverted
+- Cup-with-Handle (ch-21)
+- Cup-with-Handle, Inverted (ch-22)
 
 ### Roundings (2)
 
-- Rounding Bottoms
-- Rounding Tops
+- Rounding Bottoms (ch-55)
+- Rounding Tops (ch-56)
 
 ### Scallops (4)
 
-- Scallops, Ascending
-- Scallops, Ascending and Inverted
-- Scallops, Descending
-- Scallops, Descending and Inverted
+- Scallops, Ascending (ch-57)
+- Scallops, Ascending and Inverted (ch-58)
+- Scallops, Descending (ch-59)
+- Scallops, Descending and Inverted (ch-60)
 
 # V (10)
 
 ### Vs (4)
 
-- V-bottoms
-- V-bottoms, extended
-- V-tops
-- V-tops, extended
+- V-bottoms (ch-69)
+- V-bottoms, extended (ch-70)
+- V-tops (ch-71)
+- V-tops, extended (ch-72)
 
 ### Horns (2)
 
-- Horn Bottoms
-- Horn Tops
+- Horn Bottoms (ch-43)
+- Horn Tops (ch-44)
 
 ### Roofs (2)
 
-- Roof
-- Roof, Inverted
+- Roof (ch-53)
+- Roof, Inverted (ch-54)
 
 ### Pipes (2)
 
-- Pipe Bottoms
-- Pipe Tops
+- Pipe Bottoms (ch-49)
+- Pipe Tops (ch-50)
 
 # W (18)
 
 ### Double Bottoms (8)
 
-- Double Bottoms, Adam & Adam
-- Double Bottoms, Adam & Eve
-- Double Bottoms, Eve & Adam
-- Double Bottoms, Eve & Eve
+- Double Bottoms, Adam & Adam (ch-26)
+- Double Bottoms, Adam & Eve (ch-27)
+- Double Bottoms, Eve & Adam (ch-28)
+- Double Bottoms, Eve & Eve (ch-29)
 
 ### Double Tops (8)
 
-- Double Tops, Adam & Adam
-- Double Tops, Adam & Eve
-- Double Tops, Eve & Adam
-- Double Tops, Eve & Eve
+- Double Tops, Adam & Adam (ch-30)
+- Double Tops, Adam & Eve (ch-31)
+- Double Tops, Eve & Adam (ch-32)
+- Double Tops, Eve & Eve (ch-33)
 
-### Big M/W (2)
+### Big M/Ws (2)
 
-- Big M
-- Big W
+- Big M (ch-6)
+- Big W (ch-7)
 
-### Bat (2)
+### Bats (2)
 
-- Bat, Bearish
-- Bat, Bullish
+- Bat, Bearish (ch-4)
+- Bat, Bullish (ch-5)
 
-### Butterfly (2)
+### Butterflies (2)
 
-- Butterfly, Bearish
-- Butterflyu, Bullish
+- Butterfly, Bearish (ch-16)
+- Butterflyu, Bullish (ch-17)
 
-### Crab (2)
+### Crabs (2)
 
-- Crab, Bearish
-- Crab, Bullish
+- Crab, Bearish (ch-19)
+- Crab, Bullish (ch-20)
 
 ### Gartley (2)
+
+- Gartley, Bearish (ch-37)
+- Gartley, Bullish (ch-38)
 
 # VVV (2)
 
 ### Tripple (2)
 
+- Tripple Bottoms (ch-67)
+- Tripple Tops (ch-68)
+
 # } (4)
 
 ### Head & Shoulder (4)
+
+- Head-and-Shoulders Bottoms (ch-39)
+- Head-and-Shoulders Bottoms, Complex (ch-40)
+- Head-and-Shoulders Tops (ch-41)
+- Head-and-Shoulders Tops, Complex (ch-42)
 
 # Scene (9)
 
 ### ||||\/ (1)
 
-- Cloudbanks (1)
+- Cloudbanks (ch-18)
 
 ### /\/\/\ (3)
 
-- 3 Falling Peaks
-- 3 Peaks and Domed House
-- 3 Rising Valleys
+- 3 Falling Peaks (ch-61)
+- 3 Peaks and Domed House (ch-62)
+- 3 Rising Valleys (ch-63)
 
 ### ~ (3)
 
-- Flags (2)
-- Penants
+- Flags (ch-34)
+- Pennants (ch-48)
 
 ### ' , (1)
 
-- Gaps (1)
+- Gaps (ch-36)
 
 ### ^-__-^ (1)
 
-- Island Reversals (1)
+- Island Reversals (ch-45)
 
 # Action (5)
 
 ### \_ (2)
 
-- Measure Move
+- Measured Move Down (ch-46)
+- Measured Move Up (ch-47)
 
 ### -v (1)
 
-- Diving Board (1)
+- Diving Board (ch-25)
 
 ### -/ (2)
 
-- Bump and Run (2)
+- Bump-and-Run Reversal, Bottom (ch-14)
+- Bump-and-Run Reversal, Top (ch-15)
