@@ -4,6 +4,11 @@
 
 [[Trend]]
 
+
+## Knots
+
+Knot is a place in a strong [[Trend]] where price moves sideways for at least 3 days.
+
 ## Ranges
 
 - Draw Supply & Demand zones. Refer [[Support & Resistance#Demand Supply Zone]].
