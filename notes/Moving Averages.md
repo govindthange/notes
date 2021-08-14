@@ -33,17 +33,15 @@ If price is around 200 EMA/SMA then it indicates an `extremely weak trend`.
 
 Price takes support at common moving averages because big financial institutions, mutual fund companies and retirement funds tend to wait for a pullback around moving averages to accumulate by putting in major holdings.
 
-# Simple Moving Averages
+# Moving Average Types
+
+## Simple Moving Averages
 
 `20, 50, 100, & 200 Weekly SMAs:` Good for doing long term analysis in positional trading that lasts several months to a couple of years.
 
 When you fall below 20 Week SMA then technically its a bear market. [...](https://youtu.be/Lb1cDioHxF8?t=2243)
 
-## Death Cross
-
-## Golden Cross
-
-# Exponential Moving Averages
+## Exponential Moving Averages
 ~ by Govind Thange (Based on BTC Charts Analysis)
 
 
@@ -69,14 +67,51 @@ When you fall below 20 Week SMA then technically its a bear market. [...](https:
 
 `20 EMA, 100 EMA and 200 EMA:` It indicates a strong accumulation phase When all 3 EMAs run flat in an interleaved/parallel fashion.
 
+## Volume Weigted Average Price (VWAP)
+
+# Moving Average Indicators
+
+## Volume Weigted Average Price (VWAP)
+
+## Volume Profile for Visible Range
+
+## Volume Profile for Fixed Range
+
 # Trading Moving Averages
 [...](https://www.youtube.com/watch?v=KR9WVRSXDKk)
 
-## Moving Averages + [[MACD]]
+## Death Cross
+
+## Golden Cross
+
+## Moving Average + Price Action
+[...](https://youtu.be/BACYi2sSJY4?t=60)
+
+Buy/Sell when price crosses over the MA line.
+
+This does not always work because market cycles change frequently which causes MA settings to become outdated.
+
+Many traders will try to optimize this strategy by updating the MA period and best fit their MA line as per the new price action.
+
+If you take into account the current market cycle then you won't fall vicitim to this constant re-optimization resulting into net losses.
+
+## Moving Average + [[Master Pattern]]
+[...](https://youtu.be/BACYi2sSJY4?t=216) | [...](https://youtu.be/BACYi2sSJY4?t=516)
+
+You can use the master pattern to maximize your MA lines.
+
+Start seeing the `MA line` as a representation of the `changing tides of overall sentiment` rather than an exact price guide or risk level.
+- MA line represents change in sentiment.
+- Most traders use MA's for exact risk levels which will constantly cause them to be stopped out because in a sideways market there will be a lot of crossovers resulting in the frequent hitting of stop losses.
+- Use MA's to understand what the crowd is thinking and how prices will potentially be manipulated at crossover points.
+	- How are institutions using crossovers to create liquidity?
+	- How are smart traders using these crossovers to their advantage? Price manipulation (SL hits) typically happens right after the crossovers.
+
+## Moving Average + [[MACD]]
 
 [[Trading Strategies#MACD Crossovers 200 EMA]]
 
-## Moving Averages + Trendline
+## Moving Average + Trendline
 
 ### 200 EMA + Pullback Trendline
 

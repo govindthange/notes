@@ -86,6 +86,8 @@ where:
 
 ## Trading Trendlines
 
+The further the trend goes the lesser the probability you have of getting paid.
+
 ### Trading Trendline Reversals
 
 `Trend-Following Strategy:` In this strategy we catchup moves in an uptrend and catch down moves in a downtrend i.e. we enter trends in pullbacks. [...](https://youtu.be/kmtWd3oTgTY?t=234)
