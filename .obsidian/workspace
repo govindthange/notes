@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/Case Study 1 - Karen the supertrader.md",
+            "file": "questions/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Case Study 1 - Karen the supertrader.md",
+                "file": "questions/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "17c71a659a071858",
   "lastOpenFiles": [
+    "questions/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
+    "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
+    "questions/Untitled.md",
+    "moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
+    "notes/Master Pattern.md",
     "notes/Case Study 1 - Karen the supertrader.md",
     "notes/Decentralized Blockchain Network.md",
     "notes/Bollinger Bands.md",
-    "moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
     "notes/Trading.md",
-    "notes/Trend.md",
-    "templates/Inputs/Person.md",
-    "templates/Inputs/Article.md",
-    "templates/Inputs/Thought.md",
-    "notes/Master Pattern.md"
+    "notes/Trend.md"
   ]
 }

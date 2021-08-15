@@ -43,6 +43,10 @@
   content: "🗺️ ";
   font-size:1.3em;
 }
+.nav-folder-title[data-path="questions"] .nav-folder-title-content::before {
+  content: "⁉️ ";
+  font-size:1.3em;
+}
 .nav-folder-title[data-path="notes"] .nav-folder-title-content::before {
   content: "✏️ ";
   font-size:1.3em;
