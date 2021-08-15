@@ -51,7 +51,7 @@ Most of the contracts are cash settled.
 
 USD/INR, EURO/INR, GBP/INR, JPY/INR are traded on NSE and MCX.
 
-[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #40]]
+[[moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #40]]
 
 # Design Aspects
 4433

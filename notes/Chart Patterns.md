@@ -2,7 +2,7 @@ Chartpatterns are footprints left by the smart money.
 
 Chart Patterns are well documented in technical analysis literature and are based on psychological phenomena that occur between the buyers and sellers of financial instruments in liquid markets. Pattern formation do not form  a trading system, but rather proivde an indication of the future trend of a trend of a share as the price breaks key psychological barriers in the form of support and resitssance lines.
 
-[[1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021#Chart Patterns]]
+[[moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021#Chart Patterns]]
 
 # Guidelines
 

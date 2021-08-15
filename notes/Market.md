@@ -221,4 +221,4 @@ Arbitrageurs lock in riskless profit by simultaneously entering into transaction
 
 # Comparison of Forward and Futures
 
-[[1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #52, Table 2.6]]
+[[moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018 | Page #52, Table 2.6]]
