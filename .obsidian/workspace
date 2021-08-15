@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "ed0df957f9664dce",
+    "type": "split",
+    "children": [
+      {
+        "id": "17c71a659a071858",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notes/Case Study 1 - Karen the supertrader.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "10b433e60942eb12",
+    "type": "split",
+    "children": [
+      {
+        "id": "d191fce1d9adc576",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c563053aa68ef7d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e07ac60932ba29e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "968111b7ef0917ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "1edf7ea7e66c7704",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fb0a58a327de3fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/Case Study 1 - Karen the supertrader.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "17c71a659a071858",
+  "lastOpenFiles": [
+    "notes/Case Study 1 - Karen the supertrader.md",
+    "notes/Decentralized Blockchain Network.md",
+    "notes/Bollinger Bands.md",
+    "moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
+    "notes/Trading.md",
+    "notes/Trend.md",
+    "templates/Inputs/Person.md",
+    "templates/Inputs/Article.md",
+    "templates/Inputs/Thought.md",
+    "notes/Master Pattern.md"
+  ]
+}
