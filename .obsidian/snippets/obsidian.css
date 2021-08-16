@@ -43,7 +43,7 @@
   content: "🗺️ ";
   font-size:1.3em;
 }
-.nav-folder-title[data-path="questions"] .nav-folder-title-content::before {
+.nav-folder-title[data-path="quiz"] .nav-folder-title-content::before {
   content: "⁉️ ";
   font-size:1.3em;
 }
