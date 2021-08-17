@@ -1,6 +1,28 @@
 
 For maximum sucess use all of the below aspects for an **Entry Trigger**
 
+
+# Entry Rules
+
+## Entry rules for long term positions
+[...](https://www.youtube.com/watch?v=DNoSMPvfwWw)
+
+## Entry rules for trading
+
+Exit the trade only if all the below 3 criterias are met.
+
+Chart: Daily
+
+`Criteria 1:` Price at 35% to 50% discount from ATH
+
+- For crypto it should be at 50% discount
+
+`Criteria 2:` Price action touching or below the 50 MA
+
+`Criteria 3:` RSI below 40
+
+- If it is at 40.1, wait. Patience is going to win you this game. Follow the system and its rules.
+
 # Entry Trigger
 
 ## Rising Volume
