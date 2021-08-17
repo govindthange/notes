@@ -72,6 +72,8 @@ Calibrate your MA line to represent the price flow average of a higher time-fram
 
 Your MA line should represent the average price flow of 2 candles of whatever your higher timeframe chart is.
 
+![[Market Analysis#Choosing Higher Timeframe]]
+
 i.e. MA period = Average price of 2 candles of your higher timeframe chart.
 
 So if your trading timeframe is 1H chart and your higher timeframe chart is a Daily chart then the MA period of 1 hour chart should be the total count of 1 hour candles in the 2 daily candles. i.e. how many 1H candles are there in one day chart? Its 48 1Hr candles (24 1H candles/day x 2 Candles).
