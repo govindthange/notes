@@ -81,6 +81,59 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 
 # Chart Patterns
 
+## < (6)
+
+### Broadening (2)
+
+#### Broadening Bottoms (ch-8)
+
+##### Identification
+
+- Appears at the bottom of the `downtrend`.
+- The price trends downward into the start of the pattern
+- Makes `higher highs and lower lows`
+- Has at least 5 touch points
+	- 2 minor lows (the even numbers)
+	- 3 minor highs (the odd numbers)
+	- The 5 touch points creates 2 diverging trendlines
+	- The touch points many not be alternating as long as there are 5  touches.
+	- Less than 5 touches increases the likelihood of misidentification.
+	- If price cuts through a trendline, then don't count that as a touch.
+	- Price should cross the pattern from top to bottom enough to fill the space and not leave a hole of whitespace inside the pattern.
+- Volume trend from start to end shoiuld be upward.
+
+##### Breakout
+
+Breakout can occur on either side.
+
+When price closes outside a trendline boundary, then that penetration point becomes the breakout price.
+- Use miner high/low trendline for breakout
+	- Either when price closes above the formation's high
+	- Or when price closes below the pattern's low.
+
+When the price keeps sliding upward/downwards without a breakout then
+- backtrack to the prior minor high/low and draw a horizontal line forward in time until price closes above/below the horizontal line.
+- Use this when all the ohter identification guidelines are met.
+
+##### Distinction from other patterns
+
+In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
+
+- It is different from right-angled broadening pattern where one of the 2 trendlines is horizontal.
+- It is different from broadening wedge where both trendlines slope in the same direction.
+
+#### Broadening Tops (ch-11)
+
+### Broadening Formations (2)
+
+- Broadening Formations, Right-Angled and Ascending (ch-9)
+- Broadening Formations, Right-Angled and Descending (ch-10)
+
+### Broadening Wedges (2)
+
+- Broadening Wedges, Ascending (ch-12)
+- Broadening Wedges, Descending (ch-13)
+
 ## N (2)
 
 ### AB=CD
