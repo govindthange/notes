@@ -1,3 +1,10 @@
+# 1000 Feet View
+
+[[Candlestick Patterns]], [[#Trends]] and [[#Ranges]] on your highest timeframe.
+
+- Daily chart intraday trades.
+- Monthly chart for positional trades.
+
 # The Lay of The Land
 
 ## Trends

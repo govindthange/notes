@@ -46,7 +46,7 @@ To choose a higher timeframe use a factor from 4 to 6 like so:
 | 5 Min             | 15 Min           | 3      |
 | 1 Min             | 5 Min            | 5      |
 
-## Intraday Top-Down Analysis
+## Intraday Top-Down Analysis (Stocks)
 [...](https://youtu.be/1vXLP1eFvTs?t=207)
 
 Note that for intraday 1 Month and 1 Week charts are not required to be analyzed. Only positional traders who wish to hold position for several months should refer monthly and weekly charts.
@@ -105,3 +105,9 @@ Examples:
 - Top-Down Analysis for Nifty, Bank Nifty, TCS, Indusind Bank etc. [...](https://www.youtube.com/watch?v=BaWCZgdz4_4)
 - Top-Down Analysis for 12 Stocks. [...](https://youtu.be/zrEeFLw322M?t=690)
 
+## Intraday Top-Down Analysis (Forex)
+[...](https://www.youtube.com/watch?v=u3YMEVB6hvE)
+
+### 4 Hour Chart (The lay of the land)
+### 1 Hour Chart (Area of value)
+### 15 Min Chart (Entry triggers)
