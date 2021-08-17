@@ -63,3 +63,54 @@ Analyzing the `price landscape` surrounding the chart pattern
 ### Evaluating trading setups
 
 Recognize the `winning and losing setups` for the chart patterns by analyzing the conditions where the pattern is more likely to thrive or fail.
+
+#### Focusing on failures
+
+#### Bull/Bear Market Statistics
+[[moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.pdf | Page #1201, Terminology]]
+
+- Performance rank
+- Breakeven failure rate: A percentage of the patterns that fail to rise/decline more than 5% after the breakout (..and failed to cover the trading cost..)
+- Average drop
+- Volume trend
+- Performance Up/Down volume: Performance when volume is tredning up (i.e. up-sloping volume) and performance when volume is trending down (i.e. downward-sloping volume).
+
+### Applying trading tactics
+
+Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.pdf]] to see where the pattern shines and where it stumbles.
+
+# Chart Patterns
+
+## N (2)
+
+### AB=CD
+
+AB=CD pattern is best at predicting D using ABC turns and fibonacci ratios. It is very poor at predicting the reversals after D.
+
+#### AB=CD, Bearish (ch-2)
+
+- CB/AB retracement (±5%) = {0.382, 0.5, 0.618, 0.707, 0.786, 0.886}
+- CD/CB extension (±5%) = {1.13, 1.27, 1.41 1.618, 2, 2.24, 2.618, 3.14}
+- Invalidate pattern if peak or valley lies outsided of the ABC turns.
+- Downward volume trend hurts performance. Performance improves if volume trends higher.
+- After validating ABC turn predict D like so:
+	- B - A = D - C
+	- => D = ( B - A ) + C
+	- => `D = 'AB Height' + C`
+
+#### AB=CD, Bullish (ch-3)
+
+- CB/AB retracement (±5%) = {0.382, 0.5, 0.618, 0.707, 0.786, 0.886}
+- CD/CB extension (±5%) = {1.13, 1.27, 1.41 1.618, 2, 2.24, 2.618, 3.14}
+- From A to B, no peak higher than A and no valley lower than B.
+- From B to C, no peak higher than C and no valley lower than B.
+- From C to D, no peak higher than C and no valley lower than D.
+- Downward volume trend hurts performance. Performance improves if volume trends higher.
+- After validating ABC turn predict D like so:
+	- A - B = C - D
+	- => D = C - ( A - B )
+	- => `D = C - 'AB Height'`
+- OR calculate D like so:
+	- => `D = C + (C-B)/ratio`
+- The ratio of days between CB and BA, i.e. CB:BA, can help in predicting when the stock will reach D.
+	- => `D = C + (C-B)/ratio`
