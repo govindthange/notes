@@ -1,3 +1,5 @@
+> Trading chart patterns and expecting a huge gain is unrealistic. For large gains invest for the long term (buy and hold) or stick to swing trading and nibble off what you can. Keep your expectations realistic.
+
 Chartpatterns are footprints left by the smart money.
 
 Chart Patterns are well documented in technical analysis literature and are based on psychological phenomena that occur between the buyers and sellers of financial instruments in liquid markets. Pattern formation do not form  a trading system, but rather proivde an indication of the future trend of a trend of a share as the price breaks key psychological barriers in the form of support and resitssance lines.
@@ -81,25 +83,50 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 
 # Chart Patterns
 
+- Chart pattern height is usually the best indicator of future performance.
+	- Tall pattern outperform.
+- Chart pattern width does not matter as much as height.
+- Patters with a rising volume trend outperforms.
+	- Generally volume trends higher most often in the chart patterns.
+- Use well-placed stop losses while trading chart patterns. Its best to use mental stop losses or a system stop loss. Keeping S.L. too close to the breakout would mostly likely hit.
+
 ## < (6)
 
 ### Broadening (2)
 
 #### Broadening Bottoms (ch-8)
 
+- Target price is the height of the pattern.
+- `Trade as price crosses from side to side`.
+	- Go long at the low
+		- Buy when the price bounces off the lower trendline.
+		- SL just below the lowest low.
+		- Trail SL by moving it to the prior minor low.
+	- Go short at the high
+		- Short when price touches the top trendline and begins moving down.
+		- SL above the highest high in the formation.
+		- Trail SL by moving it to the prior minor high.
+	- Handle partial rises/declines actively. Use the statistics in Chapter-8 to your advantage.
+- `Trade upon breakout` with height of the pattern as the target.
+	- Sell once price breaks out from the broadening pattern to the downside.
+	- Buy once price breaks out to the upside.
+- Heavy breakout day volume only sees improved performance for broadening bottoms after upward breakouts.
+- Upward breakouts (i.e. reversal) outperforms downward breakouts (i.e. continuation)
+- Single busted patterns outperforms double, triple+ busted patterns and also beat the non-busted pattern performance.
+
 ##### Identification
 
 - Appears at the bottom of the `downtrend`.
-- The price trends downward into the start of the pattern
-- Makes `higher highs and lower lows`
-- Has at least 5 touch points
+- Price trends downward into the start of the pattern
+- Price makes `higher highs and lower lows`
+- Price makes at least 5 touch points
 	- 2 minor lows (the even numbers)
 	- 3 minor highs (the odd numbers)
 	- The 5 touch points creates 2 diverging trendlines
-	- The touch points many not be alternating as long as there are 5  touches.
+	- The touch points many not be alternating as long as there are 5  touches or more.
 	- Less than 5 touches increases the likelihood of misidentification.
 	- If price cuts through a trendline, then don't count that as a touch.
-	- Price should cross the pattern from top to bottom enough to fill the space and not leave a hole of whitespace inside the pattern.
+	- Price should cross the pattern from top to bottom enough to fill the space and not leave a lot of whitespace inside the pattern.
 - Volume trend from start to end shoiuld be upward.
 
 ##### Breakout
