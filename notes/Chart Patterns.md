@@ -15,7 +15,11 @@ Patterns should be used on stocks that are
 - has a heartbeat (reasonable high-low yearly trading range)
 
 See patterns in a context not in isolation
-- look patterns in a given context i.e. their surrounding price landscape.
+- look patterns in a given context i.e. look for surrounding price landscape.
+	- Try to look for clues to how the stock may behave.
+	- Where the price may likely stall
+	- Where are S/R and trendlines
+	- Are those S/R strong or weak.
 - get a feel for the conditions where the pattern is emerging, where it can thrive or fail.
 
 ## Tip
@@ -93,16 +97,19 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 ## < (6)
 
 ### Broadening (2)
+=> AKA Expanding Triangle, Broadening Triangle, Five-point Reversal
 
 #### Broadening Bottoms (ch-8)
 
-- Target price is the height of the pattern.
+- Target price is the height of the pattern added/substracted from the breakout price at higest high or lowest low in the pattern.
+	- Measure height from the highest high to the lowest low.
+- Tall patterns are better than short ones.
 - `Trade as price crosses from side to side`.
-	- Go long at the low
+	- Go long at the bottom (low)
 		- Buy when the price bounces off the lower trendline.
 		- SL just below the lowest low.
 		- Trail SL by moving it to the prior minor low.
-	- Go short at the high
+	- Go short at the top (high)
 		- Short when price touches the top trendline and begins moving down.
 		- SL above the highest high in the formation.
 		- Trail SL by moving it to the prior minor high.
@@ -113,32 +120,40 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 - Heavy breakout day volume only sees improved performance for broadening bottoms after upward breakouts.
 - Upward breakouts (i.e. reversal) outperforms downward breakouts (i.e. continuation)
 - Single busted patterns outperforms double, triple+ busted patterns and also beat the non-busted pattern performance.
+- Price in a large number of broadening formations, instead of making a clear up or down thrust that pierces the trendline, moves horizontally for months before finally closing above or below the formation highs or lows.
+	- ![[BroadeningTopMovesHorizontallyFor6Months.png]]
+- To avoid throwbacks or pullbacks, look for nearby support or resistance withing 5% to 11% away from the pattern and see whether they are strong enough to turn price back.
 
 ##### Identification
 
-- Appears at the bottom of the `downtrend`.
-- Price trends downward into the start of the pattern
-- Price makes `higher highs and lower lows`
-- Price makes at least 5 touch points
+- Appears at the bottom of a `downtrend`.
+- Ignore any overshoot or undershoot withing 2 weeks of the pattern's start.
+- Inbound price trend is downward i.e. price trends downward into the start of the pattern
+- Price makes `higher highs and lower lows` that widens over time.
+- Price makes at least 5 touches (or more)
 	- 2 minor lows (the even numbers)
 	- 3 minor highs (the odd numbers)
 	- The 5 touch points creates 2 diverging trendlines
 	- The touch points many not be alternating as long as there are 5  touches or more.
 	- Less than 5 touches increases the likelihood of misidentification.
-	- If price cuts through a trendline, then don't count that as a touch.
+	- Price slicing through a trendline doesn't count as a touch.
 	- Price should cross the pattern from top to bottom enough to fill the space and not leave a lot of whitespace inside the pattern.
-- Volume trend from start to end shoiuld be upward.
+- Volume trend from start to end should be upward. Generally volume rises as price moves up and recedes as price moves down.
 
 ##### Breakout
 
-Breakout can occur on either side.
+> Identifying the ultimate breakout is difficult. It appears that each new high or new low may be the final push to freedom. Only when price moves in the opposite direction is it clear that price will not break out. Price may move horizontally for serveral months before staging a definitive breakout.
 
-When price closes outside a trendline boundary, then that penetration point becomes the breakout price.
+Breakout can occur on either side...
+
+when price closes outside one of the trendline boundaries then that penetration point becomes the breakout price.
 - Use miner high/low trendline for breakout
 	- Either when price closes above the formation's high
 	- Or when price closes below the pattern's low.
 
-When the price keeps sliding upward/downwards without a breakout then
+when the price follows a trendline for an extended time and keeps extending the trendline so far that its too long a waiting time for a breakout then consider the actual breakout price to be the value of the highest peak (or the lowest trough).
+
+when the price keeps sliding upward/downwards without a breakout then
 - backtrack to the prior minor high/low and draw a horizontal line forward in time until price closes above/below the horizontal line.
 - Use this when all the ohter identification guidelines are met.
 
@@ -146,10 +161,17 @@ When the price keeps sliding upward/downwards without a breakout then
 
 In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 
-- It is different from right-angled broadening pattern where one of the 2 trendlines is horizontal.
-- It is different from broadening wedge where both trendlines slope in the same direction.
+- It is different from the `Right-Angled Ascending/Descending Broadening Formation` where one of the 2 trendlines is horizontal.
+- It is different from a `Broadening Wedge` where both trendlines slope in the same direction.
 
 #### Broadening Tops (ch-11)
+=> AKA Expanding Triangle, Orthodox Broadening Top, Five-point Reversal
+
+- Wide patterns see better post-breakout performance than narrow ones.
+- In bar markets, after downward breakouts, short and wide patterns outperform.
+- Half the time the volume trend doesn't really matter to performance.
+- Partial rise/decline accurately predict the breakout direction. Place a dtrade once the stock reverses course in the middleway and if a breakout happens, then consider adding to your position.
+- A single busted pattern can make you a lot of money.
 
 ### Broadening Formations (2)
 
