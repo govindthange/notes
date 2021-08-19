@@ -6,7 +6,7 @@ Chart Patterns are well documented in technical analysis literature and are base
 
 [[moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021#Chart Patterns]]
 
-# Guidelines
+# Trading Guidelines
 
 Patterns should be used on stocks that are
 - actively traded in NYSE/DASDAQ exchanges
@@ -24,19 +24,41 @@ See patterns in a context not in isolation
 
 ## Tip
 
+If patterns fail, chill. You'll never get out of this life alive.
+
 ### Pick an appropriate stock, industry and market
+
+Aways follow atleast a dozen stocks in an industry you trade in.
 
 Find a `promising stock` in an `industry doing well` during a `rising market`.
 
 ### Confirm direction of the trend
 
-The stock, industry and the market must trend in the same direction for the best result.
+- Failures happen too often in chart patterns so always look at the market trend. Do not swim against the current and risk being run over by a jet skier.
+- The stock, industry and the market must trend in the same direction for the best result.
+	- First look at the general market. The general market assists individual stocks to perform.
+	- Then check the industry health.
+	- Finally look at the stocks.
+	- Follow a dozen stocks in the industry and if you find 9 of them rising then thats good. Too many trending lower could spell a problem for a bullish trade.
+- Riding a sideways trend is a bumpy ride.
+
+#### Ask yourself questions
+
+__How long will the uptrend continue?__
+- Use [[Moving Averages]] and [[Trend]] to analyze the current trend.
+- Use [[RSI]] to gauge the strength of the current trend.
+
+__Is buying now closer to the start of the trend or the end?__
+- Avoid trends that end just after you enter a trade.
+
+__On a shorter-term scale, what are the `overhead resistance` and `underlying support` where the stock might reverse?__
+- Use [[Market Structure]] to analyze potential reversal zones.
 
 ### Long bullish patterns, short bearish patterns
 
-Wait for a bullish pattern to appear.
-Enter a trade upon its confirmation.
-Exit when a bearish pattern appears with confirmation.
+- Wait for a bullish pattern to appear.
+- Enter a trade upon its confirmation.
+- Exit when a bearish pattern appears with confirmation.
 
 # Training
 
@@ -99,12 +121,15 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 ### Broadening (2)
 => AKA Expanding Triangle, Broadening Triangle, Five-point Reversal
 
+> Broadening pattern represents a chaos theory where small disturbances oscillate back and forth, then grow unbounded, wreaking havoc.
+
 #### Broadening Bottoms (ch-8)
 
 - Target price is the height of the pattern added/substracted from the breakout price at higest high or lowest low in the pattern.
 	- Measure height from the highest high to the lowest low.
+	- 20% of this target is highly achievable. Beyond 20% you have to watch out for S/R and other key levels where the price may reverse or stall.
 - Tall patterns are better than short ones.
-- `Trade as price crosses from side to side`.
+- `Intraformation Trade:` If the pattern is tall enough then trade as price crosses from side to side i.e. buy near the lower trendline and sell near or athe top when price stops rising.
 	- Go long at the bottom (low)
 		- Buy when the price bounces off the lower trendline.
 		- SL just below the lowest low.
@@ -114,7 +139,7 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 		- SL above the highest high in the formation.
 		- Trail SL by moving it to the prior minor high.
 	- Handle partial rises/declines actively. Use the statistics in Chapter-8 to your advantage.
-- `Trade upon breakout` with height of the pattern as the target.
+- `Pattern Formation Trade:` Trade upon breakout with height of the pattern as the target.
 	- Sell once price breaks out from the broadening pattern to the downside.
 	- Buy once price breaks out to the upside.
 - Heavy breakout day volume only sees improved performance for broadening bottoms after upward breakouts.
@@ -136,8 +161,8 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 	- The 5 touch points creates 2 diverging trendlines
 	- The touch points many not be alternating as long as there are 5  touches or more.
 	- Less than 5 touches increases the likelihood of misidentification.
-	- Price slicing through a trendline doesn't count as a touch.
-	- Price should cross the pattern from top to bottom enough to fill the space and not leave a lot of whitespace inside the pattern.
+	- Price slicing through a trendline doesn't count as a touch. This often occurs at the start and breakout from the pattern.
+	- Price should bounce from trendline to trendline enough times to fill the whitespace inside the pattern.
 - Volume trend from start to end should be upward. Generally volume rises as price moves up and recedes as price moves down.
 
 ##### Breakout
@@ -155,7 +180,9 @@ when the price follows a trendline for an extended time and keeps extending the 
 
 when the price keeps sliding upward/downwards without a breakout then
 - backtrack to the prior minor high/low and draw a horizontal line forward in time until price closes above/below the horizontal line.
-- Use this when all the ohter identification guidelines are met.
+- Use this when all the other identification guidelines are met.
+
+- Partial rise predicts the downward breakout. A partial fall predicts the upward breakout.
 
 ##### Distinction from other patterns
 
@@ -175,8 +202,38 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 
 ### Broadening Formations (2)
 
-- Broadening Formations, Right-Angled and Ascending (ch-9)
-- Broadening Formations, Right-Angled and Descending (ch-10)
+#### Broadening Formations, Right-Angled and Ascending (ch-9)
+
+> It represents the desire of investors/traders to `own the stock at a fixed price`, the buying enthusiasm pushes price higher but with each attempt fewer people are left willing to sell their shares until they receive an even higher price, so a broadening range of prices appears at the top.
+
+- Looks like a megaphone with a horizontal base and up-sloping trendline as its top.
+- Price can breakout from either sides but favors an upward breakout with price closing outside the trendline boundary.
+- The price drops faster after a downward breakout than it rises in an uptrend. Often, price drops twice as fast.
+- `Target price` is the height of the pattern added/substracted from the breakout price at higest high or lowest low in the pattern.
+- More `accurate targets` use a formation height divided by 2. Upward breakout hits 86% of the times and downward breakout hits 68% of the times. 
+- Follow the trendline and supports created by the broadening formation into the future.
+	- ![[BroadeningFormationRightAngledAndAscendingExtendedIntoFuture.png]]
+- This pattern does well with bottom-fishing strategy (buy low, sell high).
+- Avoid momentum trading this pattern (buy high, sell higher).
+- The breakout day gap helps performance.
+- Patterns taller than the median height perform better.
+	- Measure the height of the pattern from top to bottom and divide by the breakout price. Compare this number with the median.
+	- Median of Up Breakout = 10.6%
+	- Median of Down Breakout = 11.4%
+- Wide patterns perform better than narrow ones.
+- Tall and wide patterns outperform all other combinations.
+- Avoid tall and narrow patterns with upward breakouts.
+- Avoid short and narrow patterns with doward breakouts.
+- Downward breakouts tend to prefer falling volume for better performance.
+- High volume on the upward breakout day performs better than the high volume on the downard breakout day.
+- Single busted patterns perform better than non-busted ones. Trade only downward busted patterns (Say you shorted a downward breakout and then it fakes out and reverses then buy when the stock closes above the top of the pattern and hang on for the ride).
+- Non-busted patterns preform better after downward breakouts compared to all busted patterns.
+- If the pattern is tall enough then consider intraformation trade.
+- Partial rise predicts the downward breakout. A partial fall predicts the upward breakout.
+
+#### Broadening Formations, Right-Angled and Descending (ch-10)
+
+> It represents the desire of investors/traders to `sell a stock at a fixed price`.
 
 ### Broadening Wedges (2)
 

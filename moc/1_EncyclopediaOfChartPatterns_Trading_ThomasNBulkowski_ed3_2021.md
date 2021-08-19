@@ -10,6 +10,44 @@ Exit in downtrend: At the `ultimate low` on a historical price chart, not real t
 - find the lowest low `before price rises 20%`, measured from the low to the close.
 - if price closes above the top of the chart pattern, then the search for the ultimate low ends, and we use the lowest low found after entering the trade
 
+# Chapter Structure
+
+First passage in every chapter is a running commentary of the statistics.
+
+## Tour
+
+## Identification Guidelines Table
+
+## Focus on Failures
+
+### Breakeven failure rate
+
+## Statistics Table
+
+Refer `General Statistics Table` in each chapter.
+
+- Size Statistics
+- Volume Statistics
+- How often Stops Hit
+- Performance & Failurs Over Time
+- Busted Patterns
+
+### Average rise
+
+### Throwback/Pullback possibility after breakout
+
+The book mentions Throwback/Pullback in percentage. Try to see it in terms of fractions of trades i.e. ⅔, ⅙ etc. If its mentioned 68% it essentially means ⅔ i.e. every 2 out of 3 trades. Now that seems quite high and relevant in terms of what to expect.
+
+### How many change trend?
+
+### Percentage meeting price target
+
+## Trading Tactics Table
+
+## Experience
+
+## Samples
+
 # Chart Patterns
 
 ## [__] (2)
@@ -29,6 +67,7 @@ Exit in downtrend: At the `ultimate low` on a historical price chart, not real t
 - Triangles, Symmetrical (ch-66)
 
 ## < (6)
+=> AKA Expanding Triangle, Broadening Triangle, Five-point Reversal
 
 ### Broadening (2)
 
