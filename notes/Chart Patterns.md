@@ -123,6 +123,8 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 
 > Broadening pattern represents a chaos theory where small disturbances oscillate back and forth, then grow unbounded, wreaking havoc.
 
+With most patterns, you will wait for the breakout. An exception to the rule is if a partial rise or decline occurs. ^7d45b9
+
 #### Broadening Bottoms (ch-8)
 
 - Target price is the height of the pattern added/substracted from the breakout price at higest high or lowest low in the pattern.
@@ -165,6 +167,7 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 	- Price should bounce from trendline to trendline enough times to fill the whitespace inside the pattern.
 		- Note that inspite of having more than 5 touches, there could be enough whitespace/void left within pattern to invalidate it.
 		- ![[InvalidBroadeningFormationDueToWhitespace.png]]
+		- Its fine to have some whitespace in patterns that are very tall. It takes time for price to cross from top to bottom.
 - Volume trend from start to end should be upward.
 	- Generally volume rise over the length of the pattern.
 	- Volume rises as price moves up and recedes as price moves down.
@@ -173,7 +176,9 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 
 > Identifying the ultimate breakout is difficult. It appears that each new high or new low may be the final push to freedom. Only when price moves in the opposite direction is it clear that price will not break out. Price may move horizontally for serveral months before staging a definitive breakout.
 
-Breakout can occur on either side...
+Breakout direction is almost random and can occur on either side...
+
+![[#^7d45b9]]
 
 when price closes outside one of the trendline boundaries then that penetration point becomes the breakout price.
 - Use miner high/low trendline for breakout
@@ -188,9 +193,13 @@ when the price keeps sliding upward/downwards without a breakout then
 
 __Predict the ultimate breakout with partial rise/decline:__
 
+![[#^7d45b9]]
+
 - A partial rise predicts a downward breakout.
 - A partial fall predicts an upward breakout.
 - When price curls around on a partial rise/decline and returns to the trendline, the stock will usually __breakout immediately__ (that is, without crossing the chart pattern again)
+
+Only aggressive/advanced traders trade partial rises/declines and sometimes do get into trouble.
 
 ##### Distinction from other patterns
 
@@ -263,8 +272,19 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 
 ### Broadening Wedges (2)
 
-- Broadening Wedges, Ascending (ch-12)
-- Broadening Wedges, Descending (ch-13)
+#### Broadening Wedges, Ascending (ch-12)
+
+- A tilted up megaphone with 2 up-sloping trendlines that diverge. The top line has a slightly steeper slope than the bottom one.
+- A trend reversal is not always the case but it may happen often.
+- The chart pattern is not required to be at the end of a rising price trend but it may happen often times.
+- Breakout direction, although random, favors a downward direction slightly more often than upward.
+- The partial rise/decline is rare and occurs in about 5% of wedges.
+- Although throwback/pullback occur 2/3rd of the times, when they occur, performance suffer. This pattern performs better without a throwback/pullback than with a throwback/pullback. Avoid setups where there are S/R which may trigger throwback/pullback.
+- Price target for downward breakout is the lowest price in the wedge. For upward breakout its the height of the wedge added to the breakout price.
+	- Measure the height from the top of the wedge to the bottom of the wedge.
+	- You may even subtract the height from the low at the start of the pattern to get another target for downward breakout.
+
+#### Broadening Wedges, Descending (ch-13)
 
 ## N (2)
 

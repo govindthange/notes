@@ -24,6 +24,8 @@ First passage in every chapter is a running commentary of the statistics.
 
 ## Statistics Tables
 
+Some times it makes sense to view % stats in the form of common fractions. For example instead of saying 25% its more relevant to say 1/4 i.e. one out of every 4 trades.
+
 - General Statistics
 - Breakout and Post-Breakout Statistics
 - Size Statistics
@@ -39,7 +41,9 @@ First passage in every chapter is a running commentary of the statistics.
 
 ### Throwback/Pullback possibility after breakout
 
-The book mentions Throwback/Pullback in percentage. Try to see it in terms of fractions of trades i.e. ⅔, ⅙ etc. If its mentioned 68% it essentially means ⅔ i.e. every 2 out of 3 trades. Now that seems quite high and relevant in terms of what to expect.
+The book mentions Throwback/Pullback in percentage. Try to see it in terms of `Common Fraction` of trades i.e. ⅔, ⅙ etc. If its mentioned 68% it essentially means ⅔ i.e. every 2 out of 3 trades. Now that seems quite high and relevant in terms of what to expect.
+
+Percentage to Common Fraction Convertor: https://www.calculatorsoup.com/calculators/math/percent-to-fraction-calculator.php
 
 ### How many change trend?
 
