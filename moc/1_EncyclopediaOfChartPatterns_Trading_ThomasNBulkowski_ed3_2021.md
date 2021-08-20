@@ -22,15 +22,18 @@ First passage in every chapter is a running commentary of the statistics.
 
 ### Breakeven failure rate
 
-## Statistics Table
+## Statistics Tables
 
-Refer `General Statistics Table` in each chapter.
-
+- General Statistics
+- Breakout and Post-Breakout Statistics
 - Size Statistics
 - Volume Statistics
+	- Trend performance with rising & falling volume
+	- Performance with heavy & light breakout volume
 - How often Stops Hit
-- Performance & Failurs Over Time
-- Busted Patterns
+- Performance & Failurs Over Time (i.e. over 3 decades)
+- __Busted Patterns__
+	- Do checkout performance of single busted patterns.
 
 ### Average rise
 
@@ -40,9 +43,16 @@ The book mentions Throwback/Pullback in percentage. Try to see it in terms of fr
 
 ### How many change trend?
 
+- Cumiulative Failure Rates: Failure in achieving a given % rise/decline i.e. how many % of the identified pattern fail to rise/fall more than a given % (say rise/fall beyond 5%, 10%, 20% etc.)
+
 ### Percentage meeting price target
 
 ## Trading Tactics Table
+
+- Measuring rules for calculating the price target.
+- Probability of reaching target.
+- What percentage target is achievable with highest probability?
+	-  Typically 50% of the height has highest probability of achieving.
 
 ## Experience
 

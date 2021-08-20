@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/Chart Patterns.md",
+            "file": "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Chart Patterns.md",
+                "file": "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "a7b3993978c7ae49",
   "lastOpenFiles": [
+    "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
     "notes/Chart Patterns.md",
     "notes/Market Structure.md",
-    "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
     "moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
     "notes/Market Analysis.md",
     "notes/Entering Trade.md",

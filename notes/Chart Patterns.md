@@ -129,7 +129,7 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 	- Measure height from the highest high to the lowest low.
 	- 20% of this target is highly achievable. Beyond 20% you have to watch out for S/R and other key levels where the price may reverse or stall.
 - Tall patterns are better than short ones.
-- `Intraformation Trade:` If the pattern is tall enough then trade as price crosses from side to side i.e. buy near the lower trendline and sell near or athe top when price stops rising.
+- `Intraformation Trade:` If the pattern is tall enough (taller than the median) then trade as price crosses from side to side i.e. buy near the lower trendline and sell near or athe top when price stops rising.
 	- Go long at the bottom (low)
 		- Buy when the price bounces off the lower trendline.
 		- SL just below the lowest low.
@@ -163,7 +163,11 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 	- Less than 5 touches increases the likelihood of misidentification.
 	- Price slicing through a trendline doesn't count as a touch. This often occurs at the start and breakout from the pattern.
 	- Price should bounce from trendline to trendline enough times to fill the whitespace inside the pattern.
-- Volume trend from start to end should be upward. Generally volume rises as price moves up and recedes as price moves down.
+		- Note that inspite of having more than 5 touches, there could be enough whitespace/void left within pattern to invalidate it.
+		- ![[InvalidBroadeningFormationDueToWhitespace.png]]
+- Volume trend from start to end should be upward.
+	- Generally volume rise over the length of the pattern.
+	- Volume rises as price moves up and recedes as price moves down.
 
 ##### Breakout
 
@@ -182,7 +186,11 @@ when the price keeps sliding upward/downwards without a breakout then
 - backtrack to the prior minor high/low and draw a horizontal line forward in time until price closes above/below the horizontal line.
 - Use this when all the other identification guidelines are met.
 
-- Partial rise predicts the downward breakout. A partial fall predicts the upward breakout.
+__Predict the ultimate breakout with partial rise/decline:__
+
+- A partial rise predicts a downward breakout.
+- A partial fall predicts an upward breakout.
+- When price curls around on a partial rise/decline and returns to the trendline, the stock will usually __breakout immediately__ (that is, without crossing the chart pattern again)
 
 ##### Distinction from other patterns
 
@@ -234,6 +242,24 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 #### Broadening Formations, Right-Angled and Descending (ch-10)
 
 > It represents the desire of investors/traders to `sell a stock at a fixed price`.
+
+- The pattern looks like a megaphone with the top held horizontal and a down-sloping trendline bounded on the bottom.
+- The pattern favors an upward breakout almost twice as often as a downward one.
+- A trendline touch is a trendline touch regardless of whether it is composed on one candle or many candles of consecutive touches, but they need to be minor lows (or minor highs).
+- Breakout can happen in either direction, usually accompanied by a rise in volume that soon tapers off.
+- Upward breakout favor reversals and downward breakouts favor continuations.
+- Upward breakout takes longer to reach its ultimate high (+43%), but downward breakouts end faster (-15%).
+- Avoid momentum trading (buy high, sell higher) this chart pattern and focus on bottom fishing (buy low, sell high) for candidates.
+- Invest in tall patterns as they perform substantially better than short ones. Calculate % by dividing height by the breakout price and ensure that its above the median 9.7%.
+- Wide patterns slightly better than narrow ones.
+- Tall and wide patterns perform the best.
+- Short and wide patterns perform worst.
+- Placing stop loss just below the upward breakout or just above the downward breakout would have high hit chance but placing it as far as the opposite side of the formation would result in heavy loss if S.L does get hit. Consider placing a "Volatility Stop" or placing it closer at a nearby S/R level. Refer the glossary.
+- It is best to do intraformation trades as price reverses course at the pattern's trendline boundary where stop loss can be put just above/below the trendline thereby offering lowest risk.
+- Price rise an average of 60% so consider buying after a single busted downward breakout. __You must consider trading this__.
+- Do intraformatoin trading for tall patterns i.e. if the pattern is tall then go long after price rebounds off the lower trendline.
+
+![[BroadeningFormationRightAngledAndDescending.png]]
 
 ### Broadening Wedges (2)
 
