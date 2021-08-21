@@ -53,6 +53,7 @@ __Is buying now closer to the start of the trend or the end?__
 
 __On a shorter-term scale, what are the `overhead resistance` and `underlying support` where the stock might reverse?__
 - Use [[Market Structure]] to analyze potential reversal zones.
+- Avoid patterns with nearby overhead resistance.
 
 ### Long bullish patterns, short bearish patterns
 
@@ -115,6 +116,18 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 - Patters with a rising volume trend outperforms.
 	- Generally volume trends higher most often in the chart patterns.
 - Use well-placed stop losses while trading chart patterns. Its best to use mental stop losses or a system stop loss. Keeping S.L. too close to the breakout would mostly likely hit.
+- Performance suffer after a throwback/pullback because...
+	- The curl robs meomentum
+	- Traders become too shy to trade it after
+- Breakout day gap typically helps performance.
+- A downward move typically have a higher velocity so a downard breakout, although with a short target, declines faster than the speed at which price rise in an upward breakout.
+- Tall patterns typically outperforms short ones.
+- Pick tall and wide patterns for the best potential performance.
+- Breakout day volume heavier than the prior month's average show better performance after the breakout.
+- Singled busted patterns perform better than the double, tripple+ or non-busted patterns.
+	- Downward breakouts that bust outperform their non-busted counterparts.
+	- The catch is the pattern has to single bust, not double or triple+ bust and there is no way of knowing how many times the pattern will bust.
+	- Patterns with nearby overhead resistance or underlying support may likely bust. It will be best to avoid patterns with nearby S/R.
 
 ## < (6)
 
@@ -285,6 +298,13 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 	- You may even subtract the height from the low at the start of the pattern to get another target for downward breakout.
 
 #### Broadening Wedges, Descending (ch-13)
+
+- Breakout direction can be any but the pattern breaks out upward most often (72%).
+- Breakout day gaps help after a downward breakout but not after an upward one.
+- Tall patterns outperform short ones for both breakout directions. Height is the best predictor of future performance.
+- Compute the height from the highest price at the pattern's start to the lowest one at the pattern's end.
+- To compare relative height, divide the pattern height by the breakout price and compare that number with the median in the Size Statistics table. If the percentage is higher than the median height percentage (15.9%) then its a tall pattern. For the downward breakout the median is -11%.
+- Downward breakouts bust twice as often as do upward breakouts.
 
 ## N (2)
 
