@@ -43,6 +43,10 @@
   content: "🗺️ ";
   font-size:1.3em;
 }
+.nav-folder-title[data-path="checklist"] .nav-folder-title-content::before {
+  content: "🗹 ";
+  font-size:1.3em;
+}
 .nav-folder-title[data-path="quiz"] .nav-folder-title-content::before {
   content: "⁉️ ";
   font-size:1.3em;
