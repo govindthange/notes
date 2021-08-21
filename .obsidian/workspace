@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "checklist/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -90,14 +90,14 @@
   "active": "588e18d71bbe845b",
   "lastOpenFiles": [
     "checklist/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
+    "notes/Chart Patterns.md",
     "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
+    "notes/Glossary.md",
     "checklist/Untitled.md",
     "⌛ Timeline.md",
     "🕓️ Schedule.md",
     "moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
     "♻️ Flows.md",
-    "💳️ Kanban.md",
-    "notes/Chart Patterns.md",
-    "notes/Market Structure.md"
+    "💳️ Kanban.md"
   ]
 }

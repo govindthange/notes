@@ -16,9 +16,13 @@ First passage in every chapter is a running commentary of the statistics.
 
 ## Tour
 
+Its a running commentary of how fight between the bulls and the bears lead to the formation of the said pattern.
+
 ## Identification Guidelines Table
 
 ## Focus on Failures
+
+These are 5% failures where price after breakout `travels no more than 5% `before reversing.
 
 ### Breakeven failure rate
 
@@ -28,6 +32,10 @@ Some times it makes sense to view % stats in the form of common fractions. For e
 
 - General Statistics
 - Breakout and Post-Breakout Statistics
+	- __Breakout direction__ statistics
+	- Throwback/Pullback occurence
+	- Average rise after throwback/pullback.
+	- Average rise without throwback/pullback
 - Size Statistics
 - Volume Statistics
 	- Trend performance with rising & falling volume
@@ -54,9 +62,11 @@ Percentage to Common Fraction Convertor: https://www.calculatorsoup.com/calculat
 ## Trading Tactics Table
 
 - Measuring rules for calculating the price target.
+	- Once you have the target you can use the `Cumulative Failutre Rate` table to decide how reasonable the target is and accordingly decide on the capital to risk.
 - Probability of reaching target.
 - What percentage target is achievable with highest probability?
 	-  Typically 50% of the height has highest probability of achieving.
+	-  Also look at probability of reaching 2x or 3x of the height.
 
 ## Experience
 

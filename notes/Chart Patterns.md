@@ -22,6 +22,12 @@ See patterns in a context not in isolation
 	- Are those S/R strong or weak.
 - get a feel for the conditions where the pattern is emerging, where it can thrive or fail.
 
+Note that you can always get taken out by the market even though the stock may double after that.
+
+Plan the trade. Trade the plan.
+
+Sticking to a set discipline would keep your greed in check. When your target is achieved and you intend to ride further, do so by trailing your stop loss and let that S.L take you out.
+
 ## Tip
 
 If patterns fail, chill. You'll never get out of this life alive.
@@ -34,7 +40,9 @@ Find a `promising stock` in an `industry doing well` during a `rising market`.
 
 ### Confirm direction of the trend
 
-- Failures happen too often in chart patterns so always look at the market trend. Do not swim against the current and risk being run over by a jet skier.
+- Failures happen too often in chart patterns so always look at the market trend.
+	- Market trend helps a pattern's post-breakout performance.
+	- Do not swim against the current and risk being run over by a jet skier.
 - The stock, industry and the market must trend in the same direction for the best result.
 	- First look at the general market. The general market assists individual stocks to perform.
 	- Then check the industry health.
@@ -87,7 +95,15 @@ Correctly `spotting` the chart patterns.
 
 ### Analysing context
 
-Analyzing the `price landscape` surrounding the chart pattern
+Analyzing the `price landscape` surrounding the chart pattern.
+
+Do factor in the market structure (the price action landscape) and create a trading plan accordingly. Use this analysis to create bias and favor entering one particular direction of the breakout thereby avoiding trading the other direction which has high probability of going against you.
+
+- Nearby S/R or trendlines are potential reversal points. Look for them.
+
+- Performance suffers if a throwback/pullback appears. To avoid throwback/pullback, look for overhead resistance or underlying support before trading. Avoid patterns when the congestion is nearby.
+
+- Always lookout for other patterns (say a descending triangle) that just precedes (or follows) the pattern you are planning to trade. These are approaching storms for your setup.
 
 ### Evaluating trading setups
 
@@ -119,6 +135,8 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 - Performance suffer after a throwback/pullback because...
 	- The curl robs meomentum
 	- Traders become too shy to trade it after
+- A pattern is considered a failure if it travels no more than 5% after a breakout.
+	- This is referred to as 5% breakeven failure. 5% covers the transaction cost.
 - Breakout day gap typically helps performance.
 - A downward move typically have a higher velocity so a downard breakout, although with a short target, declines faster than the speed at which price rise in an upward breakout.
 - Tall patterns typically outperforms short ones.
@@ -128,6 +146,23 @@ Refer `Trading Tactics` section of each chapter in [[moc/1_EncyclopediaOfChartPa
 	- Downward breakouts that bust outperform their non-busted counterparts.
 	- The catch is the pattern has to single bust, not double or triple+ bust and there is no way of knowing how many times the pattern will bust.
 	- Patterns with nearby overhead resistance or underlying support may likely bust. It will be best to avoid patterns with nearby S/R.
+
+## ⬗ (2)
+
+A diamon pattern represents the struggle between buyers and sellers.
+
+### Diamond Bottoms (ch-23)
+
+- Price must enter the diamond from the top.
+- Gaps help performance.
+- Tall diamonds outperform short ones.
+- Compute the diamond height by substracting the lowest low in the diamond fromt he highest high. To compare, divide its height with the brekaout price and compare that with the median value to know whether the diamond is tall enough.
+- Wide diamonds outperform.
+- Tall and narow ones do best.
+- Avoid trading short diamonds (either wide or narrow).
+- When bottom comes after the top, expect an upward breakout.
+
+### Diamond tops (ch-24)
 
 ## < (6)
 

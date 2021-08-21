@@ -19,3 +19,10 @@ DCA: Dollar Cost Averaging. Buying instruments at regular intervals rather than 
 DCA'ing Out: Booking profit at regular intervals rather than waiting for tops & bottoms to book profit.
 
 Sizzle Index:
+
+Overshoot: pullback that precede start of the pattern.
+Undershoot: throwback that precede start of the pattern.
+
+Gaps
+- Breakaway gap: the gap at the time of breakout
+- Exhaustion gap: the gap that ends and uptrend/downtrend.
