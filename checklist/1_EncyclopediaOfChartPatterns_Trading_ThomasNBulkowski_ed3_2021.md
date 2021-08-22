@@ -25,7 +25,7 @@
 # ⬗ (2)
 
 - [x]  Diamond Bottoms (ch-23)
-- [ ]  Diamond tops (ch-24)
+- [x]  Diamond tops (ch-24)
 
 # Action (5)
 

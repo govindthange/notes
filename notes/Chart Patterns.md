@@ -19,8 +19,12 @@ See patterns in a context not in isolation
 	- Try to look for clues to how the stock may behave.
 	- Where the price may likely stall
 	- Where are S/R and trendlines
+		- Key to selecting better performing patterns is to search for underlying support or overhead resistance before trading.
+		- Nearby S/R repel the downard/upward move.
 	- Are those S/R strong or weak.
 - get a feel for the conditions where the pattern is emerging, where it can thrive or fail.
+
+Chart patterns fails so you must use conservative price targets and stop loss for long term success.
 
 Note that you can always get taken out by the market even though the stock may double after that.
 
@@ -163,6 +167,9 @@ A diamon pattern represents the struggle between buyers and sellers.
 - When bottom comes after the top, expect an upward breakout.
 
 ### Diamond tops (ch-24)
+
+- Price gap that occurs on the day price closes outside the pattern boundary hurt performance. Generally gaps are supposed to help performance, not hinder it.
+- Only single diagonals with the bottom after the top work well enought to consider using it. 65% chance price will break out upward.
 
 ## < (6)
 
