@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "588e18d71bbe845b",
+        "id": "76362c8284518ca1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "checklist/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
-            "mode": "preview"
+            "file": "notes/Chart Patterns.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "checklist/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
+                "file": "notes/Chart Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "588e18d71bbe845b",
+  "active": "76362c8284518ca1",
   "lastOpenFiles": [
-    "checklist/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
-    "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
     "notes/Chart Patterns.md",
-    "notes/Glossary.md",
-    "checklist/Untitled.md",
-    "⌛ Timeline.md",
-    "🕓️ Schedule.md",
-    "moc/1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.md",
-    "♻️ Flows.md",
-    "💳️ Kanban.md"
+    "quiz/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
+    "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
+    "notes/Exiting Trade.md",
+    "notes/Intraday Strategies.md",
+    "notes/Market Structure.md",
+    "notes/Untitled.md",
+    "notes/Entering Trade.md",
+    "notes/Market Analysis.md",
+    "notes/Trading Psychology.md"
   ]
 }

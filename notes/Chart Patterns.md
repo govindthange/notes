@@ -160,7 +160,9 @@ A diamon pattern represents the struggle between buyers and sellers.
 - Price must enter the diamond from the top.
 - Gaps help performance.
 - Tall diamonds outperform short ones.
-- Compute the diamond height by substracting the lowest low in the diamond fromt he highest high. To compare, divide its height with the brekaout price and compare that with the median value to know whether the diamond is tall enough.
+- For comparison calculate height as a percentage of the breakout price.
+	- Compute the diamond height by substracting the lowest low in the diamond fromt he highest high.
+	- Divide this height by the brekaout price and compare that with the median value to know whether the diamond is tall enough.
 - Wide diamonds outperform.
 - Tall and narow ones do best.
 - Avoid trading short diamonds (either wide or narrow).
@@ -289,9 +291,10 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 - Avoid momentum trading this pattern (buy high, sell higher).
 - The breakout day gap helps performance.
 - Patterns taller than the median height perform better.
-	- Measure the height of the pattern from top to bottom and divide by the breakout price. Compare this number with the median.
-	- Median of Up Breakout = 10.6%
-	- Median of Down Breakout = 11.4%
+	- For comparison calculate height as a percentage of the breakout price.
+		- Measure the height of the pattern from top to bottom and divide by the breakout price. Compare this number with the median.
+		- Median of Up Breakout = 10.6%
+		- Median of Down Breakout = 11.4%
 - Wide patterns perform better than narrow ones.
 - Tall and wide patterns outperform all other combinations.
 - Avoid tall and narrow patterns with upward breakouts.
@@ -345,7 +348,9 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 - Breakout day gaps help after a downward breakout but not after an upward one.
 - Tall patterns outperform short ones for both breakout directions. Height is the best predictor of future performance.
 - Compute the height from the highest price at the pattern's start to the lowest one at the pattern's end.
-- To compare relative height, divide the pattern height by the breakout price and compare that number with the median in the Size Statistics table. If the percentage is higher than the median height percentage (15.9%) then its a tall pattern. For the downward breakout the median is -11%.
+- For comparison calculate height as a percentage of the breakout price.
+	- Divide the pattern height by the breakout price and compare that number with the median in the Size Statistics table.
+	- If the percentage is higher than the median height percentage (15.9%) then its a tall pattern. For the downward breakout the median is -11%.
 - Downward breakouts bust twice as often as do upward breakouts.
 
 ## N (2)
@@ -381,3 +386,32 @@ AB=CD pattern is best at predicting D using ABC turns and fibonacci ratios. It i
 	- => `D = C + (C-B)/ratio`
 - The ratio of days between CB and BA, i.e. CB:BA, can help in predicting when the stock will reach D.
 	- => `D = C + (C-B)/ratio`
+
+## Action (5)
+
+### -v (1)
+
+#### Diving Board (ch-25)
+
+- Its a long-term pattern.
+	- Its not suited for swing trading.
+	- Switch to weekly scale when searching for this pattern.
+	- Avoid using stop loss as these are very long-term trades.
+- A flat base (where price moves horizontally/sideways and finds support on the line) followed by a deep plunge (a sharp sell-off). Once price recovers, it can soar.
+	- Sometimes the bottom of the pattern isn't flat, but the sideways path should be obvious.
+	- Price should touch the board often, setting up a support area.
+	- The length of the board is often several months to years.
+- Breakout occurs when price closes above the top of the pattern.
+	- Ignore the pattern if price fails to close above the top.
+	- Ignore the pattern if price makes a subsequent lower plunge.
+- Prefer this patterns if its one or two months long.
+
+### \_ (2)
+
+- Measured Move Down (ch-46)
+- Measured Move Up (ch-47)
+
+### -/ (2)
+
+- Bump-and-Run Reversal, Bottom (ch-14)
+- Bump-and-Run Reversal, Top (ch-15)

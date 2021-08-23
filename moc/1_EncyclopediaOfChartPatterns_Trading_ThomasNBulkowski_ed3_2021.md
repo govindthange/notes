@@ -28,7 +28,13 @@ These are 5% failures where price after breakout `travels no more than 5% `befor
 
 ## Statistics Tables
 
+Use these statistics to gauge how well a pattern will perform.
+
+For example by measuring the `Diving Board` pattern and comparing the values with the median values in `Size Statistics` table you can tell that the board's length is too short and depth of the plunge is too shallow. Now you can be confident that this pattern will most likely underperform.
+
 Some times it makes sense to view % stats in the form of common fractions. For example instead of saying 25% its more relevant to say 1/4 i.e. one out of every 4 trades.
+
+### Tables
 
 - General Statistics
 - Breakout and Post-Breakout Statistics
