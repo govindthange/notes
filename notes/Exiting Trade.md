@@ -9,7 +9,7 @@ Chart: Daily
 
 `Criteria 1:` Price target met
 
-- You must have a plan before you enter any trade. Goal must be defined. Define
+- You must have a plan before you enter any trade. Goal must be defined.
 
 `Criteria 2:` Price action above 50 MA, 100 MA and 200 MA
 

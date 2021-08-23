@@ -9,7 +9,7 @@ For maximum sucess use all of the below aspects for an **Entry Trigger**
 
 ## Entry rules for trading
 
-Exit the trade only if all the below 3 criterias are met.
+Enter trade only if all the below 3 criterias are met.
 
 Chart: Daily
 

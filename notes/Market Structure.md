@@ -33,7 +33,7 @@ Knot is a place in a strong [[Trend]] where price moves sideways for at least 3 
 
 ## Swings
 
-Observe the Highs and Lows.
+Observe the Highs and Lows w.r.t [[Swing Trading]]
 
 - Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
 
