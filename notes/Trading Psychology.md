@@ -22,6 +22,7 @@
 - Trading is about choosing a strategy wisely, executing it like a robot/program/script, then looking into the next 100, 200 or 300 trades and ensuring that overall you are profitable in all these trades.
 - You must have enough in your account balance, but be trading with just enough (1% to 2% of your trading kitty) to handle a continuous streaks of losing trades without blowing up your entire trading account. With no more than 2% in each trade it will require a streak of over 50 losing trades in a row. It is a very low probability.
 - Everytime you trade it depletes your mental energy regardless of whether you make profit or loss. Mental capital is more important than financial capital. [...](https://youtu.be/KvZ7TH0iYz4?t=2933)
+- ![[Money Management#^63b1a1]]
 
 ## Blowing up the whole accounts
 

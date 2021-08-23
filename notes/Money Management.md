@@ -18,6 +18,14 @@ There are only 6 kinds of trades based on their outcomes.
 
 Resolve to grab `Big Profit Trades` whenever you see an opportunity (say in `Reversal Trades`), on normal trading situations like `Breakout Trades`, take very less risk and avoid `Big Loss Trades` at all costs.
 
+
+# Success Mantra
+[...](https://www.youtube.com/watch?v=2DSuguymfK4)
+
+Many make money but ultimately it comes down to who gets to keep it. ^63b1a1
+
+Are you one of those who keep their money?
+
 # Calculations
 
 ## Trading Account Capital
