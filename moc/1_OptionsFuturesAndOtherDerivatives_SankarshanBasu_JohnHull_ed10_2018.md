@@ -1,8 +1,14 @@
 1_OptionsFuturesAndOtherDerivatives_SankarshanBasu_JohnHull_ed10_2018.pdf
 
+This book's goal:
+
+- Unifying framework for valuation of all types of derivatives.
+
 # Derivatives Market (1-2, 8)
 
-## How it works? (1-2)
+## Derivatives Market and How it is changing (1)
+
+## How it works? (2)
 
 ## What are the different ways of transferring risks? (8)
 - Forward Contract

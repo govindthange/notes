@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/Chart Patterns.md",
+            "file": "notes/Trading Psychology.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "968111b7ef0917ff",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Chart Patterns.md",
+                "file": "notes/Trading Psychology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "76362c8284518ca1",
   "lastOpenFiles": [
+    "notes/Trading Psychology.md",
+    "notes/Intraday Strategies.md",
+    "notes/Untitled.md",
     "notes/Chart Patterns.md",
     "quiz/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
     "moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021.md",
     "notes/Exiting Trade.md",
-    "notes/Intraday Strategies.md",
     "notes/Market Structure.md",
-    "notes/Untitled.md",
     "notes/Entering Trade.md",
-    "notes/Market Analysis.md",
-    "notes/Trading Psychology.md"
+    "notes/Market Analysis.md"
   ]
 }
