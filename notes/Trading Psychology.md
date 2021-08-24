@@ -1,3 +1,41 @@
+Trading is a game of probabilities and risk management.
+
+## The easy part
+
+Trading is..
+- A science; a mathematical model to solve.
+- The game of Probabilities
+- Risk Management
+- High probability setup
+
+## The tough part
+
+Trading is also...
+- An art not just a science
+- The psychology
+- The mindset
+- The attitude about money and success
+
+## Probability
+
+Trading profession has 97.5% failure rate.
+- What are the chances of you becoming successful? [...](https://www.youtube.com/watch?v=6cif3ZNqDBI)
+- What makes you think that you will be amongst those 2.5% elite group of best of the best traders?
+
+There were people who walked on the moon, there were people who cured deadly diseases, there were people who invented technologies to solve complex problems. That does not mean those accomplishments should act as the precedence for every single person that follows.
+
+## Improving craft
+[...](https://youtu.be/6cif3ZNqDBI?t=1181)
+
+Either get obsessed about technical analysis by spending years like so:
+- Read books on technical analysis
+- Study charts for 8-12 hours a day
+- Backtest strategies
+
+Or study the market for an hour every day.
+
+Its not how much you can do at any one time. Its how consistently you can do this over a long period of time. You will get substantially better results if you just do it a little bit at a time and do it every single day without quitting.
+
 # Tips
 
 - `Build conviction in your analysis` and respect your plan. This is important because many traders do foolish/dumb exits. i.e. exiting a well planned trade out of fear. Its foolish to realize later that the trade did went as per your plan but you exited due to emotional unstability.
@@ -12,7 +50,6 @@
 	- If you focus on the profit you will never make profit.
 	- Stop repeatedly watching your P&L after taking the trade. [...](https://youtu.be/2fPVlSa5wYE?t=2759)
 
-
 # Psychology
 
 - You take bad decisions if you put evertying online.
@@ -23,6 +60,7 @@
 - You must have enough in your account balance, but be trading with just enough (1% to 2% of your trading kitty) to handle a continuous streaks of losing trades without blowing up your entire trading account. With no more than 2% in each trade it will require a streak of over 50 losing trades in a row. It is a very low probability.
 - Everytime you trade it depletes your mental energy regardless of whether you make profit or loss. Mental capital is more important than financial capital. [...](https://youtu.be/KvZ7TH0iYz4?t=2933)
 - ![[Money Management#^63b1a1]]
+- Work on your stubbornness [...](https://www.youtube.com/watch?v=0XafQHxHKak)
 
 ## Blowing up the whole accounts
 
@@ -53,7 +91,6 @@ Avoiding behavioral traits of people who consistently lose in the market should 
 	- Opinoins on shares/alt-coins based on hunches are useless. You got to do the work.
 
 Observe and emulate the habits of successful traders and inverstors.
-
 
 Losing at trading and losing at life overall have something in common.
 
