@@ -1,2 +1,6 @@
-# Obsidian workspace
-../.obsidian/workspace
+.DS_Store
+templates/
+ancestry/
+preamble.sty
+..md
+.obsidian/workspace
