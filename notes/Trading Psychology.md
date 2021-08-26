@@ -1,20 +1,25 @@
 Trading is a game of probabilities and risk management.
 
-## The easy part
+## Note the easy part
 
 Trading is..
-- A science; a mathematical model to solve.
-- The game of Probabilities
-- Risk Management
-- High probability setup
+- A science
+- A mathematical equation to solve
+- A game of Probabilities
+- A risk management
+- A high probability setup
 
-## The tough part
+## Understand the tough part
+
+Trading is not..
+- fast
+- easy
 
 Trading is also...
 - An art not just a science
-- The psychology
-- The mindset
-- The attitude about money and success
+- A psychology
+- A mindset
+- An attitude about money and success
 
 ## Probability
 
@@ -24,29 +29,38 @@ Trading profession has 97.5% failure rate.
 
 There were people who walked on the moon, there were people who cured deadly diseases, there were people who invented technologies to solve complex problems. That does not mean those accomplishments should act as the precedence for every single person that follows.
 
-## Improving craft
+## Improve your craft
 [...](https://youtu.be/6cif3ZNqDBI?t=1181)
 
-Either get obsessed about technical analysis by spending years like so:
-- Read books on technical analysis
-- Study charts for 8-12 hours a day
-- Backtest strategies
+Either get obsessed about technical analysis by spending years..
+- Reading books on technical analysis
+- Studying charts for 8-12 hours a day
+- Backtesting strategies
 
 Or study the market for an hour every day.
 
 Its not how much you can do at any one time. Its how consistently you can do this over a long period of time. You will get substantially better results if you just do it a little bit at a time and do it every single day without quitting.
 
-# Tips
+## Build a mindset
 
 - `Build conviction in your analysis` and respect your plan. This is important because many traders do foolish/dumb exits. i.e. exiting a well planned trade out of fear. Its foolish to realize later that the trade did went as per your plan but you exited due to emotional unstability.
 
 - `Respect your plan`
-	- Respect your `Stop Loss` level and `Take Profit` Level.
-	- Do not get emotionally attached to your `P&L` and change decisions while holding a position.
+	- Plan your trade and trade your plan. If you fail to plan then essentially your plan is to fail.
+	- Define your goal and `Take Profit` levels.
+	- Respect your `Stop Loss` whether it is a mental or systemic.
+	- Do not get emotionally attached to your `P&L` and keep changing decisions while holding a position.
 	- Always exit as per planned Stop Loss and Take Profit levels.
 	- [This is an example of following a well defined trade plan trade and exiting at preplanned `Take Profit` level.](https://youtu.be/dQ2jM5ATqIg?t=1922)
 
-- Focus on the Process not on the Profits
+- Focus on the process not on profits.
+	- Focus on the trade rather than the money. [...](https://www.youtube.com/watch?v=UZoBBKi7Lkc)
+		- Say you are in a trade which is down by $10,000 due to a poor trading decision. When do you exit such a trade?
+		- Say loss does come down to $5,000. Do you exit now?
+		- Lets say loss further reduces to $1,000. Do you exit now?
+		- What if it goes down to $0 i.e. breakeven. Do you exit now?
+		- How about if the trade is in $5,000 profit. Do you exit?
+	- If you are fixated on the P&L then it becomes a focus on the money rather than on the money. Focus on executing good quality trades i.e. executing trades exactly the way you had planned.
 	- If you focus on the profit you will never make profit.
 	- Stop repeatedly watching your P&L after taking the trade. [...](https://youtu.be/2fPVlSa5wYE?t=2759)
 
