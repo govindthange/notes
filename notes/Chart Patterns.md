@@ -1,3 +1,7 @@
+A chart is a visual representation of major transactions, both on buying and selling sides. It maps out the major price levels where the big money (the funds, banks) decide to buy and sell.
+
+Its called big money because it takes billions of dollars to actually move the price of a stock such as infosys. The company has $101 billion market cap and it will take $5 billion to move this stock ±5%. This is only possible by the big money.
+
 > Trading chart patterns and expecting a huge gain is unrealistic. For large gains invest for the long term (buy and hold) or stick to swing trading and nibble off what you can. Keep your expectations realistic.
 
 Chartpatterns are footprints left by the smart money.
@@ -181,6 +185,8 @@ A diamon pattern represents the struggle between buyers and sellers.
 > Broadening pattern represents a chaos theory where small disturbances oscillate back and forth, then grow unbounded, wreaking havoc.
 
 With most patterns, you will wait for the breakout. An exception to the rule is if a partial rise or decline occurs. ^7d45b9
+
+> When you do spot a broadening pattern, you may sometimes see a `Head and Shoulder` forming as price bounces between the two trendlines.
 
 #### Broadening Bottoms (ch-8)
 
