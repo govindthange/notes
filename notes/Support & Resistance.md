@@ -75,6 +75,18 @@ Statistically speaking 80% of the time market is in a range and buying support a
 	- You may also consider levels where price showed too much of small choppy moves. Here the line would cut through multiple candle bodies.
 	- Do not focus too much on precisely drawing lines to touch the lower/upper most tip of the wick. Its fine if the line cuts through the candle.
 
+### Drawing S/R using Daily Volume/Gaps
+[...](https://www.youtube.com/watch?v=rq4jthS3nTA)
+
+A daily chart represents major transactions, both on the buying side and the selling side. It maps out the major price levels where the smart big money (the funds, banks) decide to buy and sell.
+
+- Open daily charts.
+- Draw S/R on breakout candles where volume is noticeably high.
+- Draw S/R on breakout candles.
+- Adjust levels to get the most number of touches.
+- Go to weekly chart and confirm that the lines are indeed on the breakout candles where volume is noticeably high.
+- On the weekly chart adjust level to get most number of touches.
+
 ## S/R in a Range
 [...](https://youtu.be/nuVv0ZWUfs4?t=565)
 
