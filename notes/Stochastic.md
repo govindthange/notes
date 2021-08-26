@@ -1,14 +1,25 @@
+Stochastics displays the location of the closing price relative to the high and low range over a specific period of time.
 
-Stochastic is to be used when market shows `extreme momentum` in one direction and you are awaiting a `reversal` i.e. a throwback/pullback for entry.
+Stochastic can be used when market shows `extreme momentum` in one direction and you are awaiting a throwback/pullback.
 
 > Its best when you have missed the trend and want to avoid that risky chase but still get on board for that last squeeze of the momentum. So you set an alert on that first stochastic entry in OB/OS zone and look for entry after confluence from candlestics.
 
 # Components
 
-## Moving Averages
+## Parameters
+[...](https://tradingsim.com/blog/stochastic-rsi/)
 
-- Fast Moving Average (blue line)
-- Slow Moving Average (orange line)
+The most common setting for the Stochastics oscillator is 14, 3, 3 or simply 14, 3. This simply indicates a 14-period look-back and a 3 period SMA for %K, which is %D.
+
+## %K
+
+- It represents current closing prices in relation to the defined high and low period.
+- Its a fast moving blue line.
+
+## %D
+
+- Its a simple moving average of %K.
+- Its a slow moving orange/red line.
 
 ## OB/OS Zones
 
