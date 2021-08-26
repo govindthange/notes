@@ -1,3 +1,5 @@
+If you fail to plan then your plan is to fail.
+
 # Growing Small Trading Account
 [...](https://youtu.be/WdcqKUUJIA4?t=82)
 
