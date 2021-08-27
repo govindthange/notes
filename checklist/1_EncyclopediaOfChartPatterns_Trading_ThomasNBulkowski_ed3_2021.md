@@ -1,9 +1,20 @@
-# N (2)
+# N (7)
 
 ## AB=CD (2)
 
 - [x]  AB=CD, Bearish (ch-2)
 - [x]  AB=CD, Bullish (ch-3)
+
+## /\/ (2)
+
+- [x]  Measured Move Down (ch-46)
+- [x]  Measured Move Up (ch-47)
+
+## ~ (3)
+
+- [ ]  Flags (ch-34)
+- [ ]  Flags, High and Tight (ch-35)
+- [ ]  Pennants (ch-48)
 
 # < (6)
 
@@ -27,16 +38,11 @@
 - [x]  Diamond Bottoms (ch-23)
 - [x]  Diamond tops (ch-24)
 
-# Action (5)
+# Action (3)
 
 ## -v (1)
 
-- [ ]  Diving Board (ch-25)
-
-## \_ (2)
-
-- [ ]  Measured Move Down (ch-46)
-- [ ]  Measured Move Up (ch-47)
+- [x]  Diving Board (ch-25)
 
 ## -/ (2)
 
@@ -95,11 +101,6 @@
 - [ ]  3 Falling Peaks (ch-61)
 - [ ]  3 Peaks and Domed House (ch-62)
 - [ ]  3 Rising Valleys (ch-63)
-
-## ~ (3)
-
-- [ ]  Flags (ch-34)
-- [ ]  Pennants (ch-48)
 
 ## ' , (1)
 
