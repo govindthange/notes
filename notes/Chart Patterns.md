@@ -359,9 +359,9 @@ In this pattern the 2 trendlines diverges; one slopes up and other slopes down.
 	- If the percentage is higher than the median height percentage (15.9%) then its a tall pattern. For the downward breakout the median is -11%.
 - Downward breakouts bust twice as often as do upward breakouts.
 
-## N (2)
+## N (6)
 
-### AB=CD
+### AB=CD (2)
 
 AB=CD pattern is best at predicting D using ABC turns and fibonacci ratios. It is very poor at predicting the reversals after D.
 
@@ -393,7 +393,72 @@ AB=CD pattern is best at predicting D using ABC turns and fibonacci ratios. It i
 - The ratio of days between CB and BA, i.e. CB:BA, can help in predicting when the stock will reach D.
 	- => `D = C + (C-B)/ratio`
 
-## Action (5)
+### /\/ (2)
+
+Use this pattern to predict how far down/up price is going.
+- Enter trade when price leaves the correcitive phase.
+
+Or use this pattern defensively to predict how far price will recover.
+- i.e. preciting what happens after the pattern completes. The price returns to the corrective phase.
+- A good place to sell a weak stock is when price bounces back to the corrective phase.
+- or after the mesuared move completes, use a climb back to the corrective phase as part of a short-term swing trade.
+- The corrective phase is a zone of S/R.
+
+Measured moves with falling volume trend outperforms those with a rising volume trend.
+- You cant tell volume trending up/down util the pattern completes.
+- If volume is high during the 1st leg, then there is a good chance volume will trend lower in the 2nd half of the pattern.
+
+There is no breakout and no ultimate high/leg. Success is measured by how often the second leg meets or exceeds the lengh of the first leg.
+
+The rise-retrace-rise Pattern:
+1. 1st leg: A straight-line run.
+	- It may fit within its own channel.
+	- If the first leg does not follow a straight course.
+	- If the first leg fails to stay within a well-defined channel look elsewhere.
+2. Corrective phase: A pause and a substantial retracement (40%-60%)
+	- A rectracement is usually substantial i.e. between 40% to 60%.
+	- If price retraces more than 80%, steer away. Look for another opportunity.
+	- If price corrects only by 15% then it might be a false breakout.
+	- The corrective phase may resemble a saw-tooth pattern.
+		- This happens when the rise leading to the start of the measured move is extensive.
+		- When this is the case, it is prudent to wait for price to rise above the high established during the first leg or wait for price to fall below the low established during the first leg.
+3. 2nd leg: Resume run.
+	- It may fit within its own channel.
+	- It is measured from the beginning of the corrective phase.
+	- It loosely follow the slope of the 1st leg.
+	- If the second leg starts rising with no significant change in volume then its a warning sign. ![[Volume#^8ed42c]]
+
+#### Measured Move Down (ch-46)
+
+#### Measured Move Up (ch-47)
+
+- A stair-step rise.
+- 1st leg is about 15% longer than the 2nd leg.
+- Be convervative when predicting a price target.
+	- In bull market 2nd leg is shorter than the 1st leg 60% of the time.
+- When price rises steadily for a long time, say over a year or more, and then beigins a measured move up, the corrective phase might be excessively choppy.
+- Aggressive Entry
+	- To gauge the breakout point, draw a down-sloping trendline along the moinor highs in the corrective phase.
+	- When price closes above the trendline, then buy the stock.
+- Convervative Entry
+	- Buy after price leaves the corrective phase.
+	- Buy when price closes above the peak in the first leg or corrective phase (the higher of the two) instead of a trendline pierce.
+- Exit
+	- When price pauses near but below the target price, then it might be wise to sell.
+	- If the stock approaches the target price, do not be too quick to sell. Wait for price to start declining.
+- If you do not sell near the target price and decide to hold on, you might lose all your gains.
+
+If you own a stock and are contemplating selling, see if a measure move is in the works. If so, sell near the end (high) of the second leg.
+
+### ~ (3)
+
+#### Flags (ch-34)
+
+#### Flags, High and Tight (ch-35)
+
+#### Pennants (ch-48)
+
+## Action (3)
 
 ### -v (1)
 
@@ -411,13 +476,3 @@ AB=CD pattern is best at predicting D using ABC turns and fibonacci ratios. It i
 	- Ignore the pattern if price fails to close above the top.
 	- Ignore the pattern if price makes a subsequent lower plunge.
 - Prefer this patterns if its one or two months long.
-
-### \_ (2)
-
-- Measured Move Down (ch-46)
-- Measured Move Up (ch-47)
-
-### -/ (2)
-
-- Bump-and-Run Reversal, Bottom (ch-14)
-- Bump-and-Run Reversal, Top (ch-15)
