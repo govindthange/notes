@@ -1,6 +1,6 @@
 Trading is a game of probabilities and risk management.
 
-## Note the easy part
+## Know the easy part
 
 Trading is..
 - A science
@@ -18,10 +18,14 @@ Trading is not..
 Trading is also...
 - An art not just a science
 - A psychology
+	- Hope
+	- Greed
+	- Fear
+	- Regret
 - A mindset
 - An attitude about money and success
 
-## Probability
+### Probability
 
 Trading profession has 97.5% failure rate.
 - What are the chances of you becoming successful? [...](https://www.youtube.com/watch?v=6cif3ZNqDBI)
@@ -66,8 +70,13 @@ Its not how much you can do at any one time. Its how consistently you can do thi
 
 # Psychology
 
+> Its not difficult to make money in the market but it is difficult to keep it.
+
+Most traders fail not because they don't know how to trade but because they don't know how to control their emotions like hope, greed, fear and regret. This is why a trader can be on a seies of small wins and one day when shit hits the fan, they become emotionally attached to their trade, they break their own rules and risk management and fight the trend. This leads to `hope and hold` which turns into `fear of taking a loss` and eventually that's how a `small loss becomes an unrecoverable damage` that blows up a trading account.
+
 - You take bad decisions if you put evertying online.
 - Do not trade with an amount more than you can afford to lose comfortably.
+- As a beginner do not trade with an amount so small that you don't care to lose. The amount must be substantial enough to care about. This is important to build emotional discipline.
 - If you trade with a huge capital you will get emotional eventually and end up making decisions.
 - With trading its not about how much money you make in this single trade or how much money you make this week/money. 
 - Trading is about choosing a strategy wisely, executing it like a robot/program/script, then looking into the next 100, 200 or 300 trades and ensuring that overall you are profitable in all these trades.

@@ -22,7 +22,9 @@
 
 ## Plan it
 
-- Do not get emotionally attached to any trade. Planning helps in preventing overtrading and FOMO (i.e. Fear On Missing Out).
+- Do not get emotionally attached to a trade.
+	- Planning helps in preventing overtrading and FOMO (i.e. Fear On Missing Out).
+	- Planneing prevents you from holding on loosers for too long.
 - Always have a trading plan with entries, exits, and stops.
 - Define risk levels for every single trade.
 	- Say you see a stock for a potential long entry.

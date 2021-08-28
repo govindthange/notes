@@ -2,6 +2,14 @@ A proper money management is a way to actually avoid having to be disciplined.
 
 Money Management rules are the most importnat ones. Anyone who applies good money management will always be a winner.
 
+Trading is not investment, it is a business.
+- Unlike invetestors traders do not buy and hold stocks for appreciation in value.
+- Unlike an investor, a trader does not seek diversification and spread out capital too much. Traders only enter traders that are in their A+ setup.
+
+For traders stocks are their trading vehicle and they ride market volatility to the upside/downside. Traders do not look for long term appreciation in value.
+
+Traders may diversify only when they are hedging an existing position.
+
 # Survival Mantra
 [...](https://www.youtube.com/watch?v=lmuTmzFA9q0)
 
