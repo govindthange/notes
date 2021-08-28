@@ -16,6 +16,8 @@ MACD not only utilizes past data to calculate its signals but it also helps in p
 
 # Moving Average Convergence Divergence
 
+MACD helps in seeing where the buy-sell money flow changes. This is indicated by the crossovers. ^9e1687
+
 MACD is a trend following indicator and the momentum indicator. It has 4 components:
 
 ## 1. MACD Line (Blue)
@@ -30,7 +32,9 @@ Signal line reacts slower to the price changes.
 
 `Signal Line` = 9 Day EMA of `MACD Line`
 
-## 3. MACD Histogram
+## 3. MACD Crossovers and Histogram
+
+![[#^9e1687]]
 
 Histogram measures the short term momentum in the market. When the histogram bars becomes larger and larger then it tells you that there is a strong momentum building up.
 

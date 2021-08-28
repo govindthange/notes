@@ -8,10 +8,17 @@ RSI compares the magnitude of recent gains to recent losses in a range between 0
 - The downside to using indicators on higher timeframe charts is that it gives lesser opportunities.
 - The trade off is whether you want `more opportunities` in a short term charts or you want `more reliable opportunities` in a long term charts.
 
+
+## OB/OS Levels
+
+These levels are just there to remind you that there could be a trend change coming soon.
+- When RSI enters OS zone (below 30) then it means you should wait and look for a long trade.
+- Similarly if RSI enters OB zone (above 70) then you should wait and look for a short trade.
+- You enter long/short by taking confirmation from [[MACD#3 MACD Crossovers and Histogram]]
+
 ---
 
 # Predicting reversals with [[RSI Divergences]]
-
 
 # [[Entry/Exit @ OB/OS Levels]]
 

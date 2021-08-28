@@ -81,7 +81,8 @@ Statistically speaking 80% of the time market is in a range and buying support a
 A daily chart represents major transactions, both on the buying side and the selling side. It maps out the major price levels where the smart big money (the funds, banks) decide to buy and sell.
 
 - Open daily charts.
-- Draw S/R on breakout candles where volume is noticeably high.
+- Draw S/R on breakout candles where volume is above average.
+- Draw S/R on "U" shapes forming major dip buying areas of interest.
 - Draw S/R on breakout candles.
 - Adjust levels to get the most number of touches.
 - Go to weekly chart and confirm that the lines are indeed on the breakout candles where volume is noticeably high.

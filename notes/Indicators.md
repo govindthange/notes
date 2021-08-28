@@ -1,5 +1,7 @@
 Indicators are just a guiding system to aid in confirming your entries, tracking progress, and exiting the trade when wrong or riding the profit when right.
 
+![[Price Action#^4a4d7a]]
+
 > Do not obsess over using many indicators. Make it work with whatever strategy you are deploying. Focusing on refining the startegy and let indicators just confirm your logic.
 
 # Trend Indicators
