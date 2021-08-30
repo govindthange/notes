@@ -454,6 +454,16 @@ If you own a stock and are contemplating selling, see if a measure move is in th
 
 #### Flags (ch-34)
 
+- Bull market/up breakouts and bear market/down breakouts show longer trends.
+- Flags in bear markets after downward breakout perform best.
+- Bull flag patterns near the year's high perform worst.
+- Throwbacks/Pullbacks do not appear. They happen after then trend ends.
+- Performance improves when the flag tilts against the short-term price trend.
+	- In a short-term uptrend upward breakouts do best with down-tilting flags.
+	- In a short-term downtrend doward breakouts do best with up-tilting flags.
+- In an uptrend, upward flagpole and flag tilted downward, enter at the bottom of the flag. Entering at the flag breakout is too late. Place a tight stop loss just below the bottom of the flag.
+- Use 75% of the flagpole height as a convervative (closer) target.
+
 #### Flags, High and Tight (ch-35)
 
 #### Pennants (ch-48)
