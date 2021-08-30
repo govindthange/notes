@@ -12,8 +12,8 @@
 
 ## ~ (3)
 
-- [ ]  Flags (ch-34)
-- [ ]  Flags, High and Tight (ch-35)
+- [x]  Flags (ch-34)
+- [x]  Flags, High and Tight (ch-35)
 - [ ]  Pennants (ch-48)
 
 # < (6)

@@ -466,6 +466,17 @@ If you own a stock and are contemplating selling, see if a measure move is in th
 
 #### Flags, High and Tight (ch-35)
 
+- Identification
+	- The price must double in a short period. The doubling becomes the flagpole.
+	- Consolidation period.
+	- Breakout is upward.
+- The high, tight flag is a momentum play (buy high, sell higher).
+	-  When a stock doubles in a short time, it takes a breather, consolidates and then continues.
+- This pattern does not work.
+	- Do not trade this pattern.
+	- Just spot this pattern only to stay away from it.
+- If the inbound trend leading to the start of the flagpole is steep then performance is bad. If the inbound trend is shallow then the performance is good.
+
 #### Pennants (ch-48)
 
 ## Action (3)
