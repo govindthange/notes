@@ -46,7 +46,7 @@
 
 ## -/ (2)
 
-- [ ]  Bump-and-Run Reversal, Bottom (ch-14)
+- [x]  Bump-and-Run Reversal, Bottom (ch-14)
 - [ ]  Bump-and-Run Reversal, Top (ch-15)
 
 # W (18)

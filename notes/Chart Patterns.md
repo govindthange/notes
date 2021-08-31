@@ -513,3 +513,30 @@ If you own a stock and are contemplating selling, see if a measure move is in th
 	- Ignore the pattern if price fails to close above the top.
 	- Ignore the pattern if price makes a subsequent lower plunge.
 - Prefer this patterns if its one or two months long.
+
+### -/ (2)
+
+#### Bump-and-Run Reversal, Bottom (ch-14)
+
+- It looks like a frying pan or a spoon (aka BARR bottom)
+	- A handle on the left.
+	- The lead-in phase:
+		- Price moves in a narrow range.
+		- The lead-in height is the widest distance from the trendline to the the dialy low measured vertically.
+	- The bump phase:
+		- A downward sloping trendline (0-45 degrees) to the pan.
+		- A large decline taking price to the pan base (the bump phase).
+		- Price levels out to form pan base and then reverses.
+		- The bump forms, rise upward as price leaves the bowl, and moves higher on the uphill run to new highs.
+	- Price recovers, lifts out of the bump phase for an uphill run.
+	- An upward breakout.
+- A BARR bottom pattern always has an upward breakout.
+- Its a good pattern for momentum trading.
+- Trade:
+	- Highest high is the measure rule target.
+	- Aways wait for the upward breakout before buying.
+	- Confirmation happens when price closes above the trendline formed during the lead-in phase.
+	- Enter the trade (buy) upon confirmation.
+	- Exit trade (sell) when price reaches the old high.
+
+#### Bump-and-Run Reversal, Top (ch-15)
