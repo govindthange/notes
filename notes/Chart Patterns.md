@@ -25,10 +25,13 @@ See patterns in a context not in isolation
 	- Where are S/R and trendlines
 		- Key to selecting better performing patterns is to search for underlying support or overhead resistance before trading.
 		- Nearby S/R repel the downard/upward move.
+		- Recognize S/R to better gauge how far price might move. Failing to do would result in major risks.
 	- Are those S/R strong or weak.
 - get a feel for the conditions where the pattern is emerging, where it can thrive or fail.
 
 Chart patterns fails so you must use conservative price targets and stop loss for long term success.
+
+If the chart formation and your expectations of its performance go wrong, do not adjust your stop-loss just exit the trade.
 
 Note that you can always get taken out by the market even though the stock may double after that.
 
@@ -478,6 +481,19 @@ If you own a stock and are contemplating selling, see if a measure move is in th
 - If the inbound trend leading to the start of the flagpole is steep then performance is bad. If the inbound trend is shallow then the performance is good.
 
 #### Pennants (ch-48)
+
+- Identification guidelines:
+	- A fast straight-line run forming a flagpole.
+	- Then a brief pauses; a short consolidation forming a pennant
+		- Price retraces.
+		- Price forms a short triangle bounded by 2 converging trendlines.
+		- Pennants are short formed with few candles. If it takes too many candles and it looks wide and big.. then it is classified as a triangle/wedge pattern.
+	- Volume usually (not always) trends downward.
+	- Price resumes.
+- Enter the trade when price breaks out of the  pennant's trendline boundaries.
+	- Breakout direction favors upward breakouts in bull markets and downward breakouts in bear markets.
+- Tall pennants perform better.
+- Heavy breakout volume predicts better performance.
 
 ## Action (3)
 
