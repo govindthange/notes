@@ -1,0 +1,1 @@
+You need not ignore wicks, generally wicks have tendency to get filled by subsequent candles so wait for the wicks to get filled before you act.
