@@ -15,3 +15,9 @@
 - Cross with confirmation below 80
 	- When fast MA (blue) crosses beneath the slow MA (orange) and stochastic RSI goes below 80 then go short.
 	- Do take confluence from the [[Price Action]] before going short.
+
+#### Warning
+
+It may not always work.
+
+![[StochasticRsiCrossoverConfirmationFail.png]]
