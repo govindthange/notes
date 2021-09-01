@@ -79,6 +79,8 @@ This is a dynamic strategy where you would want to keep adjusting the desired RS
 3. Use this RSI value to enter the next time price swings to this level.
 4. Keep observing the trend line till price breaks it. This is the time to revise RSI entry value. After a rally, the price tends to consolidates taking RSI entry approximiation back to 30% level.
 
+# [[Stochastic RSI]]
+
 ---
 
 <iframe width="280" height="157" src="https://www.youtube.com/embed/wbz5dvY64MQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

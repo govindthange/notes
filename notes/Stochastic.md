@@ -14,12 +14,12 @@ The most common setting for the Stochastics oscillator is 14, 3, 3 or simply 14,
 ## %K
 
 - It represents current closing prices in relation to the defined high and low period.
-- Its a fast moving blue line.
+- Its the fast moving blue line.
 
 ## %D
 
 - Its a simple moving average of %K.
-- Its a slow moving orange/red line.
+- Its the slow moving orange/red line.
 
 ## OB/OS Zones
 
@@ -39,7 +39,9 @@ The most common setting for the Stochastics oscillator is 14, 3, 3 or simply 14,
 - When fast MA (blue) crosses above the slow MA (orange) then look for going long.
 - When fast MA (blue) crosses below the slow MA (orange) then look for going short.
 
-## Over/Under MA
+### [[Stochastic RSI#Crossover Confirmation]]
+
+### Bullish/Bearish Signal
 
 - When fast MA (blue) is above the slow MA (orange) its bullish. Both lines are rising.
 - When fast MA (blue) is below the slow MA (orange) its bearish. Both lines are declining.
