@@ -540,3 +540,55 @@ If you own a stock and are contemplating selling, see if a measure move is in th
 	- Exit trade (sell) when price reaches the old high.
 
 #### Bump-and-Run Reversal, Top (ch-15)
+
+A bearish chart pattern.
+
+The whole chart pattern represents a mountain range.
+
+Lead-in phase:
+- Represents the foothill.
+- Must have a range.
+	- Price oscillates up and down between this range.
+	- Price does not move too far away from the trendline and appears rounded.
+	- The range is the lead-in height and is used to caluclate the bump height (which is > 2x of lead-in) and price target.
+- Volume is high.
+- Volume drops off until the start of the bump, when it suddenly rises.
+
+Bump-in phase
+- Prices rises sharply.
+- Without the sharp bump-up of price, the rising trend should not be labeled as BARR.
+- Rounded bump.
+	- If the bump does not appear rounded, then you may consider selling before the price breaks below the trendline. (Page #42)
+- An up-sloping trendline turns into a bump.
+- Volume remains high throughout this period, then quickly tapers off as price rounds over at the top.
+- The top may take following patterns:
+	- Head and Shoulder
+	- Double Top
+	- Triple Top
+- If top take any of the pattern then follow that pattern and ignore BARR.
+- The bump-in height is atleast 2x of lead-in height.
+- Dual Bumps
+	- Often the peak of the 2nd bump is below the first.
+
+> A BARR is only valid when the bump height, as measured from the highest high to the trenline, is at least twice the lead-in height.
+
+Volume profile
+- High at the start of lead-in phase
+- Higt at the start of bump-in phase
+- High when price drops down through the trendline.
+
+Trade
+- Target Price
+	- Bottom of the pattern
+	- or subtract lead-in height from the breakout price.
+- Refer Figure 15.5 for warning line and sell line.
+	- Warning line serves as a signal that a BARR may be forming once the price moves above the line.
+		- Once price touches the warning line do the fundamental and technical analysis of the stock.
+	- Sell line confirms that a BARR is present.
+		- It is not an automatic sell trigger; there is ample time to sell the stock.
+		- By the time price touches the sell line, you should have a firm grasp of the company, industry, and market outlook.
+
+The bear market drop is almost twice as fast as the one in bull markets.
+Do not trade BARR tops within a third of the yearly high.
+Performance suffers dramatically when there is a pullback. Do check for a nearby underlying support.
+Gaps hurt performance.
