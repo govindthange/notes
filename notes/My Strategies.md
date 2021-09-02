@@ -55,7 +55,7 @@ If the divergence is still valid while price is at the S/R level, then you can e
 
 ### Step 4. Extrapolate a high probability move
 
-Look at the recent history to know what past RSI divergences told you about the current price action right now.
+Once the price approaches `Area of Value` predict next price move by looking at the recent history for knowing what RSI divergences told you about the probable direction of the next move.
 
 | Divergence | Uptrend     | Downtrend   |
 |------------|-------------|-------------|
