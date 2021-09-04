@@ -180,47 +180,72 @@ Predict a downward price move if one or more of the following holds true:
 
 Use the above evaluated 2 conditions as your trade setup.
 
-- The best setup is when only one of the 2 conditions hold true (not both):
-	- When RSI signals oversold (<30) then go long if:
-		- Price is in `downtrend` or sideways.
-		- RSI has `regular bullish divergence` indicating downtrend reversal.
-		- RSI has `no hidden bearish divergence` so no more bearishness.
-		- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
-	- When RSI signals oversold (<30) then go long if:
-		- Price is in `uptrend` or sideways.
-		- RSI has `hidden bullish divergence` indicating uptrend continuation.
-		- RSI has `no regular bearish divergence` so nothing bearish.
-		- Stochastic RSI is crossing above its OS (20) level.
-		- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
-	- When RSI signals overbought (>70) then go short if:
-		- Price is in `uptrend` or sideways.
-		- RSI has `regular Bearish Divergence` indicating uptrend reversal.
-		- RSI has `no hidden bullish divergence` so no more bullishness.
-		- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
-	- When RSI signals overbought (>70) then go short if:
-		- Price is in `downtrend` or sideways.
-		- RSI has `hidden bearish divergence` indicating downtrend continuation.
-		- RSI has `no regular bullish divergence` so nothing bullish.
-		- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
-	- Exit trade after RSI signals OB/OS (70/30) like so:
-		- Exit when Stochastic RSI crosses its OB/OS (80/20) levels before RSI crosses its OB/OS (70/30) while RSI is still signaling OS/OB.
-		- Exit when RSI crosses its OB/OS (70/30) levels before Stochastic RSI crosses its OB/OS (80/20) while RSI is still signaling OS/OB.
-- When both conditions are true then its a conflict. Stay away; I need to work out what can be done on such instances.
-- When both conditions are false then with little caution you may risk a small trade on a smaller timeframe (==This needs backtesting==):
-	- When RSI signals oversold (<30) then risk __long if and only if__:
-		- Price is in `downtrend` or sideways.
-		- RSI has `no regular bullish divergence` signaling no trend reversal. The uptrend may further continue resulting in a risky long position.
-		- RSI has `no hidden bearish divergence` indicating nothing majorly bearish so we may risk a long trade as long as its small sized and quick.
-		- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
-	- When RSI signals overbought (>70) then risk going __short if and only if__:
-		- Price is in `uptrend` or sideways.
-		- RSI has `no regular bearish divergence` signaling no trend reversal. The trend may further continue resulting in a risky short position.
-		- RSI has `no hidden bullish divergence` indicating nothing majorly bullish so we may risk a short trade as long as its small sized and quick.
-		- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
-	- Exit this trade quickly using Stochastic RSI's OB/OS (80/20) levels.
-		- Do not wait for RSI's OB/OS (70/30) signal to exit.
-		- Waiting for RSI signal will keep you longer in trade.
-		- Longer you stay in such trade, the riskier this trade will become.
+#### Clear Divergences
+
+The best setup is when only one of the 2 conditions hold true (not both):
+
+- When RSI signals oversold (<30) then go long if:
+	- Price is in `downtrend` or sideways.
+	- RSI has `regular bullish divergence` indicating downtrend reversal.
+	- RSI has `no hidden bearish divergence` so no more bearishness.
+	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
+
+- When RSI signals oversold (<30) then go long if:
+	- Price is in `uptrend` or sideways.
+	- RSI has `hidden bullish divergence` indicating uptrend continuation.
+	- RSI has `no regular bearish divergence` so nothing bearish.
+	- Stochastic RSI is crossing above its OS (20) level.
+	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
+
+- When RSI signals overbought (>70) then go short if:
+	- Price is in `uptrend` or sideways.
+	- RSI has `regular Bearish Divergence` indicating uptrend reversal.
+	- RSI has `no hidden bullish divergence` so no more bullishness.
+	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
+
+- When RSI signals overbought (>70) then go short if:
+	- Price is in `downtrend` or sideways.
+	- RSI has `hidden bearish divergence` indicating downtrend continuation.
+	- RSI has `no regular bullish divergence` so nothing bullish.
+	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
+
+##### Exit Strategy
+
+Exit the trade only when the RSI signals OB/OS (70/30) again.
+
+- Exit when Stochastic RSI crosses its OB/OS (80/20) levels before RSI crosses its OB/OS (70/30) while RSI is still signaling OS/OB.
+
+- Exit when RSI crosses its OB/OS (70/30) levels before Stochastic RSI crosses its OB/OS (80/20) while RSI is still signaling OS/OB.
+
+#### Conflicting Divergences
+
+When both conditions are true then its a conflict. Stay away; I need to work out what can be done on such instances.
+
+#### No Divergences
+
+When both conditions are false then that means no divergences are spotted. On such times you may risk a small trade on a smaller timeframe (==This needs backtesting==):
+
+- When RSI signals oversold (<30) then risk __long if and only if__:
+	- Price is in `downtrend` or sideways.
+	- RSI has `no regular bullish divergence` signaling no trend reversal. The uptrend may further continue resulting in a risky long position.
+	- RSI has `no hidden bearish divergence` indicating nothing majorly bearish so we may risk a long trade as long as its small sized and quick.
+	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
+
+- When RSI signals overbought (>70) then risk going __short if and only if__:
+	- Price is in `uptrend` or sideways.
+	- RSI has `no regular bearish divergence` signaling no trend reversal. The trend may further continue resulting in a risky short position.
+	- RSI has `no hidden bullish divergence` indicating nothing majorly bullish so we may risk a short trade as long as its small sized and quick.
+	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
+
+##### Exit Strategy
+
+Exit the trade as soon as Stochastic RSI enters its OB/OS (80/20) levels and one of the following holds true.
+
+- The Stoch RSI's fast MA (blue) crosses above the slow MA (orange) then close your short position by going long.
+
+- The Stoch RSI's fast MA (blue) crosses below the slow MA (orange) then close your long position by going short.
+
+Do not wait for RSI's OB/OS (70/30) signal to exit. Waiting for RSI signal will keep you longer in trade and the longer you stay in such trade, the riskier this trade will become.
 
 ## Step 4. Wait for the confluence
 
