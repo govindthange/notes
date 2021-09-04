@@ -112,9 +112,23 @@ There are 2 types of divergences viz Regular and Hidden.
 
 Once you approach an Area of Value while in a trend then use below table to predict continuation or reversal in price trend.
 
-## Step 1. Wait for the RSI OB/OS signal
+## Step 1. Wait for OB/OS signals
 
-Patiently wait for the RSI to start signaling OB/OS levels.
+Ensure OB/OS levels are respected for RSI and Stochastic RSI both.
+
+### Step 1.1 Wait for RSI OB/OS signal
+
+First wait for the RSI to start signaling OB/OS levels i.e. > 70 or < 30.
+
+### Step 1.2 Wait for Stoch RSI OB/OS signal
+
+Once the RSI has entered its OB/OS zone then ensure one of the following holds true on the Stochastic RSI:
+
+1. Stoch RSI is in its OB/OS zone i.e. > 80 or < 20.
+
+2. `or` Stoch RSI must be on verge of crossing...
+	- below its overbought level at 80 from top to down
+	- `or` above its oversold level at 20 from down to up.
 
 ## Step 2. Mark divergences
 
@@ -127,8 +141,9 @@ For instance, in an uptrend, in order to spot a bearish divergence, do as follow
 	- To confirm `loss of upward momentum` wait for minimum 3 lower-highs (LH) to form in RSI while 3 high-highs (HH) are being formed in price chart. Refer `HH X LH (R)` above.
 	- To confirm `loss of downward momentum` wait for minimum 3 higher-lows (HL) to form in RSI while 3 lower-lows (LL) are being formed in price chart. Refer `LL X HL (R)` above.
 	- If you conclude divergences using 2 data points then you may end up fighting with the momentum.
-- Wait for the RSI to go below the 50% to confirm the trend is actually reversing.
 - Optionally wait for a retest on the moving average or the upward trendline.
+
+> Only when the RSI goes below/above the 50% level it is a confirmation that the trend is actually reversing.
 
 ## Step 3. Setup your trade
 
