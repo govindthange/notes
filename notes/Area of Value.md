@@ -1,7 +1,7 @@
 
 # [[Elliott Waves]]
 
-# [[Trendline]]
+# [[Trend]]
 
 # [[Support & Resistance]]
 
