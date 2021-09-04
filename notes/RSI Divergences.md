@@ -182,7 +182,9 @@ Use the above evaluated 2 conditions as your trade setup.
 
 #### Clear Divergences
 
-The best setup is when only one of the 2 conditions hold true (not both):
+The best setup is when only one of the 2 conditions hold true (not both).
+
+##### Entry Strategy
 
 - When RSI signals oversold (<30) then go long if:
 	- Price is in `downtrend` or sideways.
@@ -209,6 +211,13 @@ The best setup is when only one of the 2 conditions hold true (not both):
 	- RSI has `no regular bullish divergence` so nothing bullish.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
+
+##### Entry Trigger
+
+Enter the as soon as RSI crosses above 30 or below 70 `OR` Stoch RSI crosses above 20 or below 80 whichever occurs first.
+
+For more optimized entry point, go one level below the current timeframe and use the above RSI and/or Stoch RSI crosss trigger.
+
 ##### Exit Strategy
 
 Exit the trade only when the RSI signals OB/OS (70/30) again.
@@ -223,7 +232,9 @@ When both conditions are true then its a conflict. Stay away; I need to work out
 
 #### No Divergences
 
-When both conditions are false then that means no divergences are spotted. On such times you may risk a small trade on a smaller timeframe (==This needs backtesting==):
+When both conditions are false then that means no divergences are spotted. On such times you may risk a small trade on a smaller timeframe (==This needs backtesting==).
+
+##### Entry Strategy
 
 - When RSI signals oversold (<30) then risk __long if and only if__:
 	- Price is in `downtrend` or sideways.
@@ -236,6 +247,12 @@ When both conditions are false then that means no divergences are spotted. On su
 	- RSI has `no regular bearish divergence` signaling no trend reversal. The trend may further continue resulting in a risky short position.
 	- RSI has `no hidden bullish divergence` indicating nothing majorly bullish so we may risk a short trade as long as its small sized and quick.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
+
+##### Entry Trigger
+
+Enter the as soon as RSI crosses above 30 or below 70 `OR` Stoch RSI crosses above 20 or below 80 whichever occurs first.
+
+For more optimized entry point, go one level below the current timeframe and use the above RSI and/or Stoch RSI crosss trigger.
 
 ##### Exit Strategy
 
