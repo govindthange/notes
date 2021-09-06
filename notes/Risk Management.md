@@ -1,3 +1,5 @@
+As long as you are managing risks you can stay in the game for a long time.
+
 # Performance Avenues
 
 ## Number of Winers/Losers

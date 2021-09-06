@@ -37,7 +37,7 @@ A divergence is a sign of diminishing momentum. A trend which is strong initiall
 - If you spot a bearish divergence then plan a short trade when price crosses below 80 (The RSI Overbought Zone).
 - If you spot a bullish divergence then plan a long trade when price crosses above 20 (The RSI Oversold Zone).
 
-### Step 3. Wait for the price action to approach [[Area of Value]]
+### Step 3. Wait for the price action to approach the [[Area of Value]]
 
 Upon spotting a divergence, wait for the price to touch market structure (nearby S/R, trendline etc).
 
@@ -55,24 +55,7 @@ If the divergence is still valid while price is at the S/R level, then you can e
 
 ### Step 4. Extrapolate a high probability move
 
-Once the price approaches `Area of Value` predict next price move by looking at the recent history for knowing what RSI divergences told you about the probable direction of the next move.
-
-| Divergence | Uptrend     | Downtrend   |
-|------------|-------------|-------------|
-| Bullish    | HL X LL (H) | LL X HL     |
-| Bearish    | HH X LH     | LH X HH (H) |
-
-Predict an upward price move if one or more of the following holds true:
-- The downtrend price swings w/ RSI indicates a regular bullish divergence.
-- The uptrend price swings w/ RSI indicates a hidden bullish divergence.
-- The uptrend price swings w/ RSI does NOT indicate a regular bearish divergence.
-- The downtrend price swings w/ RSI does NOT indicate a hidden bearish divergence.
-
-Predict a downward price move if one or more of the following holds true:
-- The uptrend price swings w/ RSI indicates a regular bearish divergence.
-- The downtrend price swings w/ RSI indicates a hidden bearish divergence.
-- The downtrend price swings w/ RSI does NOT indicate a regular bullish divergence.
-- The uptrend price swings w/ RSI does NOT indicate a hidden bullish divergence.
+Once the price approaches `Area of Value` predict next price move by looking at the recent history and listening to what the RSI divergences are telling you about the probable direction of the next move.
 
 ### Step 5. Enter the trade (OB/OS Levels)
 
