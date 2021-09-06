@@ -1,3 +1,7 @@
+Trend is your friend.
+
+Do not fight the trend, especially when the smart money (i.e. bigger institutions) is involved.
+
 # Trend
 
 Identify trends to build a bias in the direction of the trend.
