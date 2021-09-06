@@ -39,6 +39,8 @@ Measure the relative strength of the recent price moves and plot a value between
 
 ## CCI Oscillator
 
+## [[Volume]] Indicator
+
 # Volume Indicators
 
 Measure the strength of the price move by measuring trading volume data. Following are popular amongs forex traders.

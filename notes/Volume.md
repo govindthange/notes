@@ -60,7 +60,7 @@ short period (price breakout + low volume) => a weak fakeout move
 
 - A `little change` in the volume or even `decreasing volume` on a `breakout`, it indicates a `lack of interest` and more potential for a `false breakout` to occur.
 
-# Fixed Volume Profile (FVP)
+# Fixed Volume Profile
 [...](https://www.youtube.com/watch?v=8hImc9rBSSs)
 
 > It is volume by price showing total assets traded at specific price levels for the specified duration.
@@ -76,7 +76,7 @@ Point of Control (PoC)
 - The buyers and sellers are going to put their orders around (not "at") the price zones corresponding to the high historic volume.
 - This zone acts as S/R in future.
 
-## Trading FVP
+## Trading Fixed Volume Profile
 
 ### Entering
 
@@ -88,5 +88,9 @@ Plot it across the swing move including the subsequent retracement.
 [...](https://youtu.be/8hImc9rBSSs?t=740)
 
 Plot it across the last retracement movement.
-- In an up swing with a throwback, plot it from the last leg down (the throwback part).
-- In a down swing with a pullback plot it from the last leg up (the pullback part).
+- In an up swing that had a throwback, plot it from the last leg down i.e. consider only the throwback part.
+- In a down swing that has a pullback, plot it from the last leg up i.e. consider only the pullback part.
+
+# Trading Volume
+
+![[Support & Resistance#Trading S R after retracement using volume]]
