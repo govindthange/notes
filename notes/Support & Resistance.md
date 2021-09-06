@@ -133,6 +133,8 @@ Just mark 2-3 levels as explained below. You do not need more than 3 points beca
 ## Trading S/R after retracement using volume
 [...](https://youtu.be/uxFbaTzgXE4?t=340)
 
+You enter at retracement not at the breakout.
+
 1. Given a strong S/R which has been a historical S/R level.
 2. Wait for the breakout with large candles.
 3. Ensure that the `breakout volume is noticeably high`.
@@ -140,20 +142,25 @@ Just mark 2-3 levels as explained below. You do not need more than 3 points beca
 5. After confirming the point #2 wait for the retracement to begin.
 	- wait for a pullback in a downtrend.
 	- wait for a throwback in an uptrend.
-6. Mark the point at which retracement begins as `Take Profit` level.
-7. Track the retracement move back to the S/R level that was broken.
-8. Confirm that the `volume is declining` as the price is retracing back to the S/R level.
-9. Ensure that the `volume is low` at the point where S/R is retested.
-10. __If the volume is rising or noticeably high at the point of S/R retest then this trading setup becomes invalid.__
+6. If the breakout was from a chart pattern (say a neckline of a Head & Shoulder or Double Bottom) then __retracement should not begins at or after the target of a chart pattern is achieved__. If this happens then invalidate the pattern.
+7. Mark the level from where retracement began as our `Take Profit` level.
+8. Track the retracement move back to the S/R level that was broken.
+9. Confirm that the `volume is declining` as the price is retracing back to the S/R level.
+10. Ensure that the `volume is low` at the point where S/R is retested.
+11. __If the volume is rising or noticeably high at the point of S/R retest then this trading setup becomes invalid.__
 	- [Check this live example.](https://youtu.be/uxFbaTzgXE4?t=401)
 		- Here as the pullback volume on the way down was considerably high the price failed to retest the S/R and broke through it.
 		- You must wait and trade only valid setups as outlined by the strategy.
-11. You may take cofluence from MACD.
+12. You may take cofluence from MACD.
 	- ![[MACD#Predicting Reversals Breakouts around key levels]]
-12. Enter the trade at the S/R level. [...](https://youtu.be/uxFbaTzgXE4?t=439)
-13. Exit the trade as price reaches our `Take Profit` level.
+13. Enter the trade at the S/R level. [...](https://youtu.be/uxFbaTzgXE4?t=439)
+14. Exit the trade as price reaches our `Take Profit` level.
 	- This is the point where retracement began.
 	- We exit at this point because we do not know how far away we can go.
+
+### Warning
+
+- Do not enter the trade if the target price of Double Top or other chart pattern is already achieved before the retracement begins. [...](https://youtu.be/iPUMzRxesWM?t=214)
 
 ## Trading Breakouts @ S/R
 
