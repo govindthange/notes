@@ -7,3 +7,16 @@
 
 Open above indicator in `Brave New Coin Liquid Index (BLX)` chart.
 
+# $100 Intraday Strategy
+[...](https://www.youtube.com/watch?v=iPUMzRxesWM)
+
+Trading Timeframe: 30 Min
+
+Entry
+- Double Top
+- Wedges
+- Head & Shoulder
+- [[Support & Resistance#Trading S R after retracement using volume]]
+
+Exit
+- 80% of the price target.
