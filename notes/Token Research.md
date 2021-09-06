@@ -1,0 +1,1 @@
+![[CryptoTokenResearchTemplate.png]]
