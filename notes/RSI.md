@@ -1,8 +1,18 @@
-# Relative Strenght Index
-
 RSI was developed by [Dr. Alexander Elder](https://www.elder.com/)
 
-RSI compares the magnitude of recent gains to recent losses in a range between 0 to 100.
+It measures momentum by measuring average gains against average losses.
+
+`RSI` = 100 - (100 ÷ `RS`)
+`RS` => `Average Gain` ÷ `Average Loss`
+   => `Average of 'N' day's closes up` ÷ `Average of 'N' day's closes down`
+
+- RSI compares the magnitude of recent gains to recent losses in a range between 0 to 100.
+- Rising RSI (>60) indicates:
+	- Average gains are greater than average losses.
+	- Size of bullish candles are larger than bearish ones.
+- Falling RSI (<40) indicates:
+	- Average gains are smaller than average losses.
+	- Sise of bearish candles are larger than bullish ones.
 
 - Like many other indicators, RSI is more reliable on a higher timeframe charts.
 - The downside to using indicators on higher timeframe charts is that it gives lesser opportunities.
@@ -18,12 +28,38 @@ These levels are just there to remind you that there could be a trend change com
 
 ---
 
+# Capturing swings (Riding Trend)
+
+RSI can help in capturing a swing in the market by timing entries and exits.
+
+The best time to use RSI is when market is trending in a long term.
+Pullbacks are usually short lived before the trend resumes.
+
+## Intraday strategy
+
+- Use 30M timeframe.
+- Use RSI 9 to 11 RSI period.
+- Stick to long trades in an uptrend.
+	- Wait for...
+		- Bullish reversal candlestick pattern to show up.
+		- `OR` the price breaks above the previous day high.
+	- Go long when RSI crosses above 60.
+	- Exit when RSI crosses below 40.
+- Stick to short trades in a downtrend.
+	- Wait for...
+		- Bearish reversal candlestick pattern to show up.
+		- `OR` the price breaks below the previous day low.
+	- Go short when RSI crosses below 40.
+	- Exit when RSI crosses above 60.
+
 # Predicting reversals with [[RSI Divergences]]
 
 # [[Entry/Exit @ OB/OS Levels]]
 
 Enter a short trade when price comes inside the 70% zone.
+- Before entering ensure that the buyers are coming in by waiting for the confirmation candle.
 Enter a long trade when price comes inside the 30% zone.
+- Before entering ensure that the sellers are coming in by waiting for the confirmation candle.
 
 > This is the most ineffective strategy to follow but when used in conjunction with other methods it can add good value.
 
@@ -34,6 +70,7 @@ Enter a long trade when price comes inside the 30% zone.
 - Do not trade against the trend. i.e. do not sell in an uptrend even if RSI shows sell signals.
 
 # [[Entry/Exit @ Extreme OB/OS Levels]]
+
 Make quick Entry-Exits by infusing high sensitivity using extreme settings (2 period, 95%, 5%).
 
 > Althought this will make RSI very noisy and choppy but having 95% and 5% for OB/OS levels will filter out lot of noise.
@@ -41,15 +78,18 @@ Make quick Entry-Exits by infusing high sensitivity using extreme settings (2 pe
 # [[Only Exit @ OB/OS Levels]]
 
 ## Time your exits
+
 Use some other strategy by combining various [[Indicators]] with [[Price Action]] to enter a trade but use RSI only to plan your exits at OB/OS Levels to exit.
 
 - If are in a long position, then exit when RSI enters the 70% overbought zone. You may also choose to hang around in the overbought zone and exit when RSI leaves the 70% overbought zone thereby squeezing the profits.
 - If you are in a short position, then exit when RSI enters the 30% oversold zone. You may also choose to hang around in the oversold zone and exit when RSI leaves the 30% oversold zone thereby sequeezing the profits.
 
 ## Ride profit and then exit
+
 Essentially once you enter a trade using some other strategy you can use RSI only to **ride profits** as much as you can and then exit at overbought or oversold levels.
 
 # [[Exit @ Midline Crosses]]
+
 Call it a `Counter Trend Trade` using a `Mean Reversion` strategy where you dont think the price will reverse to its full extent but hope that it will relax a bit after a rally. So you don't use mean of the price but mean of the RSI level.
 
 1. Enter at OB/OS levels where RSI is at extreme end.
