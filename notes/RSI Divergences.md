@@ -108,20 +108,20 @@ As the downward momentum increases price moves down. Subsequently as the price r
 # Trading Divergences
 
 There are 2 types of divergences viz Regular and Hidden.
-- `Regular Divergences (R)` predict reversal in an ongoing trend.
-- `Hidden Divergences (H)` predict continuation in a strong trend.
+- `Regular Divergences (R)` predicts a potential reversal in a trend because the price action loses its steam.
+- `Hidden Divergences (H)` predicts the continuation of an existing trend.
 
 Once you approach an Area of Value while in a trend then use below table to predict continuation or reversal in price trend.
 
-## Step 1. Wait for OB/OS signals
+## Step 1. Wait for the OB/OS signals
 
 Ensure OB/OS levels are respected for RSI and Stochastic RSI both.
 
-### Step 1.1 Wait for RSI OB/OS signal
+### Step 1.1 Wait for the OB/OS signal on RSI
 
 First wait for the RSI to start signaling OB/OS levels i.e. > 70 or < 30.
 
-### Step 1.2 Wait for Stoch RSI OB/OS signal
+### Step 1.2 Wait for the OB/OS signal on Stoch RSI
 
 Once the RSI has entered its OB/OS zone then ensure one of the following holds true on the Stochastic RSI:
 
@@ -131,7 +131,7 @@ Once the RSI has entered its OB/OS zone then ensure one of the following holds t
 	- below its overbought level at 80 from top to down
 	- `or` above its oversold level at 20 from down to up.
 
-## Step 2. Mark divergences
+## Step 2. Wait for the divergence
 [...](https://www.youtube.com/watch?v=-TEZowYW1ik)
 
 Since regular divergence is a trend reversal sign and hidden divergence is a trend continuation sign a market must be trending to use divergence strategy. It may not work in a sideways market.
@@ -184,13 +184,13 @@ You do not just want a HH/HL/LH/LL, you want swing-high/low formations.
 
 > Only when the RSI goes below/above the 50% level it is a confirmation that the trend is actually reversing.
 
-## Step 3. Setup your trade
+## Step 3. Evaluate the setup
 
 ### 3.1 Identify the trend
 
 Identify the current short-term trend, whether uptrend (column 2) or downtrend (column 3).
 
-### 3.2 Evaluate the 2 criterias as per trend.
+### 3.2 Review criterias as per the trend.
 
 Evaluate only two criterias from row 2 and 3 under the column relevant to the current trend.
 
@@ -215,7 +215,7 @@ Predict a downward price move if one or more of the following holds true:
 - The past 3 downtrend price swings w/ RSI does NOT indicate a regular bullish divergence.
 - The past 3 uptrend price swings w/ RSI does NOT indicate a hidden bullish divergence.
 
-### 3.3 Apply criterias to setup trade
+### 3.3 Apply criterias to the setup
 
 Use the above evaluated 2 conditions as your trade setup.
 
@@ -225,14 +225,7 @@ The best setup is when only one of the 2 conditions hold true (not both).
 
 ##### Entry Strategy
 
-- When RSI signals oversold (<30) then plan to go long if:
-	- Price is in `downtrend`.
-	- On the first swing down (in price chart) RSI moves into the oversold region (<30).
-	- With the second swing low (in price chart) RSI shows `regular bullish divergence` indicating downtrend reversal.
-	- RSI shows `no hidden bearish divergence` so no more bearishness.
-	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
-
-- When RSI signals oversold (<30) then plan to go long if:
+- When RSI signals oversold (>70) then plan to go long if:
 	- Price is in `uptrend`.
 	- ==Analyze whether the first swing high or the second swing high requires RSI to be in OB/OS region==
 	- RSI has `hidden bullish divergence` indicating uptrend continuation.
@@ -247,13 +240,19 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- RSI shows `no hidden bullish divergence` so no more bullishness.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
-- When RSI signals overbought (>70) then plan to go short if:
+- When RSI signals overbought (<30) then plan to go short if:
 	- Price is in `downtrend`.
 	- ==Analyze whether the first swing low or the second swing low requires RSI to be in OB/OS region==
 	- RSI has `hidden bearish divergence` indicating downtrend continuation.
 	- RSI has `no regular bullish divergence` so nothing bullish.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
+- When RSI signals oversold (<30) then plan to go long if:
+	- Price is in `downtrend`.
+	- On the first swing down (in price chart) RSI moves into the oversold region (<30).
+	- With the second swing low (in price chart) RSI shows `regular bullish divergence` indicating downtrend reversal.
+	- RSI shows `no hidden bearish divergence` so no more bearishness.
+	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
 ##### Entry Trigger
 
@@ -307,38 +306,49 @@ Exit the trade as soon as Stochastic RSI enters its OB/OS (80/20) levels and one
 
 Do not wait for RSI's OB/OS (70/30) signal to exit. Waiting for RSI signal will keep you longer in trade and the longer you stay in such trade, the riskier this trade will become.
 
-## Step 4. Understand this setup
+## Step 4. Evaluate the landscape
 [...](https://youtu.be/-TEZowYW1ik?t=317)
 
-Before entering a trade spend few minutes in understanding how this setup got created in the current [[Market Structure]].
-- Where is the divergence occurring in the current pricing landscape?
+Do not act too early on the basis of OB/OS levels alone.
+
+Spend a few minutes in understanding how this setup got created in the current price landscape.
+- Where is the divergence occurring in the landscape?
 - What market structure is causing the divergence?
-- Is this divergene occurring at a level of support?
+	- Is it [[Support & Resistance]]?
+	- Is it [[Moving Averages]]?
+	- Is it a [[Trend#Trendline]]?
+	- Is it some [[Chart Patterns]] boundary?
 
 Combine the [[Area of Value]] with the divergences between the price and the RSI to improve your trade plan.
 
-> By combining divergence with other forms of analysis, such as [[Trend#Trendline]], [[Support & Resistance]], you can increase the probabilities of your trades.
+## Step 5. Combine the divergence with the [[Area of Value]]
 
+>
+ By combining divergence with other forms of analysis, such as [[Trend#Trendline]], [[Support & Resistance]], you can increase the probabilities of your trades.
 
-## Step 6. Wait for the divergences to lead into an [[Area of Value]]
+### Wait for the divergences to lead into an [[Area of Value]]
 
-## Step 7. Enter the trade after final confluence
-
-Do not act too early on the basis of RSI OB/OS levels alone.
-
-- Wait for the price to enter the [[Area of Value]].
-- Wait for price to retest [[Market Structure]].
+Wait for the price to enter an [[Area of Value]].
+- Let the divergence lead into an Area of Value to give you an optimized/close entry point with a small stop loss.
+- Wait for the price to retest [[Market Structure]].
 - Wait for the momentum to change hands.
-	- Wait for the RSI to go below the 50% to confirm the trend has actually reversed.
+	- Wait for the RSI to go below/above the 50% to confirm the trend has actually reversed.
 
-Here are the 6 confluences you need to predict reversals in an uptrend:
+### Wait for the final confluence
 
-- Mark minimum 3 HH/HL/LH/LL swings on on price chart.
-- Mark minimum 3 LH/LL/HH/HL swings on the RSI
-- A break in the Market Structure i.e. Higher High changing to Lower Highs
-- A retest into the Market Structure (i.e. Moving Average or the Trendline).
+Here are the 6 confluences you need to plan a high probability trade:
+
+- Minimum 3 HH/HL/LH/LL swings on on price chart.
+- Minimum 3 LH/LL/HH/HL swings on the RSI
+- A break in the Market Structure i.e.
+	- Higher High changing to Lower Highs
+	- A retest into the Market Structure (i.e. Moving Average or the Trendline).
 - RSI OB/OS signal (or Entering below the 50% level)
 - The 3 Line Strike Candlestick with a Bearish Engulfing Candle. [...](https://www.youtube.com/watch?v=i5tkR91YUqI)
+
+## Step 6. Wait for an [[Entering Trade#Entry Trigger]]
+
+## Step 7. Execute the trade
 
 # Trading Divergences in discretionary style
 
