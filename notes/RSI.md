@@ -1,6 +1,6 @@
 RSI was developed by [Dr. Alexander Elder](https://www.elder.com/)
 
-It measures momentum by measuring average gains against average losses.
+It shows momentum in a specific direction by measuring average gains against average losses.
 
 `RSI` = 100 - (100 ÷ `RS`)
 `RS` => `Average Gain` ÷ `Average Loss`

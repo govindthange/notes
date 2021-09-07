@@ -7,6 +7,7 @@ Essentially a reversal is a break in the market structure. Example: A higher hig
 # Predicting trend reversals w/ Regular Divergences
 
 ## Regular Bearish Divergence
+[...](https://youtu.be/VwVEVu0-JWQ?t=272)
 
 Predict the `uptrend reversal by comparing swing highs` in the price chart with swing highs in the RSI.
 
@@ -54,9 +55,12 @@ Predict the `downtrend reversal by comapring swing lows` in the price chart with
 `Target:` 2x of the S.L.
 
 # Predicting trend continuation w/ Hidden Divergences
-[...](https://youtu.be/-TEZowYW1ik?t=417)
+[...](https://youtu.be/-TEZowYW1ik?t=417) | [...](https://youtu.be/VwVEVu0-JWQ?t=338)
+
+Trend is your friend so if you are new prefer trading hidden divergences over regular divergences.
 
 ## Hidden Bullish Divergence
+[...](https://youtu.be/VwVEVu0-JWQ?t=375)
 
 Predict the `uptrend continuation by comparing swing lows` in the price to swing lows in the RSI.
 
@@ -225,7 +229,7 @@ The best setup is when only one of the 2 conditions hold true (not both).
 
 ##### Entry Strategy
 
-- When RSI signals oversold (>70) then plan to go long if:
+- When RSI signals oversold (>70 ==confirm?==) then plan to go long if:
 	- Price is in `uptrend`.
 	- ==Analyze whether the first swing high or the second swing high requires RSI to be in OB/OS region==
 	- RSI has `hidden bullish divergence` indicating uptrend continuation.
@@ -240,7 +244,7 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- RSI shows `no hidden bullish divergence` so no more bullishness.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
-- When RSI signals overbought (<30) then plan to go short if:
+- When RSI signals overbought (<30 ==confirm?==) then plan to go short if:
 	- Price is in `downtrend`.
 	- ==Analyze whether the first swing low or the second swing low requires RSI to be in OB/OS region==
 	- RSI has `hidden bearish divergence` indicating downtrend continuation.
