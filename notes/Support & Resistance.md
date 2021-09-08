@@ -20,6 +20,8 @@ Its a level at which the price is refusing to hold on to or comply with.
 ### Demand & Supply Zone
 [...](https://www.youtube.com/watch?v=nKra2M6098Q)
 
+Demand & supply zones are S/R created by aggressive buying and selling by smart money.
+
 - These are regular Support & Resistance levels but seen in conjunction with the [[Indicators#Volume Indicators]].
 	- If volume is noticeably high at S&R level then mark it as Supply/Demand Zone.
 	- Turn on Volume Moving Average in the Volume Indicator to see whether volume is high or low. For instance if volume is above the 50 Day Moving Average then its a high volume. When its below, its low volume.

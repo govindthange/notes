@@ -25,4 +25,6 @@ Undershoot: throwback that precede start of the pattern.
 
 Gaps
 - Breakaway gap: the gap at the time of breakout
-- Exhaustion gap: the gap that ends and uptrend/downtrend.
+- Exhaustion gap: the gap that ends an uptrend/downtrend.
+
+Knot: A place in a strong [[Trend]] where price moves sideways (horizontally) for at least 3 days.
