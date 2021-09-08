@@ -34,7 +34,7 @@ Enter the trade
 	- Day's High or
 	- Day's Low or
 	- [[Market Structure]] (i.e. 5M trendline or S/R) or
-	- Major Swing High/Low (Ref. [[Swing Trading]])
+	- Major [[Swing]] High/Low
 - upon receiving stochastic RSI confirmation
 
 ## Exit
