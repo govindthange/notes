@@ -230,7 +230,7 @@ The best setup is when only one of the 2 conditions hold true (not both).
 ##### Entry Strategy
 
 - When RSI signals oversold (>70 ==confirm?==) then plan to go long if:
-	- Price is in `uptrend`.
+	- Price is in an `uptrend`.
 	- ==Analyze whether the first swing high or the second swing high requires RSI to be in OB/OS region==
 	- RSI has `hidden bullish divergence` indicating uptrend continuation.
 	- RSI has `no regular bearish divergence` so nothing bearish.
@@ -238,25 +238,44 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
 - When RSI signals overbought (>70) then plan to go short if:
-	- Price is in `uptrend`.
+	- Price is in an `uptrend`.
 	- On the first swing high (in price chart) RSI moves into the overbought region (>30).
-	- With the second swing high (in price chart) RSI shows `regular Bearish Divergence` indicating uptrend reversal.
+	- With the second swing high (in price chart) RSI shows `regular bearish divergence` indicating an uptrend reversal.
 	- RSI shows `no hidden bullish divergence` so no more bullishness.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
+```
+- When RSI signals overbought (>70) then you may observe the following (do not plan any trades here!):
+	- Price is in an `uptrend`.
+	- On the first swing up (in price chart) RSI moves into the overbought region (>70).
+	- With the second swing high (in price chart) RSI shows `hidden bearish divergence` indicating an uptrend reversal.
+	- RSI shows `no regular bearish divergence` so no not a strong bearish signal.
+	- Stochastic RSI was just signaling overbought and is now crossing above its 80 level.
+```
+
 - When RSI signals overbought (<30 ==confirm?==) then plan to go short if:
-	- Price is in `downtrend`.
+	- Price is in a `downtrend`.
 	- ==Analyze whether the first swing low or the second swing low requires RSI to be in OB/OS region==
 	- RSI has `hidden bearish divergence` indicating downtrend continuation.
 	- RSI has `no regular bullish divergence` so nothing bullish.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
 - When RSI signals oversold (<30) then plan to go long if:
-	- Price is in `downtrend`.
+	- Price is in a `downtrend`.
 	- On the first swing down (in price chart) RSI moves into the oversold region (<30).
-	- With the second swing low (in price chart) RSI shows `regular bullish divergence` indicating downtrend reversal.
+	- With the second swing low (in price chart) RSI shows `regular bullish divergence` indicating a downtrend reversal.
 	- RSI shows `no hidden bearish divergence` so no more bearishness.
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
+
+```
+- When RSI signals oversold (<30) then you may observe the following (do not plan any trades here!):
+	- Price is in a `downtrend`.
+	- On the first swing down (in price chart) RSI moves into the oversold region (<30).
+	- With the second swing low (in price chart) RSI shows `hidden bullish divergence` indicating a downtrend reversal.
+	- RSI shows `no regular bullish divergence` so no not a strong bullish signal.
+	- ![[HiddenBullishDivergence.png]]
+	- Stochastic RSI was just signaling overbought and is now crossing below its 20 level.
+```
 
 ##### Entry Trigger
 
