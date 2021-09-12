@@ -68,6 +68,9 @@ Its not how much you can do at any one time. Its how consistently you can do thi
 	- If you focus on the profit you will never make profit.
 	- Stop repeatedly watching your P&L after taking the trade. [...](https://youtu.be/2fPVlSa5wYE?t=2759)
 
+
+![[Trading Psychology Playbook]]
+
 # Psychology
 
 > Its not difficult to make money in the market but it is difficult to keep it.
@@ -85,7 +88,7 @@ Most traders fail not because they don't know how to trade but because they don'
 - ![[Money Management#^63b1a1]]
 - Work on your stubbornness [...](https://www.youtube.com/watch?v=0XafQHxHKak)
 
-## Blowing up the whole accounts
+### Blowing up the whole accounts
 
 Remember you are always one step away from wiping out your whole account. Be very careful about what you are doing.
 
@@ -93,8 +96,16 @@ Remember you are always one step away from wiping out your whole account. Be ver
 - Every great trader has blown up his account once or twice in the beginging.
 - The risk of blowing up the whole trading account during the initial days is very high. Its the part of trader's journey so you must ensure that you do not trade with more than you can comfortably lose in the first few years of your trading journey.
 
-# Why people suck at trading?
+## Become professional
+[...](https://www.youtube.com/watch?v=CKAvGRiybw0)
+
+## Become consistent
+[...](https://www.youtube.com/watch?v=yjw05TCNuP8)
+
+## Change attitude
 [...](https://www.youtube.com/watch?v=sSj57fpHlb4)
+
+### Why people suck at trading?
 
 Avoiding behavioral traits of people who consistently lose in the market should be everyone's first goal (i.e. survival)
 
