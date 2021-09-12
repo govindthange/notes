@@ -1,3 +1,9 @@
+
+- Trade your set of rules, not your impulses.
+- Making money trading is simply a matter of repeating the same effective steps time after time.
+
+![[Trading Psychology Playbook]]
+
 # 20 Trading Commandments
 [...](https://tastytradenetwork.squarespace.com/tt/blog/-tastytrade-trading-commandments)
 
