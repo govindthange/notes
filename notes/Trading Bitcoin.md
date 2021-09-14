@@ -1,4 +1,6 @@
-# Analyzing Bitcoin Dominance (BTC.D)
+# Bitcoin Analysis
+
+## Analyzing Dominance (BTC.D)
 [...](https://www.youtube.com/watch?v=EADLE7kO4tA)
 
 How much of the `Crypto Total Market Cap, $(CALCULATED BY TRADINGVIEW)` (CTMC) is just `BTC`?
@@ -13,14 +15,41 @@ Once we establish where we are in terms of altcoin-bitcoin cycle the next step i
 
 > Historically 128 Day MA has acted as a strong support for BTC.
 
-# Analyzing fair value for BTC
-## Logarithmic Regression & Halving
+## Analyzing fair value
+### Logarithmic Regression & Halving
 [...](https://www.youtube.com/watch?v=oOUn3URPMjE)
 
-## Bitcoin Logarithmic Growth Curves & Zones
+### Bitcoin Logarithmic Growth Curves & Zones
 [...](https://youtu.be/9bHGk1hfDD0?t=177)
 
 Open above indicator in `Brave New Coin Liquid Index (BLX)` chart.
+
+## Analyzing behavior
+
+### Weekly MA
+[...](https://youtu.be/QcJOnlnbGeY?t=152)
+
+For bitcoin to trend up you need 3 things [...](https://youtu.be/QcJOnlnbGeY?t=210)
+1. BTC stays above 20 Week MA.
+2. [[Moving Averages#Golden Cross]] [...](https://youtu.be/zNfY8rGezwo?t=62)
+3. Bitcoin holds the 20 Week MA as support.
+	- Wicks on the daily timeframe don't matter.
+		- On the daily frame its fine if you go below it.
+	- Care about the weekly closes above the 20 Week MA.
+	- We say bitcoin DID NOT HOLD 200 week when bitcoin opens and closes below the 20 Week MA.
+
+### Bullmarket Support Band (20 Week)
+
+Every single major move that lead bitcoin to an all time high respected the bullmarket support band.
+
+- Here is the most bullish scenario. [...](https://youtu.be/QcJOnlnbGeY?t=348)
+	- Bitcoin crosses above the bullmarket support band.
+	- Comes down and test it as support.
+	- If it keeps going up without testing the bullmarket support band as support then it is bearish.
+
+### EMA Ribbon
+
+- If daily prices closes below the daily EMA ribbon, then it is bearish. History indicates that once daily price closes below the EMA ribbon then price bounce backup and crashes down far below and most likely starts a bear trend.
 
 # $100 Intraday Strategy
 [...](https://www.youtube.com/watch?v=iPUMzRxesWM)
