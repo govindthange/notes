@@ -140,28 +140,41 @@ Once the RSI has entered its OB/OS zone then ensure `at least one of the followi
 
 Since regular divergence is a trend reversal sign and hidden divergence is a trend continuation sign, `the prerequisite to using divergence strategy is a trending market`. It may not work in a sideways market.
 
-### Step 2.1 When to look?
+### Step 2.1 Where to look?
 [...](https://youtu.be/Kzfvhdw6bJ8?t=197)
 
-A regular divergence must begin (i.e. the first HH/HL/LH/LL of the divergence) in the overbought/oversold region of the RSI.
+#### Spotting regular divergences
 
-A hidden divergence must =={begin or end?}== in the overbought/oversold region on the RSI.
+A regular divergence must begin (i.e. the first HH/LL of the divergence) in the overbought/oversold region of the RSI.
 
-Wait for the RSI to signal overbought/oversold before you start looking for any divergences.
-- Look for divergences only when RSI signals overbought/oversold i.e. RSI > 70 or < 30.
+- Wait for the RSI to signal overbought/oversold before you start looking for regular divergences.
+- Look for regular divergences only when RSI signals overbought/oversold i.e. RSI > 70 or < 30.
 - Do not consider a regular divergence valid unless the `RSI has moved into the overbought/oversold zones on the "first" price swing`. [...](https://youtu.be/-TEZowYW1ik?t=153)
-- Do not consider a hidden divergence valid unless the RSI has moved into the overbought/oversold zones on the =={first or second?}== price swing.
-- Ignore divergences when RSI is between 70 and 30.
+- Ignore regular divergences when RSI is between 70 and 30.
 
-### Step 2.2 Wait for the swing highs/lows.
+#### Spotting hidden divergences
+
+A hidden divergence must begin near the 50 RSI level.
+
+- Wait for the RSI to approach 50 level before you start looking for hidden divergences.
+- Look for hidden divergences only when `RSI approaches the 50 RSI level`.
+- Do not consider a hidden divergence valid if the RSI has moved into the overbought/oversold zones on the first price swing.
+- Ignore hidden divergences when RSI is in overbought/oversold zone.
+
+### Step 2.2 What to look for?
+
+- To spot a bearish divergence (R/H) focus on the `tops`; the `swing highs` on the price chart and RSI.
+- To spot a bullish divergence (R/H) focus on the `botttoms`; the `swing lows` on the price chart and RSI.
+
+### Step 2.3 Wait for the swing highs/lows.
 [...](https://youtu.be/Kzfvhdw6bJ8?t=266)
 
 Do not act on RSI divergence far too early without `waiting for the momentum to change hands`. If you get in too early, you will end up fighting with the momentum.
 
 You do not just want a HH/HL/LH/LL, you want swing-high/low formations.
 
-- While the RSI is signaling OB/OS, wait for `the 1st swing HH/HL/LH/LL` to occur on the price chart.
-	- Typically there is not much waiting as the fact that the RSI signaled OB/OS indicates that `the 1st swing HH/HL/LH/LL has just occurred or is occurring right now`.
+- While the RSI is signaling OB/OS, wait for `the 1st swing HH/LL` to occur on the price chart.
+	- Typically there is not much waiting as the fact that the RSI signaled OB/OS indicates that `the 1st swing HH/LL has just occurred or is occurring right now`.
 	- Confirm the 1st swing through following steps:
 		- [[Swing#Step 1 Spot an impulsive move]]
 		- [[Swing#Step 2 Mark the new major swing level]]
@@ -170,7 +183,7 @@ You do not just want a HH/HL/LH/LL, you want swing-high/low formations.
 	- __WARNING:__ Do not consider a regular divergence valid unless the RSI has moved into the overbought/oversold zones on the "__first__" price swing. [...](https://youtu.be/-TEZowYW1ik?t=153)
 		- If you spot a bullish divergence in a downtrend where on the first swing down the RSI was oversold (<30) then it is valid trade setup.
 		- But if you spot a bullish divergence in a downtrend where on the first swing down the RSI was not oversold then it is not a valid trade setup.
-	- __WARNING:__ Do not consider a hidden divergence valid unless the has RSI moved into the overbought/oversold zones on the =={first or second?}== price swing.
+	- __WARNING:__ Do not consider a hidden divergence valid if the RSI has moved into the overbought/oversold zones on the first price swing.
 - Now wait for `the 2nd swing high/low` to form before the RSI exits current `OB`/OS region and enters `OS`/OB zone on the opposite side.
 	- Do not act too early and declare the next high/low as soon as you get a big candle on the price chart. [...](https://youtu.be/Kzfvhdw6bJ8?t=302)
 	- [[Swing#Step 4 Await recovery from the throwback pullback]]
@@ -188,7 +201,6 @@ You do not just want a HH/HL/LH/LL, you want swing-high/low formations.
 	- Mark the tops/bottoms on price chart. Ignore the wicks when marking divergences or use line charts. [...](https://youtu.be/KvZ7TH0iYz4?t=324)
 	- Once you have correctly marked the 2nd swing high/low bring up the RSI indicator.
 	- Mark the divergences on RSI and price charts.
-
 
 ### Improve results
 
@@ -244,12 +256,12 @@ The best setup is when only one of the 2 conditions hold true (not both).
 
 ##### Entry Strategy
 
-- When RSI signals oversold (>70 ==confirm?==) then plan to go long if:
+- When the RSI approaches 50 (not in OB/OS zone) start looking for a long signal if:
 	- Price is in an `uptrend`.
-	- ==Analyze whether the first swing high or the second swing high requires RSI to be in OB/OS region==
-	- RSI has `hidden bullish divergence` indicating uptrend continuation.
+	- On the 1st swing down (a higher-low in price chart) `RSI is around/above 50`.
+	- On the 2nd swing down (a `higher-low in price chart`) `RSI crosses/is below 50`.
+	- RSI shows a `hidden bullish divergence` (a `lower-low in RSI`) indicating the beginning of a new strong uptrend.
 	- RSI has `no regular bearish divergence` so nothing bearish.
-	- Stochastic RSI is crossing above its OS (20) level.
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
 - When RSI signals overbought (>70) then plan to go short if:
@@ -268,10 +280,11 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- Stochastic RSI was just signaling overbought and is now crossing above its 80 level.
 ```
 
-- When RSI signals overbought (<30 ==confirm?==) then plan to go short if:
+- When the RSI approaches 50 (not in OB/OS zone) start looking for a short signal if:
 	- Price is in a `downtrend`.
-	- ==Analyze whether the first swing low or the second swing low requires RSI to be in OB/OS region==
-	- RSI has `hidden bearish divergence` indicating downtrend continuation.
+	- On the 1st swing up (a lower-high in price chart) `RSI is around/below 50`.
+	- On the 2nd swing up (a `lower-high in price chart`) `RSI crosses/is above 50`.
+	- RSI shows a `hidden bearish divergence` (a `higher-high in RSI`) indicating the beginning of a new strong downtrend.
 	- RSI has `no regular bullish divergence` so nothing bullish.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
