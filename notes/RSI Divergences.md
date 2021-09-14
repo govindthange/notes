@@ -256,9 +256,9 @@ The best setup is when only one of the 2 conditions hold true (not both).
 
 ##### Entry Strategy
 
-- When the RSI approaches 50 (not in OB/OS zone) start looking for a long signal if:
+- When the RSI ==approaches 50 (confirm if it must be near 50?)== (not in OB/OS zone) start looking for a long signal if:
 	- Price is in an `uptrend`.
-	- On the 1st swing down (a higher-low in price chart) `RSI is around/above 50`.
+	- On the 1st swing down (a higher-low in price chart) RSI is ==around/above 50 (confirm if its a must have condition?)==.
 	- On the 2nd swing down (a `higher-low in price chart`) `RSI crosses/is below 50`.
 	- RSI shows a `hidden bullish divergence` (a `lower-low in RSI`) indicating the beginning of a new strong uptrend.
 	- RSI has `no regular bearish divergence` so nothing bearish.
@@ -280,9 +280,9 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- Stochastic RSI was just signaling overbought and is now crossing above its 80 level.
 ```
 
-- When the RSI approaches 50 (not in OB/OS zone) start looking for a short signal if:
+- When the RSI ==approaches 50 (confirm if must be near 50?)== (not in OB/OS zone) start looking for a short signal if:
 	- Price is in a `downtrend`.
-	- On the 1st swing up (a lower-high in price chart) `RSI is around/below 50`.
+	- On the 1st swing up (a lower-high in price chart) RSI is ==around/below 50 (confirm if its a must have condition?)==.
 	- On the 2nd swing up (a `lower-high in price chart`) `RSI crosses/is above 50`.
 	- RSI shows a `hidden bearish divergence` (a `higher-high in RSI`) indicating the beginning of a new strong downtrend.
 	- RSI has `no regular bullish divergence` so nothing bullish.
