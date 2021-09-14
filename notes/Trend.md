@@ -1,4 +1,4 @@
-Trend is your friend.
+Trend is your friend until they bend at the end.
 
 Do not fight the trend, especially when the smart money (i.e. bigger institutions) is involved.
 
