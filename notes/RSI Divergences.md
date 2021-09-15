@@ -341,6 +341,32 @@ First follow the trading plan for trading regular bearish divergence while hidde
 
 ![[ConflictingBullishAndBearishDivergences.png]]
 
+- Price is in an `uptrend`.
+- Price forms a higher-high (HH).
+	- Note that the price is also forming a higher-low (HL) which may turn out to be a part of a hidden bullish divergence. Hang on!
+- RSI forms a lower-high (LH).
+- RSI clearly indicates a `regular bearish divergence`.
+	- Price forms a higher-high (HH).
+	- On the first swing high (in price chart) RSI moves into the overbought region (>70).
+	- Price froms another higher-high (HH).
+	- With the second swing high (in price chart) RSI shows `regular bearish divergence` indicating an uptrend reversal.
+	- The `HH X LH` criteria is satisfied!
+	- RSI shows `no hidden bullish divergence` thus far, so no bullishness to act on.
+- Price falls briefly as exactly predicted by the regular bearish divergence. It was a small throwback in the uptrend.
+
+Again, note that while showing regular bearish divergence with `HH x LH` there is a higher-low (HL) in the chart and a possible hidden bullish divergence may be on its way to form `HL X LL` (Nothing to act on right now!).
+
+- Price now forms a higher-low (HL).
+- RSI forms a lower-low (LL).
+- RSI clearly indicates a `hidden bullish divergence` (HL x LL).
+	- Price forms a `higher-low` (HL).
+	- On the 1st swing down (a higher-low in price chart) `RSI is not signaling overbought`.
+	- Price forms another `higher-low` (HL).
+	- On the 2nd swing down (a `higher-low in price chart`) `RSI crosses/is below 50`.
+	- The `HL X LL` criteria is satisfied!
+	- RSI shows a `hidden bullish divergence` (a `lower-low in RSI`) indicating the beginning of a new strong uptrend.
+- Price soars as predicted by the hidden bullish divergence.
+
 #### No Divergences
 
 When both conditions are false then that means no divergences are spotted. On such times you may risk a small trade on a smaller timeframe (==This needs backtesting==).
