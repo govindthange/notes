@@ -7,7 +7,7 @@ Essentially a reversal is a break in the market structure. Example: A higher hig
 There are 2 types of divergences viz Regular and Hidden.
 
 - `Regular Divergences (R)` predicts a potential reversal in a trend because the price action loses its steam.
-- `Hidden Divergences (H)` predicts the beginning of a strong trend or a continuation of an existing trend.
+- `Hidden Divergences (H)` predicts the beginning of a strong momentum in the direction of the existing trend.
 
 Once you approach an Area of Value while in a trend then use below table to predict continuation or reversal in price trend.
 
