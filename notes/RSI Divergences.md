@@ -256,19 +256,25 @@ The best setup is when only one of the 2 conditions hold true (not both).
 
 ##### Entry Strategy
 
-- When the RSI ==approaches 50 (confirm if it must be near 50?)== (not in OB/OS zone) start looking for a long signal if:
+- When the RSI is not in overbought ( possibly between 30 to 50) start looking for a long signal if:
 	- Price is in an `uptrend`.
-	- On the 1st swing down (a higher-low in price chart) RSI is ==around/above 50 (confirm if its a must have condition?)==.
+	- Price forms a `higher-low` (HL).
+	- On the 1st swing down (a higher-low in price chart) `RSI is not signaling overbought`.
+	- Price forms another `higher-low` (HL).
 	- On the 2nd swing down (a `higher-low in price chart`) `RSI crosses/is below 50`.
+	- The `HL X LL` criteria is satisfied!
 	- RSI shows a `hidden bullish divergence` (a `lower-low in RSI`) indicating the beginning of a new strong uptrend.
-	- RSI has `no regular bearish divergence` so nothing bearish.
+	- RSI has `no regular bearish divergence` thus far, so nothing bearish.
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
 - When RSI signals overbought (>70) then plan to go short if:
 	- Price is in an `uptrend`.
-	- On the first swing high (in price chart) RSI moves into the overbought region (>30).
+	- Price forms a higher-high (HH).
+	- On the first swing high (in price chart) RSI moves into the overbought region (>70).
+	- Price froms another higher-high (HH).
 	- With the second swing high (in price chart) RSI shows `regular bearish divergence` indicating an uptrend reversal.
-	- RSI shows `no hidden bullish divergence` so no more bullishness.
+	- The `HH X LH` criteria is satisfied!
+	- RSI shows `no hidden bullish divergence` thus far, so no bullishness to act on.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
 ```
@@ -280,19 +286,25 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- Stochastic RSI was just signaling overbought and is now crossing above its 80 level.
 ```
 
-- When the RSI ==approaches 50 (confirm if must be near 50?)== (not in OB/OS zone) start looking for a short signal if:
+- When the RSI is not in oversold ( possibly between 70 to 50) start looking for a short signal if:
 	- Price is in a `downtrend`.
-	- On the 1st swing up (a lower-high in price chart) RSI is ==around/below 50 (confirm if its a must have condition?)==.
+	- Price forms a lower-high (LH).
+	- On the 1st swing up (a lower-high in price chart) `RSI is not signaling oversold`.
+	- Price forms another lower-high (LH).
 	- On the 2nd swing up (a `lower-high in price chart`) `RSI crosses/is above 50`.
+	- The `LH X HH` criteria is satisfied!
 	- RSI shows a `hidden bearish divergence` (a `higher-high in RSI`) indicating the beginning of a new strong downtrend.
-	- RSI has `no regular bullish divergence` so nothing bullish.
+	- RSI has `no regular bullish divergence` thus far, so nothing bullish.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
 - When RSI signals oversold (<30) then plan to go long if:
 	- Price is in a `downtrend`.
+	- Price forms a lower-low (LL).
 	- On the first swing down (in price chart) RSI moves into the oversold region (<30).
+	- Price forms another lower-low (LL).
 	- With the second swing low (in price chart) RSI shows `regular bullish divergence` indicating a downtrend reversal.
-	- RSI shows `no hidden bearish divergence` so no more bearishness.
+	- The `LL X HL` criteria is satisfied!
+	- RSI shows `no hidden bearish divergence` thus far, so no bearishness to act on.
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
 ```
@@ -322,6 +334,10 @@ Exit the trade only when the RSI signals OB/OS (70/30) again.
 #### Conflicting Divergences
 
 When both conditions are true then its a conflict. Stay away; I need to work out what can be done on such instances. ==<--WIP==
+
+##### Regular Bearish Divergence followed by a Hidden Bullish Divergence.
+
+First follow the trading plan for trading regular bearish divergence while hidden divergence may be on its way (but not clearly evident). Once the hidden divergence clearly presents itself only then follow the plan for trading hidden divergence.
 
 ![[ConflictingBullishAndBearishDivergences.png]]
 
