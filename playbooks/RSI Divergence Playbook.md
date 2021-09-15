@@ -137,24 +137,25 @@ The best setup is when only one of the 2 conditions hold true (not both).
 
 #### Entry Strategy
 
-- When the RSI is not in overbought ( possibly between 30 to 50) start looking for a long signal if:
+- When the RSI is not overbought ( possibly between 30 to 50) start looking for a long signal if:
 	- Price is in an `uptrend`.
 	- Price forms a `higher-low` (HL).
-	- On the 1st swing down (a higher-low in price chart) `RSI is not signaling overbought`.
+	- On the 1st swing down in price chart `RSI is not overbought` (>70).
 	- Price forms another `higher-low` (HL).
-	- On the 2nd swing down (a `higher-low in price chart`) `RSI crosses/is below 50`.
+	- On the 2nd swing down in price chart `RSI crosses (/is) below (/around) 50 forming a lower-low` (LL).
 	- The `HL X LL` criteria is satisfied!
-	- RSI shows a `hidden bullish divergence` (a `lower-low in RSI`) indicating the beginning of a new strong uptrend.
+	- RSI shows a `hidden bullish divergence` indicating the beginning of a strong uptrend momentum.
 	- RSI has `no regular bearish divergence` thus far, so nothing bearish.
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
 - When RSI signals overbought (>70) then plan to go short if:
 	- Price is in an `uptrend`.
-	- Price forms a higher-high (HH).
-	- On the first swing high (in price chart) RSI moves into the overbought region (>70).
-	- Price froms another higher-high (HH).
-	- With the second swing high (in price chart) RSI shows `regular bearish divergence` indicating an uptrend reversal.
+	- Price forms a `higher-high` (HH).
+	- On the 1st swing high in price chart `RSI turns overbought` (>70).
+	- Price forms another `higher-high` (HH).
+	- On the 2nd swing high in price chart `RSI forms a lower-high` (LH).
 	- The `HH X LH` criteria is satisfied!
+	- RSI shows `regular bearish divergence` indicating an uptrend reversal.
 	- RSI shows `no hidden bullish divergence` thus far, so no bullishness to act on.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
@@ -167,24 +168,25 @@ The best setup is when only one of the 2 conditions hold true (not both).
 	- Stochastic RSI was just signaling overbought and is now crossing above its 80 level.
 ```
 
-- When the RSI is not in oversold ( possibly between 70 to 50) start looking for a short signal if:
+- When the RSI is not oversold (possibly between 70 to 50) start looking for a short signal if:
 	- Price is in a `downtrend`.
-	- Price forms a lower-high (LH).
-	- On the 1st swing up (a lower-high in price chart) `RSI is not signaling oversold`.
-	- Price forms another lower-high (LH).
-	- On the 2nd swing up (a `lower-high in price chart`) `RSI crosses/is above 50`.
+	- Price forms a `lower-high` (LH).
+	- On the 1st swing up in price chart `RSI is not oversold` (<30).
+	- Price forms another `lower-high` (LH).
+	- On the 2nd swing up in price chart `RSI crosses (/is) above (/around) 50 forming a higher-high` (HH).
 	- The `LH X HH` criteria is satisfied!
-	- RSI shows a `hidden bearish divergence` (a `higher-high in RSI`) indicating the beginning of a new strong downtrend.
-	- RSI has `no regular bullish divergence` thus far, so nothing bullish.
+	- RSI shows a `hidden bearish divergence` indicating the beginning of a strong downtrend momentum.
+	- RSI shows `no regular bullish divergence` thus far, so nothing bullish.
 	- Stochastic RSI was just signaling overbought and is now crossing below its 80 level.
 
 - When RSI signals oversold (<30) then plan to go long if:
 	- Price is in a `downtrend`.
-	- Price forms a lower-low (LL).
-	- On the first swing down (in price chart) RSI moves into the oversold region (<30).
-	- Price forms another lower-low (LL).
-	- With the second swing low (in price chart) RSI shows `regular bullish divergence` indicating a downtrend reversal.
+	- Price forms a `lower-low` (LL).
+	- On the 1st swing down in price chart `RSI turns oversold` (<30).
+	- Price forms another `lower-low` (LL).
+	- On the 2nd swing low in price chart `RSI forms a higher-low` (HL).
 	- The `LL X HL` criteria is satisfied!
+	- RSI shows `regular bullish divergence` indicating a downtrend reversal.
 	- RSI shows `no hidden bearish divergence` thus far, so no bearishness to act on.
 	- Stochastic RSI was just signaling oversold and is now crossing above its 20 level.
 
@@ -222,31 +224,33 @@ First follow the trading plan for trading regular bearish divergence while hidde
 
 ![[ConflictingBullishAndBearishDivergences.png]]
 
-- Price is in an `uptrend`.
-- Price forms a higher-high (HH).
-	- Note that the price is also forming a higher-low (HL) which may turn out to be a part of a hidden bullish divergence. Hang on!
-- RSI forms a lower-high (LH).
-- RSI clearly indicates a `regular bearish divergence`.
-	- Price forms a higher-high (HH).
-	- On the first swing high (in price chart) RSI moves into the overbought region (>70).
-	- Price froms another higher-high (HH).
-	- With the second swing high (in price chart) RSI shows `regular bearish divergence` indicating an uptrend reversal.
-	- The `HH X LH` criteria is satisfied!
-	- RSI shows `no hidden bullish divergence` thus far, so no bullishness to act on.
-- Price falls briefly as exactly predicted by the regular bearish divergence. It was a small throwback in the uptrend.
+- Price was in an `uptrend`.
+- Price formed a higher-high (HH).
+	- Note that the price also formed higher-lows (HL) which "later" developed into a hidden bullish divergence. But hold on! there was nothing to act on at this stage.
+- RSI formed a lower-high (LH).
+- RSI clearly indicated a `regular bearish divergence`.
+	- Price formed a `higher-high` (HH).
+	- On the 1st swing high in price chart `RSI turned overbought` (>70).
+	- Price formed another `higher-high` (HH).
+	- On the 2nd swing high in price chart `RSI formed a lower-high` (LH).
+	- The `HH X LH` criteria was satisfied!
+	- RSI showed `regular bearish divergence` indicating an uptrend reversal.
+	- RSI showed `no hidden bullish divergence` thus far, so no bullishness to act on.
+- Subsequently the price formed a few more higher-highs (HH) while RSI formed corresponding lower-lows (LL).
+- Price fell briefly as exactly predicted by the regular bearish divergence. It was a small throwback in the uptrend.
 
-Again, note that while showing regular bearish divergence with `HH x LH` there is a higher-low (HL) in the chart and a possible hidden bullish divergence may be on its way to form `HL X LL` (Nothing to act on right now!).
+While a regular bearish divergence was being playing out, there were also higher-lows (HL) being formed on the chart and a possible hidden bullish divergence was on its way to form `HL X LL` (Nothing to act on right now!).
 
-- Price now forms a higher-low (HL).
-- RSI forms a lower-low (LL).
-- RSI clearly indicates a `hidden bullish divergence` (HL x LL).
-	- Price forms a `higher-low` (HL).
-	- On the 1st swing down (a higher-low in price chart) `RSI is not signaling overbought`.
-	- Price forms another `higher-low` (HL).
-	- On the 2nd swing down (a `higher-low in price chart`) `RSI crosses/is below 50`.
-	- The `HL X LL` criteria is satisfied!
-	- RSI shows a `hidden bullish divergence` (a `lower-low in RSI`) indicating the beginning of a new strong uptrend.
-- Price soars as predicted by the hidden bullish divergence.
+- Price formed a higher-low (HL).
+- RSI formed a lower-low (LL).
+- Now, at this stage the RSI clearly indicated a `hidden bullish divergence` (HL x LL).
+	- Price formed a `higher-low` (HL).
+	- On the 1st swing down in price chart `RSI was not overbought` (>70).
+	- Price formed another `higher-low` (HL).
+	- On the 2nd swing down in price chart `RSI crossed below 50`.
+	- The `HL X LL` criteria was satisfied!
+	- RSI showed a clear `hidden bullish divergence` indicating a beginning of a new upward momentum.
+- Price soared high as predicted by the hidden bullish divergence.
 
 ### No Divergences
 
