@@ -35,7 +35,7 @@ A regular divergence must begin (i.e. the first HH/LL of the divergence) in the 
 
 ### Spot a hidden divergence
 
-A hidden divergence may begin near the OB/OS zone and end around the 50 level.
+A hidden divergence may begin near (but not inside) the OB/OS zone and end around the 50 level.
 
 - Wait for the RSI to approach 50 level before you start looking for hidden divergences.
 - Look for hidden divergences only when `RSI is not overbought/oversold`.
@@ -206,7 +206,7 @@ Enter the as soon as RSI crosses above 30 or below 70 `OR` Stoch RSI crosses abo
 
 For more optimized entry point, go one level below the current timeframe and use the above RSI and/or Stoch RSI crosss trigger.
 
-#### Exit Strategy
+#### Exit Strategy ==<--WIP==
 
 Exit the trade only when the RSI signals OB/OS (70/30) again.
 
@@ -221,6 +221,8 @@ When both conditions are true then its a conflict. Stay away; I need to work out
 #### Regular Bearish Divergence --> Hidden Bullish Divergence
 
 First follow the trading plan for trading regular bearish divergence while hidden divergence may be on its way (but not clearly evident). Once the hidden divergence clearly presents itself only then follow the plan for trading hidden divergence.
+
+##### Example
 
 ![[ConflictingBullishAndBearishDivergences.png]]
 
