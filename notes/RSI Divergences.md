@@ -323,6 +323,8 @@ Exit the trade only when the RSI signals OB/OS (70/30) again.
 
 When both conditions are true then its a conflict. Stay away; I need to work out what can be done on such instances. ==<--WIP==
 
+![[ConflictingBullishAndBearishDivergences.png]]
+
 #### No Divergences
 
 When both conditions are false then that means no divergences are spotted. On such times you may risk a small trade on a smaller timeframe (==This needs backtesting==).
