@@ -224,33 +224,33 @@ First follow the trading plan for trading regular bearish divergence while hidde
 
 ![[ConflictingBullishAndBearishDivergences.png]]
 
-- Price is in an `uptrend`.
-- Price forms a higher-high (HH).
-	- Note that the price also forms higher-lows (HL) which develops into a hidden bullish divergence later. But hang on! there is nothing to act on right now.
-- RSI forms a lower-high (LH).
-- RSI clearly indicates a `regular bearish divergence`.
+- Price was in an `uptrend`.
+- Price formed a higher-high (HH).
+	- Note that the price also formed higher-lows (HL) which "later" developed into a hidden bullish divergence. But hold on! there was nothing to act on at this stage.
+- RSI formed a lower-high (LH).
+- RSI clearly indicated a `regular bearish divergence`.
 	- Price formed a `higher-high` (HH).
 	- On the 1st swing high in price chart `RSI turned overbought` (>70).
 	- Price formed another `higher-high` (HH).
 	- On the 2nd swing high in price chart `RSI formed a lower-high` (LH).
 	- The `HH X LH` criteria was satisfied!
-	- RSI shows `regular bearish divergence` indicating an uptrend reversal.
-	- RSI shows `no hidden bullish divergence` thus far, so no bullishness to act on.
-- Price forms a few more higher-highs (HH) while RSI forms corresponding lower-lows (LL).
-- Price falls briefly as exactly predicted by the regular bearish divergence. It was a small throwback in the uptrend.
+	- RSI showed `regular bearish divergence` indicating an uptrend reversal.
+	- RSI showed `no hidden bullish divergence` thus far, so no bullishness to act on.
+- Subsequently the price formed a few more higher-highs (HH) while RSI formed corresponding lower-lows (LL).
+- Price fell briefly as exactly predicted by the regular bearish divergence. It was a small throwback in the uptrend.
 
-While a regular bearish divergence was playing out, there were also higher-lows (HL) forming on the chart and a possible hidden bullish divergence was on its way to form `HL X LL` (Nothing to act on right now!).
+While a regular bearish divergence was being playing out, there were also higher-lows (HL) being formed on the chart and a possible hidden bullish divergence was on its way to form `HL X LL` (Nothing to act on right now!).
 
-- Price forms a higher-low (HL).
-- RSI forms a lower-low (LL).
-- Now RSI clearly indicated a `hidden bullish divergence` (HL x LL).
+- Price formed a higher-low (HL).
+- RSI formed a lower-low (LL).
+- Now, at this stage the RSI clearly indicated a `hidden bullish divergence` (HL x LL).
 	- Price formed a `higher-low` (HL).
 	- On the 1st swing down in price chart `RSI was not overbought` (>70).
 	- Price formed another `higher-low` (HL).
 	- On the 2nd swing down in price chart `RSI crossed below 50`.
 	- The `HL X LL` criteria was satisfied!
 	- RSI showed a clear `hidden bullish divergence` indicating a beginning of a new upward momentum.
-- Price soars high as predicted by the hidden bullish divergence.
+- Price soared high as predicted by the hidden bullish divergence.
 
 ### No Divergences
 
