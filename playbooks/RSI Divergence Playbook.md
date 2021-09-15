@@ -33,14 +33,14 @@ A regular divergence must begin (i.e. the first HH/LL of the divergence) in the 
 - Do not consider a regular divergence valid unless the `RSI has moved into the overbought/oversold zones on the "first" price swing`. [...](https://youtu.be/-TEZowYW1ik?t=153)
 - Ignore regular divergences when RSI is between 70 and 30.
 
-### Spot hidden divergence
+### Spot a hidden divergence
 
 A hidden divergence may begin near the OB/OS zone and end around the 50 level.
 
 - Wait for the RSI to approach 50 level before you start looking for hidden divergences.
-- Look for hidden divergences only when `RSI approaches the 50 RSI level`.
+- Look for hidden divergences only when `RSI is not overbought/oversold`.
 - Do not consider a hidden divergence valid if the RSI has moved into the overbought/oversold zones on the first price swing.
-- Ignore hidden divergences when RSI is in overbought/oversold zone.
+- Ignore hidden divergences when RSI is above 70 or below 30.
 
 ## Step 2.2 What to look for?
 
@@ -61,10 +61,10 @@ You do not just want a HH/HL/LH/LL, you want swing-high/low formations.
 		- [[Swing#Step 2 Mark the new major swing level]]
 		- [[Swing#Step 3 Wait for a throwback pullback]]
 	- Mark the first swing HH/HL/LH/LL with a horizontal-ray tool in tradingview. [...](https://youtu.be/Kzfvhdw6bJ8?t=275)
-	- __WARNING:__ Do not consider a regular divergence valid unless the RSI has moved into the overbought/oversold zones on the "__first__" price swing. [...](https://youtu.be/-TEZowYW1ik?t=153)
+	- __WARNING:__ Do not trade a regular divergence unless the RSI is overbought/oversold on the "__first__" price swing. [...](https://youtu.be/-TEZowYW1ik?t=153)
 		- If you spot a bullish divergence in a downtrend where on the first swing down the RSI was oversold (<30) then it is valid trade setup.
 		- But if you spot a bullish divergence in a downtrend where on the first swing down the RSI was not oversold then it is not a valid trade setup.
-	- __WARNING:__ Do not consider a hidden divergence valid if the RSI has moved into the overbought/oversold zones on the first price swing.
+	- __WARNING:__ Do not trade a hidden divergence if the RSI is overbought/oversold on the first price swing.
 - Now wait for `the 2nd swing high/low` to form before the RSI exits current `OB`/OS region and enters `OS`/OB zone on the opposite side.
 	- Do not act too early and declare the next high/low as soon as you get a big candle on the price chart. [...](https://youtu.be/Kzfvhdw6bJ8?t=302)
 	- [[Swing#Step 4 Await recovery from the throwback pullback]]
@@ -218,7 +218,7 @@ Exit the trade only when the RSI signals OB/OS (70/30) again.
 
 When both conditions are true then its a conflict. Stay away; I need to work out what can be done on such instances. ==<--WIP==
 
-#### Regular Bearish Divergence followed by a Hidden Bullish Divergence.
+#### Regular Bearish Divergence --> Hidden Bullish Divergence
 
 First follow the trading plan for trading regular bearish divergence while hidden divergence may be on its way (but not clearly evident). Once the hidden divergence clearly presents itself only then follow the plan for trading hidden divergence.
 
@@ -251,6 +251,12 @@ While a regular bearish divergence was being playing out, there were also higher
 	- The `HL X LL` criteria was satisfied!
 	- RSI showed a clear `hidden bullish divergence` indicating a beginning of a new upward momentum.
 - Price soared high as predicted by the hidden bullish divergence.
+
+#### Hidden Bullish Divergence --> Regular Bearish Divergence ==<--Is this possible? (WIP)==
+
+#### Regular Bullish Divergence --> Hidden Bearish Divergence
+
+#### Hidden Bearish Divergence --> Regular Bullish Divergence ==<--Is this possible? (WIP)==
 
 ### No Divergences
 
