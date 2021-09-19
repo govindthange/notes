@@ -38,6 +38,10 @@ For bitcoin to trend up you need 3 things [...](https://youtu.be/QcJOnlnbGeY?t=2
 	- Care about the weekly closes above the 20 Week MA.
 	- We say bitcoin DID NOT HOLD 200 week when bitcoin opens and closes below the 20 Week MA.
 
+
+Bitcoin must test 20 Week MA every 2 to 3 months because it rejuvenates the market.
+If we don't test it for 4-5 months in a row, then when we do test it, it will be highly likely that we will not hold it as support and crash down.
+
 ### Bullmarket Support Band (20 Week)
 
 Every single major move that lead bitcoin to an all time high respected the bullmarket support band.
