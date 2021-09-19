@@ -135,10 +135,10 @@ Just mark 2-3 levels as explained below. You do not need more than 3 points beca
 ## Trading S/R after retracement using volume
 [...](https://youtu.be/uxFbaTzgXE4?t=340)
 
-You enter at retracement not at the breakout.
+You do not enter at the breakout. You enter when price comes back to retest the level and if the volume while retracement is declining and at the time of retest is far less than the volume at the time of breakout.
 
 1. Given a strong S/R which has been a historical S/R level.
-2. Wait for the breakout with large candles.
+2. Wait for a `breakout with a large candle`.
 3. Ensure that the `breakout volume is noticeably high`.
 4. __If the breakout volume is not high then this trading setup becomes invalid. Wait and trade only valid setups as outlined by the strategy.__
 5. After confirming the point #2 wait for the retracement to begin.
