@@ -1,5 +1,13 @@
 [...](https://www.youtube.com/watch?v=2h5ryPi6ZYo)
 
+## Swing High
+
+It is identified as the highest point displayed in a given time period.
+
+## Swing Low
+
+A swing low is created when the low is lower than any other point over a given time period.
+
 # Mark swings
 [...](https://youtu.be/2h5ryPi6ZYo?t=209)
 
