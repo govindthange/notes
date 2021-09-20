@@ -8,3 +8,9 @@ Chainalysis Onchain: [https://markets.chainalysis.com/repor...](https://www.yout
 Alameda Tweets: [https://twitter.com/AlamedaTrabucco/s...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2dHRU8tSWJoS3g0a3lGYzQyMVZJRkVpRHpkQXxBQ3Jtc0trS3pOZ0FaWEdaN083QWREamMwbXN6bUY1RjlZRzhsN2lGSElxdG03MnpoSGNoeTVCYzk2M2pnX0VHUm9TMmNWZ29tWjhBRFpseDkzaEJ2aGVnZXRkQXhFdU00Tk5HWFNzTVRwWHZ5bnNDR1VwRnhTdw&q=https%3A%2F%2Ftwitter.com%2FAlamedaTrabucco%2Fstatus%2F1395211733212573696)
 Bitcoin Liquidatoin Crash: [https://www.ft.com/content/b26319f6-6...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa09fT24wSVhIZGRuOVM2Szg4TkZKTS1ITHptUXxBQ3Jtc0tsZ29NZURNVlNOeEQyZ2I4ZmNoRFljanlkd19XWHVLSkp0cno3VnRxdW5WRzhnb21HLTNjUUlzbi1fODc5WFd5TU94Q2JvOWNFbS1pRmczWC1xb3NQMHQzRWJIOGFHZmhuV25TbWhCVm42TG1aaE0tUQ&q=https%3A%2F%2Fwww.ft.com%2Fcontent%2Fb26319f6-6cb7-4e0e-a0d9-bac71d9b8c34)
 Autopsy on Liquidations: [https://www.bloomberg.com/news/articl...](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0FyT0RsX0NqUmZBTFd2Z1hCMWRHR3Z5MmxTd3xBQ3Jtc0tuTjAwdHluQU5COGpaZ3FxRHVUMXlhZWFoRzZjbFZnckZKV0RRS1FlN2tib2xhMEhtUUs1bUFkU3M4MGV5ak13NDJ0My16RUFmbEg0REZDcGtoRC0yb2pnS2FzZ2VIZzcxM1FZejhxZE0xV2xUeUE2WQ&q=https%3A%2F%2Fwww.bloomberg.com%2Fnews%2Farticles%2F2021-05-20%2Fcrypto-crash-autopsy-shows-billions-erased-in-flash-liquidations)
+
+
+# Liquidation Trigger
+
+`Stop Loss` is a market order which is triggered by the `Last Trade` price but liquidation price is triggered by the `Mark Price` (the yellow line in the bybit chart).
+Liquidation will get triggered first.

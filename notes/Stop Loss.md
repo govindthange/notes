@@ -1,3 +1,5 @@
+# System Stop Loss
+
 You must set a `System Stop Loss` to save yourself from ==The Risk of Ruin==
 
 To avoid getting stop hunted this System Stop Loss must be set at a far enough distance but still accurately at a point beyond which the premise of the trade is negated if you get stopped.
@@ -6,7 +8,11 @@ After setting the `System Stop Loss` the whole game is about `managing the Stop 
 
 The whole goal of managing the Stop Loss manually is to execute the trade as exactly it was planned i.e. either the `Take Profit` level is achieved or the `Stop Loss` is hit at a point where it completely invalides the strategy.
 
-# Stop Loss  Reasons
+## Warning!
+
+![[Leverage Trading#Liquidation Trigger]]
+
+# Stop loss reasons
 
 Having an open trade is like having a child.
 
