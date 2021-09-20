@@ -9,26 +9,20 @@
 
 ## Trends
 
-[[Trend]]
-
-
-## Knots
-
-Knot is a place in a strong [[Trend]] where price moves sideways for at least 3 days.
+- [[Trend]]
+- Knots: It is a place in a strong trend where price moves sideways for at least 3 days.
 
 ## Ranges
 
 - Draw Supply & Demand zones. Refer [[Support & Resistance#Demand Supply Zone]].
-
 - Draw major [[Support & Resistance]] levels.
-
 - Analyze [[Standard Deviation]]
-
+	- [[Bollinger Bands]]
+	- [[Bollinger Bands#B]]
+	- Regression Trend (a tradingview tool)
 - Analyze [[Option Chain]] for [[Option Chain#Open Interest Analysis]]
-
 - At all times, even before taking the trade and until you exit the posisition, watch out for all the key S&R levels to anticipate potential road blockers.
 	- At the key S&R levels use [[MACD]] on 2 level lower time frame to gauge whether the price can break through the S&R level or bounce back.
-
 - Use [[MACD#Predicting Reversals Breakouts around key levels| MACD]] to confidently predict the anticipated breakouts and reversals.
 
 ## Swings
@@ -36,12 +30,11 @@ Knot is a place in a strong [[Trend]] where price moves sideways for at least 3 
 Observe the [[Swing]] Highs and Lows.
 
 - Analyze Higher Highs - Higher Lows vs Lower Highs - Lower Lows.
+- [[Elliott Waves]]
 
 ## Fibonacci Ratios
 
-## Turning Points
-
-## Intradays Levels
+## Intraday Levels
 
 ### Day's High & Day's Lows (DH/DL)
 ### Previous Day's High & Previous Day's Low (PDH/PDL)
