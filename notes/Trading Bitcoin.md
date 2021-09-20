@@ -1,4 +1,4 @@
-# Bitcoin Analysis
+# Market Analysis
 
 ## Analyzing Dominance (BTC.D)
 [...](https://www.youtube.com/watch?v=EADLE7kO4tA)
@@ -15,6 +15,10 @@ Once we establish where we are in terms of altcoin-bitcoin cycle the next step i
 
 > Historically 128 Day MA has acted as a strong support for BTC.
 
+## Analyzing correlation with traditional market
+[...](https://youtu.be/TSsuXaxQtcY?t=110)
+
+
 ## Analyzing fair value
 ### Logarithmic Regression & Halving
 [...](https://www.youtube.com/watch?v=oOUn3URPMjE)
@@ -28,6 +32,10 @@ Open above indicator in `Brave New Coin Liquid Index (BLX)` chart.
 
 ### Weekly MA
 [...](https://youtu.be/QcJOnlnbGeY?t=152)
+
+#### 8 Week SMA
+
+#### 20 Week MA
 
 For bitcoin to trend up you need 3 things [...](https://youtu.be/QcJOnlnbGeY?t=210)
 1. BTC stays above 20 Week MA.
