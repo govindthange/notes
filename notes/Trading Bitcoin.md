@@ -51,6 +51,7 @@ Bitcoin must test 20 Week MA every 2 to 3 months because it rejuvenates the mark
 If we don't test it for 4-5 months in a row, then when we do test it, it will be highly likely that we will not hold it as support and crash down.
 
 ### Bullmarket Support Band (20 Week)
+[...](https://www.youtube.com/watch?v=bF7tbUNICkw)
 
 Every single major move that lead bitcoin to an all time high respected the bullmarket support band.
 
