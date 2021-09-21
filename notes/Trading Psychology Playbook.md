@@ -1,5 +1,8 @@
 [...](https://www.youtube.com/watch?v=0nqn0a01EHY)
 
+
+A trade is a calculated risk, it pays off or it doesn't!
+
 # Trade rules, not impulses
 
 __Trade your set of rules, not your impulses.__
@@ -20,10 +23,30 @@ __Trade your set of rules, not your impulses.__
 
 ## How to stand aside from the fear/greed cycles?
 
+Buy fear and sell greed. And to do so you must stay level headed!
+
 - Know what you are looking for.
 - Know how you plan to act if the market does what you anticipate.
 	- [[#Trade small]]
 	- [[#Lower the risk]]
+
+### Handle fear
+
+Once you are in fear, zoom out the charts. Analyze weekly and monthly charts.
+
+If you are overwhelmed by fear or euphoria stay away from trading.
+
+- Do not enter trade due to the fear of missing out (FOMO). There are ample opportunities and you must be patient to wait.
+- Do not enter trade out of euphoria. You must have an entry pre planned.
+- Do not exit trade due to the fear of losing out on profits or cutting losses. You must have an exit plan before entering the trade and you must follow it without yielding to fear.
+
+### Handle greed
+
+If you feel too greedy you will lose opportunities. Learn to leave some profits on the table.
+
+- Do not time your entries to catch the market tops & bottoms.
+- Plan to take some portion of profit out along the way. Do not wait for the ultimate level to maximize gains.
+- Exit the trade once the target is met. Follow your plan.
 
 # Develop good trading habits
 
