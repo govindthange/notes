@@ -5,7 +5,7 @@ Trading is a game of probabilities and risk management.
 Trading is..
 - A science
 - A mathematical equation to solve
-- A game of Probabilities
+- A game of probabilities
 - A risk management
 - A high probability setup
 

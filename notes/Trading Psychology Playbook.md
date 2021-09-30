@@ -1,6 +1,5 @@
 [...](https://www.youtube.com/watch?v=0nqn0a01EHY)
 
-
 A trade is a calculated risk, it pays off or it doesn't!
 
 # Trade rules, not impulses
@@ -23,30 +22,65 @@ __Trade your set of rules, not your impulses.__
 
 ## How to stand aside from the fear/greed cycles?
 
-Buy fear and sell greed. And to do so you must stay level headed!
-
 - Know what you are looking for.
 - Know how you plan to act if the market does what you anticipate.
 	- [[#Trade small]]
 	- [[#Lower the risk]]
+- Stay level headed at all times as fud and fomo drives the market in the short-term.
+	- Take the news in stride.
+		- News only affect things in the short-term.
+		- News don't change the momentum shifts in the market.
+		- News don't change the overarching trends.
+	- If you only ever buy when you feel fomo and if you only ever sell when you experience fud, uncertainity, or doubts then you will not do well in the market.
+- Buy fear and sell greed. [...](https://youtu.be/ITABXgYMvEo?t=453)
 
 ### Handle fear
 
-Once you are in fear, zoom out the charts. Analyze weekly and monthly charts.
+Whenever you experience fear, uncertainity or doubt, zoom out the charts and analyze price action on weekly and monthly timeframes.
 
 If you are overwhelmed by fear or euphoria stay away from trading.
 
-- Do not enter trade due to the fear of missing out (FOMO). There are ample opportunities and you must be patient to wait.
-- Do not enter trade out of euphoria. You must have an entry pre planned.
-- Do not exit trade due to the fear of losing out on profits or cutting losses. You must have an exit plan before entering the trade and you must follow it without yielding to fear.
+- Never enter a trade in fear of missing out (FOMO). There are ample opportunities and you must be patient to wait.
+- Never enter a trade in fear, uncertainity, and doubt (FUD).
+- Never enter a trade when you experience euphoria. You must have an entry already planned in advance.
+- Never panic buy/sell
+	- Remember that panic buyers later become panic sellers and vice-versa.
+	- Never buy into fomo or sell into fud.
+	- Never exit a position due to the fear of losing out on profits or to cut losses.
+	- Always have an exit plan before entering the trade and follow it without yielding to extreme emotions.
+- Plan to buy the fear and sell the greed.
+	- Sell into fomo (in liquidity).
+	- Buy into fear.
+
+## How to breakout out of fear/greed cycles?
+[...](https://youtu.be/ITABXgYMvEo?t=453)
+
+Lets say you bought fomo'd in at all-time-high (ATH) and the market corrects by 20% and there is a fud that the market will crash down to 50%.
+
+- You would feel that its better to sell at -20% rather than watching it go all the way down to 50%.
+- Yes, there is some truth to doing that and it is certainly better to sell at -20% rather than selling at -50% but that is not how market participants behave.
+- What you would end up doing is sell at -20% (from ATH) and buy back in hope at -10 (from ATH) after a relief rally. When market dips further to -30% you would again sell only to buy it back again at -20% there by estabilishing a brutal process for yourself. You are not only the exit liquidity at the top, you are the entry liquidity at the bottom because someone who buys at the bottom they have to buy it from someone.
+- This way you are setting up a brutal process of reacting to the market in the worst possible way.
+- What you need to do is admit to yourself that you bought at a really bad time. If history is any indication you must belief that the market will eventually bail you out if you have the patience to wait.
 
 ### Handle greed
 
 If you feel too greedy you will lose opportunities. Learn to leave some profits on the table.
 
 - Do not time your entries to catch the market tops & bottoms.
+	- Do not try to catch the falling knife.
+	- If you are able to catch tops/bottoms, fell lucky (not smart). You can not repeat this success everytime consistently.
+	- Be happy to miss the absolute reversal points (tops/bottoms).
+		- Wait for a proper shift of momentum (wait for divergence). Yes, you will lose out on some initial gains but risk is far lower.
+		- Let the reversal take place and then join the trend when the train has left.
+		- Just jump on the bandwagon later.
+			- You will always be a little bit late but it will be safe.
+			- You might miss out on the first 10% to 25% but it will be 80% less riskier.
+			- Even if you miss out on initial 20% gain then just a 2x levarge can fix that with a far lesser risk.
 - Plan to take some portion of profit out along the way. Do not wait for the ultimate level to maximize gains.
 - Exit the trade once the target is met. Follow your plan.
+
+![[PsychologyOfMarketCycle_WallStCheatSheet.png]]
 
 # Develop good trading habits
 

@@ -1,4 +1,10 @@
+Market don't behave in a way that can be predicted by "everyone". If everyone thinks something is going to happen then usually market would have already priced that in and what actually happens can completely be different because the market is pricing something that people completely don't know about. So a lot of times if you hear about it, the market has already priced in it. Also pretending that you can take a news and act on it is usually not something thats real because by the time you hear about it, it has already been priced in long ago.
+
+> If you use TA you are part of the 99% of traders that trade alike.
+
 # Market Cycle Analysis
+
+![[PsychologyOfMarketCycle_WallStCheatSheet.png]]
 
 ## Relative Rotation Graph
 [...](https://www.youtube.com/watch?v=sBBAYkZ0Qrs)
