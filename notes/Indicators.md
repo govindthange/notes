@@ -20,6 +20,9 @@ Analyze the direction and strength of the trend based on the past price data. Si
 
 Measure the relative strength of the recent price moves and plot a value between 0 and 100. If the price rises strongly then oscillator follows and reaches the overbought level giving a sell signal. Similarly if the price falls, the oscillator reaches an oversold level giving a buy signal.
 
+#### Why momentum matters?
+[...](https://www.youtube.com/watch?v=AWkRw4g8Zok)
+
 ## [[RSI]] Oscillator
 
 - Its better for longer time frames.
