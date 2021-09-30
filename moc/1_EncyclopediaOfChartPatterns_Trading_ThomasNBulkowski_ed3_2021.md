@@ -10,6 +10,8 @@ Exit in downtrend: At the `ultimate low` on a historical price chart, not real t
 - find the lowest low `before price rises 20%`, measured from the low to the close.
 - if price closes above the top of the chart pattern, then the search for the ultimate low ends, and we use the lowest low found after entering the trade
 
+[MMCrypto Referring the same book](https://youtu.be/ZC4x2-vBfLc?t=207)
+
 # Chapter Structure
 
 First passage in every chapter is a running commentary of the statistics.
