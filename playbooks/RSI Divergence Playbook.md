@@ -38,7 +38,7 @@ A regular divergence must begin (i.e. the first HH/LL of the divergence) in the 
 A hidden divergence may begin near (but not inside) the OB/OS zone and end around the 50 level.
 
 - Wait for the RSI to approach 50 level before you start looking for hidden divergences.
-- Look for hidden divergences only when `RSI is not overbought/oversold`.
+- Look for a hidden divergence only when `RSI is not overbought/oversold`.
 - Do not consider a hidden divergence valid if the RSI has moved into the overbought/oversold zones on the first price swing.
 - Ignore hidden divergences when RSI is above 70 or below 30.
 
