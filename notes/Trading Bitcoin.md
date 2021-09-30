@@ -1,5 +1,17 @@
 # Market Analysis
 
+## Analyzing RoI
+[...](https://www.youtube.com/watch?v=bRDDpxTpWh4)
+
+### As measured from market-cycle bottom
+
+### As measured from halving
+
+- 2nd halving (2012) 100x
+- 3rd halving (2016) 30x
+- 4th halving (2020) 10x
+- 5th halving (2024) projects 3x RoI
+
 ## Analyzing Dominance (BTC.D)
 [...](https://www.youtube.com/watch?v=EADLE7kO4tA)
 
@@ -17,7 +29,6 @@ Once we establish where we are in terms of altcoin-bitcoin cycle the next step i
 
 ## Analyzing correlation with traditional market
 [...](https://youtu.be/TSsuXaxQtcY?t=110)
-
 
 ## Analyzing fair value
 ### Logarithmic Regression & Halving
@@ -50,6 +61,11 @@ For bitcoin to trend up you need 3 things [...](https://youtu.be/QcJOnlnbGeY?t=2
 Bitcoin must test 20 Week MA every 2 to 3 months because it rejuvenates the market.
 If we don't test it for 4-5 months in a row, then when we do test it, it will be highly likely that we will not hold it as support and crash down.
 
+#### Calculus 100 MA against 200 MA
+[...](https://www.youtube.com/watch?v=5jNIOviHK8o)
+
+Concave down to concave up predicts the tops and bottoms in the long term.
+
 ### Bullmarket Support Band (20 Week)
 [...](https://www.youtube.com/watch?v=bF7tbUNICkw)
 
@@ -59,6 +75,10 @@ Every single major move that lead bitcoin to an all time high respected the bull
 	- Bitcoin crosses above the bullmarket support band.
 	- Comes down and test it as support.
 	- If it keeps going up without testing the bullmarket support band as support then it is bearish.
+
+
+#### Why the retest is important?
+[...](https://www.youtube.com/watch?v=AWkRw4g8Zok)
 
 ### EMA Ribbon
 
@@ -77,3 +97,7 @@ Entry
 
 Exit
 - 80% of the price target.
+
+
+# Long term investment strategy
+[...](https://www.youtube.com/watch?v=PCbyZGQuprc)
