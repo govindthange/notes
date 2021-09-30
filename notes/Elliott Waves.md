@@ -8,6 +8,14 @@ Label: [[Area of Value]]
 
 ## Rule 3
 
+# Alternation Rules
+
+- Out of wave 2 and wave 4, one correction will be sharp, the other sideways.
+	- For example if wave 2 was sharp, then wave 4 will be sideways, according to the alternation in an impulse rule.
+- Wave 1, 3, and 5 will alternate to a certain degree.
+	- Elliott Wave theory says that wave 1 and 5 will made in both time and magnitude, especially have wave 3 was an extended wave.
+	- When comparing what would be wave 1 with wave 3, it is easy to see how extended wave 3 would have been.
+
 # Counting Waves
 
 ## [[Elliott Wave 1]]
