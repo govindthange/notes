@@ -1,7 +1,6 @@
 
 For maximum sucess use all of the below aspects for an **Entry Trigger**
 
-
 # Entry Rules
 
 ## Entry rules for long term positions
