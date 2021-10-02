@@ -137,25 +137,41 @@ Just mark 2-3 levels as explained below. You do not need more than 3 points beca
 
 You do not enter at the breakout. You enter when price comes back to retest the level and if the volume while retracement is declining and at the time of retest is far less than the volume at the time of breakout.
 
-1. Given a strong S/R which has been a historical S/R level.
-2. Wait for a `breakout with a large candle`.
+1. Consider a S/R level which has been historically significant.
+2. Wait for `a large breakout candle` with high volume.
 3. Ensure that the `breakout volume is noticeably high`.
-4. __If the breakout volume is not high then this trading setup becomes invalid. Wait and trade only valid setups as outlined by the strategy.__
-5. After confirming the point #2 wait for the retracement to begin.
+	- Volume shows institutional action where as retracement shows retailers entering the trade or booking profits. ^479a47
+	- You must see volume pushing the price in the direction of the trend. This is the direction in which you enter the trade in step #13 below.
+	- __If the breakout volume is not high enough then this trading setup becomes invalid. Wait and trade only valid setups as outlined by the strategy.__
+4. Wait for the `retracement` to begin with declining volume.
+	- Remember [[#^479a47]]
 	- wait for a pullback in a downtrend.
 	- wait for a throwback in an uptrend.
-6. If the breakout was from a chart pattern (say a neckline of a Head & Shoulder or Double Bottom) then __retracement should not begins at or after the target of a chart pattern is achieved__. If this happens then invalidate the pattern.
-7. Mark the level from where retracement began as our `Take Profit` level.
-8. Track the retracement move back to the S/R level that was broken.
-9. Confirm that the `volume is declining` as the price is retracing back to the S/R level.
+	- If the breakout was from a chart pattern (say a neckline of a Head & Shoulder or Double Bottom) then __retracement should not begin at or after the target as determined by the chart pattern is achieved__. If this happens then invalidate the pattern.
+5. Mark the key `fibonacci retracement levels` to gauge where the retracement might end.
+	-  Generally it should end at the point of breakout.
+	-  Or 0.382, 0.5, and 0.618 are the key fibonacci levels to watch.
+6. Mark the level from where retracement begins as the `Take Profit` level for our trade in step #13 below.
+7. Track the retracement move back to the S/R level that was broken or to the key fibonacci levels.
+	- If the price breaks above the resistance level then, while retracing, the nearby underlying support is the level to be watched for a throwback.
+	- If the price breaks below the support level then, while retracing, the nearby overhead resistance is the level to be watched for a pullback.
+8. Confirm that the `volume declines` as the price retraces back to the S/R level.
+9. Confirm the `choppy price action` with small candles around the key fibonacci level or the breakout point.
 10. Ensure that the `volume is low` at the point where S/R is retested.
-11. __If the volume is rising or noticeably high at the point of S/R retest then this trading setup becomes invalid.__
+	- __If the volume is rising or noticeably high at the point of S/R retest then this trading setup becomes invalid as the high volume cancels the entire previous volume.__
+		- Consider a big red candles breaks above a strong support level. This support now turns into a resistance.
+		- Price begins to retrace back after going down.
+		- While retracing you notice large green candles with equal or more volume than what was there in the recent breakout.
+		- You wait for the support (that now turned into resistance) to be broken.
+		- You let this resistance to be broken and wait for the retracement begin to the downside.
+		- As the price comes down to retest and there is a choppy price action with low volume, you enter the trade.
 	- [Check this live example.](https://youtu.be/uxFbaTzgXE4?t=401)
 		- Here as the pullback volume on the way down was considerably high the price failed to retest the S/R and broke through it.
 		- You must wait and trade only valid setups as outlined by the strategy.
-12. You may take cofluence from MACD.
+11. You may take cofluence from MACD.
 	- ![[MACD#Predicting Reversals Breakouts around key levels]]
-13. Enter the trade at the S/R level. [...](https://youtu.be/uxFbaTzgXE4?t=439)
+12. Wait for `a reversal candlestick pattern`.
+13. Enter the trade as the price bounces off of the S/R level. [...](https://youtu.be/uxFbaTzgXE4?t=439)
 14. Exit the trade as price reaches our `Take Profit` level.
 	- This is the point where retracement began.
 	- We exit at this point because we do not know how far away we can go.
