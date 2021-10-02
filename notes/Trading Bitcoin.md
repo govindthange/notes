@@ -84,6 +84,16 @@ Every single major move that lead bitcoin to an all time high respected the bull
 
 - If daily prices closes below the daily EMA ribbon, then it is bearish. History indicates that once daily price closes below the EMA ribbon then price bounce backup and crashes down far below and most likely starts a bear trend.
 
+## Analyzing on-chain data
+
+### Bitcoin hashrate and mining difficulty
+[...](https://youtu.be/AvUw3whRDBI?t=2128)
+
+- Whenever the hashrate increases the price action tends to increase along with it.
+	- More the number of miners higher the hash rate becomes.
+	- Higher the hash rate is the more difficult the mining activity becomes.
+	- First the hashrate increases, then the price action follows it and rises.
+
 # $100 Intraday Strategy
 [...](https://www.youtube.com/watch?v=iPUMzRxesWM)
 
