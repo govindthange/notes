@@ -109,5 +109,12 @@ Exit
 - 80% of the price target.
 
 
+# Swing Trading
+
+- Mondays are bearish
+- Saturdays and Sundays moves are not reliable due to very low volume.
+- Experts enter trades on Tuesdays when the price has corrected.
+- Experts exit trades on friday.
+
 # Long term investment strategy
 [...](https://www.youtube.com/watch?v=PCbyZGQuprc)
