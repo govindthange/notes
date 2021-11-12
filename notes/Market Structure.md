@@ -1,3 +1,5 @@
+> "If you are hard, steadfast convicted that the market is going to go up (or down) and you are not watching the key levels, and you don't understand what happens when the key level breaks then you are going to get in trouble." - Invest with Jaccob
+
 # 1000 Feet View
 
 [[Candlestick Patterns]], [[#Trends]] and [[#Ranges]] on your highest timeframe.
@@ -6,6 +8,10 @@
 - Monthly chart for positional trades.
 
 # The Lay of The Land
+
+## Waves
+
+- [[Elliott Waves]] gives us the highest probability path at the time and then it gives us the key levels that makes sure that that path stays on its journey.
 
 ## Trends
 

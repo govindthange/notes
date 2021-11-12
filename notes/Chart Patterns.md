@@ -8,6 +8,8 @@ Chartpatterns are footprints left by the smart money.
 
 > The relevant data is whether 1 dude with $10 billion decides to buy bitcoin tomorrow. That is not in any of the charts/data - Michael Saylor
 
+^aab16c
+
 Chart Patterns are well documented in technical analysis literature and are based on psychological phenomena that occur between the buyers and sellers of financial instruments in liquid markets. Pattern formation do not form  a trading system, but rather proivde an indication of the future trend of a trend of a share as the price breaks key psychological barriers in the form of support and resitssance lines.
 
 [[moc/1_EncyclopediaOfChartPatterns_Trading_ThomasNBulkowski_ed3_2021#Chart Patterns]]
