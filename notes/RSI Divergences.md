@@ -4,10 +4,14 @@ Usually you will start by marking tops and bottoms on the price swings. For all 
 
 Essentially a reversal is a break in the market structure. Example: A higher high is broken into higher lows. You must wait enough to see this being played out before making a trend.
 
-There are 2 types of divergences viz Regular and Hidden.
+Anticipate a divergence w/o referring RSI like so:
+- Expect a bearish divergence when 2+ red candles begin interleaving after a set of consecutive green candles.
+- Expect a bullish divergence when 2+ green candles begin interleaving after a set of consecutive red candles.
 
+There are 3 types of divergences viz Regular, Hidden, and Exaggerated.
 - `Regular Divergences (R)` predicts a potential reversal in a trend because the price action loses its steam.
 - `Hidden Divergences (H)` predicts the beginning of a strong momentum in the direction of the existing trend.
+- `Exaggerated Divergences (E)`
 
 Once you approach an Area of Value while in a trend then use below table to predict continuation or reversal in price trend.
 
@@ -18,6 +22,11 @@ Once you approach an Area of Value while in a trend then use below table to pred
 
 - To spot a bearish divergence (R/H) focus on the `tops`; the `swing highs` on the price chart and RSI.
 - To spot a bullish divergence (R/H) focus on the `botttoms`; the `swing lows` on the price chart and RSI.
+
+- Use divergences to reliably predict directional move in the direction of the trend.
+
+
+# Predicting w/ Exaggerated Divergences
 
 # Predicting trend reversals w/ Regular Divergences
 
