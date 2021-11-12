@@ -1,3 +1,30 @@
+# Mistakes in crypto
+[...](https://www.youtube.com/watch?v=HZJYMppONYw)
+[...](https://www.youtube.com/watch?v=4zLJShOSDMM)
+
+## Following the herd
+
+## Misunderstanding market cap
+
+## Deterministic thinking and expectations
+
+## Overexposing to many coins
+
+## No diversificatoin and avoiding ruins
+
+## Leaving coins on exchanges
+
+- Leaving coins on exchanges
+- Leaving coins on unregistered exchanges
+
+## Using leverage
+
+## Sending funds to wrong chain/address
+
+## Yoling
+
+## Phsishing scams
+
 # Mistakes that beginners make
 [...](https://www.youtube.com/watch?v=CRPHmftchxU)
 

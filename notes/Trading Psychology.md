@@ -75,7 +75,9 @@ Its not how much you can do at any one time. Its how consistently you can do thi
 
 > Its not difficult to make money in the market but it is difficult to keep it.
 
-Most traders fail not because they don't know how to trade but because they don't know how to control their emotions like hope, greed, fear and regret. This is why a trader can be on a seies of small wins and one day when shit hits the fan, they become emotionally attached to their trade, they break their own rules and risk management and fight the trend. This leads to `hope and hold` which turns into `fear of taking a loss` and eventually that's how a `small loss becomes an unrecoverable damage` that blows up a trading account.
+Most traders fail not because they don't know how to trade but because they don't know how to control their emotions like hope, greed, fear and regret. This is why a trader can be on a series of small wins and one day when shit hits the fan, they become emotionally attached to their trade, they break their own rules and risk management and fight the trend. This leads to `hope and hold` which turns into `fear of taking a loss` and eventually that's how a `small loss becomes an unrecoverable damage` that blows up a trading account.
+
+> Its a lot more important on how you react to the market, not to say pin it down to a very specific day. Its more important to say: if this happens then I will do this. If it doesn't happen then I won't do that. - Benjamin Cowen
 
 - You take bad decisions if you put evertying online.
 - Do not trade with an amount more than you can afford to lose comfortably.

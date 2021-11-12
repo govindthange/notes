@@ -65,6 +65,8 @@ Lets say you bought fomo'd in at all-time-high (ATH) and the market corrects by 
 
 ### Handle greed
 
+Greed is just a little bit more than enough.
+
 If you feel too greedy you will lose opportunities. Learn to leave some profits on the table.
 
 - Do not time your entries to catch the market tops & bottoms.

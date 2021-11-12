@@ -1,4 +1,6 @@
 
+Bitcoin is on the verge of becoming a monetary standard for trading global commodities like oil, copper, coal etc.
+
 # Bitcoin Adoption
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/x1LvKmW_lXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
