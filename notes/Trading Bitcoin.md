@@ -33,6 +33,23 @@ What does seasonality say about bitcoin's performance in the period 31st October
 - [[Trading Crypto#Market cycle peak with BTC monthly RSI]]
 - [[#Pi Cycle Top Indicator 111DMA 350DMA]]
 
+#### Next Market Cycle Peak
+[...](https://www.youtube.com/watch?v=XvrN23W8T10)
+
+Next Halving: March 2024
+Next Market Cycle Peak Window: From May 2022 to August 2023
+
+- It could be a tripple top.
+- If the market cycle peak occurs before 31st December 2021 then it will a be a down hill till next halving.
+
+## Analyzing powers of 2
+[...](https://www.youtube.com/watch?v=RdlX_ZJkCrA)
+
+- Bitcoin spent a lot of time in odd powers i.e. 2^1, 2^3, and 2^5 bands.
+- Bitcoin quickly passed even powers i.3., 2^0 and 2^4.
+- This implies Bitcoin quickly will pass 2^6 (which means we will see a quick jump from 64k to 128k)
+- This also implies that Bitcoin may spend a lot of time in 2^7 which is a price bracket from 128k to 256k.
+
 ## Analyzing dominance (BTC.D)
 [...](https://www.youtube.com/watch?v=EADLE7kO4tA)
 
