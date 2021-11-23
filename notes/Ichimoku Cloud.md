@@ -29,14 +29,15 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 
 - The Conversion (Tenken-Sen) and Baseline (Kijun-Sen) Crossover.
 - Quick, multiple occurences of the signal indicate choppy or sideway movement.
-- The longer the amout of time it takes a signal to occur, the more consistent the trend is.
+- ==The longer the amout of time it takes a signal to occur, the more consistent the trend is.==
+	- If TK Crosses are appearing too frequent then be informed about risky trades.
 - When tenken-sen crosses up over the kijun-sen then its a long signal.
 - When tenken-sen crosses down below the kijun-sen then its a short signal.
 
 ## Chikou Span: The Purple `Lagging Span` Line.
 [...](https://youtu.be/EKcH0zaPIf0?t=1246)
 
-- Its a wild card that helps in picking not normal trends but the trends that have been trends for a while.
+- Its a wild card that helps in filtering price trends that have been in trend for a while.
 - Its a past looking lagging indicator which shows the current closing price shifted 26 periods back.
 - The philosophy is that for some reason if the price now is above or below where it was 26 periods ago helps to determine whether or not there is a trend occuring.
 - If chikou is above the price then the trend occuring is bullish.
@@ -48,6 +49,7 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 	- whether you should be actually trading or not and...
 	- in what direction you should be looking at for trading.
 - So if you see the cloud is coming down but the Chikou span (i.e. the current price) is going up and above the price (26 periods ago) then thats a good point to say I don't want to be going short. But at the same time you don't have enough information to say you want to go long either.
+- Similarly if you see the cloud is going up but the Chikou span (i.e. the current price) is coming down and below the price (26 periods ago) then thats a good point to say I don't want to be going long. But at the same time you don't have enough information to say you want to go short either.
 - This keeps us out of those potential bad trades.
 - [[#Chikou Kumo Relationship]]
 - [[#Chikou Price Relationship]]
@@ -80,8 +82,9 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 ## Kumo Cross/Twist
 
 - The `Senkou Span A S/R` crosses above the `Senkou Span B S/R`.
+- If Kumo Cross appear too frequently then it is indicator of a weak trend. The trades will be risky.
 
-# Ichimoku Signal Strenght
+# Ichimoku Signal Strength
 
 The strength of the Ichimoku trading signal is assessed based on following 3 factors:
 
@@ -195,17 +198,30 @@ We can continue holding the posistion as the cloud grows in size & volume and th
 
 # Exit Criteria
 
-## Exit Opportunity #1
+## Exit Opportunity #1 - Safe Exit w/ Tenken-Sen (Take Profit)
 
-The price reverses, crosses the Tenken-Sen and the candle closes on the opposite side of the Tenken-Sen line.
+- This is first exit chance you have. You can decide to table a certain present of your profit/loss.
+- The price reverses, crosses the Tenken-Sen with candle closing on the opposite side of the Tenken-Sen line.
+- This has lowe profit taking potential and lowest risk.
+- If the trend is really strong then this can give high profits.
 
-## Exit Opportunity #2
+## Exit Opportunity #2 - Warning Shot w/ Chikou (Take Profit)
 
 Chikou (Purple Lagging Span) touches the price.
 
-## Exit Opportunity #3
+## Exit Opportunity #3 - Exit w/ Kijun-Sen (Take Profit)
+
+- The price reverses, crosses the Kijun-Sen and the candle closes on the opposite side of the Tenken-Sen line.
+- This has moderate profit taking potential.
+- You can substantially lower risk by exiting major portion of your trade at this point.
+
+## Exit Opportunity #4 - Complete Exit w/ TK Cross
 
 Tenken-Sen (Yellow Conversion Line) crosses the Kijun-Sen (White Baseline) in the opposite direction of the earlier TK Crossover.
+
+## Exit Opportunity #5 - System Stop Loss
+
+Price goes to the opposite side of the cloud.
 
 # Icimoku Entry Triggered Simplified
 [...](https://www.youtube.com/watch?v=KE_SAzserLE)
@@ -232,7 +248,7 @@ Once all the criterias are met enter the trade with...
 - Target 2 times the risk (with 1:2 Risk/Reward ratio)
 - Stop loss above the cloud.
 
-## Controling losses
+## Control losses w/ Chikou span
 [...](https://youtu.be/KE_SAzserLE?t=508)
 
 Using lagging span to get yourself out of the trade when it starts reversing on you.
