@@ -34,31 +34,20 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 - When tenken-sen crosses up over the kijun-sen then its a long signal.
 - When tenken-sen crosses down below the kijun-sen then its a short signal.
 
-## Chikou Span: The Purple `Lagging Span` Line.
+## Chikou-Span: The Purple `Lagging-Span` Line.
 [...](https://youtu.be/EKcH0zaPIf0?t=1246)
 
 - Its a wild card that helps in filtering price trends that have been in trend for a while.
 - Its a past looking lagging indicator which shows the current closing price shifted 26 periods back.
-- The philosophy is that for some reason if the price now is above or below where it was 26 periods ago helps to determine whether or not there is a trend occuring.
-- If chikou is above the price then the trend occuring is bullish.
-- If chikou is below the price then the trend occuring is bearish.
-- If the chikou Span and the current price is at the same level then it indicates that there is no trend occurring at the moment even though clouds are indicating so.
-	- Basically it says the price hasn't been able to really change out of its price range in the last 26 periods.
-	- It helps in seeing the sideways market even though its not a sideways market occurring in the cloud.
-- Chikou span comes in really handy and lets you see:
+- Chikou-Span comes in very handy in seeing...
 	- whether you should be actually trading or not and...
 	- in what direction you should be looking at for trading.
-- So if you see the cloud is coming down but the Chikou span (i.e. the current price) is going up and above the price (26 periods ago) then thats a good point to say I don't want to be going short. But at the same time you don't have enough information to say you want to go long either.
-- Similarly if you see the cloud is going up but the Chikou span (i.e. the current price) is coming down and below the price (26 periods ago) then thats a good point to say I don't want to be going long. But at the same time you don't have enough information to say you want to go short either.
-- This keeps us out of those potential bad trades.
-- [[#Chikou Kumo Relationship]]
-- [[#Chikou Price Relationship]]
 
-## Kumo: The Cloud (Senkou Span A/B Support & Resistance)
+## Kumo: The Cloud (Senkou-Span A/B Support & Resistance)
 [...](https://youtu.be/EKcH0zaPIf0?t=725)
 
 - The cloud is there to tell us whether we are allowed or not allowed to trade in the first place.
-	- It is formed from `Senkou Span A` and `Senkou Span B'.
+	- It is formed from `Senkou-Span A` (AKA Leading-Span A) and `Senkou-Span B` (AKA Leading-Span B).
 	- If the price is above the cloud, look for longs.
 	- If the price is below the cloud, look for shorts.
 	- If the price is inside the cloud, no trades are allowed. There is some indecision going on and you should wait until things are a bit more definitive.
@@ -70,203 +59,199 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 	- It helps us gauging where the price would want to hover around in future.
 - Its also a forward looking leading indicator. It gives an idea where the trend should be going in future.
 - Clouds are drawn with the help of following 2 indicators.
-	1. The fast moving `Senkou Span A S/R` is formed from the midpoint of Tenken-Sen and Kijun-Sen shifted forward by 26 periods.
+	1. The fast moving `Senkou-Span A S/R` is formed from the midpoint of Tenken-Sen and Kijun-Sen shifted forward by 26 periods.
 		- (`Tenken-Sen` - `Kijun-Sen`) / 2
-	2. The slow moving `Senkou Span B S/R` is formed from the midpoint of last 52 periods on the chart shifted forward by 26 periods.
+	2. The slow moving `Senkou-Span B S/R` is formed from the midpoint of last 52 periods on the chart shifted forward by 26 periods.
 		- (`52 period high` - `52 period low`) / 2
 	3. Both indicators act as a short-term support & resistance for the current price.
 - The difference between these 2 indicators is what creates the cloud.
+- The relationship between `Senkou-Span A` and `Senkou-Span B` will indicate whether there is a strong downtrend or uptrend.
+- Pay attention to the color of the cloud and the size of the cloud.
+- When the cloud is small (ie. distance between the 2 Senkou-Spans is small) then the trend is not very strong.
+- Use clouds in conjunction with [[RSI]] to get a complete picture of the S/R.
 - This is what defines the equilibrium point at a distance. This is where we establish its unsafe for trading.
 - If the cloud is tall then it acts as a strong S/R zone. If the cloud is small i.e. distance betwen the two spans is small then it is a weak S/R zone.
 
 ## Kumo Cross/Twist
 
-- The `Senkou Span A S/R` crosses above the `Senkou Span B S/R`.
+- The shift in kumo direction (color) is know as a Kumo Twist.
+- The `Senkou-Span A S/R` crosses above the `Senkou-Span B S/R`.
 - If Kumo Cross appear too frequently then it is indicator of a weak trend. The trades will be risky.
 
 # Ichimoku Signal Strength
 
 The strength of the Ichimoku trading signal is assessed based on following 3 factors:
+1. How far away is the price movement relative to the cloud?
+2. How far away are the two spans relative to the cloud?
+3. How far away is the TK cross relative to the cloud?
 
-1. How far away is the price movement relative to the cloud.
-2. How far away is the two span relative to the cloud.
-3. How far aways is the TK cross relative to the cloud
+## Assess the clouds:
 
-Ichimoku is designed to detect changes in the S/R.
+- Ichimoku is designed to detect changes in the S/R.
+- The relationship between `Senkou-Span A` and `Senkou-Span B` will indicate whether there is a strong downtrend or uptrend.
+- Pay attention to the color of the cloud and the size of the cloud.
+- When the cloud is small (ie. distance between the 2 Senkou-Spans is small) then the trend is not very strong.
+- Use clouds in conjunction with [[RSI]] to get a complete picture of the S/R.
 
-The relationship between Leading Span A and Leading Span B will indicate whether there is a strong downtrend or uptrend.
-
-Pay attention to the color of the cloud and the size of the cloud.
-
-When the cloud is small (ie. distance between the 2 leading spans is small) then the trend is not very strong.
-
-Use clouds in conjunction with [[RSI]] to get a complete picture of the S/R.
-
-# Ichimoku Entry Trigger
+# Setup
 [...](https://www.youtube.com/watch?v=EKcH0zaPIf0)
 
-When all the following are in the same direction then you are in a trend. Most traders wait for all the 6 to be in the same direction before they enter a trade. Some enter by just having 4 in order.
+When all the following conditions are in confluence then it indicates a strong trend for entering a high probability trade.
 
-1. TK Cross Occurence
-2. Current Kumo Direction
-3. Future Kumo Direction
-4. Kumo - Price relationship
-5. Chikou Span - Kumo relationship
-6. Chikou Span - Price relationship
+1. Kumo - Price relationship
+2. TK Cross Occurrence
+3. Chikou-Span - Kumo relationship
+4. Chikou-Span - Price relationship
+5. Current Kumo Direction
+6. Future Kumo Direction
 
-> #1 and #4 are the main signals and rest are just supporting signals. Which means even though the supporting signals are right you still will have to look at other aspects.
+Most traders wait for all the 6 aspects to be in the same direction before taking a position. Some take position with a small risk by just having 4 aspects in order.
 
-## 1. Baseline Confirmation (TK Cross)
+> Criteria #1 and Criteria #2 are the main criterias and rest are just supporting signals. This means even though the supporting signals are right you still will have to look at other aspects.
 
-`Question:` When did the TK Cross signal occur? Or how long back did the TK Cross occur?
-`Answer:` It occurred 7 periods back.
+## Criteria 1. Kumo~Price confirmation (price beyond cloud)
 
-### Weak TK Cross
+Wait for the candle to close beyond & outside the cloud.
+- For a long position the candle should close above the green cloud.
+- For a short position the candle should close below the red cloud.
 
-- A TK Cross below the cloud for a long position.
-- A TK Cross above the cloud for a short position.
+Assess `How far away is the price movement relative to the cloud?`
 
-### Neutral TK Cross
+## Criteria 2. TK Cross occurrence (baseline confirmation)
 
-- A TK Cross within the cloud for a long/short position.
+- Tenken-Sen must cross above the Kijun-Sen for a long position.
+- Tenken-Sen must cross below the Kijun-Sen for a short position.
 
-### Strong TK Cross
+### Analyze the TK Cross
 
-- A TK Cross above the cloud for a long position.
-- A TK Cross below the cloud for a short position.
+Assess the following:
+1. `How far away is the TK cross relative to the cloud?`
+2. `When did the TK Cross signal occur?`
+3. `How long back did the TK Cross occur?`
 
-#### Long Setup
+A `Weak TK Cross`:
+- Its when the TK Cross is below the cloud for a long position.
+- Its when the TK Cross is above the cloud for a short position.
 
-Conversion Line must be above the Baseline.
+A `Neutral TK Cross`:
+- Its when the TK Cross is within the cloud for a long or short position.
 
-Tenken-Sen (Yellow Conversion Line) crosses above the Kijun-Sen (White Baseline).
+A `Strong TK Cross`:
+- Its when the TK Cross is above the cloud for a long position.
+- Its when the TK Cross is below the cloud for a short position.
 
-#### Short Setup
+## Criteria 3. Chikou~Kumo confirmation (lagging confirmation)
 
-Tenken-Sen (Yellow Conversion Line) crosses below the Kijun-Sen (White Baseline)
+This relation is one of trend support.
+- Chikou-Span breaking out of the Kumo acts as a validation signal for a trend.
+- When the price and Chikou-Span are on the same side of the kumo, it represents more stability in a growing trend.
+	- So when the Chikou-Span is above the cloud while price too is above the cloud then its a stronger long signal.
+	- Similarly when the Chikou-Span is below the cloud while price too is below it then its a stronger short signal.
+- When the Chikou-Span is inside the kumo, then it indicates that the prices haven't changed significantly against the instrument's equilibrium point.
+- If the Chikou-Span is above the kumo but the price is inside the kumo then following applies:
+	- If price breaksout to the upside of kumo while Chikou-Span stays above it, this will act as a confirmation for a long signal.
+	- If the price breaks down, its not necessarily for the Chikou-Span to be on the same side but it may be prudent to wait for the Chikou-Span to follow.
 
-## 2. Cloud Confirmation
+### Warning!
 
-### Current Kumo Direction
+- If you see the cloud is coming down but the Chikou-Span (i.e. the current price) is going up and above the price (26 periods ago) then thats a good point to say I don't want to be going short. But at the same time you don't have enough information to say you want to go long either.
+- If you see the cloud is going up but the Chikou-Span (i.e. the current price) is coming down and below the price (26 periods ago) then thats a good point to say I don't want to be going long. But at the same time you don't have enough information to say you want to go short either.
+- This keeps us out of those potential bad trades.
 
-### Future Kumo Direction
+## Criteria 4. Chikou~Price confirmation (lagging confirmation)
+
+Its basically comparing current price to the past price through Chikou-Span.
+
+- The philosophy is that for some reason if the price now is above or below where it was 26 periods ago helps to determine whether or not there is a trend occuring.
+
+- Trends occur when the current price pushes away from the past prices.
+- If Chikou-Span is above the price then the trend occuring is bullish. Its a confirmation for a long position.
+- If Chikou-Span is below the price then the trend occuring is bearish. Its a confirmation for a short position.
+- If the Chikou-Span and the current price is at the same level then it indicates that there is no trend occurring at the moment even though clouds are indicating so.
+	- Basically it says the price hasn't been able to really change out of its price range in the last 26 periods.
+	- It helps in seeing the sideways market even though its not a sideways market occurring in the cloud.
+
+> This relationship applies to the entry signal but not to the positions that already exist, though it may be an early sign that an exit is about to occur, or should be considered.
+
+> Chikou-Span must be above all the other indicators.
+
+## Criteria 5. Current kumo direction (cloud confirmation)
+
+## Criteria 6. Future kumo direction (cloud confirmation)
 
 - The latest Kumo direction is important for determining the future expected trend direction, as well as the future positions for support and resistance.
-- The shift in direction is know as a Kumo Twist.
-- The greater number of periods that the Kumo holds a particular direction, the longer the trend.
+- For a long position its good to have future cloud turn green.
+- For a short position its good to have future cloud turn red.
+
+### Warning!
+
+- The shift in kumo direction (i.e. color) is called a `Kumo Twist`.
+- The greater the periods that a Kumo holds in a particular direction, the longer the trend will be.
 - Knowing if there is a shift of Kumo direction in the future is important as it can also warn us of the potential future stops and reversals, even if they may not yet be visible on the chart.
 
-#### Long Setup
-- The cloud must turn green.
+# Exit Triggers
 
-## 3. Price beyond Cloud
+## Trigger 1. Price reverts back to Tenken-Sen (Take Profit)
 
-### Kumo/Price Relationship
-
-#### Long Setup
-
-The candle closing should be above and outside the green cloud.
-
-## 4. Lagging Confirmation
-
-### Chikou/Kumo Relationship
-
-- This relation is one of trend support.
-- When the price and chikou span are on the same side of the kumo, it represents more stability in a growing trend.
-	- So when the chikous span is above the cloud while price too is above the cloud then its a stronger long signal.
-	- Similarly when the chikous span is below the cloud while price too is below it then its a stronger short signal.
-- When chikou span is inside the kumo, then it indicates that the prices haven't changed significantly against the instrument's equilibrium point.
-- Chikou span breaking out of the Kumo acts as a validation signal for a trend.
-- If the chikou span is above the kumo but the price is inside the kumo then following applies:
-	- If price breaksout to the upside of kumo while chikou stays above it, this will act as a confirmation for a long signal.
-	- If the price breaks down, its not necessarily for the chikou span to be on the same side but it may be prudent to wait for the chikou span to follow.
-
-### Chikou/Price Relationship
-
-- Its basically comparing current price to the past price through Chikou span.
-- Trends occur when the current price pushes away from the past prices.
-- This relationship applies to the entry signal but not to positions that may already exist, though it may be an early sign that an exit is about to occur, or should be considered.
-
-Long Setup
-- Chikou Span (Purple Lagging Span) must be above all the other indicators.
-
----
-
-# Holding the Position
-
-We can continue holding the posistion as the cloud grows in size & volume and the price is further away from the cloud.
-
-# Exit Criteria
-
-## Exit Opportunity #1 - Safe Exit w/ Tenken-Sen (Take Profit)
-
-- This is first exit chance you have. You can decide to table a certain present of your profit/loss.
-- The price reverses, crosses the Tenken-Sen with candle closing on the opposite side of the Tenken-Sen line.
+- This is the first exit or profit taking opporutnity you have. You can decide to table a certain percent of your profit/loss.
+- The price reverses, crosses the Tenken-Sen with candle closing on the opposite side of the Tenken-Sen.
 - This has lowe profit taking potential and lowest risk.
 - If the trend is really strong then this can give high profits.
 
-## Exit Opportunity #2 - Warning Shot w/ Chikou (Take Profit)
+## Tigger 2. Price reverts back to Kijun-Sen (Take Profit)
+[...](https://youtu.be/KE_SAzserLE?t=639)
 
-Chikou (Purple Lagging Span) touches the price.
+Use the Kijun-Sen to follow the trend and stay in it longer until the price closes back above/below it.
 
-## Exit Opportunity #3 - Exit w/ Kijun-Sen (Take Profit)
-
-- The price reverses, crosses the Kijun-Sen and the candle closes on the opposite side of the Tenken-Sen line.
+- The price reverses, crosses the Kijun-Sen and the candle closes on the opposite side of the Tenken-Sen.
 - This has moderate profit taking potential.
 - You can substantially lower risk by exiting major portion of your trade at this point.
 
-## Exit Opportunity #4 - Complete Exit w/ TK Cross
+## Trigger 3. Chikou-Span crosses over the price (Take Profit)
 
-Tenken-Sen (Yellow Conversion Line) crosses the Kijun-Sen (White Baseline) in the opposite direction of the earlier TK Crossover.
+Use Chikou-Span to get out of a trade that starts reversing on you.
 
-## Exit Opportunity #5 - System Stop Loss
+- When Chikou-Span goes below the price while in a long position then its an early bearish sign to prepare for an exit or consider scaling down of trade. 
+- When Chikou-Span goes above the price while in a short position then its an early bullish sign to prepare for an exit or consider scaling down of trade. 
+
+[[IchimokuShortTradeExitUsingLaggingSpan.png]]
+
+## Trigger 4. Reverse TK cross occurs
+
+Use the Kijun-Sen to follow the trend and stay in it longer until the Tenken-Sen crosses back above/below the Kijun-Sen.
+
+Tenken-Sen should cross the Kijun-Sen in the opposite direction of the earlier TK Crossover.
+
+## Trigger 5. Price crosses the cloud
 
 Price goes to the opposite side of the cloud.
 
-# Icimoku Entry Triggered Simplified
+# Trading Ichimoku Cloud
+
+## Strategy 1
 [...](https://www.youtube.com/watch?v=KE_SAzserLE)
 
-## Long Setup
+### Long Setup
 
 1. A green candle close above the cloud.
-2. The recent cloud, at the forwardmost point in time, turns green.
-3. Conversion line above the base line. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
-4. Lagging span above the cloud.
+2. The recent cloud, at the forward most point in time, turns green.
+3. Tenken-Sen above the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
+4. Chikou-Span above the cloud.
 
 Once all the criterias are met, enter the trade with...
 - Target 2 times the risk (with 1:2 Risk/Reward ratio)
 - Stop loss below the cloud.
 
-## Short Setup
+### Short Setup
 
 1. A red candle close below the cloud.
 2. The recent cloud, at the forwardmost point in time, turns red.
-3. Conversion line below the base line  It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
-4. Lagging span below the cloud.
+3. Tenken-Sen below the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
+4. Chikous-Span below the cloud.
 
 Once all the criterias are met enter the trade with...
 - Target 2 times the risk (with 1:2 Risk/Reward ratio)
 - Stop loss above the cloud.
 
-## Control losses w/ Chikou span
-[...](https://youtu.be/KE_SAzserLE?t=508)
-
-Using lagging span to get yourself out of the trade when it starts reversing on you.
-
-1. Look at the lagging span in relation to the price.
-2. The moment lagging span goes above the candles while you are riding a short position you can exit and save yourself from taking a loss.
-
-Notice that as soon as the lagging span (purple line) goes over the candles, you should exit the trade instead of letting the trade hit stop loss.
-
-![[IchimokuShortTradeExitUsingLaggingSpan.png]]
-
-## Maximizing profits
-[...](https://youtu.be/KE_SAzserLE?t=639)
-
-If you don't want to cap your profit target at 2 times your risk use the base line to follow the trend and stay in it longer until there is a close back above or a cross of the conversion line back above the baseline (in case of short).
-
-You can even use the lagging span. If it comes above the candles exit the trade.
-
-# Ichimoku Strategy 2
+## Strategy 2
 [...](https://www.youtube.com/watch?v=wTD3tT98_3Q&list=PL0TAU0vvz24qOLck6bUQVbgAgC6FEklmg)
-
