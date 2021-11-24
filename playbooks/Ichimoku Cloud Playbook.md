@@ -43,11 +43,11 @@ Do the final assessment of the strength of all the signals and enter the trade.
 - Tenken-Sen must stay above the Kijun-Sen to continue holding a long position.
 - Tenken-Sen must stay below the Kijun-Sen to continue holding a short position.
 - Keep monitoring Chikou-Span in relation to the price.
-- The moment Chikou-Span goes over/below the price in the reverse direction you may consider exiting the trade before it hit your stop loss.
+- The moment Chikou-Span goes over/below the price in the reverse direction you may consider exiting the trade before it hits your stop loss.
 
 # Step 9. Ride the trade
 
-We can continue holding the posistion as the cloud grows in size & volume and the price is further away from the cloud.
+We can continue holding the position as the cloud grows in size & volume and the price is further away from the cloud.
 
 # Step 10. Act on exit triggers
 

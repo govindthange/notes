@@ -129,16 +129,16 @@ Assess the following:
 2. `When did the TK Cross signal occur?`
 3. `How long back did the TK Cross occur?`
 
-A `Weak TK Cross`:
-- Its when the TK Cross is below the cloud for a long position.
-- Its when the TK Cross is above the cloud for a short position.
+A `Strong TK Cross`:
+- Its when the TK Cross is above the cloud for a long position.
+- Its when the TK Cross is below the cloud for a short position.
 
 A `Neutral TK Cross`:
 - Its when the TK Cross is within the cloud for a long or short position.
 
-A `Strong TK Cross`:
-- Its when the TK Cross is above the cloud for a long position.
-- Its when the TK Cross is below the cloud for a short position.
+A `Weak TK Cross`:
+- Its when the TK Cross is below the cloud for a long position.
+- Its when the TK Cross is above the cloud for a short position.
 
 ## Criteria 3. Chikou~Kumo confirmation (lagging confirmation)
 
@@ -154,6 +154,8 @@ This relation is one of trend support.
 
 ### Warning!
 
+- For a long position if you see Chikou-Span above the price but heading straight into the upcoming candles then wait till Chikou-Span gets safely above most of the upcoming candles.
+- For a short position if you see Chikou-Span below the price but heading straight into the upcoming candles then wait till Chikou-Span gets safely below most of the upcoming candles.
 - If you see the cloud is coming down but the Chikou-Span (i.e. the current price) is going up and above the price (26 periods ago) then thats a good point to say I don't want to be going short. But at the same time you don't have enough information to say you want to go long either.
 - If you see the cloud is going up but the Chikou-Span (i.e. the current price) is coming down and below the price (26 periods ago) then thats a good point to say I don't want to be going long. But at the same time you don't have enough information to say you want to go short either.
 - This keeps us out of those potential bad trades.
@@ -173,7 +175,7 @@ Its basically comparing current price to the past price through Chikou-Span.
 
 > This relationship applies to the entry signal but not to the positions that already exist, though it may be an early sign that an exit is about to occur, or should be considered.
 
-> Chikou-Span must be above all the other indicators.
+> Chikou-Span must be above all the other indicators in a bullish trend and below all the indicators in a bearish trend.
 
 ## Criteria 5. Current kumo direction (cloud confirmation)
 
