@@ -6,7 +6,7 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 
 # Ichimoku Components
 
-## Tenken-Sen: The Yellow `Conversion Line`.
+## Tenkan-Sen: The Yellow `Conversion Line`.
 
 - Its the midpoint of the last 9 candles on the chart.
 	- (`9 period high` - `9 period low`) / 2
@@ -24,15 +24,15 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 - It basically creates an equilibrium where the price is going to be.
 - It acts as a short-term support & resistance for the current price.
 
-## Tenken-Sen/Kijun-Sen Cross (TK Cross)
+## Tenkan-Sen/Kijun-Sen Cross (TK Cross)
 [...](https://youtu.be/EKcH0zaPIf0?t=1091)
 
-- The Conversion (Tenken-Sen) and Baseline (Kijun-Sen) Crossover.
+- The Conversion (Tenkan-Sen) and Baseline (Kijun-Sen) Crossover.
 - Quick, multiple occurences of the signal indicate choppy or sideway movement.
 - ==The longer the amout of time it takes a signal to occur, the more consistent the trend is.==
 	- If TK Crosses are appearing too frequent then be informed about risky trades.
-- When tenken-sen crosses up over the kijun-sen then its a long signal.
-- When tenken-sen crosses down below the kijun-sen then its a short signal.
+- When Tenkan-sen crosses up over the kijun-sen then its a long signal.
+- When Tenkan-sen crosses down below the kijun-sen then its a short signal.
 
 ## Chikou-Span: The Purple `Lagging-Span` Line.
 [...](https://youtu.be/EKcH0zaPIf0?t=1246)
@@ -58,21 +58,25 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 	- It does not mean where the price is going to go in the future but it tells where the price is going to revert to when it turns out of steam.
 	- It helps us gauging where the price would want to hover around in future.
 - Its also a forward looking leading indicator. It gives an idea where the trend should be going in future.
-- Clouds are drawn with the help of following 2 indicators.
-	1. The fast moving `Senkou-Span A S/R` is formed from the midpoint of Tenken-Sen and Kijun-Sen shifted forward by 26 periods.
-		- (`Tenken-Sen` - `Kijun-Sen`) / 2
-	2. The slow moving `Senkou-Span B S/R` is formed from the midpoint of last 52 periods on the chart shifted forward by 26 periods.
-		- (`52 period high` - `52 period low`) / 2
-	3. Both indicators act as a short-term support & resistance for the current price.
-- The difference between these 2 indicators is what creates the cloud.
-- The relationship between `Senkou-Span A` and `Senkou-Span B` will indicate whether there is a strong downtrend or uptrend.
 - Pay attention to the color of the cloud and the size of the cloud.
 - When the cloud is small (ie. distance between the 2 Senkou-Spans is small) then the trend is not very strong.
 - Use clouds in conjunction with [[RSI]] to get a complete picture of the S/R.
 - This is what defines the equilibrium point at a distance. This is where we establish its unsafe for trading.
 - If the cloud is tall then it acts as a strong S/R zone. If the cloud is small i.e. distance betwen the two spans is small then it is a weak S/R zone.
 
-## Kumo Cross/Twist
+### Senkou-Span A & B
+
+Clouds are drawn with the help of following 2 indicators:
+1. The fast moving `Senkou-Span A S/R` is formed from the midpoint of Tenkan-Sen and Kijun-Sen shifted forward by 26 periods.
+	- (`Tenkan-Sen` - `Kijun-Sen`) / 2
+2. The slow moving `Senkou-Span B S/R` is formed from the midpoint of last 52 periods on the chart shifted forward by 26 periods.
+	- (`52 period high` - `52 period low`) / 2
+
+- Both indicators act as a short-term support & resistance for the current price.
+- The difference between these 2 indicators is what creates the cloud.
+- The relationship between `Senkou-Span A` and `Senkou-Span B` will indicate whether there is a strong downtrend or uptrend.
+
+### Kumo Cross/Twist
 
 - The shift in kumo direction (color) is know as a Kumo Twist.
 - The `Senkou-Span A S/R` crosses above the `Senkou-Span B S/R`.
@@ -119,8 +123,8 @@ Assess `How far away is the price movement relative to the cloud?`
 
 ## Criteria 2. TK Cross occurrence (baseline confirmation)
 
-- Tenken-Sen must cross above the Kijun-Sen for a long position.
-- Tenken-Sen must cross below the Kijun-Sen for a short position.
+- Tenkan-Sen must cross above the Kijun-Sen for a long position.
+- Tenkan-Sen must cross below the Kijun-Sen for a short position.
 
 ### Analyze the TK Cross
 
@@ -143,6 +147,7 @@ A `Weak TK Cross`:
 ## Criteria 3. Chikou~Kumo confirmation (lagging confirmation)
 
 This relation is one of trend support.
+
 - Chikou-Span breaking out of the Kumo acts as a validation signal for a trend.
 - When the price and Chikou-Span are on the same side of the kumo, it represents more stability in a growing trend.
 	- So when the Chikou-Span is above the cloud while price too is above the cloud then its a stronger long signal.
@@ -151,6 +156,8 @@ This relation is one of trend support.
 - If the Chikou-Span is above the kumo but the price is inside the kumo then following applies:
 	- If price breaksout to the upside of kumo while Chikou-Span stays above it, this will act as a confirmation for a long signal.
 	- If the price breaks down, its not necessarily for the Chikou-Span to be on the same side but it may be prudent to wait for the Chikou-Span to follow.
+
+> Chikou-Span is not required to go outside and beyond the kumo to confirm a trade signal.
 
 ### Warning!
 
@@ -193,10 +200,10 @@ Its basically comparing current price to the past price through Chikou-Span.
 
 # Exit Triggers
 
-## Trigger 1. Price reverts back to Tenken-Sen (Take Profit)
+## Trigger 1. Price reverts back to Tenkan-Sen (Take Profit)
 
 - This is the first exit or profit taking opporutnity you have. You can decide to table a certain percent of your profit/loss.
-- The price reverses, crosses the Tenken-Sen with candle closing on the opposite side of the Tenken-Sen.
+- The price reverses, crosses the Tenkan-Sen with candle closing on the opposite side of the Tenkan-Sen.
 - This has lowe profit taking potential and lowest risk.
 - If the trend is really strong then this can give high profits.
 
@@ -205,7 +212,7 @@ Its basically comparing current price to the past price through Chikou-Span.
 
 Use the Kijun-Sen to follow the trend and stay in it longer until the price closes back above/below it.
 
-- The price reverses, crosses the Kijun-Sen and the candle closes on the opposite side of the Tenken-Sen.
+- The price reverses, crosses the Kijun-Sen and the candle closes on the opposite side of the Tenkan-Sen.
 - This has moderate profit taking potential.
 - You can substantially lower risk by exiting major portion of your trade at this point.
 
@@ -220,9 +227,9 @@ Use Chikou-Span to get out of a trade that starts reversing on you.
 
 ## Trigger 4. Reverse TK cross occurs
 
-Use the Kijun-Sen to follow the trend and stay in it longer until the Tenken-Sen crosses back above/below the Kijun-Sen.
+Use the Kijun-Sen to follow the trend and stay in it longer until the Tenkan-Sen crosses back above/below the Kijun-Sen.
 
-Tenken-Sen should cross the Kijun-Sen in the opposite direction of the earlier TK Crossover.
+Tenkan-Sen should cross the Kijun-Sen in the opposite direction of the earlier TK Crossover.
 
 ## Trigger 5. Price crosses the cloud
 
@@ -237,7 +244,7 @@ Price goes to the opposite side of the cloud.
 
 1. A green candle close above the cloud.
 2. The recent cloud, at the forward most point in time, turns green.
-3. Tenken-Sen above the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
+3. Tenkan-Sen above the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
 4. Chikou-Span above the cloud.
 
 Once all the criterias are met, enter the trade with...
@@ -248,7 +255,7 @@ Once all the criterias are met, enter the trade with...
 
 1. A red candle close below the cloud.
 2. The recent cloud, at the forwardmost point in time, turns red.
-3. Tenken-Sen below the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
+3. Tenkan-Sen below the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
 4. Chikous-Span below the cloud.
 
 Once all the criterias are met enter the trade with...
