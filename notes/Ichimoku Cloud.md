@@ -34,6 +34,17 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 - When Tenkan-sen crosses up over the kijun-sen then its a long signal.
 - When Tenkan-sen crosses down below the kijun-sen then its a short signal.
 
+### Strong TK Cross
+- A `Strong Bullish TK Cross` occurs when Tenkan-Sen crosses up the Kijun-Sen above the cloud.
+- A `Strong Bearish TK Cross` occurs when Tenkan-Sen crosses down the Kijun-Sen under the cloud.
+
+### Neutral TK Cross
+- A `Neutral TK Cross` occurs when Tenkan-Sen crosses above/below the Kijun-Sen inside the cloud.
+
+### Weak TK Cross
+- A `Weak Bullish TK Cross` occurs when Tenkan-Sen crosses up the Kijun-Sen under the cloud.
+- A `Weak Bearish TK Cross` occurs when Tenkan-Sen crosses down the Kijun-Sen above the cloud.
+
 ## Chikou-Span: The Purple `Lagging-Span` Line.
 [...](https://youtu.be/EKcH0zaPIf0?t=1246)
 
@@ -102,26 +113,18 @@ The strength of the Ichimoku trading signal is assessed based on following 3 fac
 
 When all the following conditions are in confluence then it indicates a strong trend for entering a high probability trade.
 
-1. Kumo - Price relationship
-2. TK Cross Occurrence
-3. Chikou-Span - Kumo relationship
-4. Chikou-Span - Price relationship
+1. TK Cross Occurrence
+2. Kumo - Price relationship
+3. Chikou-Span - Price relationship
+4. Future Kumo Direction
 5. Current Kumo Direction
-6. Future Kumo Direction
+6. Chikou-Span - Kumo relationship
 
 Most traders wait for all the 6 aspects to be in the same direction before taking a position. Some take position with a small risk by just having 4 aspects in order.
 
 > Criteria #1 and Criteria #2 are the main criterias and rest are just supporting signals. This means even though the supporting signals are right you still will have to look at other aspects.
 
-## Criteria 1. Kumo~Price confirmation (price beyond cloud)
-
-Wait for the candle to close beyond & outside the cloud.
-- For a long position the candle should close above the green cloud.
-- For a short position the candle should close below the red cloud.
-
-Assess `How far away is the price movement relative to the cloud?`
-
-## Criteria 2. TK Cross occurrence (baseline confirmation)
+## Criteria 1. TK Cross occurrence (baseline confirmation)
 
 - Tenkan-Sen must cross above the Kijun-Sen for a long position.
 - Tenkan-Sen must cross below the Kijun-Sen for a short position.
@@ -133,18 +136,57 @@ Assess the following:
 2. `When did the TK Cross signal occur?`
 3. `How long back did the TK Cross occur?`
 
-A `Strong TK Cross`:
-- Its when the TK Cross is above the cloud for a long position.
-- Its when the TK Cross is below the cloud for a short position.
+- A flat Kijun-Sen indicates no new highs/lows are being made.
+- If price goes too far from a flat Kijun-Sen then it will attract the price towards it. For this reason you should enter trade just after price closes above the 9-period high (long) or below the 9-period low (short)
 
-A `Neutral TK Cross`:
-- Its when the TK Cross is within the cloud for a long or short position.
+## Criteria 2. Kumo~Price confirmation (price beyond cloud)
 
-A `Weak TK Cross`:
-- Its when the TK Cross is below the cloud for a long position.
-- Its when the TK Cross is above the cloud for a short position.
+Assess `How far away is the price movement relative to the cloud?`
 
-## Criteria 3. Chikou~Kumo confirmation (lagging confirmation)
+Wait for the candle to close beyond & outside the cloud.
+- For a long position the candle should close above the green cloud.
+	- If the price is contending with a flat Kumo (Senkou-Span B) then it should be a strong bullish candle closing above the Kumo.
+		- A weak close above it would likely draw the price back inside the kumo.
+		- A strong candle will pull the Tenkan-Sen and Kijun-Sen up with it.
+- For a short position the candle should close below the red cloud.
+	- If the price is contending with a flat Kumo (Senkou-Span B) then it should be a strong bearish candle closing below the Kumo.
+		- A weak close below it would likely draw the price back inside the kumo.
+		- A strong candle will pull the Tenkan-Sen and Kijun-Sen down with it.
+
+If the Senkou-Span B remains flat for several days then it would create a massive magentic force. The price would struggle to breakout of it, and even if it does, it will get pulled back by the flat Senkou-Span B.
+
+## Criteria 3. Chikou~Price confirmation (lagging confirmation)
+
+Its basically comparing current price to the past price through Chikou-Span.
+
+- The philosophy is that for some reason if the price now is above or below where it was 26 periods ago helps to determine whether or not there is a trend occuring.
+
+- Trends occur when the current price pushes away from the past prices.
+- If Chikou-Span is above the price then the trend occuring is bullish. Its a confirmation for a long position.
+- If Chikou-Span is below the price then the trend occuring is bearish. Its a confirmation for a short position.
+- If the Chikou-Span and the current price is at the same level then it indicates that there is no trend occurring at the moment even though clouds are indicating so.
+	- Basically it says the price hasn't been able to really change out of its price range in the last 26 periods.
+	- It helps in seeing the sideways market even though its not a sideways market occurring in the cloud.
+
+> This relationship applies to the entry signal but not to the positions that already exist, though it may be an early sign that an exit is about to occur, or should be considered.
+
+> Chikou-Span must be above all the other indicators in a bullish trend and below all the indicators in a bearish trend.
+
+## Criteria 4. Future kumo direction (cloud confirmation)
+
+- The latest Kumo direction is important for determining the future expected trend direction, as well as the future positions for support and resistance.
+- For a long position its good to have future cloud turn green.
+- For a short position its good to have future cloud turn red.
+
+### Warning!
+
+- The shift in kumo direction (i.e. color) is called a `Kumo Twist`.
+- The greater the periods that a Kumo holds in a particular direction, the longer the trend will be.
+- Knowing if there is a shift of Kumo direction in the future is important as it can also warn us of the potential future stops and reversals, even if they may not yet be visible on the chart.
+
+## Criteria 5. Current kumo direction (cloud confirmation)
+
+## Criteria 6. Chikou~Kumo confirmation (lagging confirmation)
 
 This relation is one of trend support.
 
@@ -166,37 +208,6 @@ This relation is one of trend support.
 - If you see the cloud is coming down but the Chikou-Span (i.e. the current price) is going up and above the price (26 periods ago) then thats a good point to say I don't want to be going short. But at the same time you don't have enough information to say you want to go long either.
 - If you see the cloud is going up but the Chikou-Span (i.e. the current price) is coming down and below the price (26 periods ago) then thats a good point to say I don't want to be going long. But at the same time you don't have enough information to say you want to go short either.
 - This keeps us out of those potential bad trades.
-
-## Criteria 4. Chikou~Price confirmation (lagging confirmation)
-
-Its basically comparing current price to the past price through Chikou-Span.
-
-- The philosophy is that for some reason if the price now is above or below where it was 26 periods ago helps to determine whether or not there is a trend occuring.
-
-- Trends occur when the current price pushes away from the past prices.
-- If Chikou-Span is above the price then the trend occuring is bullish. Its a confirmation for a long position.
-- If Chikou-Span is below the price then the trend occuring is bearish. Its a confirmation for a short position.
-- If the Chikou-Span and the current price is at the same level then it indicates that there is no trend occurring at the moment even though clouds are indicating so.
-	- Basically it says the price hasn't been able to really change out of its price range in the last 26 periods.
-	- It helps in seeing the sideways market even though its not a sideways market occurring in the cloud.
-
-> This relationship applies to the entry signal but not to the positions that already exist, though it may be an early sign that an exit is about to occur, or should be considered.
-
-> Chikou-Span must be above all the other indicators in a bullish trend and below all the indicators in a bearish trend.
-
-## Criteria 5. Current kumo direction (cloud confirmation)
-
-## Criteria 6. Future kumo direction (cloud confirmation)
-
-- The latest Kumo direction is important for determining the future expected trend direction, as well as the future positions for support and resistance.
-- For a long position its good to have future cloud turn green.
-- For a short position its good to have future cloud turn red.
-
-### Warning!
-
-- The shift in kumo direction (i.e. color) is called a `Kumo Twist`.
-- The greater the periods that a Kumo holds in a particular direction, the longer the trend will be.
-- Knowing if there is a shift of Kumo direction in the future is important as it can also warn us of the potential future stops and reversals, even if they may not yet be visible on the chart.
 
 # Exit Triggers
 
