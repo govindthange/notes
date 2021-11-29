@@ -176,6 +176,12 @@ Concave down to concave up predicts the tops and bottoms in the long term.
 - Analyze the trend of "bitcoin" term in searches.
 - As google search trend rises, price follows. As google trend falls, price falls.
 
+## Analyzing Volatility
+[...](https://www.youtube.com/watch?v=uSsJLr1MIl0)
+
+## 3 Month
+[...](https://www.youtube.com/watch?v=U6rQq_VbOys)
+
 # DCA using risk metrics
 [...](https://www.youtube.com/watch?v=S7nB1z6fTBQ)
 
