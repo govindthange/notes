@@ -8,21 +8,20 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 
 ## Tenkan-Sen: The Yellow `Conversion Line`.
 
-- Its the midpoint of the last 9 candles on the chart.
+- It is the midpoint of highest high and lowest low of the last 9 candles.
 	- (`9 period high` - `9 period low`) / 2
-- It is a fast moving line.
-- Much like a moving average but not exactly like it.
-- Moving averages hugs the price where as this establishes where that equilibrium of price is going to be.
-- Unlike moving averages it uses midpoints and compares general short-term movements to intermediate-term movements.
+- It is a fast moving average.
+- A simple moving average hugs the price where as Tenkan-Sen establishes where that equilibrium of price is going to be.
+- Unlike a simple moving average Tenkan-Sen uses midpoints and compares general short-term movements to intermediate-term movements.
 
 ## Kijun-Sen: The White `Baseline`.
 
-- It is the midpoint of the last 26 period candles.
+- It is the midpoint of highest high and lowest low of the last 26 candles.
 	- (`26 period high` - `26 period low`) / 2
-- It is a slow moving line.
-- Unlike moving averages it generates flat positions.
-- It basically creates an equilibrium where the price is going to be.
-- It acts as a short-term support & resistance for the current price.
+- Kijun-Sen is a slow moving average.
+- Unlike simple/exponential moving average Kijun-Sen generates flat levels.
+- Kijun-Sen creates an equilibrium where the price reverts to like a magnet.
+- Kijun-Sen acts as a short-term support & resistance for the current price.
 
 ## Tenkan-Sen/Kijun-Sen Cross (TK Cross)
 [...](https://youtu.be/EKcH0zaPIf0?t=1091)
@@ -48,17 +47,22 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 ## Chikou-Span: The Purple `Lagging-Span` Line.
 [...](https://youtu.be/EKcH0zaPIf0?t=1246)
 
-- Its a wild card that helps in filtering price trends that have been in trend for a while.
+The inventor of Ichimoku system analyzed that 26 period old price levels always present future support/resistance to the current price action. So if there was a considerable amount of trading done at a certain level 26 periods back, then that 26 period old level is bound to offer signficant support/resistance to the current price now.
+
 - Its a past looking lagging indicator which shows the current closing price shifted 26 periods back.
+- Its a wild card that helps in filtering price trends that have been in trend for a while.
+- Its a momentum indicator for the stock and tells how strong/weak the momentum is based on whether the Chikou-Span is facing a congestion from 26 period old prices or its free from any price interaction.
+	-  For going long Chikou-Span should be above price and clear from any resistance to the upside. This will imply a free sky ahead for the price to rally up.
+	-  For going short Chikou-Span should be below price and clear from any support to the downside.
 - Chikou-Span comes in very handy in seeing...
 	- whether you should be actually trading or not and...
 	- in what direction you should be looking at for trading.
 
-## Kumo: The Cloud (Senkou-Span A/B Support & Resistance)
+## Kumo: The Cloud (Senkou-Span-A/B Support & Resistance)
 [...](https://youtu.be/EKcH0zaPIf0?t=725)
 
 - The cloud is there to tell us whether we are allowed or not allowed to trade in the first place.
-	- It is formed from `Senkou-Span A` (AKA Leading-Span A) and `Senkou-Span B` (AKA Leading-Span B).
+	- It is formed from `Senkou-Span-A` (AKA Leading-Span A) and `Senkou-Span-B` (AKA Leading-Span B).
 	- If the price is above the cloud, look for longs.
 	- If the price is below the cloud, look for shorts.
 	- If the price is inside the cloud, no trades are allowed. There is some indecision going on and you should wait until things are a bit more definitive.
@@ -75,22 +79,24 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 - This is what defines the equilibrium point at a distance. This is where we establish its unsafe for trading.
 - If the cloud is tall then it acts as a strong S/R zone. If the cloud is small i.e. distance betwen the two spans is small then it is a weak S/R zone.
 
-### Senkou-Span A & B
+### Senkou-Span-A & B
 
 Clouds are drawn with the help of following 2 indicators:
-1. The fast moving `Senkou-Span A S/R` is formed from the midpoint of Tenkan-Sen and Kijun-Sen shifted forward by 26 periods.
+1. `Senkou-Span-A S/R` is the midpoint of Tenkan-Sen and Kijun-Sen projected 26 periods in future.
 	- (`Tenkan-Sen` - `Kijun-Sen`) / 2
-2. The slow moving `Senkou-Span B S/R` is formed from the midpoint of last 52 periods on the chart shifted forward by 26 periods.
+	- Its the fast moving average.
+2. `Senkou-Span-B S/R` is the midpoint of highest high and lowest low of last 52 periods shifted 26 periods in future.
 	- (`52 period high` - `52 period low`) / 2
+	- Its the slow moving average.
 
 - Both indicators act as a short-term support & resistance for the current price.
 - The difference between these 2 indicators is what creates the cloud.
-- The relationship between `Senkou-Span A` and `Senkou-Span B` will indicate whether there is a strong downtrend or uptrend.
+- The relationship between `Senkou-Span-A` and `Senkou-Span-B` will indicate whether there is a strong downtrend or uptrend.
 
 ### Kumo Cross/Twist
 
 - The shift in kumo direction (color) is know as a Kumo Twist.
-- The `Senkou-Span A S/R` crosses above the `Senkou-Span B S/R`.
+- The `Senkou-Span-A S/R` crosses above the `Senkou-Span-B S/R`.
 - If Kumo Cross appear too frequently then it is indicator of a weak trend. The trades will be risky.
 
 # Ichimoku Signal Strength
@@ -103,7 +109,7 @@ The strength of the Ichimoku trading signal is assessed based on following 3 fac
 ## Assess the clouds:
 
 - Ichimoku is designed to detect changes in the S/R.
-- The relationship between `Senkou-Span A` and `Senkou-Span B` will indicate whether there is a strong downtrend or uptrend.
+- The relationship between `Senkou-Span-A` and `Senkou-Span-B` will indicate whether there is a strong downtrend or uptrend.
 - Pay attention to the color of the cloud and the size of the cloud.
 - When the cloud is small (ie. distance between the 2 Senkou-Spans is small) then the trend is not very strong.
 - Use clouds in conjunction with [[RSI]] to get a complete picture of the S/R.
@@ -145,15 +151,15 @@ Assess `How far away is the price movement relative to the cloud?`
 
 Wait for the candle to close beyond & outside the cloud.
 - For a long position the candle should close above the green cloud.
-	- If the price is contending with a flat Kumo (Senkou-Span B) then it should be a strong bullish candle closing above the Kumo.
+	- If the price is contending with a flat Kumo (Senkou-Span-B) then it should be a strong bullish candle closing above the Kumo.
 		- A weak close above it would likely draw the price back inside the kumo.
 		- A strong candle will pull the Tenkan-Sen and Kijun-Sen up with it.
 - For a short position the candle should close below the red cloud.
-	- If the price is contending with a flat Kumo (Senkou-Span B) then it should be a strong bearish candle closing below the Kumo.
+	- If the price is contending with a flat Kumo (Senkou-Span-B) then it should be a strong bearish candle closing below the Kumo.
 		- A weak close below it would likely draw the price back inside the kumo.
 		- A strong candle will pull the Tenkan-Sen and Kijun-Sen down with it.
 
-If the Senkou-Span B remains flat for several days then it would create a massive magentic force. The price would struggle to breakout of it, and even if it does, it will get pulled back by the flat Senkou-Span B.
+If the Senkou-Span-B remains flat for several days then it would create a massive magentic force. The price would struggle to breakout of it, and even if it does, it will get pulled back by the flat Senkou-Span-B.
 
 ## Criteria 3. Chikou~Price confirmation (lagging confirmation)
 
