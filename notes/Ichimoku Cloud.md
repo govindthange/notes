@@ -1,5 +1,11 @@
 [...](https://steemit.com/bitcoin/@proofofresearch/ichimoku-cloud-explained-thoroughly-debunking-ichimoku-myths)
 
+# Ichimoku - A "one glance equilibrium" chart
+
+This system shows investor sentiment at a glance.
+
+The dominant forces at the very heart of any trading strategy are always fear and greed. These two emotions are universal. Most traders will panic sell at the boottom and buy exuberantly at the top. The Ichimoku system will help you make trading decisions based on what you see on the chart and not what your emotions dictate.
+
 "Ichimoku" means equilibrium at a glance. In 5 seconds of looking at a daily chart one can tell if a stock's trend is for the present bullish, mid term bullish and bullish in the foreseeable future. Same for bearish.
 
 Warning: Be warned that the system is essentially an intraday breakout system, the strategy looses a lot of money on false breakouts offsetting any profitable trades you've had with it.
@@ -22,6 +28,10 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 - Unlike simple/exponential moving average Kijun-Sen generates flat levels.
 - Kijun-Sen creates an equilibrium where the price reverts to like a magnet.
 - Kijun-Sen acts as a short-term support & resistance for the current price.
+- Kijun-Sen is primarily a trend container.
+- Kijun-Sen is more sensitive to price highs and lows and does not care about prices moving within the 26-period high/low areas.
+- Kijun-Sen denotes equilibrium between buyers and sellers.
+- Kijun-Sen becomes flat as soon as the stock stops making new highs and consolidates.
 
 ## Tenkan-Sen/Kijun-Sen Cross (TK Cross)
 [...](https://youtu.be/EKcH0zaPIf0?t=1091)
@@ -84,10 +94,15 @@ The inventor of Ichimoku system analyzed that 26 period old price levels always 
 Clouds are drawn with the help of following 2 indicators:
 1. `Senkou-Span-A S/R` is the midpoint of Tenkan-Sen and Kijun-Sen projected 26 periods in future.
 	- (`Tenkan-Sen` - `Kijun-Sen`) / 2
-	- Its the fast moving average.
+	- Its the fast moving average and therefore when the stock is rising, Senkou-Span-A will have higher values than Senkou-Span-B.
+	- It offers support/resistance when price is trending.
+		- It provides support for a rising stock.
+		- It provides resistance for a declining stock.
 2. `Senkou-Span-B S/R` is the midpoint of highest high and lowest low of last 52 periods shifted 26 periods in future.
 	- (`52 period high` - `52 period low`) / 2
 	- Its the slow moving average.
+	- It is a longer term equilibrium point.
+	- If offers very strong support/resistance when it is flat (i.e. when Senkou-Span-B is trending horizontal).
 
 - Both indicators act as a short-term support & resistance for the current price.
 - The difference between these 2 indicators is what creates the cloud.
@@ -95,7 +110,10 @@ Clouds are drawn with the help of following 2 indicators:
 
 ### Kumo Cross/Twist
 
-- The shift in kumo direction (color) is know as a Kumo Twist.
+- As market makes new highs/lows Kumo progresses.
+- A trending Kumo is referred as a Kumo in flux. It has a lesser chance to halt the price!
+- As market stops making new highs/lows, reverses, and makes new lows/highs, the Kumo will twist before progressing/moving in the opposite direction.
+- The shift in kumo direction (color) is known as Kumo Twist.
 - The `Senkou-Span-A S/R` crosses above the `Senkou-Span-B S/R`.
 - If Kumo Cross appear too frequently then it is indicator of a weak trend. The trades will be risky.
 
@@ -145,6 +163,15 @@ Assess the following:
 - A flat Kijun-Sen indicates no new highs/lows are being made.
 - If price goes too far from a flat Kijun-Sen then it will attract the price towards it. For this reason you should enter trade just after price closes above the 9-period high (long) or below the 9-period low (short)
 
+### Caveats in TK cross use
+
+Sometimes when the T/K cross sets up, the other components might not yet be aligned. However, the price might keep pushing in your expected direction. It is a better strategy not to chase price, but wait for a pullback. Price will often come back to equilibrium (Kijun-Sen) and then climb back up over the Tenkan-Sen. By this time, more often than not, the other Ichimoku components will be aligned for the trade.
+
+### Optimizations in TK cross use
+
+- There might be cases where the Tenkan-Sen and Kijun-Sen are not in the right order, but the trader can visually assess that the Tenkan-Sen will cross the Kijun-Sen in next few candles.
+- For a bullish entry case, this might be where the prior 9-periods lows are getting higher, while the prior 26-period high/lows are constant.
+
 ## Criteria 2. Kumo~Price confirmation (price beyond cloud)
 
 Assess `How far away is the price movement relative to the cloud?`
@@ -160,6 +187,12 @@ Wait for the candle to close beyond & outside the cloud.
 		- A strong candle will pull the Tenkan-Sen and Kijun-Sen down with it.
 
 If the Senkou-Span-B remains flat for several days then it would create a massive magentic force. The price would struggle to breakout of it, and even if it does, it will get pulled back by the flat Senkou-Span-B.
+
+### Optimizations in Kumo~Price confirmation
+
+You need not wait for price to go beyond/outside the cloud when all the other Ichimoku components are in confluence/algined and following occurs:
+- When Kumo is very thin and may not be able offer much support/resistance.
+- When Kumo is in flux which the price can easily break through.
 
 ## Criteria 3. Chikou~Price confirmation (lagging confirmation)
 
@@ -181,16 +214,41 @@ Its basically comparing current price to the past price through Chikou-Span.
 ## Criteria 4. Future kumo direction (cloud confirmation)
 
 - The latest Kumo direction is important for determining the future expected trend direction, as well as the future positions for support and resistance.
-- For a long position its good to have future cloud turn green.
-- For a short position its good to have future cloud turn red.
+	- For a long position its good to have future cloud turn green.
+	- For a short position its good to have future cloud turn red.
 
-### Warning!
+### Caveats in future Kumo use
 
-- The shift in kumo direction (i.e. color) is called a `Kumo Twist`.
+- The future Kumo direction is not important if...
+	- All the other components are in confluence.
+	- A Kumo twist is imminent in next few candles.
 - The greater the periods that a Kumo holds in a particular direction, the longer the trend will be.
 - Knowing if there is a shift of Kumo direction in the future is important as it can also warn us of the potential future stops and reversals, even if they may not yet be visible on the chart.
 
+### Optimizations in future Kumo use
+
+It is possible to enter a trade without waiting for future Kumo to turn bullish/bearish.
+
+Traders can be a little proactive and enter a trade even if the future Kumo is of the opposite sentiment. This can be contemplated only if all other Ichimoku components are aligned and it can be visually ascertained that a Kumo twist is likely in the next few candles.
+- You might visually notice that Senkou-Span-A is heading to intersect Senkou-Span-B, but the twist has not occurred yet.
+- To anticipate the next couple of candles, look to see how the Tenkan-Sen and Kijun-Sen will be moving in this timeframe.
+	- Is the prior 9-period low going to rise higher?
+	- Is the prior 26-period low going to rise higher?
+	- Any of these conditions will make either the Tenkan-Sen or Kijun-Sen to go up.
+	- That would, in turn, make Senkou-Span-A go up some more.
+	- Next check if the prior 52-period highs are expected to drop.
+	- If they are, then Senkou-Span-B will drop further.
+	- Both these conditions will accelerate the Kumo twist and lead to a bullish future Kumo.
+- To anticipate the future Kumo-Twist look at the rise/fall of last 52-days lows/highs against the rise/fall of previous 9-days lows/highs (Tenkan-Sen & Kijun-Sen midpoint).
+- As 52-period high drops (i.e. Senkou-Span-B falls) and last 9-period high rises (i.e. Kijun-Sen and Tenkan-Sen rises => Senkou-Span-A rises) a bullish twist is imminent.
+- Conversely when Senkou-Span-B rises above Senkou-Span-A, the trend is stronger downward and is denoted with a red-colored cloud.
+
 ## Criteria 5. Current kumo direction (cloud confirmation)
+
+- When the Senkou-Span-B is flat it indicates the price has not been making new high/lows.
+- A flat Senkou-Span-B indicates a strong support/resistance level.
+- A flat Senkou-Span-B acts as a strong magnet and attracts the price towards it.
+- Senkou-Span-B is an equilibirium point and price cant stay away from it for too long unless new highs/lows are being made.
 
 ## Criteria 6. Chikou~Kumo confirmation (lagging confirmation)
 
@@ -207,7 +265,7 @@ This relation is one of trend support.
 
 > Chikou-Span is not required to go outside and beyond the kumo to confirm a trade signal.
 
-### Warning!
+### Caveats in Chikou~Kumo confirmation
 
 - For a long position if you see Chikou-Span above the price but heading straight into the upcoming candles then wait till Chikou-Span gets safely above most of the upcoming candles.
 - For a short position if you see Chikou-Span below the price but heading straight into the upcoming candles then wait till Chikou-Span gets safely below most of the upcoming candles.
@@ -251,6 +309,10 @@ Tenkan-Sen should cross the Kijun-Sen in the opposite direction of the earlier T
 ## Trigger 5. Price crosses the cloud
 
 Price goes to the opposite side of the cloud.
+
+## Trigger 6. Future Kumo twists in other direction
+
+Clouse out position if the future Kumo twists back in the other direction.
 
 # Trading Ichimoku Cloud
 
