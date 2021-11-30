@@ -73,6 +73,13 @@ Its not how much you can do at any one time. Its how consistently you can do thi
 
 # Psychology
 
+Its not fun when market goes down, you feel sad, but you have to put that emotion on one side, you can observe them but you cannot let the emotion drive your trading because then you will consistently loose as the time to buy is actually when you feel depressed and the time to sell is when you feel euphoric.
+
+No one knows what is going to happen, you can just work with the following:
+- Work with your risk to reward ratio.
+- Ride the trend up and never ride the trend down.
+- Whenever your trade turns against you and you start losing money, you must decide to cut it at one point. You have to take a small loss, get out, regroup, and try again. Never hold all the way down and sell months later when you lost 80% of holding.
+
 > Its not difficult to make money in the market but it is difficult to keep it.
 
 Most traders fail not because they don't know how to trade but because they don't know how to control their emotions like hope, greed, fear and regret. This is why a trader can be on a series of small wins and one day when shit hits the fan, they become emotionally attached to their trade, they break their own rules and risk management and fight the trend. This leads to `hope and hold` which turns into `fear of taking a loss` and eventually that's how a `small loss becomes an unrecoverable damage` that blows up a trading account.
