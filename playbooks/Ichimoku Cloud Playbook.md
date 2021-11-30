@@ -2,7 +2,7 @@
 
 # Kumo Breakout Trade Strategy
 
-## Step 1. Analyze higher timeframe.
+## Step 1. Analyze the higher timeframe
 
 Do not enter any position when there is a conflict between the smaller and the higher timeframe charts.
 
@@ -22,7 +22,7 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 - In a bearish trending market, the Kumo will be falling steadily.
 - In a non-trending market, the Kumo will switch between bearish and bullish in a short period of time.
 
-## Step 3. Wait for TK cross and analyze
+## Step 3. Wait for the TK cross
 
 [[Ichimoku Cloud#Criteria 1 TK cross occurrence baseline confirmation]]
 
@@ -93,7 +93,7 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 	- This should help price move down without much resistance.
 	- When Chikou-Span is over the price and price goes down, then Chikou-Span could find support on the price.
 
-## Step 7. Assess the clouds
+## Step 7. Assess clouds
 
 > If current and future Kumo directions are in the direction of the trade then it indicates a high probability trade otherwise risks are higher
 
@@ -111,7 +111,7 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 
 [[Ichimoku Cloud#Criteria 5 Current kumo direction cloud confirmation]]
 
-## Step 8. Assess the equilibrium.
+## Step 8. Assess equilibrium
 
 - The Kijun-Sen is the 26-period equilibrium and Senkou-Span-B is the 52-period equilibrium.
 
@@ -150,7 +150,7 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 - Conversely when Senkou-Span-B rises above Senkou-Span-A, the trend is stronger downward and is denoted with a red-colored cloud.
 - To anticipate the future Kumo-Twist look at the rise/fall of previous 52-days lows/highs w.r.t rise/fall of previous 9-days lows/highs (Tenkan-Sen & Kijun-Sen midpoint).
 
-### Assess the Kumo
+### Assess Kumo
 
 Kumo components influences price. Watch out for Kumo-Flux, a thin Kumo or a flat Kumo (flat Senkou-Span-B).
 
@@ -160,7 +160,7 @@ Kumo components influences price. Watch out for Kumo-Flux, a thin Kumo or a flat
 - An equilibrium established by a flat Kumo can very well attract prices back to it.
 - The flat Senkou-Span B is a magnet for prices. The price rallies back to it.
 
-## Step 9. Assess the final position
+## Step 9. Assess your position
 
 Trades should not be initiated if individual components of Ichimoku system are in conflict with one another.
 
@@ -174,7 +174,7 @@ Trades should not be initiated if individual components of Ichimoku system are i
 - The Kijun-Sen would start moving down as the 26-period highs start dropping down.
 - This will cause the resistance lines to shortly move in your favor.
 
-## Step 10. Confirm and enter the trade
+## Step 10. Confirm and trade
 
 Do the final assessment of the strength of all the signals and enter the trade.
 
