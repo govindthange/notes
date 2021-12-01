@@ -36,7 +36,7 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 ## Tenkan-Sen/Kijun-Sen Cross (TK Cross)
 [...](https://youtu.be/EKcH0zaPIf0?t=1091)
 
-- The Conversion (Tenkan-Sen) and Baseline (Kijun-Sen) Crossover.
+- The Conversion (Tenkan-Sen) and Baseline (Kijun-Sen) crossover.
 - Quick, multiple occurences of the signal indicate choppy or sideway movement.
 - ==The longer the amout of time it takes a signal to occur, the more consistent the trend is.==
 	- If TK Crosses are appearing too frequent then be informed about risky trades.
@@ -50,7 +50,7 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 ### Neutral TK Cross
 - A `Neutral TK Cross` occurs when Tenkan-Sen crosses above/below the Kijun-Sen inside the cloud.
 	- Avoid taking trades.
-	- You may consider risking a trade by accounting for following aspects which you would ignore if TK cross was strong:
+	- You may consider risking a trade by accounting for following aspects which you would ignore if TK Cross was strong:
 		- How thick is Kumo?
 		- Whether Senkou-Span-B is flat?
 		- Whether Kumo is in flux to offer least area resistance/support?
@@ -145,7 +145,7 @@ Clouds are drawn with the help of following 2 indicators:
 The strength of the Ichimoku trading signal is assessed based on following 3 factors:
 1. How far away is the price movement relative to the cloud?
 2. How far away are the two spans relative to the cloud?
-3. How far away is the TK cross relative to the cloud?
+3. How far away is the TK Cross relative to the cloud?
 
 ## Assess the clouds:
 
@@ -179,18 +179,18 @@ Most traders wait for all the 6 aspects to be in the same direction before takin
 ### Analyze the TK Cross
 
 Assess the following:
-1. `How far away is the TK cross relative to the cloud?`
+1. `How far away is the TK Cross relative to the cloud?`
 2. `When did the TK Cross signal occur?`
 3. `How long back did the TK Cross occur?`
 
 - A flat Kijun-Sen indicates no new highs/lows are being made.
 - If price goes too far from a flat Kijun-Sen then it will attract the price towards it. For this reason you should enter trade just after price closes above the 9-period high (long) or below the 9-period low (short)
 
-### Caveats in TK cross use
+### Caveats in TK Cross use
 
 Sometimes when the T/K cross sets up, the other components might not yet be aligned. However, the price might keep pushing in your expected direction. It is a better strategy not to chase price, but wait for a pullback. Price will often come back to equilibrium (Kijun-Sen) and then climb back up over the Tenkan-Sen. By this time, more often than not, the other Ichimoku components will be aligned for the trade.
 
-### Optimizations in TK cross use
+### Optimizations in TK Cross use
 
 - There might be cases where the Tenkan-Sen and Kijun-Sen are not in the right order, but the trader can visually assess that the Tenkan-Sen will cross the Kijun-Sen in next few candles.
 - For a bullish entry case, this might be where the prior 9-periods lows are getting higher, while the prior 26-period high/lows are constant.
@@ -323,11 +323,11 @@ Use Chikou-Span to get out of a trade that starts reversing on you.
 
 [[IchimokuShortTradeExitUsingLaggingSpan.png]]
 
-## Trigger 4. Reverse TK cross occurs
+## Trigger 4. Reverse TK Cross occurs
 
 Use the Kijun-Sen to follow the trend and stay in it longer until the Tenkan-Sen crosses back above/below the Kijun-Sen.
 
-Tenkan-Sen should cross the Kijun-Sen in the opposite direction of the earlier TK Crossover.
+Tenkan-Sen should cross the Kijun-Sen in the opposite direction of the earlier TK crossover.
 
 ## Trigger 5. Price crosses the cloud
 
@@ -346,7 +346,7 @@ Clouse out position if the future Kumo twists back in the other direction.
 
 1. A green candle close above the cloud.
 2. The recent cloud, at the forward most point in time, turns green.
-3. Tenkan-Sen above the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
+3. Tenkan-Sen above the Kijun-Sen. It does not matter whether the TK Cross occur before or after the candle closes outside the cloud.
 4. Chikou-Span above the cloud.
 
 Once all the criterias are met, enter the trade with...
@@ -357,7 +357,7 @@ Once all the criterias are met, enter the trade with...
 
 1. A red candle close below the cloud.
 2. The recent cloud, at the forwardmost point in time, turns red.
-3. Tenkan-Sen below the Kijun-Sen. It does not matter whether the TK cross occur before or after the candle closes outside the cloud.
+3. Tenkan-Sen below the Kijun-Sen. It does not matter whether the TK Cross occur before or after the candle closes outside the cloud.
 4. Chikous-Span below the cloud.
 
 Once all the criterias are met enter the trade with...

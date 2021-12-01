@@ -67,9 +67,9 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 - In a bearish trending market, the Kumo will be falling steadily.
 - In a non-trending market, the Kumo will switch between bearish and bullish in a short period of time.
 
-## Step 3. Wait for the TK cross
+## Step 3. Wait for the TK Cross
 
-[[Ichimoku Cloud#Criteria 1 TK cross occurrence baseline confirmation]]
+[[Ichimoku Cloud#Criteria 1 TK Cross occurrence baseline confirmation]]
 
 ### Long Setup
 
@@ -87,9 +87,9 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 	- This can happen if you place your order below the 9 period low.
 	- Short order to be placed below the 9-period period low.
 
-![[Ichimoku Cloud#Caveats in TK cross]]
+![[Ichimoku Cloud#Caveats in TK Cross use]]
 
-![[Ichimoku Cloud#Optimizations in TK cross use]]
+![[Ichimoku Cloud#Optimizations in TK Cross use]]
 
 ## Step 4. Await Kumo~Price confirmation
 
@@ -241,7 +241,7 @@ Do the final assessment of the strength of all the signals and enter the trade.
 2. Is price above Tenkan-Sen?
 3. Is Tenkan-Sen above Kijun-Sen?
 	- If TK crossover is under the cloud then do not go long, just exit from existing short positions.
-	- If TK cross is within the cloud then do nothing.
+	- If TK Cross is within the cloud then do nothing.
 	- If TK crossover is over the cloud then you may go long with the next candlestick after all the conditions are met.
 4. Is Chikou-Span above price and clear from all upcoming price congestion?
 	- If Chikou-Span is below the price then there is always a chance that current price will find resistance around those price levels.
@@ -261,7 +261,7 @@ Do the final assessment of the strength of all the signals and enter the trade.
 2. Is price below Tenkan-Sen?
 3. Is Tenkan-Sen below Kijun-Sen?
 	- If TK crossover is over the cloud then do not go short, just exit from existing long positions.
-	- If TK cross is within the cloud then do nothing.
+	- If TK Cross is within the cloud then do nothing.
 	- If TK crossover is under the cloud then you may go short with the next candlestick after all the conditions are met.
 4. Is Chikou-Span below price and clear from all upcoming price congestion?
 	- If Chikou-Span is above the price then there is always a chance that current price will find support around those price levels.
