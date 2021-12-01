@@ -1,16 +1,61 @@
 [...](https://youtu.be/Qw9KR21UkRY)
 
+# One Glance Equilibrium Assessment
+
+Before analyzing all the components just take a quick glance and answer following questions.
+
+1. Are clouds alternating between green and red?
+	- If yes, then the market is not trending. Ichimoku system is for trading in a trending market.
+2. Is price within the cloud?
+	- If yes, then the price is conslidating. Stay away until the direction is clear.
+3. Is Kijun-Sen flat and long?
+	- If yes, then the market has not been making new 26-period highs/lows. This is not what you want.
+	- Market is sideways and conslidating so stay away!
+4. Is price nearer to the flat Senkou-Span-B?
+	- If yes, then the Senkou-Span-B will act like a magnet and attract price towards it thereby preventing the price from trending.
+	- Be warned that it will offer a very strong support/resistance level.
+	- Price may have to expend too much energy just to break through it.
+	- Look for Kumo in flux i.e. a trending cloud where the Senkou-Span-B is not flat.
+5. Is 9-period high/low too far from the price?
+	- If yes, then the Chikou-Span may bump into congestion thereby preventing the price to trend.
+	- Wait for it to come close and then re-assess. The strategy anyway requires placing a limit order above/below 9-period high/low.
+6. Is 26-period high/low too far from the price?
+	- Just look at all the candles between Chikou-Span and current price and spot the higest/lowest candle closing.
+	- If the price is too far from 26-period high/low then there is a high chance this value won't move fast enough.
+	- This will further result in formation of a flat Kijun-Sen which may last for a considerable period.
+	- A flat Kijun-Sen will act like a magnet and pull price towards it thereby preventing the price from trending.
+	- Market will remain sideways for some time.
+	- Stay away if the answer is Yes.
+7. Is future Kumo trending?
+	- If no, then be super cautious about trading in a market which is not strongly trending.
+	- When Kumo is in flux then Senkou-Span-B offers least amount of support/resistance. Price can easily penetrate through it and trend in one direction.
+
 # Kumo Breakout Trade Strategy
+[...](https://www.youtube.com/watch?v=ciuaAEt1sRc)
 
-## Step 1. Analyze the higher timeframe
+## Step 1. Analyze multiple timeframes
 
-Do not enter any position when there is a conflict between the smaller and the higher timeframe charts.
+### Higher Timeframe
 
-- If price is above Kumo on the higher timeframe, then only long trades should be taken on the lower timeframe.
-- If price is below Kumo on the higher timeframe, then only short trades should be taken on the lower timeframe.
-- If price is within the cloud on the higher timeframe then bullish and bearish view should be established based on Kumo Edge-To-Edge (refer archived articles) direction.
-- If price is below or within Kumo but above the Tenkan-Sen and Kijun-Sen on the higher timeframe then a conervative long trade can be taken on lower timeframe but with a tight stop loss.
-- If price is above or within Kumo but below the Tenkan-Sen and Kijun-Sen on the higher timeframe then a conervative short trade can be taken on lower timeframe but with a tight stop loss. 
+Filter trades by forming bias (bullish vs bearish) based on the direction of trend in higher timeframe chart.
+
+- If clouds are alternating between red and green, there is no preogress in any one direction then its a sideways market. No point in using Ichimoku system for consolidating market.
+- If Chikou-Span is not free or heading into congestion and/or there is a long flat Kijun-Sen then stay away.
+- If price is above Kumo on the higher timeframe and most of the Ichimoku components are in confluence/aligned, then only long trades should be taken on trading timeframe.
+	- Similarly, if price is below Kumo on the higher timeframe and most of the Ichimoku components are in confluence/aligned, then only short trades should be taken on trading timeframe.
+- If price is within the cloud on the higher timeframe then bullish and bearish view should be established based on Kumo Edge-To-Edge (refer archived articles) direction and alignment of other Ichimoku components. If it gets complicated then stay away.
+- If price is below or within Kumo but above the Tenkan-Sen, Kijun-Sen, and TK Cross and Chikou-Span too has some wiggle room to move on the higher timeframe then a conervative long trade can be taken on trading timeframe but with a tight stop loss.
+	- Similarly, if price is above or within Kumo but below the Tenkan-Sen, Kijun-Sen, and TK Cross and Chikou-Span too has some wiggle room to move  on the higher timeframe then a conervative short trade can be taken on trading timeframe but with a tight stop loss.
+- Note that Chikou-Span on the higher timeframe need not be above/below price as long as it has enough wiggle room in higher timeframe to create sufficient enough congestion free space in the trading timeframe for trending.
+- If higher timeframe is bearish where price is below Kumo and TK Cross and price is far below its "flat" Kijun-Sen but above and near Tenkan-Sen and Chikou-Span is clear from congestion then you may have a bullish bias on trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=1624)
+	-  Similarly, the reverse logic applies for taking a short trade where higher timeframe is bullish but you conditionally form a bearish bias on the trading timeframe.
+	-  Note that this contrary trade is taken because a flat Kijun-Sen on the higher timeframe would act as a magnet and attract price which has gone far out from its reach. To top this the price also reversed by bouncing off of the Tenkan-Sen which gave it temporary support/resistance.
+
+> Do not enter any position when there is a conflict between the smaller and the higher timeframe charts.
+
+### Lower Timeframe
+
+Act proactively on trading timeframe by optimizing for early and better timed entries/exits using lower timeframes charts.
 
 ## Step 2. Confirm the trend
 
@@ -28,17 +73,17 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 
 ### Long Setup
 
-1. Tenkan-Sen above the Kenjen-Sen.
-2. Price above the Tenkan-Sen and Kenjen-Sen.
-3. Past 9 candles confirming that the Tenkan-Sen and Kijun-Sen would continue to rise as the price goes higher.
+1. Price above Tenkan-Sen
+2. Tenkan-Sen above the Kijun-Sen.
+4. Past 9 candles confirming that the Tenkan-Sen and Kijun-Sen would continue to rise as the price goes higher.
 	- This can happen if you place your order above the 9 period high.
 	- Long order to be placed above the 9-period high.
 
 ### Short Setup
 
-1. Tenkan-Sen below the Kenjen-Sen.
-2. Price below the Tenkan-Sen and Kenjen-Sen.
-3. Past 9 candles confirming that Tenkan-Sen and Kijun-Sen would continue to fall as the price heads lower.
+1. Price below Tenkan-Sen.
+2. Tenkan-Sen below the Kijun-Sen.
+4. Past 9 candles confirming that Tenkan-Sen and Kijun-Sen would continue to fall as the price heads lower.
 	- This can happen if you place your order below the 9 period low.
 	- Short order to be placed below the 9-period period low.
 
@@ -115,12 +160,11 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 
 - The Kijun-Sen is the 26-period equilibrium and Senkou-Span-B is the 52-period equilibrium.
 
-### Assess Tenkan-Sen & Kijun-Sen
+### Assess Tenkan-Sen
 
 - If a stock jumps up and then starts moving sideways without making any new 9-period highs, then the Tenkan will go flat thus visually indicating that price is conslidating.
-	- Either the price will come down to the Tenkan to find equilibrium
+	- Either the price will come down to the Tenkan to find short term support/resistance.
 	- Or, after 9 periods, the Tenkan-Sen will start to rise to support the price.
-- As a trader, you want the equilibrium to be heading in the direction of your trade. It not only provides constant resistant to the stock, but also helps you lock in more profits every time you are in the trade.
 - You can always know where the Tenkan-Sen is heading. Just pick the midpoint of the highest high and the lowest low of last 9 candles.
 - Tanken-Sen offers a primary support/resistance level.
 	- Don't feel comfortable holding a long position when price is trading below the Tenkan-Sen. You don't want long trade to go below the primary support level.
@@ -134,6 +178,13 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 	- You cant afford to go long when the price is too far away from its primary support (Kijun-Sen)
 	- Likewise, you can't afford to go short when the price is too far away from its primary resistance.
 	- Also when the market is consolidating then do not enter if the price is too far from the Kijun-Sen.
+
+### Assess Kijun-Sen
+
+- If a stock jumps up and then starts moving sideways without making any new 26-period highs/lows further then the Kijun-Sen will go flat thus visually indicating that price is conslidating.
+	- When Kijun-Sen goes flat for long, it acts like a strong maget and attracts price towards it.
+	- From time to time the price will get pulled towards Kijun-Sen to find its equilibrium.
+- As a trader, you want this equilibrium to head in the direction of your trade. It not only provides regular support/resistant to the stock, but also helps in locking in more profits every time you are in trade.
 - The flat Kijun-Sen provides an excellent major support/resistance to the stock.
 - You can always know where Kijun-Sen is heading. Just pick the midpoint of the highest high and the lowest low of last 9 candles.
 	- Higher Lows will push the Kijun-Sen up.
@@ -141,6 +192,12 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 	- Kijun-Sen would drop down when the 26-period high drops. This would move the equilibrium price down, which is the desired goals of the short trade.
 - Tenkan-Sen is in a position to move up as the prior 9-period lows keep getting higher.
 - The Kijun-Sen, on the other hand, will have to wait for a few weeks before the 26-period lows start climbing.
+
+`Question:` How to quickly spot last 26-period high/low?
+`Answer:` Just look at where the Chikou-Span is. As Chikou-Span is plotted 26-period back all the candles between Chikou-Span and the current candle comes within last 26-period. Pick the highest/lowest candle and that is your 26-period high/low.
+
+`Question:` How to know when Kijun-Sen would move next and in what direction?
+`Answer:` Count the number of candles between the Chikou-Span and the highest/lowest candle after it. That count is the amount of time it will take for Kijun-Sen to make the next upward/downward move. [...](https://youtu.be/ciuaAEt1sRc?t=2918)
 
 ### Assess Senkou-Span A and B
 
@@ -181,11 +238,12 @@ Do the final assessment of the strength of all the signals and enter the trade.
 ### Confirm and go long
 
 1. Has price closed above Kumo?
-2. Is Tenkan-Sen above Kijun-Sen?
+2. Is price above Tenkan-Sen?
+3. Is Tenkan-Sen above Kijun-Sen?
 	- If TK crossover is under the cloud then do not go long, just exit from existing short positions.
 	- If TK cross is within the cloud then do nothing.
 	- If TK crossover is over the cloud then you may go long with the next candlestick after all the conditions are met.
-3. Is Chikou-Span above price and clear from all upcoming price congestion?
+4. Is Chikou-Span above price and clear from all upcoming price congestion?
 	- If Chikou-Span is below the price then there is always a chance that current price will find resistance around those price levels.
 5. Is future Kumo bullish?
 6. If current Kumo is bullish then its a bonus! This condition is not mandatory.
@@ -200,15 +258,16 @@ Do the final assessment of the strength of all the signals and enter the trade.
 ### Confirm and go short
 
 1. Has price closed below Kumo?
-2. Is Tenkan-Sen below Kijun-Sen?
+2. Is price below Tenkan-Sen?
+3. Is Tenkan-Sen below Kijun-Sen?
 	- If TK crossover is over the cloud then do not go short, just exit from existing long positions.
 	- If TK cross is within the cloud then do nothing.
 	- If TK crossover is under the cloud then you may go short with the next candlestick after all the conditions are met.
-3. Is Chikou-Span below price and clear from all upcoming price congestion?
+4. Is Chikou-Span below price and clear from all upcoming price congestion?
 	- If Chikou-Span is above the price then there is always a chance that current price will find support around those price levels.
-4. Is future Kumo bearish?
-5. If current Kumo is bearish then its a bonus! This condition is not mandatory.
-6. If Chikou-Span is below the kumo then its a bonus! This condition is not mandatory.
+5. Is future Kumo bearish?
+6. If current Kumo is bearish then its a bonus! This condition is not mandatory.
+7. If Chikou-Span is below the kumo then its a bonus! This condition is not mandatory.
 
 > Once you get a `Yes` for all the questions above then go short below the lowest low of the last 9-period candles.
 
@@ -223,7 +282,11 @@ Do the final assessment of the strength of all the signals and enter the trade.
 
 - Calculate stop loss by adding 1 ATR value to Senkou-Span-B's value (Kumo) or Kinjun-Sen's value.
 - Set stop-loss with 1:1 R/R ratio.
-- Set take-profit order at 80% or 100%
+- Deduce target price based on a fixed R/R ratio, next S/R level, as per the chart pattern, and/or based on Kumo shadows.
+	- Set take-profit order at 80% or 100%
+	- Set take-profit at the next [[Support & Resistance]].
+	- Set take-profit based on the [[Chart Patterns]] targets.
+	- Set take-profit based on the [[Ichimoku Cloud#Kumo Shadows]].
 
 ### Long Setup
 
