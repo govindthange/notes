@@ -133,6 +133,13 @@ Clouds are drawn with the help of following 2 indicators:
 - The `Senkou-Span-A S/R` crosses above the `Senkou-Span-B S/R`.
 - If Kumo Cross appear too frequently then it is indicator of a weak trend. The trades will be risky.
 
+### Kumo Shadows
+[...](https://youtu.be/ciuaAEt1sRc?t=1050)
+
+- Kumo shadows are levels formed by the noticeably long and flat Senkou-Span-B levels.
+- One can use them as the next support/resistance levels as price progresses/trends in a particular direction.
+- These levels can be used as take profit levels.
+
 # Ichimoku Signal Strength
 
 The strength of the Ichimoku trading signal is assessed based on following 3 factors:
