@@ -48,9 +48,14 @@ Filter trades by forming bias (bullish vs bearish) based on the direction of tre
 - Note that Chikou-Span on the higher timeframe need not be above/below price as long as it has enough wiggle room in higher timeframe to create sufficient enough congestion free space in the trading timeframe for trending.
 - If `Chikou-Span is not free` or heading into congestion and/or there is a long flat Kijun-Sen then stay away.
 - If higher timeframe has a `long flat Kijun-Sen`, and you can assess that it will take some time before a new 26-period high/low gets formed and shift the Kijun-Sen further then based on how far the current price is from Kijun-Sen you can determine if Kijun-Sen can attract price towards it. If it can, then you can accordingly form a bias and take position on the trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=2922)
-- If higher timeframe is bearish where price is below Kumo and TK Cross and `price is far below its "flat" Kijun-Sen but above and near Tenkan-Sen` and Chikou-Span is clear from congestion then you may have a bullish bias on the trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=1624)
+- If higher timeframe is bearish where price is below Kumo & TK Cross, and `price is far below the "flat" Kijun-Sen but above and near Tenkan-Sen` and Chikou-Span is clear from congestion then you may have a bullish bias on the trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=1624)
 	-  Similarly, the reverse logic applies for taking a short trade where higher timeframe is bullish but you conditionally form a bearish bias on the trading timeframe.
 	-  Note that this contrary trade is taken because a flat Kijun-Sen on the higher timeframe would act as a magnet and attract price which has gone far out from its reach. To top this the price also reversed by bouncing off of the Tenkan-Sen which gave it temporary support/resistance.
+- If higher timeframe is bearish but `Kijun-Sen will remain flat` because it will take several candles before a new 26-period low can form then you can take a bullish trade on the trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=3169)
+	- Similarly, the reverse logic applies for taking a short trade when higher timeframe is bullish.
+	- Remember, if Kijun-Sen is not moving then it will become magnet to attract price towards it. Market should keep making new highs/lows in order to trend and present opportunities for high probability trades.
+-  If `price is just above the cloud or barely touching it` on the higher timeframe then do not go short on the shorter timeframe. The cloud can offer a strong support and prevent price from going down.
+	-  Similarly if `price is just below the cloud or barely touching` it on the higher timeframe then do not go long on the shorter timeframe. The cloud can offer a strong resistance and prevent price from going up.
 
 > Do not enter any position when there is a conflict between the smaller and the higher timeframe charts.
 
@@ -198,7 +203,9 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 `Answer:` Just look at where the Chikou-Span is. As Chikou-Span is plotted 26-period back all the candles between Chikou-Span and the current candle comes within last 26-period. Pick the highest/lowest candle and that is your 26-period high/low.
 
 `Question:` How to know when Kijun-Sen would move next and in what direction?
-`Answer:` Count the number of candles between the Chikou-Span and the highest/lowest candle after it. That count is the amount of time it will take for Kijun-Sen to make the next upward/downward move. [...](https://youtu.be/ciuaAEt1sRc?t=2918)
+`Answer:` Count the number of candles between the Chikou-Span and the highest/lowest candle after it. That count is the amount of time it will take for Kijun-Sen to make the next upward/downward move.
+	- [...](https://youtu.be/ciuaAEt1sRc?t=2918)
+	- [...](https://youtu.be/ciuaAEt1sRc?t=3169)
 
 ### Assess Senkou-Span A and B
 
