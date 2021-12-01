@@ -49,10 +49,26 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 
 ### Neutral TK Cross
 - A `Neutral TK Cross` occurs when Tenkan-Sen crosses above/below the Kijun-Sen inside the cloud.
+	- Avoid taking trades.
+	- You may consider risking a trade by accounting for following aspects which you would ignore if TK cross was strong:
+		- How thick is Kumo?
+		- Whether Senkou-Span-B is flat?
+		- Whether Kumo is in flux to offer least area resistance/support?
+		- Whether current Kumo is green/red?
 
 ### Weak TK Cross
 - A `Weak Bullish TK Cross` occurs when Tenkan-Sen crosses up the Kijun-Sen under the cloud.
+	- When this occurs all existing short positions should be closed.
+	- Long positions may be considered but only with extreme caution when there is a strong confluence from rest of the Ichimoku components.
+		- Senkou-Span-B should not be flat for a long position otherwise it will act as a strong resistance.
+		- A Kumo in flux might favor a long trade when rest of the Ichimoku components are aligned.
+		- A very thin Kumo might favor a long trade when rest of the Ichimoku components are in alignment.
 - A `Weak Bearish TK Cross` occurs when Tenkan-Sen crosses down the Kijun-Sen above the cloud.
+	- When this occurs all existing long positions should be closed.
+	- Short positions may be considered but only with extreme caution when there is a strong confluence from rest of the Ichimoku components.
+		- Senkou-Span-B should not be flat for a short position otherwise it will act as a strong support.
+		- A Kumo in flux might favor a short trade when rest of the Ichimoku components are aligned.
+		- A very thin Kumo might favor a short trade when rest of the Ichimoku components are in alignment.
 
 ## Chikou-Span: The Purple `Lagging-Span` Line.
 [...](https://youtu.be/EKcH0zaPIf0?t=1246)
