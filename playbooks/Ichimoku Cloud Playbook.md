@@ -39,15 +39,16 @@ Before analyzing all the components just take a quick glance and answer followin
 
 Filter trades by forming bias (bullish vs bearish) based on the direction of trend in higher timeframe chart.
 
-- If clouds are alternating between red and green, there is no preogress in any one direction then its a sideways market. No point in using Ichimoku system for consolidating market.
-- If Chikou-Span is not free or heading into congestion and/or there is a long flat Kijun-Sen then stay away.
-- If price is above Kumo on the higher timeframe and most of the Ichimoku components are in confluence/aligned, then only long trades should be taken on trading timeframe.
-	- Similarly, if price is below Kumo on the higher timeframe and most of the Ichimoku components are in confluence/aligned, then only short trades should be taken on trading timeframe.
+- If `clouds are alternating between red and green`, there is no preogress in any one direction then its a sideways market. No point in using Ichimoku system for consolidating market.
+- If `price is above Kumo` on the higher timeframe and most of the Ichimoku components are in confluence/aligned, then only long trades should be taken on trading timeframe.
+	- Similarly, if `price is below Kumo` on the higher timeframe and most of the Ichimoku components are in confluence/aligned, then only short trades should be taken on trading timeframe.
 - If price is within the cloud on the higher timeframe then bullish and bearish view should be established based on Kumo Edge-To-Edge (refer archived articles) direction and alignment of other Ichimoku components. If it gets complicated then stay away.
-- If price is below or within Kumo but above the Tenkan-Sen, Kijun-Sen, and TK Cross and Chikou-Span too has some wiggle room to move on the higher timeframe then a conervative long trade can be taken on trading timeframe but with a tight stop loss.
-	- Similarly, if price is above or within Kumo but below the Tenkan-Sen, Kijun-Sen, and TK Cross and Chikou-Span too has some wiggle room to move  on the higher timeframe then a conervative short trade can be taken on trading timeframe but with a tight stop loss.
+- If `price is below or within Kumo but above the Tenkan-Sen, Kijun-Sen, and TK Cross` and Chikou-Span too has some wiggle room to move on the higher timeframe then a conervative long trade can be taken on trading timeframe but with a tight stop loss.
+	- Similarly, if `price is above or within Kumo but below the Tenkan-Sen, Kijun-Sen, and TK Cross` and Chikou-Span too has some wiggle room to move  on the higher timeframe then a conervative short trade can be taken on trading timeframe but with a tight stop loss.
 - Note that Chikou-Span on the higher timeframe need not be above/below price as long as it has enough wiggle room in higher timeframe to create sufficient enough congestion free space in the trading timeframe for trending.
-- If higher timeframe is bearish where price is below Kumo and TK Cross and price is far below its "flat" Kijun-Sen but above and near Tenkan-Sen and Chikou-Span is clear from congestion then you may have a bullish bias on trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=1624)
+- If `Chikou-Span is not free` or heading into congestion and/or there is a long flat Kijun-Sen then stay away.
+- If higher timeframe has a `long flat Kijun-Sen`, and you can assess that it will take some time before a new 26-period high/low gets formed and shift the Kijun-Sen further then based on how far the current price is from Kijun-Sen you can determine if Kijun-Sen can attract price towards it. If it can, then you can accordingly form a bias and take position on the trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=2922)
+- If higher timeframe is bearish where price is below Kumo and TK Cross and `price is far below its "flat" Kijun-Sen but above and near Tenkan-Sen` and Chikou-Span is clear from congestion then you may have a bullish bias on the trading timeframe. [...](https://youtu.be/ciuaAEt1sRc?t=1624)
 	-  Similarly, the reverse logic applies for taking a short trade where higher timeframe is bullish but you conditionally form a bearish bias on the trading timeframe.
 	-  Note that this contrary trade is taken because a flat Kijun-Sen on the higher timeframe would act as a magnet and attract price which has gone far out from its reach. To top this the price also reversed by bouncing off of the Tenkan-Sen which gave it temporary support/resistance.
 
