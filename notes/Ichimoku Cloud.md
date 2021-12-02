@@ -37,9 +37,9 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 [...](https://youtu.be/EKcH0zaPIf0?t=1091)
 
 - The Conversion (Tenkan-Sen) and Baseline (Kijun-Sen) crossover.
-- Quick, multiple occurences of the signal indicate choppy or sideway movement.
+- Quick, multiple occurences of the signal indicates a choppy and sideways movement.
 - ==The longer the amout of time it takes a signal to occur, the more consistent the trend is.==
-	- If TK Crosses are appearing too frequent then be informed about risky trades.
+	- If TK crosses are appearing too frequent then be informed about risky trades.
 - When Tenkan-sen crosses up over the kijun-sen then its a long signal.
 - When Tenkan-sen crosses down below the kijun-sen then its a short signal.
 
@@ -50,10 +50,10 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 ### Neutral TK Cross
 - A `Neutral TK Cross` occurs when Tenkan-Sen crosses above/below the Kijun-Sen inside the cloud.
 	- Avoid taking trades.
-	- You may consider risking a trade by accounting for following aspects which you would ignore if TK Cross was strong:
-		- How thick is Kumo?
+	- You may consider risking a trade by accounting for the following aspects which can be ignored if TK Cross was strong:
+		- How thick is the Kumo?
 		- Whether Senkou-Span-B is flat?
-		- Whether Kumo is in flux to offer least area resistance/support?
+		- Whether Kumo is in flux to offer least area of resistance/support?
 		- Whether current Kumo is green/red?
 
 ### Weak TK Cross
