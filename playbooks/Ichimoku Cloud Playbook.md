@@ -82,7 +82,7 @@ Analyze nuances around price being well above, slightly above, within, well belo
 	- Similarly, if `price is above or within Kumo but below the Tenkan-Sen, Kijun-Sen, and TK Cross` and Chikou-Span too has some wiggle room to move  on the higher timeframe then a conervative short trade can be taken on trading timeframe but with a tight stop loss.
 - If on the higher timeframe `price is just above the cloud or barely touching it` then do not go short on the trading timeframe. The cloud can offer a strong support and prevent price from going down.
 	-  Similarly if on the higher timeframe `price is just below the cloud or barely touching` then do not go long on the trading timeframe. The cloud can offer a strong resistance and prevent price from going up.
--  If future Kumo on the higher timeframe has too many twists, it signfies market indecision in taking direction. Stay away!
+- If future Kumo on the higher timeframe has too many twists, it signfies market indecision in taking direction. Stay away!
 	-  ![[IchimokuCloud_TooManyKumoTwists.png]]
 
 #### Assess Chikou-Span
@@ -365,6 +365,8 @@ Do the final assessment of the strength of all the signals and enter the trade.
 - After considerable number of candles have passed and Kijun-Sen have made staged progress at higher levels, add another stop-limit order with few pips offset from the Kijun-Sen to exit the entire position.
 	- Keep trailing this stop-loss limit-order as you ride the trade.
 	- Note that if you have a high probability high confluence trade opportunity then do not move stop-loss limit-order under the Kijun-Sen too soon.
+		- If you tempted to act then at least wait until Kijun-Sen level moves to or beyond the breakeven point.
+		- You must be game to risk at least the stop-loss level especially when you are playing a high probability high confluence trade. For this reason do not trade more than 1% to 2% of your trading capital (the amount you are comfortable losing).
 		- [[Ichimoku Cloud Warnings#Do not trail stop-loss too soon]]
 
 - Deduce take-profit by assessing the next S/R level, emerging chart patterns, and/or based on Kumo shadows.

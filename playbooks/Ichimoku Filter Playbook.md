@@ -11,11 +11,12 @@
 5. How is future Kumo? [bullish | bearish | unknown (twist)]
 6. Where is Chikou w.r.t Price? [above | below | within]
 7. Where is Chikou w.r.t Kumo? [above | below | within]
-8. Is Chikou free from congestion ahead? [yes | no]
+8. Where is Chikou w.r.t Senkou-Span-B if its flat? [above | below]
+9. Is Chikou free from congestion ahead? [yes | no]
 
-If answer is [option 1] for questions 1 though 7 then qualify this setup for next level assessment as a long opportunity.
+If answer is [option 1] for questions 1 though 8 then qualify this setup for next level assessment as a long opportunity.
 
-If answer is [option 2] for questions 1 though 7 then qualify this setup for next level assessment as a short opportunity.
+If answer is [option 2] for questions 1 though 8 then qualify this setup for next level assessment as a short opportunity.
 
 If answer is [yes] for question 8 then disqualify the setup.
 
@@ -28,11 +29,12 @@ If answer is [yes] for question 8 then disqualify the setup.
 5. -
 6. Where is Chikou w.r.t Price? [above | below | within]
 7. Where is Chikou w.r.t Kumo? [above | below | within]
-8. Is Chikou free from congestion ahead? [yes | no]
+8. Where is Chikou w.r.t Senkou-Span-B if its flat? [above | below]
+9. Is Chikou free from congestion ahead? [yes | no]
 
-If answer is [option 1] for questions 1 though 7 then only qualify the long setup filtered above for next level assessment as a long opportunity.
+If answer is [option 1] for questions 1 though 8 then only qualify the long setup filtered above for next level assessment as a long opportunity.
 
-If answer is [option 2] for questions 1 though 7 then only qualify the short setup filtered above for next level assessment as a short opportunity.
+If answer is [option 2] for questions 1 though 8 then only qualify the short setup filtered above for next level assessment as a short opportunity.
 
 If its [yes] for question 8 then disqualify the setup.
 
@@ -45,11 +47,12 @@ If its [yes] for question 8 then disqualify the setup.
 5. -
 6. Where is Chikou w.r.t Price? [above | below | within]
 7. Where is Chikou w.r.t Kumo? [above | below | within]
-8. -
+8. Where is Chikou w.r.t Senkou-Span-B if its flat? [above | below]
+9. -
 
-If answer is [option 1] for questions 1 though 7 then only qualify the long setup filtered above for a long trade.
+If answer is [option 1] for questions 1 though 8 then only qualify the long setup filtered above for a long trade.
 
-If answer is [option 2] for questions 1 though 7 then only qualify the short setup filtered above for a short trade.
+If answer is [option 2] for questions 1 though 8 then only qualify the short setup filtered above for a short trade.
 
 
 # Filter 4. Take confluence from market structure
