@@ -44,10 +44,12 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 - When Tenkan-sen crosses down below the kijun-sen then its a short signal.
 
 ### Strong TK Cross
+
 - A `Strong Bullish TK Cross` occurs when Tenkan-Sen crosses up the Kijun-Sen above the cloud.
 - A `Strong Bearish TK Cross` occurs when Tenkan-Sen crosses down the Kijun-Sen under the cloud.
 
 ### Neutral TK Cross
+
 - A `Neutral TK Cross` occurs when Tenkan-Sen crosses above/below the Kijun-Sen inside the cloud.
 	- Avoid taking trades.
 	- You may consider risking a trade by accounting for the following aspects which can be ignored if TK Cross was strong:
@@ -57,6 +59,7 @@ Warning: Be warned that the system is essentially an intraday breakout system, t
 		- Whether current Kumo is green/red?
 
 ### Weak TK Cross
+
 - A `Weak Bullish TK Cross` occurs when Tenkan-Sen crosses up the Kijun-Sen under the cloud.
 	- When this occurs all existing short positions should be closed.
 	- Long positions may be considered but only with extreme caution when there is a strong confluence from rest of the Ichimoku components.

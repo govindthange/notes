@@ -58,9 +58,9 @@ Have a long bias on the trading timeframe if following holds true on the higher 
 4. Tenkan-Sen is above Kijun-Sen.
 5. Chikou-Span is above price.
 6. Chikou-Span is not bumping into congestion.
-7. Chikou-Span is not heading into any Senkou-Span-B of old cloud.
-	- The past cloud's Senkou-Span-B is also known as Kumo Shadow.
-	- Kumo Shadows can too offer substantial support/resistance to the current price action.
+7. Chikou-Span is not heading into Senkou-Span-B.
+	- The Senkou-Span-B from past clouds is known as Kumo Shadow.
+	- Kumo Shadows can offer substantial support/resistance to the current price action.
 8. Price is not approaching the 26-period high or 9-period high from where it is likely to get bounceoff.
 9. Finally ask these questions?
 	1. What forces can pull price action back i.e. away from the direction of the trade.
@@ -307,6 +307,8 @@ Trades should not be initiated if individual components of Ichimoku system are i
 
 Do the final assessment of the strength of all the signals and enter the trade.
 
+[[Ichimoku Cloud#Ichimoku Signal Strength]]
+
 ### Confirm and go long
 
 1. Has price closed above Kumo?
@@ -321,11 +323,14 @@ Do the final assessment of the strength of all the signals and enter the trade.
 6. If current Kumo is bullish then its a bonus! This condition is not mandatory.
 7. If Chikou-Span is above the kumo then its a bonus! This condition is not mandatory.
 
-> Once you get a `Yes` for all the questions above then go long above the highest high of the last 9-period candles.
+#### Buy Order
 
-- Setting a buy order above the 9-period high would ensure that Tenkan-Sen and Kijun-Sen both move up to support the stock.
-- If there is a slight difference between the 9-period high and 26-period high then consider the 26-period high.
-- Good traders don't mind paying a little insurance premium to ensure that the Kijun-Sen also moves in the anticipated direction to provide upside guidance to the stock.
+1. Once you get a `Yes` for all the questions above then go long above the highest high of the last 9-period candles.
+	- Setting a buy order above the 9-period high would ensure that Tenkan-Sen and Kijun-Sen both move up to support the stock.
+	- If there is a slight difference between the 9-period high and 26-period high then consider the 26-period high.
+2. If there is a Kumo Shado projected by the Senkou-Span-B of the past, place order a few pips above it.
+
+> Good traders don't mind paying a little insurance premium to ensure that the Kijun-Sen also moves in the anticipated direction to provide upside guidance to the stock.
 
 ### Confirm and go short
 
@@ -341,34 +346,44 @@ Do the final assessment of the strength of all the signals and enter the trade.
 6. If current Kumo is bearish then its a bonus! This condition is not mandatory.
 7. If Chikou-Span is below the kumo then its a bonus! This condition is not mandatory.
 
-> Once you get a `Yes` for all the questions above then go short below the lowest low of the last 9-period candles.
+#### Sell Order
 
-- If there is a slight difference between the 9-period low and 26-period low then consider the 26-period low.
-- Good traders don't mind paying a little insurance premium to ensure that the Kijun-Sen also moves in the anticipated direction to provide downside guidance to the stock.
-
-![[Ichimoku Cloud#Ichimoku Signal Strength]]
+1. Once you get a `Yes` for all the questions above then go short below the lowest low of the last 9-period candles.
+2. If there is a slight difference between the 9-period low and 26-period low then consider the 26-period low.
+> Good traders don't mind paying a little insurance premium to ensure that the Kijun-Sen also moves in the anticipated direction to provide downside guidance to the stock.
 
 ## Step 11. Put stop-limit orders
 
 > One cannot decide the stop loss level in one's mind and think about implementing it a few days after the trade is entered. As soon as a trade is executed, the whole emotional dynamics of the trader changes. Rationality goes out of the window as the trader's emotions take over. So put the stop loss order as soon as the trade is executed.
 
-- Calculate stop loss by adding 1 ATR value to Senkou-Span-B's value (Kumo) or Kinjun-Sen's value.
-- Set stop-loss limit order with 1:1 R/R ratio.
-- Set take-profit limit order at a fixed 1:1 R/R ratio to exit 20% position.
-- After some time, when considerable amount of candles have passed and Kijun-Sen and Tenkan-Sen have made some progress and settled, add another stop-limit order, a few pips away from the Kijun-Sen line, to exit the remaining position. Keep trailing this stop-limit order as you ride the trade.
-- Deduce target price based on the next S/R level, as per the chart pattern, and/or based on Kumo shadows.
+- Calculate the stop-loss by adding 1 ATR value to Senkou-Span-B's value (Kumo) or Kinjun-Sen's value.
+
+- Set a stop-loss limit-order with 1:1 R/R ratio.
+
+- Set a take-profit limit-order at a fixed 1:1 R/R ratio to exit 20% position.
+
+- After considerable number of candles have passed and Kijun-Sen have made staged progress at higher levels, add another stop-limit order with few pips offset from the Kijun-Sen to exit the entire position.
+	- Keep trailing this stop-loss limit-order as you ride the trade.
+	- Note that if you have a high probability high confluence trade opportunity then do not move stop-loss limit-order under the Kijun-Sen too soon.
+		- [[Ichimoku Cloud Warnings#Do not trail stop-loss too soon]]
+
+- Deduce take-profit by assessing the next S/R level, emerging chart patterns, and/or based on Kumo shadows.
 	- Set take-profit at the next [[Support & Resistance]].
 	- Set take-profit based on the [[Chart Patterns]] targets.
 	- Set take-profit based on the [[Ichimoku Cloud#Kumo Shadows]].
 
 ### Long Setup
 
-- Initial stop below the Kumo by 1 ATR value.
-- Trail the stop as Kijun-Sen moves up. Place stop 1 ATR gap below the Kijun-Sen.
+- Initial stop-loss limit-order below the Kumo by 1 ATR value.
+	- If you are conservative place a stop-loss limit-order 1 ATR below the Kijun-Sen.
+	- If you are aggressive place a stop-loss limit-order a few pips below the swing low or the Senkou-Span-B line, whichever is lower.
+- Trail the stop as Kijun-Sen moves up to new flat levels.
 
 ### Short Setup
 
 - Initial stop above the Kumo by 1 ATR value.
+	- If you are conservative place a stop-loss limit-order 1 ATR above the Kijun-Sen.
+	- If you are aggressive place a stop-loss limit-order a few pips above the SSB line or the swing high, whichever is higher.
 - Trail the stop as Kijun-Sen moves down. Place stop 1 ATR gap above the Kijun-Sen.
 
 ## Step 12. Monitor the trade
@@ -487,16 +502,4 @@ Exit the remaining position upon the candle close that resulted in reverse TK Cr
 - Go short when the price starts dropping following a bearish signal.
 - Place a sell order below the 9-period low.
 
-## Step 6. Put stop-limit orders
-
-### Long Setup
-
-- If you are conservative place a stop loss 1 ATR below the Kijun-Sen.
-- If you are aggressive place a stop loss some pips below the swing low or the Senkou-Span-B line, whichever is lower.
-- Put a profit target at a suitable resistance level or as per Risk-Reward/Pyramid strategy.
-
-### Short Setup
-
-- If you are conservative place a stop loss 1 ATR above the Kijun-Sen.
-- If you are aggressive place a stop loss a few pips above the SSB line or the swing high, whichever is higher.
-- Put a profit target at a suitable support level or as per Risk-Reward/Pyramid strategy.
+![[#Step 11 Put stop-limit orders]]
