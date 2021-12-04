@@ -1,35 +1,5 @@
 [...](https://youtu.be/Qw9KR21UkRY)
 
-# One Glance Equilibrium Assessment
-
-Before analyzing all the components just take a quick glance and answer following questions.
-
-1. Are clouds alternating between green and red?
-	- If yes, then the market is not trending. Ichimoku system is for trading in a trending market.
-2. Is price within the cloud?
-	- If yes, then the price is conslidating. Stay away until the direction is clear.
-3. Is Kijun-Sen flat and long?
-	- If yes, then the market has not been making new 26-period highs/lows. This is not what you want.
-	- Market is sideways and conslidating so stay away!
-4. Is price nearer to the flat Senkou-Span-B?
-	- If yes, then the Senkou-Span-B will act like a magnet and attract price towards it thereby preventing the price from trending.
-	- Be warned that it will offer a very strong support/resistance level.
-	- Price may have to expend too much energy just to break through it.
-	- Look for Kumo in flux i.e. a trending cloud where the Senkou-Span-B is not flat.
-5. Is 9-period high/low too far from the price?
-	- If yes, then the Chikou-Span may bump into congestion thereby preventing the price to trend.
-	- Wait for it to come close and then re-assess. The strategy anyway requires placing a limit order above/below 9-period high/low.
-6. Is 26-period high/low too far from the price?
-	- Just look at all the candles between Chikou-Span and current price and spot the higest/lowest candle closing.
-	- If the price is too far from 26-period high/low then there is a high chance this value won't move fast enough.
-	- This will further result in formation of a flat Kijun-Sen which may last for a considerable period.
-	- A flat Kijun-Sen will act like a magnet and pull price towards it thereby preventing the price from trending.
-	- Market will remain sideways for some time.
-	- Stay away if the answer is Yes.
-7. Is future Kumo trending?
-	- If no, then be super cautious about trading in a market which is not strongly trending.
-	- When Kumo is in flux then Senkou-Span-B offers least amount of support/resistance. Price can easily penetrate through it and trend in one direction.
-
 # Kumo Breakout Trade Strategy
 [...](https://www.youtube.com/watch?v=ciuaAEt1sRc)
 
