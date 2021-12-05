@@ -14,3 +14,8 @@ Autopsy on Liquidations: [https://www.bloomberg.com/news/articl...](https://www.
 
 `Stop Loss` is a market order which is triggered by the `Last Trade` price but liquidation price is triggered by the `Mark Price` (the yellow line in the bybit chart).
 Liquidation will get triggered first.
+
+
+# Whale Manipulation
+[...](https://youtu.be/Cv6tQ5MYz70?t=44)
+

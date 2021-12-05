@@ -18,6 +18,7 @@ What does seasonality say about bitcoin's performance in the period 31st October
 
 ## Analyzing cycles
 [...](https://www.youtube.com/watch?v=bRDDpxTpWh4)
+[...](https://www.youtube.com/watch?v=zHRjPOPw72E)
 
 ### RoI measured from market-cycle bottom
 
