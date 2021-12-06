@@ -38,14 +38,14 @@ Before analyzing all the components just take a quick glance and answer followin
 # Apply filter 1 --> Kumo breakout setup
 
 1. Where is price w.r.t Kumo? [above | below | within]
-2. Where is Price w.r.t Kumo-Shadow? [far | near]
+2. Where is Price w.r.t a flat Kumo-Shadow? [far | near]
 3. Where is price w.r.t Tenkan? [above | below]
 4. Where is Tenkan w.r.t Kijun? [above | below]
 5. Where is TK Cross w.r.t Kumo? [above | below | within] <--- This is not a filter. Ignore!
 6. How is future Kumo? [bullish | bearish | unknown (twist)]
 7. Where is Chikou w.r.t Price? [above | below | within]
 8. Where is Chikou w.r.t Kumo? [above | below | within]
-9. Where is Chikou w.r.t Senkou-Span-B if its flat? [above | below]
+9. Where is Chikou w.r.t a flat Senkou-Span-B? [above | below]
 10. Is Chikou free from congestion ahead? [yes | no]
 
 If answer is [option 1] for questions 1 though 9 then qualify this setup for the next level assessment as a `long opportunity`.
@@ -57,14 +57,14 @@ If answer is [no] for question 10 then disqualify the setup.
 # Apply filter 2 --> Confluence from 1 degree higher timeframe
 
 1. Where is price w.r.t Kumo? [above | below | within]
-2. Where is Price w.r.t Kumo-Shadow? [far | near]
+2. Where is Price w.r.t a flat Kumo-Shadow? [far | near]
 3. Where is price w.r.t Tenkan? [above | below]
 4. Where is Tenkan w.r.t Kijun? [above | below]
 5. -
 6. -
 7. Where is Chikou w.r.t Price? [above | below | within]
 8. Where is Chikou w.r.t Kumo? [above | below | within]
-9. Where is Chikou w.r.t Senkou-Span-B if its flat? [above | below]
+9. Where is Chikou w.r.t a flat Senkou-Span-B? [above | below]
 10. Is Chikou free from congestion ahead? [yes | no]
 
 If answer is [option 1] for questions 1 though 9 then only qualify the long setup filtered above for the next level assessment as `a strong long opportunity`.
@@ -76,14 +76,14 @@ If its [no] for question 10 then disqualify the setup.
 # Apply filter 3 --> Confluence from 2 degree higher timeframe
 
 1. Where is price w.r.t Kumo? [above | below | within]
-2. Where is Price w.r.t Kumo-Shadow? [far | near]
+2. Where is Price w.r.t a flat Kumo-Shadow? [far | near]
 3. Where is price w.r.t Tenkan? [above | below]
 4. Where is Tenkan w.r.t Kijun? [above | below]
 5. -
 6. -
 7. Where is Chikou w.r.t Price? [above | below | within]
 8. Where is Chikou w.r.t Kumo? [above | below | within]
-9. Where is Chikou w.r.t Senkou-Span-B if its flat? [above | below]
+9. Where is Chikou w.r.t a flat Senkou-Span-B? [above | below]
 10. -
 
 If answer is [option 1] for questions 1 though 9 then only qualify the long setup filtered above for the next level assessment as `a high probability long trade`.
@@ -99,6 +99,17 @@ If answer is [option 2] for questions 1 though 8 then only qualify the short set
 If answer is [yes] then wait for a breakout before placing an order.
 
 # Place an order
+
+## Warning
+
+Be very cautious when any of the following condition is true. Enter a conservative trade by keeping the position size small, a tight stop loss and a small take profit level.
+- Price is too far from Kijun and/or Senkou-Span-B
+- Kijun is long and flat
+- Senkou-Span-B is long and flat
+- Chikou is heading into a flat Senkou-Span-B
+- Price is heading into a flat Kumo-Shadow
+
+## Trade
 
 - Place a buy order for the above qualified long setup above the 26-period high.
 	- If there is a high within last 30 period consider placing it above that.
