@@ -38,7 +38,7 @@ Before analyzing all the components just take a quick glance and answer followin
 # Apply filter 1 --> Kumo breakout setup
 
 1. Where is price w.r.t Kumo? [above | below | within]
-2. Where is Price w.r.t a flat Kumo-Shadow? [far | near]
+2. Where is Price w.r.t nearby flat Kumo-Shadow? [far | near]
 3. Where is price w.r.t Tenkan? [above | below]
 4. Where is Tenkan w.r.t Kijun? [above | below]
 5. Where is TK Cross w.r.t Kumo? [above | below | within] <--- This is not a filter. Ignore!
@@ -57,7 +57,7 @@ If answer is [no] for question 10 then disqualify the setup.
 # Apply filter 2 --> Confluence from 1 degree higher timeframe
 
 1. Where is price w.r.t Kumo? [above | below | within]
-2. Where is Price w.r.t a flat Kumo-Shadow? [far | near]
+2. Where is Price w.r.t nearby flat Kumo-Shadow? [far | near]
 3. Where is price w.r.t Tenkan? [above | below]
 4. Where is Tenkan w.r.t Kijun? [above | below]
 5. -
@@ -76,7 +76,7 @@ If its [no] for question 10 then disqualify the setup.
 # Apply filter 3 --> Confluence from 2 degree higher timeframe
 
 1. Where is price w.r.t Kumo? [above | below | within]
-2. Where is Price w.r.t a flat Kumo-Shadow? [far | near]
+2. Where is Price w.r.t nearby flat Kumo-Shadow? [far | near]
 3. Where is price w.r.t Tenkan? [above | below]
 4. Where is Tenkan w.r.t Kijun? [above | below]
 5. -

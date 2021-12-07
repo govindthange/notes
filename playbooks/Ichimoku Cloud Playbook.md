@@ -201,7 +201,7 @@ In a non-directional market, there will be whipsaws and traders need to stay out
 
 ### Assess Tenkan-Sen
 
-- If a stock jumps up and then starts moving sideways without making any new 9-period highs, then the Tenkan will go flat thus visually indicating that price is conslidating.
+- If a stock jumps up and then starts moving sideways without making any new 9-period highs, then the Tenkan will go flat thus visually indicating that price is consolidating.
 	- Either the price will come down to the Tenkan to find short term support/resistance.
 	- Or, after 9 periods, the Tenkan-Sen will start to rise to support the price.
 - You can always know where the Tenkan-Sen is heading. Just pick the midpoint of the highest high and the lowest low of last 9 candles.
