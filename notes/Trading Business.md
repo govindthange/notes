@@ -1,3 +1,4 @@
+Learning to trade, means living `a few years of your life` most people won't... so you can live the `rest of your life` like most poeple can't.
 
 # Why trading is the best business?
 
