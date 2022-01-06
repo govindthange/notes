@@ -53,7 +53,7 @@
 
 ## Big M/Ws (2)
 
-- [ ]  Big M (ch-6)
+- [x]  Big M (ch-6)
 - [ ]  Big W (ch-7)
 
 ## Bats (2)
@@ -71,14 +71,14 @@
 - [ ]  Crab, Bearish (ch-19)
 - [ ]  Crab, Bullish (ch-20)
 
-## Double Bottoms (8)
+## Double Bottoms (4)
 
 - [ ]  Double Bottoms, Adam & Adam (ch-26)
 - [ ]  Double Bottoms, Adam & Eve (ch-27)
 - [ ]  Double Bottoms, Eve & Adam (ch-28)
 - [ ]  Double Bottoms, Eve & Eve (ch-29)
 
-## Double Tops (8)
+## Double Tops (4)
 
 - [ ]  Double Tops, Adam & Adam (ch-30)
 - [ ]  Double Tops, Adam & Eve (ch-31)
