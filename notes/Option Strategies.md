@@ -8,8 +8,8 @@
 |-------------------|--------------------|----------------|------------|-----------|----------|
 | bullish today     | in future          | buy            | @ discount | today     | Short PE |
 | bullish in future | today              | buy            | @ discount | in future | Long CE  |
-| bearish today     | in future          | sell           | high       | today     | Short CE |
-| bearish in future | today              | sell           | high       | in future | Long PE  |
+| bearish today     | in future          | sell           | @ premium  | today     | Short CE |
+| bearish in future | today              | sell           | @ premium  | in future | Long PE  |
 
 `v2.0`
 
@@ -17,8 +17,8 @@
 |-----------------|-----------|--------------------|-----------|----------------|------------|-----------|----------|
 | bullish         | today     | bullish            | in future | buy shares     | @ discount | today     | SHORT PE |
 | bullish         | in future | bullish            | today     | buy shares     | @ discount | in future | LONG CE  |
-| bearish         | today     | bearish            | in future | sell shares    | high       | today     | SHORT CE |
-| bearish         | in future | bearish            | today     | sell shares    | high       | in future | LONG PE  |
+| bearish         | today     | bearish            | in future | sell shares    | @ premium  | today     | SHORT CE |
+| bearish         | in future | bearish            | today     | sell shares    | @ premium  | in future | LONG PE  |
 
 
 `v3.0`
@@ -27,8 +27,8 @@
 |-----------------|-----------|-------------------------------|--------------------|-----------|----------------|------------|-----------|----------|
 | NOT bearish     | today     | be sideways to little bullish | bullish            | in future | buy shares     | @ discount | today     | SHORT PE |
 | bullish         | in future | start trending up             | bullish            | today     | buy shares     | @ discount | in future | LONG CE  |
-| NOT bullish     | today     | be sideways to little bearish | bearish            | in future | sell shares    | high       | today     | SHORT CE |
-| bearish         | in future | start trending down           | bearish            | today     | sell shares    | high       | in future | LONG PE  |
+| NOT bullish     | today     | be sideways to little bearish | bearish            | in future | sell shares    | @ premium  | today     | SHORT CE |
+| bearish         | in future | start trending down           | bearish            | today     | sell shares    | @ premium  | in future | LONG PE  |
 
 # Rules
 

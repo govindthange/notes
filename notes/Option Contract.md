@@ -64,8 +64,8 @@ A put option gives the holder the right to sell an asset by a certain date for a
 |-------------------|--------------------|----------------|------------|-----------|----------|
 | bullish today     | in future          | buy            | @ discount | today     | Short PE |
 | bullish in future | today              | buy            | @ discount | in future | Long CE  |
-| bearish today     | in future          | sell           | high       | today     | Short CE |
-| bearish in future | today              | sell           | high       | in future | Long PE  |
+| bearish today     | in future          | sell           | @ premium  | today     | Short CE |
+| bearish in future | today              | sell           | @ premium  | in future | Long PE  |
 
 Buying options is like buying an insurance and an option seller/writer is like an Insurance Broker.
 
