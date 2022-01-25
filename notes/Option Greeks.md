@@ -273,6 +273,9 @@ Hedging by buying OTM options to safeguard 800 point movement on up and downside
 - Convert to `Credit Strategy` (by shorting more otpions) if VIX falls.
 - May hang around till the day of expiry in anticipation of a larger directional move. Gamma is your friend!
 
+## Adjusting using Opstra
+[ThetaGainers Techniques](https://www.youtube.com/watch?v=Uj1wAy_p_Ko)
+
 ### Summary
 
 - With `Credit Strategy` have a (+)ve Theta.

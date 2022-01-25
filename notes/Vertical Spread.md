@@ -29,6 +29,8 @@ Bull Put Spread = Short Put Spread = Put Credit Spread
 
 -  Buying a call spread is a `bullish` trade.
 -  Creating a spread `defines the risk` of the trade compared to buying a naked call option.
+	- The main risk in buying a naked call option is theta decay.
+	- When you short an option in a debit spread you are essentially protecting your long option from theta decay.
 - Our max gain (profit) is the width of the spread, minus the amount we pay to buy the spread.
 	- For more profit widen the spread width, pay more for the spread and risk more.
 - Our max loss (risk) is the amount we pay to buy the spread.
@@ -37,6 +39,11 @@ Bull Put Spread = Short Put Spread = Put Credit Spread
 
 The action you take with the `Front Option` (i.e. option that is closest to the spot price) determines the direction of the trade.
 - So here the strike price closer to the spot is the CE which we are longing and it means we are bullish and we want price to trend upward.
+
+### Tip
+- When VIX is low then prefer choosing a Debit Spread over Credit Spread.
+	- With lower VIX you can't collect enough premium by shorting.
+	- Wiht lower VIX, you can anticipate higher VIX in future so you can benefit from long option as you can sell them for higher premium later.
 
 ### Example
 
@@ -74,6 +81,8 @@ Our view is bearish!
 
 - Selling a call spread is a bearish trade.
 - Creating a spread defines the risk of the trade compared to selling a naked call option.
+	- The main risk in shorting a naked option is with the momentum or IV.
+	- By going long in a credit spread you are protecting your short option from the volatility.
 - Our max gain (profit) is what we sell the spread for.
 - Our max loss (risk) is the width of the spread, minus the credit we receive for selling it.
 
@@ -81,6 +90,11 @@ Note that if you sell a naked call, there is an unlimited risk.
 
 The action you take with the `Front Option` (i.e. option that is closest to the spot price) determines the direction of the trade.
 - So here the strike price closer to the spot is the CE which we are shorting and it means we are bearish and we want price to stay below this strike price.
+
+### Tip
+- When VIX is high then prefer choosing a Credit Spread over Debit Spread.
+	- With higher VIX you get to collect higher premium by shorting.
+	- Wiht higher VIX, you can anticipate lower VIX in future so you can benefit from shorting option as you can buy them at a lesser premium later.
 
 ### Example
 
@@ -137,7 +151,7 @@ Lets say we want better than 50-50 chance of success (i.e. 50% POS). What kind o
 - When you are selling you DO WANT `IV Percentile` to be over 50% so that you can receive more credit or be able to go further away from the money.
 
 # Deciding Spread Width
-[...](https://www.youtube.com/watch?v=KPlhiq_j76Q)
+[...](https://www.youtube.com/watch?v=KPlhiq_j76Q) | [...](https://www.youtube.com/watch?v=XekhlmHDY0s) | [TastyTrade founders realize that wider spreads are better!](https://www.youtube.com/watch?v=HqYVFIi2xgs)
 
 | Narrow Spreads       | Wider Spreads       |
 |----------------------|---------------------|
@@ -146,6 +160,17 @@ Lets say we want better than 50-50 chance of success (i.e. 50% POS). What kind o
 | Worse Breakeven      | Better Breakeven    |
 | Slow Moving          | Faster Moving       |
 
+## The 3 benefits of wider spreads
+[...](https://www.youtube.com/watch?v=TvLjGprWaEQ)
+
+1. Larger Credit
+	- Higher the credit, higher the profit.
+	- `When scaling, wider wings are better than doubling down on the position.`
+2. Higher Probability of Profit (PoP)
+	- Higher the net credit we receive, the better and farther the breakeven is.
+	- The farther breakeven point is, the better the chances of success (PoP)
+3. Naked Option Behavior
+	- The wider we go, the more naked behavior we get since the far OTM option baught has very low impact on the overall position with the added benefit of defining risk.
 
 # Lingo
 
@@ -221,6 +246,7 @@ A lot many times new traders think they are risking less money but essentially t
 `Answer:` We will be profitable due to a number of factors. First is that Implied Volatility is more often overstated. This means that our win rate will be higher than the 70% that the market is pricing in. Additionally, by managing our winners, we are able to increase our win rate even higher. This will put our win rate above 90% and thus make the strategy profitable.
 
 # Case Studies
+[...](https://www.youtube.com/watch?v=Cm2gkiT5bV8)
 
 ## Weekly earning 8% with Put Credit Spread
 [...](https://www.youtube.com/watch?v=YfYjNovwph8)
@@ -360,6 +386,19 @@ Then on monday do as follows:
 `Vega` => `Opening Price of SPY` x  `Implied Volatility of SPY on Monday` x √(`Days until Expiration` ÷ 365)
 => 326.54 x 50.11% x √(5÷360)
 ≈ ±16.543
+
+[...](https://www.youtube.com/watch?v=iD6Z9m4u08A)
+```
+% Expected Move = IV / √(365/DTE)
+
+		OR
+
+% Expected Move = IV * √(DTE/365)
+
+where
+- IV = Implied Volatility
+- DTE = Days to Expiration
+```
 
 This implies:
 - SPY will potentially move ±16.54, to the up/down side, 68.2% of the times.
@@ -517,3 +556,7 @@ https://www.youtube.com/playlist?list=PLbEa4ew-NWP_0YAc-CY99KN8awyZbqMiN
 # Wheel Strategy
 
 Selling cash secured puts and then if you get assigned you sell covered calls against those shares.
+
+# Adjustment
+
+[...](https://www.youtube.com/watch?v=77fqPVJGhe8)
