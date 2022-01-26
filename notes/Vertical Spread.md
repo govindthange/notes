@@ -387,18 +387,7 @@ Then on monday do as follows:
 => 326.54 x 50.11% x √(5÷360)
 ≈ ±16.543
 
-[...](https://www.youtube.com/watch?v=iD6Z9m4u08A)
-```
-% Expected Move = IV / √(365/DTE)
-
-		OR
-
-% Expected Move = IV * √(DTE/365)
-
-where
-- IV = Implied Volatility
-- DTE = Days to Expiration
-```
+[[Option Greeks#Calculating IV]]
 
 This implies:
 - SPY will potentially move ±16.54, to the up/down side, 68.2% of the times.

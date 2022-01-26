@@ -130,6 +130,26 @@ It is a measure of predicted future movement.
 - It increases when there is uncertainity or anticipated news.
 - It decreases in times of calm.
 
+### Calculating IV
+[...](https://www.youtube.com/watch?v=iD6Z9m4u08A)
+
+`IV` = `1σ Annual Expected Move`
+
+> The implied volatility of an options is, by definition, equal to a 1 standard deviation annual expected move of the underlying.
+
+`% Expected Move` = `IV` / √(365/`DTE`)
+	OR
+`% Expected Move` = `IV` * √(`DTE`/365)
+
+Where
+- IV = Implied Volatility
+- DTE = Days to Expiration
+
+Quick Tips
+- 30 DTE => `IV` / 3.5
+- 60 DTE => `IV` / 2.5
+- 90 DTE => `IV` / 2
+
 [[Standard Deviation#σ vs iv vix]]
 
 ### Characteristics
