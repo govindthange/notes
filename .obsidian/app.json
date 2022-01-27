@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
   "lineWrap": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "legacyEditor": false
 }

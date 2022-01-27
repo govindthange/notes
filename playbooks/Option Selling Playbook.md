@@ -50,7 +50,9 @@ Ensure IV percentile is either high or atleast far above average.
 - When you short you are essentially betting on the contraction in volatility.
 - IV is mean reverting. If IV percentile is low at the time of trade then you not only collect lesser premium but you also risk from higher volatility later which will make your premium expensive in future thereby resulting in losses.
 
-# Step 3. Pick a strike price w/ PoP
+# Step 3. Pick a liquid strike price w/ high PoP
+
+## Step 1. Pick a strike price w/ high PoP
 
 PoP, though useful in strike selection, are not the "holly grail".
 - If you short a high probability option with a low IV and you do get the directional move you wanted but IV expands then you still  won't be profitable because IV levels were too low at the time of the trade.
@@ -64,7 +66,7 @@ The strategies are based on what your probabilities are of getting to a certain 
 	- Note that this this standard deviation is derived from the IV itself.
 	- The PoP percentage are going to be the same but how much distance away from the stock is based of the IV.
 
-## Nuances
+### Nuances
 
 - Don't use PoP to form a market view. The driver behind your directional assumption must start with IV levels.
 - Don't use PoP to drive underlying assumptions.
@@ -79,6 +81,38 @@ The strategies are based on what your probabilities are of getting to a certain 
 Say ABC has been down for many days straight.
 - ABC is trading at 100 IV percentile. At that IV levels you can assume that the stock may go up.
 - Its now you use PoP to give yourself a realistic expectation of what level you can get to which will ultimately help you to form your strategies.
+
+## Step 2. Pick a strike price w/ high liquidity
+[...](https://www.youtube.com/watch?v=j1Tle-kGzhk)
+
+Liquidity is the king in option trading book.
+
+- Stick to Nifty, Bank Nifty and top 15 F&O stock options for trading.
+- Prefer regular monthly options as they are the most liquid options.
+
+###  Narrow Bid/Ask Spreads
+
+Look for tighter bid/ask spreads when selecting a strike sprice.
+
+- A large bid-ask spread is usually a sign of illiquid option.
+- Stay away from deep OTM/ITM call/put contracts as their spreads are very wide.
+
+### Higher OI
+
+Look for higher OI when selecting a strike sprice.
+
+- Larger the number of open contracts in the market, higher the probability of it being liquid.
+- OI on the ATM as well as not-very-far OTMs  are also important for determining the liquidity.
+- When we create strategies with various legs, the OI of OTMs also play an important role. We should be able to adjust strategies at later stages of the trade.
+
+### Higher OI Volume
+
+Look for higher OI volume when selecting a strike sprice.
+
+- Open contracts doesn't mean tradeable contracts!
+	- If OI is high but volume is not high then that means it is not tradeable. There are not enough participants trading at that strike price.
+	- When these OIs have volumes it displays churning in the said strike.
+- Low volumes are sign of illiquid options.
 
 # Step 4. Select the strategy
 [...](https://www.youtube.com/watch?v=MOxQqT_s-Eg)
@@ -115,9 +149,9 @@ When volatility is low then strategy selection becomes challenging for an option
 
 # Step 5. Deploy the strategy
 
-# Step 6. Manage position
+# Step 6. Manage the position
 
-Poor Management = Over Management
+Poor Management = Over Adjustments
 
 ## Step 1. Do not revisit PoP
 

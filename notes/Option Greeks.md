@@ -9,6 +9,8 @@ The option premium changes as:
 
 ## Delta (𝛿)
 
+> Measures change in option price when stock price moves.
+
 It is the rate of change of `Premium` w.r.t `Spot Price`.
 - It reflects the increase/decrease in premium in response to 1 point movement in spot.
 - It is between 0 to +1 for CE.
@@ -75,6 +77,8 @@ When you want to define risk in a small sized account use spreads as opposed to 
 
 ## Gamma (𝛾)
 
+> Measures change in δ when stock price moves.
+
 It is the rate of change of [[#Delta]].
 - It is expressed in percentage/decimal.
 - It reflects the change in delta in response to 1 point movement in spot.
@@ -103,6 +107,8 @@ Say you shorted nifty at ₹15.
 - So all Option writers should disappear before 1 PM on thursday. Leave last ₹2 to ₹3 for Gamma players.
 
 ## Theta (𝜃)
+
+> Decay in option price every day as the expiration gets nearer.
 
 It is the rate at which options lose its `Time Value`.
 - It reflects the amount by which the premium will decrease every day.
@@ -189,7 +195,9 @@ When elections/budget days are coming closer VIX increases and only Option Buyer
 
 And on the day of election/bundge, as soon as Finance Minister starts speaking, the VIX starts to go down rapidly. From that day, when election/budge are done, Optoin Writer starts making money. From that day you can start adding SHORT positions to your overall strategy.
 
-## Vega
+## Vega (ν)
+
+> Measures change in option price when volatility moves.
 
 Its a measure of impact of `changes in the underlying volatility` on the premium.
 - Its the change in premium for every 1% change in [[#Implied Volatility VIX]] assumption.
@@ -237,6 +245,10 @@ When you apply calendar spread you will find (+) Vega. That is why hedges done v
 https://finance.zacks.com/hedge-stock-index-futures-4584.html
 
 ### Adjusting Vega
+
+## Rho (ρ)
+
+> Measures change in option price when stock price moves.
 
 ## Vomma
 
@@ -304,3 +316,5 @@ Hedging by buying OTM options to safeguard 800 point movement on up and downside
 - If VIX falls adjust strategy to `Credit`.
 - Exit `Credit Strategy` before the day of expiry. Do not hold beyond 01:00 PM on Thursday.
 - You may hold `Debit Strategy` till expiry in anticipation of a directional move.
+
+![[Option Contract#Moneyness]]

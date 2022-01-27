@@ -119,9 +119,17 @@ Selling Put @ OTM Strike is like owning shares at a lower price than what the st
 
 ## ITM
 
+Spot > Strike for CALL
+Spot < Strike for PUT
+
 ## ATM
 
+Spot = Strike
+
 ## OTM
+
+Spot < Strike for CALL
+Spot > Strike for PUT
 
 ##### Tip
 
