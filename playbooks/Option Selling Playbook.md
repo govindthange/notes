@@ -65,6 +65,8 @@ The strategies are based on what your probabilities are of getting to a certain 
 - Select a strike with highest OTM probability i.e. 2σ away with approximately 84+% Probability of Profit (PoP)
 	- Note that this this standard deviation is derived from the IV itself.
 	- The PoP percentage are going to be the same but how much distance away from the stock is based of the IV.
+- [[Option Strategies#Short Put]]
+	- ![[Option Strategies#^cd7311]]
 
 ### Nuances
 
