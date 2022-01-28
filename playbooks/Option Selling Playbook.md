@@ -45,10 +45,7 @@ IV drives it all...
 - Then your underlying assumptions then drives the pot odds (i.e. there is more money to make than there is to lose).
 - The driver w.r.t pot odds  starts with IV levels.
 
-Ensure IV percentile is either high or atleast far above average.
-- We sell IV because we want its reversion to the mean.
-- When you short you are essentially betting on the contraction in volatility.
-- IV is mean reverting. If IV percentile is low at the time of trade then you not only collect lesser premium but you also risk from higher volatility later which will make your premium expensive in future thereby resulting in losses.
+[[Option Strategy Builder#Step 3 Make mean reversion assumptions]]
 
 # Step 3. Pick a liquid strike price w/ high PoP
 
