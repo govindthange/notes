@@ -18,6 +18,15 @@ It is the rate of change of `Premium` w.r.t `Spot Price`.
 
 A 0.2 Delta means for every 100% movement in the underlying the premium will move by 20%.
 
+### Nuances
+
+- When someone says 20 Delta or 30 Delta they mean 0.2 Δ and 0.3 Δ respectively.
+- A 30 delta options (0.3 Δ) are usually just outside (or very near) 2σ range/interval
+	- The 2σ `range` give ~70% chance of max profit.
+	- `2σ Range` = `-1σ` to `+1σ`
+	- 30 Δ PE strike prices are very near to -1σ side of the interval.
+	- 30 Δ CE strike price are very near to +1σ side of the interval.
+
 ### Characteristics
 
 Understanding Delta helps in deciding what strike prices to trade and what strategies to implement.
@@ -139,7 +148,7 @@ It is a measure of predicted future movement.
 ### Calculating IV
 [...](https://www.youtube.com/watch?v=iD6Z9m4u08A)
 
-`IV` = `1σ Annual Expected Move`
+`IV` = `1σ Expected Move`
 
 > The implied volatility of an options is, by definition, equal to a 1 standard deviation annual expected move of the underlying.
 
@@ -157,6 +166,10 @@ Quick Tips
 - 90 DTE => `IV` / 2
 
 [[Standard Deviation#σ vs iv vix]]
+
+### Nuances
+
+- IV has a tendency to overstate the actual volatility. So the actualy volatility is always lesser than what is indicated by the number.
 
 ### Characteristics
 
