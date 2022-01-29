@@ -62,8 +62,7 @@ The strategies are based on what your probabilities are of getting to a certain 
 - Select a strike with highest OTM probability i.e. 2σ away with approximately 84+% Probability of Profit (PoP)
 	- Note that this this standard deviation is derived from the IV itself.
 	- The PoP percentage are going to be the same but how much distance away from the stock is based of the IV.
-- [[Option Strategies#Short Put]]
-	- ![[Option Strategies#^cd7311]]
+- [[Option Strategies#Naked Options]]
 
 ### Nuances
 
@@ -88,6 +87,10 @@ Liquidity is the king in option trading book.
 
 - Stick to Nifty, Bank Nifty and top 15 F&O stock options for trading.
 - Prefer regular monthly options as they are the most liquid options.
+
+### Underlying's Liqudity
+
+The underlying stock needs to be active, a minimum of million shares/day is a general guideline.
 
 ###  Narrow Bid/Ask Spreads
 

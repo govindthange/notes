@@ -80,7 +80,11 @@ High Δ value implies:
 - High rewards due to high premium.
 - Tighter strangle range which means smaller room for price to consolidate.
 - Experienced traders can choose 16-20 δ value. 30-35 δ is an aggressive value for advanced traders.
-- Requires frequent managing of positions. Generally you would rollup the untested side of the position if the price attempts to test one side of the strangle.
+- Requires frequent managing of positions.
+- One approach when position moves against you, don't do anything until you reach the breakeven point i.e. the price attempts to test one side of the strangle.
+- Another approach, even when breakeven isn't breached, is to wait for your original 20 δ to go over 30 δ or 35 δ.
+- For adjustment you would rollup the untested side of the position if.
+- Exit upon 5 to 10 DTE or 50% of the max profit.
 
 Low Δ value implies:
 - Low risk due to low probability of ITM.

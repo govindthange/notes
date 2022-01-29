@@ -43,11 +43,11 @@ Are there binary events such as earning announcements coming that may change the
 Look to create your trading assumptions:
 
 - Are you Bullish? Bearish? Neutral?
-- Are you looking for price reversion?
-	- It means whether the underlying is going overbought or oversold.
+- Are you looking for `price reversion`?
+	- It means whether the underlying is going `overbought or oversold`.
 	- Don't think of price reversion to the mean very much when it comes to trading stocks.
 	- IV reversion still very much applies to stocks.
-- Is IV reverting to the mean?
+- Is `IV reverting` to the mean?
 	- It means you sell when IV is high? You don't buy when IV is cheap.
 	- EITHER you have an overbought/oversold condition with IV at 100% percentile.
 	- OR you can have an overbought/oversold condition with IV at its bottom end.
@@ -76,11 +76,35 @@ Choose a trading strategy based on:
 	- This is the only time when you take directional trades.
 	- Deploy a `Bull Put Spread` or a `Bear Call Spread` to ride that mean reversion.
 
-[[Option Strategies#The 6 Tasty Trade Strategies]]
+[[Option Strategies#The Tasty Trade Strategies]]
 
 # Step 6. Execution/Exit strategy
+[Criteria for entering an options trade](https://www.youtube.com/watch?v=diskN74_paQ)
+
+## Trade Size
+
+- Trade small size.
+- Management of risk after the trade has been placed is a common fallacy.
+- The only time to do this is on order entry. Do this by staying small.
+- Whatever you do, just stay small.
+
+## Trade Time
+
+- On average, volume is greater on the open an dclose. Its that these times we see less slippage and quicker fills. However, recognizing when an underlying is experiencing moments of illiquidity is critical to the timing of the in order entry process. Overall, these days time of the day does not matter.
+
+## DTE
+
+- Have enough time in trade that allows you to be right. Roughly 45 DTE allows you to collect decent premium while affording th eflexibilty to let the timework in your favor.
+- It does not mean that 20 DTE or 55 DTE doesn't work, its just that 45 DTE gives the highest RoC (Return on Capital).
+- There is a 150% RoC difference in the 45 DTE slot than it does in 3 weeks slot w/ 20-25 DTE or > 55 DTE.
+
+#### Nuances
 
 - Choose a price point for entry and exits, avoid "chasing trades".
 	- Look for some price event
-- Manage winners (defed losers)
+- Manage winners (defend losers)
 - Employ profit or date based exit strategy for closing our or rolling trades.
+
+---
+
+- [How to build a porfolio using complex options strategies](https://www.youtube.com/watch?v=TyUuB7z8z3o)

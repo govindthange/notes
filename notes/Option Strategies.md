@@ -58,10 +58,10 @@
 2. Option Oracle
 3. Sensibull
 
-# The 6 Tasty Trade Strategies
+# The Tasty Trade Strategies
 [...](https://youtu.be/T6uA_XHunRc?t=86)
 
-## Short Strangle
+## Short Strangle or Naked Strangle
 [...](https://youtu.be/T6uA_XHunRc?t=118)
 
 > Simultaneous sale of an OTM put and OTM call.
@@ -91,6 +91,26 @@
 		- The stock goes too high. Your call is being tested. you move your put over your call.
 		- This reduces your delta. Look to reduce your delta by 25% to 50% whenever you do any adjustments.
 
+### Trade
+
+Naked Strangle Trade:
+	=> (1 x `Short PE @ OTM`) + (1 x `Short CE @ OTM`)
+	=> (1 x `35 DTE`  `30Δ`  `Short PE @ Support`) + (1 x `35 DTE`  `30Δ`   `Short CE @ Resistance`)
+
+- Use `20Δ` strangles if you want to be less aggressive.
+- Use volatility pops to gauge how aggressive you want to get.
+
+### Trade Adjustment
+
+- Don't make the mistake of not re-eststablishing the position in the last 5-10 days to expiration.
+	- The mistake of not rolling out that delta when you go into the last 5-10 DTE and re-establishing the position out in another 30 days.
+- One approach when position moves against you is to not do anything until you reach the breakeven point i.e. when the price attempts to test one side of the strangle.
+- Another approach, even when breakeven isn't breached, is to wait for your original 20 δ to go over 30 δ or 35 δ.
+- For adjustment you would rollup the untested side of the position if.
+- Exit upon 5 to 10 DTE or 50% of the max profit.
+
+[[Short Strangle]]
+
 ## Iron Condors
 [...](https://youtu.be/T6uA_XHunRc?t=458)
 
@@ -102,6 +122,13 @@
 - You make far less compared to a short strangle.
 - You use a lot less buying power.
 - You have a limited risk.
+
+### Trade
+
+Iron Condor Trade:
+	=> (1 x `Short Strangle`) + (2 x `Long Wings`)
+OR  => (1 x `Short Call Spread`) + (1 x `Short Put Spread`)
+	=> (`35 DTE`  `25Δ`  `Short PE @ Support` + `Long PE @ OTM`) + (`35 DTE`  `25Δ`  `Short CE @ Resistance` + `Long CE @ OTM`)
 
 ## Credit Spread
 [...](https://youtu.be/T6uA_XHunRc?t=549)
@@ -117,10 +144,6 @@
 ## Ratio Spread
 [...](https://youtu.be/T6uA_XHunRc?t=631)
 
-Ratio Spread:
-	=> `a long call spread` + `a short call`
-	=> (1 x `Long CE @ ATM`) + (2 x `Short CE @ OTM`)
-
 - It has high probability of success (80% to 90%).
 - Volaitity should be not very low or not very high.
 - Where to place our short strikes?
@@ -134,8 +157,29 @@ Ratio Spread:
 	- Roll out in time 1 of the short options.
 	- Turn it into a strangle w/o any extra buying power.
 
-## Broken Wing Butterfly
-[...](https://youtu.be/T6uA_XHunRc?t=832)
+### Trade
+
+Ratio Spread Trade:
+	=> (1 x `Long Call Spread`) + (1 x `Short Call`)
+OR  => (1 x `Long CE @ ATM`) + (2 x `Short CE @ OTM`)
+	=> (1 x `35 DTE`  `40Δ`  `Long CE @ ATM`) + (2 x `35 DTE`  `30Δ`   `Short CE @ OTM`)
+
+## Naked Options
+
+If you short an option that is 1σ away from the spot price, it has 84% probability of finishing OTM.
+
+### Trade
+
+Short Put Trade:
+	=> (1 x `Short PE @ OTM`)
+	=> (1 x `35 DTE`  `35Δ`  `Short PE @ OTM`)
+
+Short Call Trade:
+	=> (1 x `Short CE @ OTM`)
+	=> (1 x `35 DTE`  `35Δ`  `Short CE @ OTM`)
+
+## Broken Wing Butterfly (BWB)
+[...](https://youtu.be/T6uA_XHunRc?t=832) | [...](https://www.youtube.com/watch?v=sjCWOmn4OgA) | [...](https://www.youtube.com/watch?v=ZCcs2CgY-mI) | [...](https://www.youtube.com/watch?v=r5GvQgbChJQ)
 
 > Simultaneous purchase of a long butterfly combined with a short credit spread.
 
@@ -157,6 +201,15 @@ Ratio Spread:
 - Defence mechanics:
 	- Roll forward the near month.
 
+## Reverse Jade Lizard
+
+### Trade
+
+Jade Lizard Trade:
+	=> (1 x `Short Put Spread`) + (1 x `Short Call`)
+OR  => (1 x `Short Strangle`) + (1 x `Long PE @ OTM`)
+	=> (1 x `35 DTE`  `30Δ`  `Short OTM Strangle`) + (1 x `35 DTE`  `Long PE @ OTM`)
+
 # Catalog
 
 [[Option Strategy Catalog]]
@@ -166,7 +219,7 @@ Ratio Spread:
 ## Short Put
 [...](https://www.youtube.com/watch?v=RMRWlwcKmJA)
 
-If you short a put 1 standard deviation below the spot price, it has 84% probability of finishing OTM! ^cd7311
+If you short a put 1σ below the spot price, it has 84% probability of finishing OTM! ^cd7311
 
 ## Poor Man's Covered Call
 

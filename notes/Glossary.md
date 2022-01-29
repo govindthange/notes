@@ -50,3 +50,5 @@ Pairs trade is buying something and selling something else that is highly correl
 
 #### IVR
 Implied Volatility Rank
+
+#### Put Call Parity

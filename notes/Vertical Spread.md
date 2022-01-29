@@ -20,6 +20,8 @@ Bull Put Spread = Short Put Spread = Put Credit Spread
 > `Nake Trading` is level 1, `Spread Trading` is level 2.
 
 # Debit Spread
+[...](https://www.youtube.com/watch?v=LNtjyfgZWcA)
+
 => Buying a vertical spread.
 
 ## Long Vertical Call Spreads
