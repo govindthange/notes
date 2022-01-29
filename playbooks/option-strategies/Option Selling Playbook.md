@@ -143,7 +143,7 @@ When volatility is low then strategy selection becomes challenging for an option
 - Protect against a sudden rise in IV. If IV is low look to place trades that won't be negatively affected by a sudden volatility expansion in the market by deploying following strategies:
 	- Bearish Directional Trades (i.e., short stocks)
 	- Debit Put Spread (ITM/OTM)
-		- Pairs Trade (they give you more time)
+		- [[Glossary#Pairs Trade | Pairs trade]] (they give you more time)
 		- Diagonals (Directional Diagonal)
 
 # Step 5. Deploy the strategy

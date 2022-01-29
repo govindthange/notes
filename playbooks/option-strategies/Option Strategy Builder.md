@@ -51,7 +51,7 @@ Look to create your trading assumptions:
 	- It means you sell when IV is high? You don't buy when IV is cheap.
 	- EITHER you have an overbought/oversold condition with IV at 100% percentile.
 	- OR you can have an overbought/oversold condition with IV at its bottom end.
-- Possible pairs trade candidate?
+- Possible [[Glossary#Pairs Trade | pairs trade]] candidate?
 	- Buying bonds and selling S&Ps or vice-versa.
 
 # Step 5. Pick a strategy
