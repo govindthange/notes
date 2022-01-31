@@ -65,6 +65,9 @@ Choose a trading strategy based on:
 	- With smaller accounts you want to be careful that you have enough capital left over for strategic diversification.
 - Does the strategy effectively capture the right amount of premium (ex. 1/3 width of strike, high PoP)
 
+## Use VIX to pick stragegy
+[[Volatility Playbook]]
+
 ## Trading Phenomena
 [...](https://youtu.be/5cu3PTHSDOM?t=339)
 

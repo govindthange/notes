@@ -42,10 +42,7 @@ Bull Put Spread = Short Put Spread = Put Credit Spread
 The action you take with the `Front Option` (i.e. option that is closest to the spot price) determines the direction of the trade.
 - So here the strike price closer to the spot is the CE which we are longing and it means we are bullish and we want price to trend upward.
 
-### Tip
-- When VIX is low then prefer choosing a Debit Spread over Credit Spread.
-	- With lower VIX you can't collect enough premium by shorting.
-	- Wiht lower VIX, you can anticipate higher VIX in future so you can benefit from long option as you can sell them for higher premium later.
+[[Vertical Spread Playbook#Debit Spread]]
 
 ### Example
 
@@ -73,6 +70,9 @@ When you sell a spread, you receive credit.
 
 > A `Credit Spread` opposite of a `Debit Spread`; just flip everything you did.
 
+- Its a directional strategy and like any directional strategy you have 50% chances.
+- If you short at 30Δ strike you will have 70% chance of winning.
+
 ## Short Vertical Call Spreads
 
 Our view is bearish!
@@ -93,10 +93,7 @@ Note that if you sell a naked call, there is an unlimited risk.
 The action you take with the `Front Option` (i.e. option that is closest to the spot price) determines the direction of the trade.
 - So here the strike price closer to the spot is the CE which we are shorting and it means we are bearish and we want price to stay below this strike price.
 
-### Tip
-- When VIX is high then prefer choosing a Credit Spread over Debit Spread.
-	- With higher VIX you get to collect higher premium by shorting.
-	- Wiht higher VIX, you can anticipate lower VIX in future so you can benefit from shorting option as you can buy them at a lesser premium later.
+[[Vertical Spread Playbook#Credit Spread]]
 
 ### Example
 

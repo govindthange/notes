@@ -1,0 +1,1 @@
+- Stay away from gama just before expiry.

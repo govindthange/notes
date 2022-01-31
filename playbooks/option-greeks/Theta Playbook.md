@@ -1,0 +1,5 @@
+- Positive theta means you have credit strategy.
+- Theta is negative for buyers because he is paying premium.
+- Theta is positive for sellers because he is receiving premium.
+- Sellers make more profit when they keep position overnight.
+- Option selling is tough for intraday because major theta decay happens overnight.

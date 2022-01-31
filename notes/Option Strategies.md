@@ -131,15 +131,7 @@ OR  => (1 x `Short Call Spread`) + (1 x `Short Put Spread`)
 	=> (`35 DTE`  `25Δ`  `Short PE @ Support` + `Long PE @ OTM`) + (`35 DTE`  `25Δ`  `Short CE @ Resistance` + `Long CE @ OTM`)
 
 ## Credit Spread
-[...](https://youtu.be/T6uA_XHunRc?t=549)
-
-- Its a directional strategy and like any directional strategy you have 50% chances.
-- If you short at 30Δ strike you will have 70% chance of winning.
-- Management mechanics:
-	- Exit at 50% of the credit received or 21 DTE.
-- Defence mechanics:
-	- No defence.
-	- Limited risk.
+[[Vertical Spread Playbook#Credit Spread]]
 
 ## Ratio Spread
 [...](https://youtu.be/T6uA_XHunRc?t=631)

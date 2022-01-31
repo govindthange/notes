@@ -139,13 +139,31 @@ Intraday is tough for Option Sellers because [...](https://youtu.be/9E2PETrQ01M?
 
 > Option Sellers make more money when they hold their position overnight when there is less volatility and there are no gap-up/down.
 
-## Implied Volatility (VIX)
+## Implied Volatility  & VIX
+
+### VIX
+
+VIX is about market and its movement.
 
 It is a measure of predicted future movement.
 - It increases when there is uncertainity or anticipated news.
 - It decreases in times of calm.
+- It is measure of fear in the market.
+- VIX behavies radically on undefined events (like COVID)
 
-### Calculating IV
+### IV
+
+IV is about strikes and the movement of its premium.
+
+- IV depends upon VIX and forthcoming event (expiry, budget etc).
+- If VIX increases then IV increases with it but the opposite may not hold true.
+	- I.e. it is not necessary that VIX too will move with IV.
+	- On budget days IV crosses above 100 and VIX may not move as much on these days.
+- IV behaves readically on defined events (like budgets)
+	- As budget day approach IV will increase.
+	- On the day of budget IV drops and starts dropping from then on.
+
+#### Calculating IV
 [...](https://www.youtube.com/watch?v=iD6Z9m4u08A)
 
 `IV` = `1σ Expected Move`
@@ -167,7 +185,7 @@ Quick Tips
 
 [[Standard Deviation#σ vs iv vix]]
 
-### Nuances
+#### Nuances
 
 - IV has a tendency to overstate the actual volatility. So the actualy volatility is always lesser than what is indicated by the number.
 
