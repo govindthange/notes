@@ -116,7 +116,7 @@ Look for higher OI volume when selecting a strike sprice.
 	- When these OIs have volumes it displays churning in the said strike.
 - Low volumes are sign of illiquid options.
 
-# Step 4. Select the strategy
+# Step 4. Pick a strategy
 [...](https://www.youtube.com/watch?v=MOxQqT_s-Eg)
 
 Look for strategies that take advantage of the IV premium, while looking to maximize the PoP & RoC.
@@ -150,6 +150,11 @@ When volatility is low then strategy selection becomes challenging for an option
 		- Diagonals (Directional Diagonal)
 
 # Step 5. Deploy the strategy
+
+## Credit/Collateral Ratio
+
+- A credit:collateral ratio of 1:20 (i.e. 0.05) is ideal.
+- A credit:collateral ratio below 0.025 is not worth the risk.
 
 # Step 6. Manage the position
 

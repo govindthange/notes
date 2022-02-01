@@ -5,6 +5,7 @@ When VIX is rising (falling market)
 - Choose debit strategies.
 - Buy put to suppress effects of rising VIX.
 - Do not short calls. It won't be able to compensate as much.
+- When VIX is high (over 25) then stocks tend to move way out of their standard deviation.
 
 When VIX is falling (rising market)
 - Become seller.

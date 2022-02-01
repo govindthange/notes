@@ -26,6 +26,10 @@ A 0.2 Delta means for every 100% movement in the underlying the premium will mov
 	- `2σ Range` = `-1σ` to `+1σ`
 	- 30 Δ PE strike prices are very near to -1σ side of the interval.
 	- 30 Δ CE strike price are very near to +1σ side of the interval.
+- You can look at delta and guess the probability of being ITM (or OTM)
+	- Delta represents probability of being ITM.
+	- So if its -0.12 Δ then it means 12% probability of being ITM, and reverse is 82% probability of being OTM.
+	- Note that these PoP/PoS calculation don't exactly match but they are around the same value.
 
 ### Characteristics
 

@@ -252,25 +252,56 @@ A lot many times new traders think they are risking less money but essentially t
 
 ### Transcript
 
-- If I think VIX is going to pop during the week then I wont use all the collateral in my account.
+- I trade spread only on ETFs (IWM, DIA, SPY, SMH, QQQ, TQQQ, ZM etc).
+- I trade only weekly options; I don't do monthly options.
+	- I have a great method by which I can tell where the stock is going to go in a week time. But when you start going way out into months the probabilities become skewed based on where VIX is currently at.
+	- For example if VIX is currently at 38 and there is a 90% probability of being OTM in weekly then it will be 60% OTM probability at end of month. This is a huge probability skew.
+	- I don't earn as much as I would have in monthly but I can get in and get out fast.
+	- I do Put Credit Spread from Monday through Friday. And Call Credit Spread from Thursday through Friday.
+	- I create Iron Condor over the duration of the week. Iron Condor does not become skewed.
+		- When people make Iron Condor on Monday ususally they're opening themselves up to having no clue where the stock is going to go.
+		- I just take a Put Credit Spread and take that credit, and then I create an opportunity where I take the Call Credit Spread, and when they are too tight I can exit at a small loss.
+	- I trade what market shows me:
+		- I enter a put credit spread and start below the market as my anchor.
+		- Every day that follows, I track, monitor, do simple calculations of...
+			- Where the stock has gone.
+			- How much the stock has risen.
+			- What percent of the expected move is still available to the stock.
+		- On thrusday I decide whether I should enter Call Credit Spread like so. [...](https://youtu.be/YfYjNovwph8?t=4910)
+				- So you record expected move on Monday as shown by IV/Vega calculation above.
+				- I take the opening price on monday and subtract subtract the expected move shown next to IV (18.6). I also subtract MMM (12.304)
+				- Enter Put Credit Spread accordingly.
+				- On wednesday night you come back to this number and see what is the expected move for rest of the week. [...](https://youtu.be/YfYjNovwph8?t=4980)
+				- You see what the actual range has been compared to my expected move.
+					- You calculate how much the stock has moved up/down w.r.t the initial expected move you captured on monday.
+					- So if the entire expected move has been greater than the actual move from Monday to Wednesday night, then you know there is still more room for the stock to the upside.
+			- If the stock has only 10% of the move left, I won't do a Call Credit Spread on that to avoid risk.
+			- If your put credit spread is losing then don't enter a call credit spread.
+- With VIX very high the stocks move way out of their standard deviation.
+- If I think VIX is going to pop during the week then I wont use all the collateral (Buying Power) in my account.
 - Leave 20% on the table and exit. Do not risk bombing your account when VIX is going to go high.
 - Track position by doing following calculations:
 	- Where the stock has gone i.e. how much it has risen?
 	- What precent of the expected move is still available to the stock? Do TA to know this. If the stock only has 10% of the move left then I am not going to do a credit spread on that because of lot of risk.
+- You can look at delta and guess the probability of being ITM (or OTM)
+	- Delta represents probability of being ITM.
+	- So if its -0.12 Δ then it means 12% probability of being ITM, and reverse is 82% probability of being OTM.
+	- Note that these PoP/PoS calculation don't exactly match but they are around the same value.
 - I trade around .10 to .12 Delta. If it rises to .20 - 0.25 then I know my spread is gaining value (resulting in loss) then I cap that loss really quick.
-- When your Deltas are around 0.70 then there is a 70% of chance position going ITM. If you are in the middle of the week then get out of your position and clear your mind and get ready for the next week.
+- When your Deltas are around 0.70 then there is a 70% chance of being ITM. If you are in the middle of the week then get out of your position and clear your mind and get ready for the next week.
 - Worst part of trading spreads is the facts that Futures are going to dictate what happens to the ETFs in the after hours. If you see a massive gains in the futures then you know that you are gain a lot of profits on the the open. If you see a massive drop then you are going to refer to CNBC to see where ETF is going to open.
+- If you had a position that had 87% PoP but it goes ITM after hours and so now it has 6% PoP you can still hold this position if you want as time is always on your side if its in the middle of the week but i fit continues to go down then you may lose all the collateral. For me, as soon as my position goes ITM I close my position.
 
 Executing Put Credit Spread [...](https://youtu.be/YfYjNovwph8?t=1456)
 
 - When you trade Put Credit Spread you have to think like you are the bank.
-- When you get the collateral, its like a loan given to you. And you are going to get a small percent back.
+- When they get your collateral, its like a loan. So you're giving out that money and you're going to get a small percent back. And you are going to get a small percent back.
 
 - Right now `SPY` is trading at $326.54
 - Pick a `-0.12 Delta` strike which is `SPY 300PE, 6 NOV 20`
 	- The entry shows 86.51% Probability of OTM.
 	- The entry shows $1.5 as `mark` (=Premium)
-- Now you have to think that __SPY is not going to hit $300__ by the end of next week i.e. by Friday, 6 Nov 20. $300 is the support and SPY will stay above it.
+- Now you have to think that with -0.12 Δ the __SPY is not going to hit $300__ by the end of next week i.e. by Friday, 6 Nov 20. $300 is the support and SPY will stay above it.
 - You get $26 runway with $326 spot and $300 strike.
 - Now right click, Select `Sell` -> `Vertical`
 - Do not create a wide spread. Keep `Spread Width` in between 5 to 8. [...](https://youtu.be/YfYjNovwph8?t=3539)
@@ -333,8 +364,12 @@ LONG `SPY SPY 295PE, 6 NOV 20` @ $1.15 mark (Payable)
 
 ### Tips
 
-- Do not create Spreads using ATM strikes. That will give you a 50% Probability of OTM.
+Do not create Spreads using ATM strikes. That will give you a 50% Probability of OTM.
+
+Customize your screen to see following information.
 - Bid Size, Ask Size
+	- `Bid Size` tells how many contracts are out to be sold.
+	- `Ask Size` tells how many contracts are out to be bought.
 	- Look at the volume of Bid-Ask spread indicating a high acceptance. Look for the bracket of acceptance i.e. there should be massive volume around the strikes your position is. If it is low it will be a problem. Trade in a highly liquid instruments that don't have low liquidity or high bid/ask spread.
 - Delta
 	- If the given option were to become ITM and the underlying stock goes up by 1$ how much will the option increase?
@@ -342,7 +377,7 @@ LONG `SPY SPY 295PE, 6 NOV 20` @ $1.15 mark (Payable)
 - Probability of OTM
 	- Its the derivative of `Black-Scholes-Mertin Option Pricing Model`
 - Mark
-	- Mid point of Bid and Ask quote
+	- Mid point of Bid quote and Ask quote.
 	- The average price of that spread leg will get filled.
 		- Say Mark for  `SPY 301PE (6 NOV 20)` is $1.605 and Mark for  `SPY 300PE (6 NOV 20)` is $1.505
 		- Then that means you will get filled for that spread on an average around 1.105
@@ -355,11 +390,18 @@ LONG `SPY SPY 295PE, 6 NOV 20` @ $1.15 mark (Payable)
 
 You enter position based off of on probabilities alone. like if there is a 92% chance of win then just get into the position.
 
-You don't need FA or TA just 2 numbers.
+You don't need FA or TA.
+
+You just need 5 numbers.
+1. `Last week's candle range`. You need to stay outside of this range.
+2. `1.5σ` range. You need to stay outside of this range.
+3. `VIX` for the week. You need VIX below 25.
+4. `IV`
+5. `Credit/Collateral ratio`. You need this ratio to be 0.05 or higher.
 
 #### 1. Open, Close and Range of the last candle in a Weekly Chart
 
-- Open a 3 year weekly chart.
+- Open weekly charts .
 - See OHLC and Range of the last weekly candle.
 - Do this every week, before going on to the next week.
 - Say the last weekly candle close was on 26th October (i.e. last Friday)
@@ -385,6 +427,7 @@ Then on monday do as follows:
 `Vega` => `Opening Price of SPY` x  `Implied Volatility of SPY on Monday` x √(`Days until Expiration` ÷ 365)
 => 326.54 x 50.11% x √(5÷360)
 ≈ ±16.543
+==Incorrect Number?==
 
 [[Option Greeks#Calculating IV]]
 
@@ -393,6 +436,12 @@ This implies:
 - ±16.543 is only a half σ move of the SPY.
 - A 1 σ move of the SYP is going to be around 86%.
 - A 1.5 σ Standard Deviation is around 89.47% at $295 Strike for SPY. This is what I prefer!
+
+#### 3. Credit:Collateral ratio of 0.05
+
+- Try for 0.05 as credit/collateral ratio. I.e. expect to collect $1 for every $20 put as collateral.
+- At the minium target 0.04 for credit/collateral ratio. Anything below 0.04 is not worth the risk.
+- 0.07 and 0.08 credit/collateral is a great credit/collateral ratio.
 
 ### Conclusion
 
@@ -410,7 +459,7 @@ With SPY currently at $326.54, the strike price of $295 gives you a really long 
 
 Beginners can start with 2 σ, then graduate to 1.75 σ and finally to 1.5 σ.
 
-Trading spreas will make you money over time you just have to cap your losses quick and limit it to 25% or below because if you take a full 100% loss on a spread then even if you have 90% probability of winning trades, the profits from 90 out of 100 trades would be lesser than losses from remaining 10 trades.
+Trading spreads will make you money over time you just have to cap your losses quick and limit it to 25% or below because if you take a full 100% loss on a spread then even if you have 90% probability of winning trades, the profits from 90 out of 100 trades would be lesser than losses from remaining 10 trades.
 
 Spread has an excellent win rate but has a very poor risk to reward ratio if you don't know how to control it fast.
 
@@ -471,6 +520,9 @@ I take the Call Credit Spread if the Put Credit Spread on an average are about 6
 | Put Credit Spread  | Monday - Friday   | Friday - Thursday    |
 | Call Credit Spread | Thursday - Friday | Wednesday - Thursday |
 
+
+How do you choose call credit spread on thursday? [...](https://youtu.be/YfYjNovwph8?t=4824)
+
 You enter Call Credit Spread when you are already in the Put Credit Spread, the stock is moving up and down.
 
 When you see a put credit spread number below the ±18.6 level (IV/Vega), this number is going to change rapidly. By the time you reach Thursday (USA) this ±18.6 could become ±6, so when you make an Iron Condor you are opening yourself up to not knowing this...
@@ -504,7 +556,7 @@ Continued [...](https://youtu.be/YfYjNovwph8?t=4910)
 
 `Logan Lajin:` When monitoring your runway when do you start to worry or wait for the short leg to go ITM or do you close your position only when it goes ITM.
 
-`Mazurati:` I usually close my positoin when I am a 1 away i.e. my runway is less than 1 or I'm ITM or the premiums on the positoin are higher about 25% so the spreads got increased in price by 25% thats when I usually do a manual close. Note that having to close the position manually is not a good situation you want to be in.
+`Mazurati:` I usually close my positoin when I am a 1 away i.e. my runway is less than 1 or I'm ITM or the premiums on the position are higher about 25% so the spreads got increased in price by 25% thats when I usually do a manual close. Note that having to close the position manually is not a good situation you want to be in.
 
 `Logan Lajin:` When doing spread do you leave any money on the sideline in case one goes against you? Is there a number?
 
@@ -521,6 +573,8 @@ Continued [...](https://youtu.be/YfYjNovwph8?t=4910)
 `Audience:` What is your exit strategy when your spread is in the danger zone? When would you close it and what could that cost you?
 
 `Mazurati:` 3 things:
+- I exit the spread when spread values increase by 15% to 20%. Sometimes I make it 10%.
+	- If its wednesday and spread value goes up by 15%, you still have thursday, friday, and friday after hours (till 5:30 PM). So 5:30 PM friday is your deadline for assignment.
 - Runway less than 1: You are in a danger zone when your runway is less than 1. In that case you just want to get your position off the table and book a loss. But if you have other positions open that can counteract that loss and you could still potentially finish the week in green then you can take that chance.
 - Delta to be between 0.9 to 0.12. I exit the position if the delta rises to 0.25.
 - Also look at the bid/ask spread. If the difference between bid and ask is rising that means premiums are rising too. You exit the position.
