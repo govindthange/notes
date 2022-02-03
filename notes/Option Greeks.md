@@ -30,6 +30,7 @@ A 0.2 Delta means for every 100% movement in the underlying the premium will mov
 	- Delta represents probability of being ITM.
 	- So if its -0.12 Δ then it means 12% probability of being ITM, and reverse is 82% probability of being OTM.
 	- Note that these PoP/PoS calculation don't exactly match but they are around the same value.
+- [How delta behaves](https://youtu.be/fZe6ClmdbZg?t=934)
 
 ### Characteristics
 

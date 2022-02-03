@@ -49,6 +49,7 @@
 44. Short Bull Ratio Spread: A fairly complicated bullish trading strategy.
 45. Short Butterfly Spread: A complicated volatile trading strategy.
 46. Short Calendar Call Spread: An advanced volatile trading strategy.
+	- [Theta Gainers, Calendar and Double Diagonal Calendar](https://www.youtube.com/watch?v=pDT8R6AxYTs)
 47. Short Calendar Put Spread: A complex volatile trading strategy.
 48. Short Call: A single transaction bearish trading strategy.
 49. Short Condor Spread: An advanced volatile trading strategy.
@@ -56,6 +57,8 @@
 51. Short Put: A single transaction bullish trading strategy.
 52. Short Straddle: A relatively simple neutral trading strategy.
 53. [[Short Strangle]]: A quite straightforward neutral trading strategy.
+	- [Theta Gainers, Weekly and Monthly Strangles](https://www.youtube.com/watch?v=fZe6ClmdbZg)
+	- [Theta Gainers, Inverted Strangles](https://youtu.be/fZe6ClmdbZg?t=1511)
 54. Strap Straddle: A simple volatile trading strategy suitable for beginners.
 55. Strap Strangle: A simple volatile trading strategy suitable for beginners.
 56. Strip Straddle: A simple volatile trading strategy suitable for beginners.
