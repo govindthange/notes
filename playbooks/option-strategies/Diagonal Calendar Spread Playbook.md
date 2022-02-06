@@ -58,11 +58,21 @@ Balance position by matching the call side option premium with the put side opti
 	3. Short the selected strike option.
 
 ## Approach 2. Adjust to neutralize delta gap
+[...](https://www.youtube.com/watch?v=Fa_pn9W1bos)
 
 Balance position by matching the call side delta with the put side delta.
 
-1. Close the position on the non tested side and book the profit.
-2. Short a new option on the non tested side like so:
-	1. Pick the current option delta of the tested side.
-	2. Select the strike which has delta slightly lower than the picked delta on the non tested side.
-	3. Short the selected strike option.
+### Assumption
+A strangle is created like so:
+- On the front week expiry Short CE and PE with 20Δ (approx).
+- On the back week expiry, select call and put strikes that matches the premium of call and puts on front week expiry. Go long on the selected call and put.
+
+### Adjustment
+
+1. Monitor deltas of short positions.
+2. Wait for one of the short option delta to reduce by half (40% to 50%).
+3. Close the position on the non tested side and book its profit.
+4. Short a new option on the non tested side like so:
+	1. Select the strike which has delta slightly lower than the current delta of the non tested side option. Note that this delta has now reduced by half.
+	2. Short the selected strike option on front expiry.
+	3. Go long on the back week expiry option and pick the strike that matches the premium of the shorted front week expiry option (step 4.2 above).
