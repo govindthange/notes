@@ -10,6 +10,19 @@ Find `range` by marking support & resistance.
 
 ## 3. Use [[Max Pain]]
 
+## 4. Use fixed delta
+
+Pick a 20Δ call and a 20Δ put strikes.
+
+## 5. Use fixed premium
+
+For `Nifty` pick a ₹25 call and a ₹25 put strikes.
+
+## 6. Use fixed range
+
+For Nifty `weekly` options pick a 300 points up and a 300 points down strikes from ATM strikes.
+For Nifty `monthly` options pick a 600 points up and a 600 points down strikes from ATM strikes.
+
 # Step 2. Cover range
 
 Pick srikes so that PoP is over 50% after deploying the strategy.
