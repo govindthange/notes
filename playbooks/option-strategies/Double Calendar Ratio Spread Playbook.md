@@ -12,9 +12,9 @@ Hedge naked strangle with the received credit through `Credit Ratio Diagonal Cal
 	- If you receive ₹10,000 in credit, then only debit ₹10,000 for hedging.
 	- Its fine to pay slightly extra.
 2. Hedge the short position in ratio (not entirely in 1:1.
-	- Skip the front week expiry (i.e. expiry of the option used for strangle) and go to the subsequent week expiry (aka back week expiry).
+	- Skip the near expiry (ifront week/month) i.e. expiry of the option used for strangle and go to the subsequent expiry (AKA next expiry or back week/month expiry).
 	- Pick the strike corresponding to the credit received from the sold options.
-	- You may pay slightly extra because you will close this in the front week expiry.
+	- You may pay slightly extra because you will close this position in the near expiry (i.e. front week/month).
 	- By buying PE & CE options will increase breakeven range.
 
 # Step 4. Monitor position

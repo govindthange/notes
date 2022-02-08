@@ -41,7 +41,7 @@ When VIX is falling (rising market)
 |           | Prefer Iron Fly. You will get better premium and so better range.                   |
 |           | With Iron Fly you will be able to adjust it better for lower loss.                  |
 |           | When in calendar trade and VIX goes above 18 then close calendar and open Iron Fly. |
-|           | When in trade and VIX oes above 25-30 close positions.                              |
+|           | When in trade and VIX goes above 25-30 close positions.                             |
 |           |                                                                                     |
 | >= 25     | It is very difficult for VIX to sustain itself above 25.                            |
 |           | Stop making vega negative or credit strategies.                                     |
