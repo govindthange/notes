@@ -11,8 +11,8 @@ Hedge naked strangle with the received credit through `Credit Ratio Diagonal Cal
 1. Define risk with 1:1 Risk/Reward ratio.
 	- If you receive ₹10,000 in credit, then only debit ₹10,000 for hedging.
 	- Its fine to pay slightly extra.
-2. Hedge the short position in ratio (not entirely in 1:1.
-	- Skip the near expiry (ifront week/month) i.e. expiry of the option used for strangle and go to the subsequent expiry (AKA next expiry or back week/month expiry).
+2. Hedge the short position in ratio (Its a ratio spread so don't buy 1 for 1 hedge.).
+	- Skip the near expiry (front week/month) i.e. expiry of the option used for strangle and go to the subsequent expiry (AKA next expiry or back week/month expiry).
 	- Pick the strike corresponding to the credit received from the sold options.
 	- You may pay slightly extra because you will close this position in the near expiry (i.e. front week/month).
 	- By buying PE & CE options will increase breakeven range.
@@ -21,7 +21,8 @@ Hedge naked strangle with the received credit through `Credit Ratio Diagonal Cal
 [[Strategy Builder Playbook#Step 4 Monitor position]]
 
 # Step 5. Adjust position
-[...](https://youtu.be/dhEPY7DUBwI?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=469)
+
+No adjustment is needed till market moves beyond 1.75% (or 300 points move in nifty) in one direction.
 
 ## Possibility 1. When stock trends up
 
@@ -29,14 +30,18 @@ Reduce loss on the call side in 2 stages.
 
 ### Stage 1. Adjust upon breach of 50% range (300 Points)
 
-#### Sell an extra put at far OTM
+#### Sell a near expiry OTM put
+[...](https://youtu.be/dhEPY7DUBwI?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=469)
 
-- Sell far OTM put till the price breaches the strike of the shorted call option.
-- It will flatten the t+0 blue line in opstra.
+- Sell a near expiry OTM put once price rises by 1.75% (300 points in nifty) but has not breached the strike of shorted call option.
+- Selling an extra put will flatten the t+0 blue line in opstra.
 
-### Stage 1. Adjust upon breach of shorted CE strike
+### 2. Adjust upon breach of shorted CE strike
 
-- Buy call option at the breakeven point.
+#### Buy a next expiry OTM call
+[...](https://youtu.be/dhEPY7DUBwI?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=572)
+
+- Buy a next expiry call option at the breakeven strike once the strike of shorted call option is breached.
 - By buying call option it will remove the ratio spread and make it 1:1 diagonal calendar spread on the call side.
 
 ## Possibility 2. When stock trends down
