@@ -43,10 +43,10 @@ Pick srikes so that PoP is over 50% after deploying the strategy.
 > Note that Diagonal Calendar Spread is better than Iron Condor for weekly option selling.
 
 ## Hedge w/ Credit Ratio Calendar Spread
-[[Credit Ratio Calendar Spread Playbook#Step 3 Define risk]]
+[[Double Calendar Ratio Spread Playbook#Step 3 Define risk]]
 
 ## Hedge w/ Double Diagonal Calendar Spread
-[[Diagonal Calendar Spread Playbook#Step 3 Define risk]]
+[[Double Diagonal Calendar Spread Playbook#Step 3 Define risk]]
 
 ## Hedge w/ Ratio Spread
 
@@ -66,7 +66,7 @@ Use confluence to confirm breach of range.
 [[Iron Condor Playbook#Step 5 Adjust position]]
 
 ## Adjust Credit Ratio Calendar Spread
-[[Credit Ratio Calendar Spread Playbook#Step 5 Adjust position]]
+[[Double Calendar Ratio Spread Playbook#Step 5 Adjust position]]
 
 ## Adjust Double Diagonal Credit Spread
-[[Diagonal Calendar Spread Playbook#Step 6 Adjust position]]
+[[Double Diagonal Calendar Spread Playbook#Step 6 Adjust position]]
