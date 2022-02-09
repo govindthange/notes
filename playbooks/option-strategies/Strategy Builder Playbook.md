@@ -23,6 +23,10 @@ For `Nifty` pick a ₹25 call and a ₹25 put strikes.
 For Nifty `weekly` options pick a 300 points up and a 300 points down strikes from ATM strikes.
 For Nifty `monthly` options pick a 600 points up and a 600 points down strikes from ATM strikes.
 
+## 7. Use VIX
+
+[[Option Greeks#Calculating Expected Move or Range using IV]]
+
 # Step 2. Cover range
 
 Pick srikes so that PoP is over 50% after deploying the strategy.

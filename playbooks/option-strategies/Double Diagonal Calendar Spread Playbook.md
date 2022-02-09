@@ -151,10 +151,24 @@ When we neutralize delta we save ourselves from gamma and protect position from 
 
 Periodically (daily) balance the two DCS by matching their call side delta with their put side delta.
 
+##### Setup
+
+- The breakeven range after forming the strategy should be over 3.75%.
+- VIX should be below 18.
+	- When vix is low, there is a less chance of gap-up/down.
+		- This strategy won't work if there are too many gap-up/down.
+		- There are very few strategies that can save you from gap-up/down.
+	- You will incur loss when VIX falls.
+	- You will incur gain when VIX rises.
+
 ##### Deployment
 
 Create a short strangle like so:
 - On the near expiry `sell` an OTM `20Δ strike` call & put.
+	- Note that selling a lower delta gives better breakeven range and therefore helps in adjustment.
+	- 20Δ strikes gives a range of 4% to 6% range with little room for adjustments.
+	- 13Δ strikes gives a range of 5% to 7%.
+	- Max Loss increases and Max Profit falls with strikes that are far below 20Δ.
 - On the next expiry `buy` call & put at `strikes that match the premium` of call & put in the near expiry (i.e. front week/month).
 - Deploy strategy on `Wednesday @ 10:30 AM` considering the near expiry (i.e. front week/month) is on next week's Thursday.
 	- Essentially you pick a `8 DTE near expiry (i.e. front week/month)`

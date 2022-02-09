@@ -175,9 +175,11 @@ IV is about strikes and the movement of its premium.
 
 > The implied volatility of an options is, by definition, equal to a 1 standard deviation annual expected move of the underlying.
 
-`% Expected Move` = `IV` / √(365/`DTE`)
+#### Calculating Expected Move or Range using IV
+
+`Expected % Move` = `IV` / √(365/`DTE`)
 	OR
-`% Expected Move` = `IV` * √(`DTE`/365)
+`Expected % Move` = `IV` * √(`DTE`/365)
 
 Where
 - IV = Implied Volatility

@@ -50,3 +50,8 @@ When VIX is falling (rising market)
 |           | Due to high volatility the over night trades are extremely risky.                   |
 |           | If you must trade do it on wednesdays or thrusday.                                  |
 |           | When VIX > 25 you get better premiums even on Wednesdays/Thursdays.                 |
+
+>  When VIX is high then... [...](https://youtu.be/kRvnEMWxKoE?list=PLOggP3CmSaMDKsajRrNOECS4U94v4xvxc&t=4463)
+>  - For weekly the low VIX strategies like straddle, strangles, iron condors etc. should be deployed on Tuesday @ 3 PM or Wednesday. Do not apply these on monthly on high VIX days.
+>  - For monthly (positional) exit when gains are 40-50 % of max profit.
+
