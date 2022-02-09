@@ -199,8 +199,42 @@ Short Call Trade:
 
 Jade Lizard Trade:
 	=> (1 x `Short Put Spread`) + (1 x `Short Call`)
-OR  => (1 x `Short Strangle`) + (1 x `Long PE @ OTM`)
+OR => (1 x `Short Strangle`) + (1 x `Long PE @ OTM`)
 	=> (1 x `35 DTE`  `30Δ`  `Short OTM Strangle`) + (1 x `35 DTE`  `Long PE @ OTM`)
+
+# Theta Gainers Strategies - Premium Course
+
+Basics: Greeks + S/R + Intraday
+- [x] [29 May 2020 | Day 1 | Hindi](https://www.youtube.com/watch?v=thG641TD8CM)
+- [ ] [29 May 2020 | Day 4 | English (Day 1)](https://www.youtube.com/watch?v=-Q16vA426R8)
+
+Selling Call & Put in Intraday
+- [ ] [03 June 2020 | Day 6](https://www.youtube.com/watch?v=jSxPODzE6xw)
+- [ ] [11 June 2020 | Day 2](https://www.youtube.com/watch?v=Z3vntZwoc6k)
+- [ ] [14 June 2020 | Day 10 | Q&A on strategies](https://www.youtube.com/watch?v=kRvnEMWxKoE)
+- [ ] [16 June 2020 | Day 3](https://www.youtube.com/watch?v=4rISFVsTAeM)
+- [ ] [17 June 2020 | Day 5](https://www.youtube.com/watch?v=dqhl726jUVQ)
+
+Iron Condor + Strangles + Straddles with adjustments
+- [x] [Day 8](https://www.youtube.com/watch?v=4QzubqTgtcc)
+
+Ratio Spread
+- [x] [Day 12](https://www.youtube.com/watch?v=sOI0sz9pPeg)
+
+Ratio Spread + Calendar Spread
+- [x] [Day 11](https://www.youtube.com/watch?v=fxUwfaaS4ek)
+
+Calendar Spread + Ratio Spread + Calendar w/ Iron Condor + Calendar w/ Ratio Spread
+- [x] [Session 4 | Day 7](https://www.youtube.com/watch?v=9JFVkhbOZIw)
+
+Classic Double Calendar + Double Diagonal Calendar
+- [ ] [22 June 2020 | Day 9 | Q&A](https://www.youtube.com/watch?v=zMwFaIqWYhs)
+	- [Iron Condor + Ratio Spread](https://youtu.be/zMwFaIqWYhs?list=PLOggP3CmSaMDKsajRrNOECS4U94v4xvxc&t=2630)
+
+Cat Strategy for Monthly
+6 Leg Strategy = Calendar + Ratio + Iron Condor
+- [ ] [28 June 2020 | Day 14 | Hindi](https://www.youtube.com/watch?v=jxaPJW3yzug)
+- [ ] [30 June 2020 | Day 13 | English](https://www.youtube.com/watch?v=RzuIF0nseEU)
 
 # Catalog
 
