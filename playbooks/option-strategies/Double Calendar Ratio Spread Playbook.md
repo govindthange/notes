@@ -1,3 +1,7 @@
+[...](https://youtu.be/zMwFaIqWYhs?list=PLOggP3CmSaMDKsajRrNOECS4U94v4xvxc&t=3220)
+
+Iron Condor + Calendar + Ratio Spread
+
 # Step 1. Find range
 [[Strategy Builder Playbook#Step 1 Find range]]
 
@@ -9,9 +13,9 @@
 Hedge naked strangle with the received credit through `Credit Ratio Diagonal Calendar Spread`.
 
 1. Define risk with 1:1 Risk/Reward ratio.
-	- If you receive ₹10,000 in credit, then only debit ₹10,000 for hedging.
+	- If you receive ₹10,000 in credit by shorting a given option, then spend ₹10,000 to buy option for hedging the short option.
 	- Its fine to pay slightly extra.
-2. Hedge the short position in ratio (Its a ratio spread so don't buy 1 for 1 hedge.).
+2. Hedge the short position in 3:5 ratio (Its a ratio spread so don't buy 1 for 1 hedge.).
 	- Skip the near expiry (front week/month) i.e. expiry of the option used for strangle and go to the subsequent expiry (AKA next expiry or back week/month expiry).
 	- Pick the strike corresponding to the credit received from the sold options.
 	- You may pay slightly extra because you will close this position in the near expiry (i.e. front week/month).
@@ -48,3 +52,9 @@ Reduce loss on the call side in 2 stages.
 
 Do the opposite.
 
+# Step 6. Exit
+
+- For weekly trades, exit within 2 days or whenever you see profit of 2%.
+	- If you deployed strategy on Monday then exit by Wednesday i.e. within 2 days.
+- For monthly trades, exit by 15th of the month.
+	- If you deployed strategy on the first week of the month then exit by the end of 2nd week.

@@ -1,5 +1,7 @@
 [...](https://www.youtube.com/watch?v=93IgLvYIONo&list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&index=3) | [...](https://www.youtube.com/watch?v=pDT8R6AxYTs&list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&index=5)
 
+Iron Condor + Diagonal Calendar
+
 `Double Diagonal Calendar Spread` is formed by combining 1 `Diagonal Calendar Spreads` (DCS) on the call side and another DCS on the put side.
 
 - If you make Double DCS debit then it will work better in directional moves i.e. deploy it when VIX is low.
@@ -10,15 +12,30 @@
 - References:
 	- [Rules for calendar/diagonal spreads](https://www.thestreet.com/investing/options/15-rules-for-calendardiagonal-spreads-12003637)
 
-# Step 1. Find range
+# Step 1. Wait for setup
+[...](https://youtu.be/9JFVkhbOZIw?list=PLOggP3CmSaMDKsajRrNOECS4U94v4xvxc&t=1048)
+
+Wait for a defined event.
+
+- Take advantage of upcoming high volatility.
+	- You need current volatility to be low/medium and expect it to go up from here.
+	- Calendar based strategies can only benefit during the times of increasing IV.
+	- If there is no increase in IV then the long calendar options (the hedges) of next/far expiry will rapidly fall after 2 days.
+	- Note that the middle of the payoff chart is always close to 0 line i.e. close to no profit if price doesn't move.
+- Deploy calendars based on what might happen in the near future that may cause volatility to go up.
+	- Calendar based strategies works best for the upcoming known events.
+	- Await news, budget, ellection, announcement, or some result/earning event etc.
+	- Your technical analysis or bullish/bearish view has little role to play in calendar strategies.
+
+# Step 2. Find range
 [[Strategy Builder Playbook#Step 1 Find range]]
 
-# Step 2. Cover range
+# Step 3. Cover range
 [[Strategy Builder Playbook#Step 2 Cover range]]
 
  Note that max profit will be at the short option strike price.
 
-# Step 3. Define risk
+# Step 4. Define risk
 
 Hedge naked strangle with the credit received from selling a Double DCS.
 
@@ -33,10 +50,10 @@ Hedge naked strangle with the credit received from selling a Double DCS.
 	- The profit in the middle of the payoff chart should be at least 1.5% of the margin.
 	- By buying PE & CE options will increase breakeven range.
 
-# Step 4. Deploy strategy
+# Step 5. Deploy strategy
 
 - Deploy strategy on Wednesday @ 10:30 AM or by Thursday @ 01:20 PM.
-- Exit strategy next week on Wednesday @ 1:20 PM or by Thursday @ 9:20 AM.
+- Exit strategy next week on Wednesday @ 3:00 PM or by Thursday @ 9:20 AM.
 
 ## Position Size
 
@@ -46,10 +63,17 @@ Hedge naked strangle with the credit received from selling a Double DCS.
 4. If this `loss` is ≤ `2% of total trading capital` only then deploy the strategy.
 5. If `loss` > `2% of the total trading capital` then skip and wait for the next opportunity.
 
-# Step 5. Monitor position
+## Stop Loss
+
+1. Find stop loss on the futures chart using previous swing-low/high, S/R levels, or ATR indicator.
+2. Find the distance between current price and the stop loss. Lets say this distance is `r` (r := Spot - SL)
+3. Multiply `r` with the option's `delta` (typically 20Δ or 0.20 in decimals). Lets say this value is `s` (s := r * 0.20)
+4. Keep the S.L. on the option's price `s` distance away.
+
+# Step 6. Monitor position
 [[Strategy Builder Playbook#Step 4 Monitor position]]
 
-# Step 6. Adjust position
+# Step 7. Adjust position
 [...](https://youtu.be/93IgLvYIONo?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=317)
 
 - Adjust trade @ 01:20 PM by either balancing premium or delta.
