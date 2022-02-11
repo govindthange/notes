@@ -36,10 +36,10 @@ Hedge naked straddle using Iron Fly.
 
 - Deploy Monthly Iron Fly like so:
 	- Have 45 DTE strategy.
-	- Enter trade on the 3rd week, Thursday @ 10:20 AM of current month.
+	- Enter trade on the 3rd week, Wednesday @ 10:20 AM of current month.
 	- Exit trade on last thursday of next month.
 - Deploy Weekly Iron Fly like so:
-	- Enter trade on Wednesday @ 10:30 AM or 01:20 PM.
+	- Enter trade on Wednesday @ 10:20 AM or 01:20 PM.
 	- Exit trade next week on Wednesday @ 3:00 PM or by Thursday @ 9:20 AM.
 
 # Step 6. Monitor position
@@ -200,9 +200,13 @@ Iron Fly can be managed till the day of expiry.
 [...](https://www.youtube.com/watch?v=DKJ5LnYgzQA)
 
 1. Create an Iron Fly using 50Δ CE/PE w/ 20Δ hedges
-2. When positional delta breaches 25Δ create a spread on untested side.
-3. Track delta of sell side only. Do nothing on buy side positoins.
-4. Exit the sell side once it crosses below 10Δ. Add new sell side position with 20Δ.
+2. When positional delta breaches 25Δ create a spread on the untested side.
+	1. Sell a 20Δ option.
+	2. Buy a 10Δ option.
+3. Track sell side delta of this spread. Do nothing on the buy side of spread.
+4. Exit the sell side once it goes below 10Δ.
+5. Sell a new 20Δ option.
+6. Go to step 3.
 
 # Step 8. Exit
 
