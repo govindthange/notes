@@ -47,7 +47,7 @@ Hedge naked straddle using Iron Fly.
 
 Monitory daily @ 10:30 AM.
 
-# Step 7. Adjust position
+# Step 7 (A). Adjust position w/ breakevens
 [...](https://youtu.be/9IodHBgG8Z8?t=1291)
 
 The only reason you do adjustments in Iron Fly is because when the back turn happens you can benefit from it.
@@ -194,6 +194,15 @@ Iron Fly can be managed till the day of expiry.
 
 - `Either` exit with the lowest drawdown, cost to cost, or at the current MTM profit.
 - `Or` create new Iron Fly in the direction of the market.
+
+
+# Step 7 (B). Adjust position w/ delta
+[...](https://www.youtube.com/watch?v=DKJ5LnYgzQA)
+
+1. Create an Iron Fly using 50Δ CE/PE w/ 20Δ hedges
+2. When positional delta breaches 25Δ create a spread on untested side.
+3. Track delta of sell side only. Do nothing on buy side positoins.
+4. Exit the sell side once it crosses below 10Δ. Add new sell side position with 20Δ.
 
 # Step 8. Exit
 
