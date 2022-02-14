@@ -61,6 +61,8 @@ Hedge naked straddle using Iron Fly.
 
 Monitory daily @ 10:30 AM.
 
+Act when market breaks through an overhead resistance or underlying support.
+
 # Step 7 (A). Adjust position w/ breakevens
 [...](https://youtu.be/9IodHBgG8Z8?t=1291)
 

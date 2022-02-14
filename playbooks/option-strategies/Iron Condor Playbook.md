@@ -55,6 +55,8 @@ Call Side Breakeven => `Long Call Strike` + `Max Profit`
 
 # Step 7. Adjust position
 
+Act when market breaks through an overhead resistance or underlying support.
+
 ## Approach 1. Switch to Iron Fly or roll inwards | Weekly Strategy w/ 2 DTE
 [...](https://youtu.be/4QzubqTgtcc?t=441)
 

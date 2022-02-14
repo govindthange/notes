@@ -52,3 +52,7 @@ Pairs trade is buying something and selling something else that is highly correl
 Implied Volatility Rank
 
 #### Put Call Parity
+
+#### RoC
+Return on Capital
+Return on the total deployed margin.
