@@ -32,17 +32,17 @@ No adjustment is needed till market moves beyond 1.75% (or 300 points move in ni
 
 Reduce loss on the call side in 2 stages.
 
-### Stage 1. Adjust upon breach of 50% range (300 Points)
+### Stage 1. Breach of 50% range on one side
 
-#### Sell a near expiry OTM put
+##### Action: Sell a near expiry OTM put
 [...](https://youtu.be/dhEPY7DUBwI?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=469)
 
 - Sell a near expiry OTM put once price rises by 1.75% (300 points in nifty) but has not breached the strike of shorted call option.
 - Selling an extra put will flatten the t+0 blue line in opstra.
 
-### 2. Adjust upon breach of shorted CE strike
+### Stage 2. Breach of short call strike
 
-#### Buy a next expiry OTM call
+##### Action: Buy a next expiry OTM call
 [...](https://youtu.be/dhEPY7DUBwI?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=572)
 
 - Buy a next expiry call option at the breakeven strike once the strike of shorted call option is breached.

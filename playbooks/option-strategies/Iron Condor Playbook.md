@@ -76,7 +76,7 @@ When price is about to breach the short call strike then that means...
 - Price has just formed a new underlying support and now moving up.
 - The price is going up because their is a buying force coming from the underlying support.
 
-##### Convert to Iron Fly
+##### Action: Convert to Iron Fly
 [...](https://youtu.be/4QzubqTgtcc?t=550)
 
 > Iron Fly (Straddle) loss is less than the Iron Condor (Strangle loss).
@@ -114,7 +114,7 @@ When market goes down...
 
 Since VIX is rising, IV will go up, with rising IV premiums will go up too. You can collect better premiums by shifting call side.
 
-##### Roll down call side
+##### Action: Roll down call side
 
 1. Wait till spot is about to breach the short put strike.
 2. Slide down the short call by few points.
@@ -141,7 +141,7 @@ Reduce loss on the call side in 2 stages.
 #### Stage 1. Spot price breaches the resistance on chart
 [...](https://youtu.be/kdGIe6J194A?t=519)
 
-##### Roll down the hedged long call
+##### Action: Roll down the hedged long call
 
 - To decrease loss make this strategy more debit.
 - Slide down the `call side hedge 0.55% to 0.75% inside breakeven`.
@@ -164,7 +164,7 @@ Reduce loss on the call side in 2 stages.
 
 Next wait for the breach of breakeven point and after 1-2 days when market settles down then short an extra put.
 
-##### Sell an extra put
+##### Action: Sell an extra put and roll
 
 - Offset losses from short call by collecting more credit.
 	- Your max loss is defined and fixed in Iron Condor.
@@ -188,7 +188,7 @@ Note that on the down side there is a higher probability that stock consolidates
 
 Next wait for the breach of breakeven point and after 1-2 day when market settles down then short an extra call.
 
-##### Sell an extra call
+##### Action: Sell an extra call and roll
 
 - Offset losses by collecting more credit.
 	- Your max loss is defined and fixed in Iron Condor.
@@ -202,7 +202,7 @@ Next wait for the breach of breakeven point and after 1-2 day when market settle
 #### Stage 2. Spot price breaches the breakeven
 [...](https://youtu.be/kdGIe6J194A?t=846)
 
-##### Roll up the hedged long put
+##### Action: Roll up the hedged long put
 
 Roll up the long put side like so:
 1. Exit the existing long put position.
@@ -215,7 +215,7 @@ Roll up the long put side like so:
 
 #### Stage 1. Adjust upon breach of range (support)
 
-##### Roll up the hedged long put
+##### Action: Roll up the hedged long put
 
 Make the strategy more debit by shifting hedges up on the side being tested.
 
@@ -234,7 +234,7 @@ Now the t+0 blue line will become flat and reduce your Max Loss by almost 50%.
 
 Next wait for the breach of breakeven point and after 1-2 day when market settles down then short the call.
 
-![[#Sell an extra call]]
+![[#Action Sell an extra call and roll]]
 
 ## Approach 3. Adjust position w/ delta | Weekly Expiry
 

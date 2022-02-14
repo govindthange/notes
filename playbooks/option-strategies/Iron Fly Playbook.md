@@ -69,7 +69,9 @@ The only reason you do adjustments in Iron Fly is because when the back turn hap
 		- I.E. bring the hedge 0.55% to 0.75% inside on that side of the breakeven.
 	- For the other side, which is far away from the spot, follow all the steps from Stage 1 to Stage 4.
 
-## Stage 1. Start w/ outside hedges
+## Stage 1. Risk defined straddle
+
+##### Action: Start w/ outside hedges
 [...](https://youtu.be/9IodHBgG8Z8?t=911)
 
 Start with a defined risk straddle.
@@ -82,7 +84,9 @@ Start with a defined risk straddle.
 		- This breakeven range would be far less if you hedged right at the breakevens.
 	- This will also increase your Prob. of Profit.
 
-## Stage 2. Wait for 11% of DTE
+## Stage 2. Waiting
+
+##### Action: Wait till 11% of DTE
 
 - Wait for 11% of DTE
 	- In `weekly` trades, after deploying a naked straddle at 10:20 AM, `wait till 03:20 PM` before proceeding to next stage.
@@ -91,7 +95,9 @@ Start with a defined risk straddle.
 
 Waiting may lead to some MTM profit. Also the cost of buying hedges may go down. You can then convert this straddle into an `Iron Fly` or a `Loss Less Iron Fly`. [...](https://youtu.be/REA-YxpS14c?&t=281)
 
-## 3. Convert to Iron Fly
+## Stage 3.  Iron Fly launch
+
+##### Action: Convert to Iron Fly
 [...](https://youtu.be/9IodHBgG8Z8?t=1056)
 
 1. Move hedges inwards to breakeven.
@@ -119,7 +125,7 @@ You can only make an Iron Fly loss less after you see some MTM profit.
 
 > Do not make Iron Fly completely loss less. Leave enough on table so that you are not fearful and at the same time have enough room to be in the trade (do adjustments) till expiry. [...](https://youtu.be/REA-YxpS14c?t=1085)
 
-## Stage 4. Shift hedges upon directional move
+## Stage 4. Directional move
 [...](https://youtu.be/9IodHBgG8Z8?t=1200)
 
 As a guideline 1.5% move in any one direction in Nifty is bothersome and requires adjustments.
@@ -130,7 +136,7 @@ As a guideline 1.5% move in any one direction in Nifty is bothersome and require
 
 #### Stage 4.1 Price moves impulsively
 
-##### Roll down the hedged long call
+##### Action: Roll down the hedged long call
 
 1. Wait for 1.5% impulsive move towards upside. This is 180-200 points move in Nifty.
 2. Slide down the `call side hedge 0.55% to 0.75% inside breakeven`.
@@ -154,7 +160,7 @@ You can only do few shifts on the put side. So save this for later.
 
 Skip this step if Iron Fly is too small or breached the breakeven too fast.
 
-##### Roll down hedges on both sides
+##### Action: Roll down hedges on both sides
 
 1. Wait for price to come close to the call side breakeven.
 2. `Roll down the hedged long call` i.e. slide down the `call side hedge 0.55% to 0.75% inside breakeven` like so:
@@ -180,21 +186,12 @@ Skip this step if Iron Fly is too small or breached the breakeven too fast.
 
 ### Case 2. When price approaches put side breakeven
 
-## Stage 5. Price breaches breakeven
+## Stage 5. Breakeven breach
 [...](https://youtu.be/9IodHBgG8Z8?t=1362)
 
 Once price breaches the breakeven point the entire goal of doing adjustment is to gradually reduce losses caused by the directional move of the market. We can comfortably manage the trade till expiry and close it with a minimum possible loss.
 
-Iron Fly can be managed till the day of expiry.
-- [V Shape Recovery | 18 March 2021 to 29 April 2021](https://youtu.be/IaEjcuBNPgg?t=163)
-	- We safely managed a directional move of 4000 points (12% drop) to the down side w/ max. loss of ₹9,000.
-	- We then sustained the complete recovery of 12.9% withoug exceeding loss of ₹9,000.
-	- We managed trade to convert a ₹19,000 loss into profit.
-	- We closed trade in profit of ₹14,000 by giving margin of ₹2,00,000.
-- [Strong Trend | 12 April 2021 to 29 April 2021](https://youtu.be/IaEjcuBNPgg?t=1365)
-	- We created Iron Fly with very low premium.
-	- Market trends 7.35% (2500 points) after breaching the range of 2,250 points.
-	- We managed trade to reduce drawdown from ₹14,377 to ₹4,136.
+##### Action: Sell an extra option and roll
 
 1. Sell an extra option w/ 1 lot from breakeven on the non tested side. [...](https://youtu.be/9IodHBgG8Z8?t=1792)
 	1. Pick a `strike at or close to the breakeven` on the non tested side.
@@ -226,10 +223,10 @@ Iron Fly can be managed till the day of expiry.
 			- If you move inside by 300 points then you lose profit by ₹15,000 (300 x 50).
 			- If market reverses your final profit will be reduced by ₹15,000.
 
-## Stage 6. Iron Fly fails
+## Stage 6. Iron Fly failure
 
-- `Either` exit with the lowest drawdown, cost to cost, or at the current MTM profit.
-- `Or` create new Iron Fly in the direction of the market.
+1. Exit with the lowest drawdown, cost to cost, or at the current MTM profit.
+2. Create new Iron Fly in the direction of the market.
 
 # Step 7 (B). Adjust position w/ delta
 [...](https://www.youtube.com/watch?v=DKJ5LnYgzQA)
@@ -260,3 +257,16 @@ Iron Fly can be managed till the day of expiry.
 	6. Since the price is crossing the midle of the Iron Fly again and as several days may have passed w/ lot of adjustment you finally see some MTM profit to safely exit.
 - Exit when the volatility rises substantially and it makes more sense to initiate a new Iron Fly with better premiums and increased breakeven range compared to the current one.
 - If Iron Fly fails then exit with the lowest drawdown, cost to cost, or at the current MTM profit.
+
+---
+
+Iron Fly can be managed till the day of expiry.
+- [V Shape Recovery | 18 March 2021 to 29 April 2021](https://youtu.be/IaEjcuBNPgg?t=163)
+	- We safely managed a directional move of 4000 points (12% drop) to the down side w/ max. loss of ₹9,000.
+	- We then sustained the complete recovery of 12.9% withoug exceeding loss of ₹9,000.
+	- We managed trade to convert a ₹19,000 loss into profit.
+	- We closed trade in profit of ₹14,000 by giving margin of ₹2,00,000.
+- [Strong Trend | 12 April 2021 to 29 April 2021](https://youtu.be/IaEjcuBNPgg?t=1365)
+	- We created Iron Fly with very low premium.
+	- Market trends 7.35% (2500 points) after breaching the range of 2,250 points.
+	- We managed trade to reduce drawdown from ₹14,377 to ₹4,136.
