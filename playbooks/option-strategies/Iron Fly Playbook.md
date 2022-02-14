@@ -27,8 +27,10 @@ Make straddle like so:
 		- The gap between the `selected strike` and the `call side breakeven` should be `≥ 50%` for bullish trend.
 		- The gap between the `selected strike` and the `put side breakeven` should be `≥ 50%` for bearish trend.
 	4. The selected strike should not be too far away from ATM.
-- You need not sell call & put at the exact same strike.
+3. You need not sell call & put at the exact same strike.
 	- Its fine to go slightly diagonal i.e. selling at slightly different strikes.
+
+> In monthly trades, for first 10 days use future spot price for picking strikes. Later towards the end of month you can use normal spot price for picking strikes. [...](https://youtu.be/A-zpeOlgtOY?t=1697)
 
 # Step 4. Define risk
 [...](https://youtu.be/9IodHBgG8Z8?t=811)
@@ -138,7 +140,7 @@ As a guideline 1.5% move in any one direction in Nifty is bothersome and require
 
 ##### Action: Roll down the hedged long call
 
-1. Wait for 1.5% impulsive move towards upside. This is 180-200 points move in Nifty.
+1. Wait for 1.5% to 1.7% impulsive move towards upside. This is 180-200 points move in Nifty.
 2. Slide down the `call side hedge 0.55% to 0.75% inside breakeven`.
 	1. Exit the call side long position and book the profit.
 		- You may not be able to book profit if many days have passed and the call side incurred some theta decay. [...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=821)

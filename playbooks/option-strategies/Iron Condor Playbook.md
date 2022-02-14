@@ -34,6 +34,8 @@ Hedge naked strangle using Iron Condor.
 	- By buying PE & CE options at the breakeven will reduce the breakeven range.
 3. Adjust so that `Vertical Call Spread Width` and `Vertical Put Spread Width` are same.
 
+> In monthly trades, for first 10 days use future spot price for picking strikes. Later towards the end of month you can use normal spot price for picking strikes. [...](https://youtu.be/A-zpeOlgtOY?t=1697)
+
 # Step 5. Deploy strategy
 
 - For weekly Iron Condor, if VIX is high, deploy this strategy on Tuesday @ 3 PM and exit within next 2 days.
