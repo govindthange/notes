@@ -5,8 +5,8 @@
 
 # Step 1. Wait for the setup
 
-- VIX should be low.
-	- Below 18.
+1. Low VIX evironment.
+	- VIX below 18.
 	- Iron Condors are successful in low VIX because market moves less.
 
 > Iron Condors are never bad as long as your timing is correct. Don't use Iron Condors in monthly when VIX is high. It is generally safe to use in weekly expiry. [...](https://youtu.be/4QzubqTgtcc?t=398)
@@ -53,9 +53,9 @@ Call Side Breakeven => `Long Call Strike` + `Initial Credit`
 # Step 6. Monitor position
 [[Strategy Builder Playbook#Step 4 Monitor position]]
 
-# Step 7. Adjust position
-
 Act when market breaks through an overhead resistance or underlying support.
+
+# Step 7. Adjust
 
 ## Approach 1. Switch to Iron Fly or roll inwards | Weekly Strategy w/ 2 DTE
 [...](https://youtu.be/4QzubqTgtcc?t=441)

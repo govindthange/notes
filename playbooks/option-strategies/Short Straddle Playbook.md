@@ -10,7 +10,7 @@ Straddles are best when you are able to collect good premiums and you can manage
 # Step 1. Wait for the setup
 [...](https://www.youtube.com/watch?v=H8z3Es-Rgso)
 
-1. High evironment.
+1. High VIX evironment.
 2. IV rank above 50%.
 3. High premiums.
 	- Deploy straddles only when you can collect higher premiums.
@@ -46,14 +46,14 @@ Straddles are best when you are able to collect good premiums and you can manage
 The very meaning of straddle is that you have deployed a strategy to create balance. [...](https://youtu.be/c9bcctkLV7A?t=1481)
 - This means whenever market extends towards one side, the other side's profit must offset the losses from tested side.
 - When you reach a point where you `straddle shows losses` then it means you have reached a point of imbalance.
-	- Delta of one side has become faster than the other side delta.
-	- So the rate at which one side premium decreases is greater than the rate at which the other side premium increases.
+	- Delta of one side has become faster than the other side's delta.
+	- So the rate at which one side's premium decreases is greater than the rate at which the other side's premium increases.
 	- You must cut this straddle.
 - When you reach a profit where your `straddle shows profit` and then it `undergoes imbalance` then you may not be able to catch it from the surface.
 	- You will not directly see a loss.
 	- First your profit will erode and then losses will appear.
 	- To prevent this track premiums of both side and compare to see whether overall it is resulting in a loss.
-	- When premium of one side substantially decreases in relation to the other side then it can no more offset otherside losses. [...](https://youtu.be/c9bcctkLV7A?t=806)
+	- When premium of one side substantially decreases in relation to the other side then it can no more offset other side's loss. [...](https://youtu.be/c9bcctkLV7A?t=806)
 		- Whenever the 2 premiums reaches 1:3+ ratio then exit the straddle. [...](https://youtu.be/c9bcctkLV7A?t=1016)
 			- Wait for the tested side short premium to go over 3 times higher than the non tested side short premium and then exit.
 			- When you reach 1:3+ that means you are coming near to the straddle edge.

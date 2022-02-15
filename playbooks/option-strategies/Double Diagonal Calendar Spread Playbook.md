@@ -17,12 +17,12 @@ Iron Condor + Diagonal Calendar
 
 Wait for a defined event.
 
-- Take advantage of upcoming high volatility.
+1. Take advantage of upcoming high volatility.
 	- You need current volatility to be low/medium and expect it to go up from here.
 	- Calendar based strategies can only benefit during the times of increasing IV.
 	- If there is no increase in IV then the long calendar options (the hedges) of next/far expiry will rapidly fall after 2 days.
 	- Note that the middle of the payoff chart is always close to 0 line i.e. close to no profit if price doesn't move.
-- Deploy calendars based on what might happen in the near future that may cause volatility to go up.
+2. Deploy calendars based on what might happen in the near future that may cause volatility to go up.
 	- Calendar based strategies works best for the upcoming known events.
 	- Await news, budget, ellection, announcement, or some result/earning event etc.
 	- Your technical analysis or bullish/bearish view has little role to play in calendar strategies.

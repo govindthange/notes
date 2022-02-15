@@ -5,8 +5,8 @@
 
 # Step 1. Wait for the setup
 
-- VIX is above 18.
-- Theta Gainer prefers Bank Nifty for Iron Fly.
+1. VIX is above 18.
+2. Theta Gainer prefers Bank Nifty for Iron Fly.
 
 # Step 2. Find range
 [[Strategy Builder Playbook#Step 1 Find range]]
@@ -59,7 +59,7 @@ Hedge naked straddle using Iron Fly.
 # Step 6. Monitor position
 [[Strategy Builder Playbook#Step 4 Monitor position]]
 
-Monitory daily @ 10:30 AM.
+Monitor daily @ 10:30 AM.
 
 Act when market breaks through an overhead resistance or underlying support.
 
