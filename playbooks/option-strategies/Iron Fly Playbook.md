@@ -1,7 +1,7 @@
 [Weekly Iron Fly](https://www.youtube.com/watch?v=REA-YxpS14c) | [Monthly Iron Fly](https://www.youtube.com/watch?v=9IodHBgG8Z8) | [...](https://youtu.be/dhEPY7DUBwI?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=592)
 
-
-Iron Fly (Straddle) loss is less than the Iron Condor (Strangle) loss.
+- Iron Fly (Straddle) loss is less than the Iron Condor (Strangle) loss.
+- Iron Fly's Risk/Reward is over 1:2.5.
 
 # Step 1. Wait for the setup
 

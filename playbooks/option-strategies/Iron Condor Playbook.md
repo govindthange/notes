@@ -42,13 +42,13 @@ Hedge naked strangle using Iron Condor.
 
 ## Calculations
 
-Max Profit => (`Difference between call side premiums` + `Difference between put side premiums`)
+Max Profit `or` Initial Credit => (`Difference between call side premiums` + `Difference between put side premiums`)
 
 Max Loss => `Vertical Spread Width` - Credit Received
 
-Put Side Breakeven => `Long Put Strike` - `Max Profit`
+Put Side Breakeven => `Long Put Strike` - `Initial Credit`
 
-Call Side Breakeven => `Long Call Strike` + `Max Profit`
+Call Side Breakeven => `Long Call Strike` + `Initial Credit`
 
 # Step 6. Monitor position
 [[Strategy Builder Playbook#Step 4 Monitor position]]

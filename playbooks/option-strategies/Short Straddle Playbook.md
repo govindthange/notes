@@ -41,7 +41,7 @@ Straddles are best when you are able to collect good premiums and you can manage
 
 > In monthly trades, for first 10 days use future spot price for picking strikes. Later towards the end of month you can use normal spot price for picking strikes. [...](https://youtu.be/A-zpeOlgtOY?t=1697)
 
-# Step 4. Adjust position
+# Step 4. Adjust
 
 The very meaning of straddle is that you have deployed a strategy to create balance. [...](https://youtu.be/c9bcctkLV7A?t=1481)
 - This means whenever market extends towards one side, the other side's profit must offset the losses from tested side.

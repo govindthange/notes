@@ -93,11 +93,11 @@ Choose a trading strategy based on:
 
 ## Trade Time
 
-- On average, volume is greater on the open an dclose. Its that these times we see less slippage and quicker fills. However, recognizing when an underlying is experiencing moments of illiquidity is critical to the timing of the in order entry process. Overall, these days time of the day does not matter.
+- On average, volume is greater on the open and close. Its at these times we see less slippage and quicker fills. However, recognizing when an underlying is experiencing moments of illiquidity is critical to the timing of the in order entry process. Overall, these days time of the day does not matter.
 
 ## DTE
 
-- Have enough time in trade that allows you to be right. Roughly 45 DTE allows you to collect decent premium while affording th eflexibilty to let the timework in your favor.
+- Have enough time in trade that allows you to be right. Roughly 45 DTE allows you to collect decent premium while affording the flexibilty to let the timework in your favor.
 - It does not mean that 20 DTE or 55 DTE doesn't work, its just that 45 DTE gives the highest RoC (Return on Capital).
 - There is a 150% RoC difference in the 45 DTE slot than it does in 3 weeks slot w/ 20-25 DTE or > 55 DTE.
 

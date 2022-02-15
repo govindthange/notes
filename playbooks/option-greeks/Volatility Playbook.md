@@ -53,6 +53,7 @@ When VIX is falling (rising market)
 
 >  When VIX is high then... [...](https://youtu.be/kRvnEMWxKoE?list=PLOggP3CmSaMDKsajRrNOECS4U94v4xvxc&t=4463)
 >  - Deploy any strategy that can give bigger range.
->  - For weekly, the low VIX strategies like straddle, strangles, iron condors etc. can only be deployed on Tuesday @ 3 PM or Wednesday where DTE ≤ 2. Do not apply these on monthly on high VIX days.
->  - For monthly, (positional) exit when gains are 40-50 % of max profit.
+>  - For weekly, when VIX is high and you expect it to go low, the strategies like straddles, strangles, iron condors etc should only be deployed on Tuesdays @ 3 PM or Wednesdays where DTE ≤ 2.
+>  - Do not apply such low-vix-expecting strategies for monthly expiry on high VIX days.
+>  - For monthly, (positional) exit when gains are 40% to 50% of max profit.
 
