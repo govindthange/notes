@@ -1,5 +1,3 @@
-[...](https://www.youtube.com/watch?v=H8z3Es-Rgso) | [...](https://www.youtube.com/watch?v=A-zpeOlgtOY)
-
 Straddle works better than Strangles.
 - `If` you create a strangle that has
 	1. Same premium as that of corresponding straddle.
@@ -12,12 +10,14 @@ Straddles are best when you are able to collect good premiums and you can manage
 # Step 1. Wait for the setup
 [...](https://www.youtube.com/watch?v=H8z3Es-Rgso)
 
-Wait for high premiums.
-- Deploy straddles only when you can collect higher premiums.
-	- ₹600 is considered good for monthly straddles in Bank Nifty
-	- ₹300-₹400 is considered good for monthly straddles in Nifty
-- With higher premium you can cover bigger range and comfortably ride the market.
-- With sufficient premiums you can adjust with confidence.
+1. High evironment.
+2. IV rank above 50%.
+3. High premiums.
+	- Deploy straddles only when you can collect higher premiums.
+		- ₹600 is considered good for monthly straddles in Bank Nifty
+		- ₹300-₹400 is considered good for monthly straddles in Nifty
+	- With higher premium you can cover bigger range and comfortably ride the market.
+	- With sufficient premiums you can adjust with confidence.
 
 # Step 2. Define risk
 
@@ -26,17 +26,41 @@ Wait for high premiums.
 
 # Step 3. Deploy
 
-- Deploy Monthly Straddle like so:
+- For `intraday` in Bank Nifty, deploy on Wednesday and Thursday only.
+	- Enter @ 10:00 AM.
+	- Exit @ 12:00 PM to 1:00 PM.
+	- Between 10 AM to 1:00 PM there is not much movement in market.
+- Its not safe to do intraday ATM straddle on Friday and Monday.
+- For `monthly`, deploy straddle like so:
 	- Have 45 DTE strategy.
 	- Enter trade on the 3rd week, Wednesday @ 10:20 AM of current month.
 	- Exit trade on last thursday of next month.
-- Deploy Weekly Straddle like so:
+- For `weekly`, depoy straddle like so:
 	- Enter trade on Wednesday @ 10:20 AM or 01:20 PM.
 	- Exit trade next week on Wednesday @ 3:00 PM or by Thursday @ 10:20 AM.
 
 > In monthly trades, for first 10 days use future spot price for picking strikes. Later towards the end of month you can use normal spot price for picking strikes. [...](https://youtu.be/A-zpeOlgtOY?t=1697)
 
 # Step 4. Adjust position
+
+The very meaning of straddle is that you have deployed a strategy to create balance. [...](https://youtu.be/c9bcctkLV7A?t=1481)
+- This means whenever market extends towards one side, the other side's profit must offset the losses from tested side.
+- When you reach a point where you `straddle shows losses` then it means you have reached a point of imbalance.
+	- Delta of one side has become faster than the other side delta.
+	- So the rate at which one side premium decreases is greater than the rate at which the other side premium increases.
+	- You must cut this straddle.
+- When you reach a profit where your `straddle shows profit` and then it `undergoes imbalance` then you may not be able to catch it from the surface.
+	- You will not directly see a loss.
+	- First your profit will erode and then losses will appear.
+	- To prevent this track premiums of both side and compare to see whether overall it is resulting in a loss.
+	- When premium of one side substantially decreases in relation to the other side then it can no more offset otherside losses. [...](https://youtu.be/c9bcctkLV7A?t=806)
+		- Whenever the 2 premiums reaches 1:3+ ratio then exit the straddle. [...](https://youtu.be/c9bcctkLV7A?t=1016)
+			- Wait for the tested side short premium to go over 3 times higher than the non tested side short premium and then exit.
+			- When you reach 1:3+ that means you are coming near to the straddle edge.
+			- This is a best technique to exit before incurring further losses.
+		- Do not let your current profit erode further.
+		- There is no need to further wait and realize loss.
+		- You have reached a point where you create a fresh straddle where both sides are well balanced.
 
 ## Approach 1.  Adjust using TA
 [...](https://youtu.be/H8z3Es-Rgso?t=392)
@@ -68,17 +92,23 @@ The entire logic behind straddle is collection of high premium. As long as you a
 	- This is 50% of breakeven on one side.
 	- If you have 440 points on each side, then wait for a 110 point move.
 	- Being an intraday trade, monitor it very closely.
-2. Exit from current straddle.
+2. Exit from current straddle...
+	- There is 25% directional move of the total breakeven range.
+	- Spot price has breached breakeven range i.e. it has gone beyond total points received in credit. [...](https://youtu.be/c9bcctkLV7A?t=145)
 3. Create a new straddle at the current point.
 4. Go to step 1.
 
 ### 1.2. Weekly Position
 
+For overnight safety also follow [[#Approach 3 Iron Fly for overnight safety]]
+
 1. Wait for 1.5% to 1.7% move in one direction.
 	- In points this is roughly 25% of the total received credit.
 	- 140 points in Nifty.
 	- 350-400 Points in Bank Nifty.
-2. Exit from current straddle.
+2. Exit from current straddle when...
+	- There is 1.5% to 1.7% move from the middle in one direction.
+	- Spot price has breached breakeven range i.e. it has gone beyond total points received in credit. [...](https://youtu.be/c9bcctkLV7A?t=145)
 3. Create a new straddle at the current point.
 	- Analyze chart to pick an appropriate strike and breakeven.
 		- Analyze premiums in daily.
@@ -90,6 +120,8 @@ The entire logic behind straddle is collection of high premium. As long as you a
 4. Go to step 1.
 
 ### 1.3. Monthly Position
+
+For overnight safety also follow [[#Approach 3 Iron Fly for overnight safety]]
 
 1. Wait for 0.75% to 1.25% move in one direction.
 	- In points this is roughly 15% of the total received credit.
@@ -118,11 +150,13 @@ The entire logic behind straddle is collection of high premium. As long as you a
 	- 140 points in Nifty.
 	- 350-400 Points in Bank Nifty.
 6. Exit from the current straddle when...
-	- There is 1.5% to 1.7% move from the middle in one direction.
-	- Upon ₹2,000 loss from the current MTM profit exit from the current straddle.
-		- In first iteration where you started with ₹0 MTM exit upon ₹2,000 loss.
-		- Say in subsequent iteration you are on  ₹6,200 MTM then exit as soon you go below ₹4,200 MTM profit.
-7. Create a new well balanced straddle at the current point.
+	- Premium of one side has substantially decreased and it can no more offset losses from the opposite side short. [...](https://youtu.be/c9bcctkLV7A?t=806)
+	- The current MTM is at ₹1,500 to ₹2,000 loss (in Bank Nifty).
+		- In first iteration, where you started from ₹0 MTM, exit upon ₹2,000 loss.
+		- In subsequent iteration, say you are at  ₹6,200 MTM when you set up a new straddle, then exit as soon you go below ₹4,200 MTM profit.
+	- The market has moved by 1.5% to 1.7% from the middle in one direction.
+	- Spot price has breached breakeven range i.e. it has gone beyond total points received in credit. [...](https://youtu.be/c9bcctkLV7A?t=145)
+7. Create a new well balanced straddle from the current point.
 	- Analyze chart to pick proper strike and breakeven.
 		- Analyze premiums in daily.
 		- Find the percent move for daily beyond which the loss will start.
@@ -140,8 +174,12 @@ The entire logic behind straddle is collection of high premium. As long as you a
 10. Go to step 3.
 	- Try to bear some loss. Shifting too quickly drains away the max profit potential in situtation when market reverts.
 
-[Monthly Backtest](https://youtu.be/A-zpeOlgtOY?t=1588)
+[Backtesting of a trending move](https://youtu.be/A-zpeOlgtOY?t=1588)
 - We safely managed a directional move of 4000 points.
+
+[Backtesting of zig-zag moves](https://youtu.be/c9bcctkLV7A?t=276)
+- This was an extreme scenario where managing straddles is very difficult.
+- Market showed radical 1000 points move on both directions.
 
 ## Approach 3. Iron Fly for overnight safety
 [...](https://youtu.be/A-zpeOlgtOY?t=1055)
@@ -211,3 +249,10 @@ When market range has not shifted but volatility has increased then deploy a new
 
 Ride with the rising VIX.
 
+---
+
+Reference:
+- [18 Jul 2020 | Straddle Basics w/ Management | ThetaGainers](https://www.youtube.com/watch?v=H8z3Es-Rgso)
+- [19 Nov 2021 | All adjustments | ThetaGainers](https://www.youtube.com/watch?v=A-zpeOlgtOY)
+- [27 Nov 2021 | Zig-Zag Move Adjustment | ThetaGainers](https://www.youtube.com/watch?v=c9bcctkLV7A)
+- [04 Oct 2013 | Iron Fly vs Short Straddle | TastyTrade](https://www.youtube.com/watch?v=YcQcpZ3EmCE)
