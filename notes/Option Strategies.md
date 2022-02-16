@@ -58,6 +58,22 @@
 2. Option Oracle
 3. Sensibull
 
+
+# P. R. Sundar Strategies
+
+## Budget Strategies
+[...](https://www.youtube.com/watch?v=pAZF9JAeUfo)
+
+- [Put Back Spread | Bearish](https://youtu.be/pAZF9JAeUfo?t=778)
+- Call Back Spread
+- Put Ratio Spread
+- Call Ratio Spread
+- [Put Butterfly](https://youtu.be/pAZF9JAeUfo?t=1038)
+	- Long ATM Put x 1 lot
+	- Short  OTM Put x 2 lots
+		- This covers the cost of Long ATM Put
+- Call Butterfly
+
 # The Tasty Trade Strategies
 [...](https://youtu.be/T6uA_XHunRc?t=86)
 
