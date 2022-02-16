@@ -57,3 +57,5 @@ When VIX is falling (rising market)
 >  - Do not apply such low-vix-expecting strategies for monthly expiry on high VIX days.
 >  - For monthly, (positional) exit when gains are 40% to 50% of max profit.
 
+> When VIX is low then... [...](https://www.youtube.com/watch?v=3dXJjwUPsUg)
+	> - When you sell strangle in low VIX environment, and volatility peaks then even if price stays between your defined range the premium will shoot up. You will face loss.
