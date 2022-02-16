@@ -42,13 +42,37 @@ Hedge naked strangle using Iron Condor.
 
 ## Calculations
 
-Max Profit `or` Initial Credit => (`Difference between call side premiums` + `Difference between put side premiums`)
+Net Premium Received
+=> (`Difference between call side premiums` + `Difference between put side premiums`)
+=> (`Short Put Premium Received` - `Long Put Premium Paid`) + (`Short Call Premium Received` - `Long Call Premium Paid`)
 
-Max Loss => `Vertical Spread Width` - Credit Received
+Put Side Breakeven => `Short Put Strike` - `Net Premium Received`
 
-Put Side Breakeven => `Long Put Strike` - `Initial Credit`
+Call Side Breakeven => `Short Call Strike` + `Net Premium Received`
 
-Call Side Breakeven => `Long Call Strike` + `Initial Credit`
+Max Profit => `Net Premium Received`
+Max Loss => `Net Premium Received` - `Difference between put strikes`
+Max Loss => `Net Premium Received` - `Difference between call strikes`
+
+`Difference between put strikes`
+	== `Difference between call strikes`
+		== `Max Profit` + `Max Loss`
+
+P/L between the call strikes
+=> `Net Premium Received` - `Short Call Value`
+=> `Net Premium Received` - (`Underlying Price` - `Short Call Strike`)
+
+P/L above the highest strike
+=> `Net Premium Received` - `Difference between call strikes`
+=> `Net Premium Received` - (`Long Call Strike` - `Short Call Strike`)
+
+P/L between the put strikes
+=> `Net Premium Received` - `Short Put Value`
+=> `Net Premium Received` - (`Short Put Strike` - `Underlying Price`)
+
+P/L below the lowest strike
+=> `Net Premium Received` - `Difference between put strikes`
+=> `Net Premium Received` - (`Short Put Strike` - `Long Put Strike`)
 
 # Step 6. Monitor position
 [[Strategy Builder Playbook#Step 4 Monitor position]]
