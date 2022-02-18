@@ -60,8 +60,8 @@ Hedge naked strangle with the credit received from selling a Double DCS.
 1. Look at the blue t+0 line in opstra.
 2. Move your cursor over the t+0 line at the lowermost breakeven point.
 3. Note down the loss.
-4. If this `loss` is ≤ `2% of total trading capital` only then deploy the strategy.
-5. If `loss` > `2% of the total trading capital` then skip and wait for the next opportunity.
+4. If the `projected maximum loss` is ≤ `2% of total trading capital` only then deploy the strategy.
+5. If the `projected maximum loss` > `2% of the total trading capital` then skip and wait for the next opportunity.
 
 ## Stop Loss
 
@@ -73,7 +73,7 @@ Hedge naked strangle with the credit received from selling a Double DCS.
 # Step 6. Monitor position
 [[Strategy Builder Playbook#Step 4 Monitor position]]
 
-# Step 7. Adjust position
+# Step 7. Adjust
 [...](https://youtu.be/93IgLvYIONo?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=317)
 
 - Adjust trade @ 01:20 PM by either balancing premium or delta.
@@ -92,7 +92,7 @@ Use this approach when market breaks a critical support/resistance and you are f
 	- This strategy works best in the falling market because market falls quickly.
 	- It increases your breakeven range.
 
-## Approach 2. Balance to neutralize premium
+## Approach 2. Rebalance premium
 [ThetaGainers](https://www.youtube.com/watch?v=93IgLvYIONo) | [InvestaBull](https://www.youtube.com/watch?v=NhEBTmLzrgw) | [ManekAgicha](https://www.youtube.com/watch?v=ExdQGVC2GBQ)
 
 Balance position by matching the call side option premium with the put side option premium.
@@ -167,11 +167,9 @@ A strangle on `Nifty` was created like so:
 	- Repeat on every 30 min candle close. <== InvestaBull Approach
 	- Repeat daily at 10:20 AM or 1:20 PM. <== ThetaGainers Approach
 
-## Approach 3. Balance to neutralize delta
+## Approach 3. Rebalance delta regularly
 
 When we neutralize delta we save ourselves from gamma and protect position from radical market moves.
-
-### Approach 3.1. Neutralize delta regularly
 
 Periodically (daily) balance the two DCS by matching their call side delta with their put side delta.
 
@@ -244,8 +242,10 @@ Create a short strangle like so:
 	- Repeat on every 30 min candle close. <== InvestaBull Approach
 	- Repeat daily at 10:20 AM or 1:20 PM. <== ThetaGainers Approach
 
-### Approach 3.2. Neutralize delta after 50% drop
+## Approach 4. Rebalance delta after 50% drop
 [...](https://www.youtube.com/watch?v=Fa_pn9W1bos)
+
+When we neutralize delta we save ourselves from gamma and protect position from radical market moves.
 
 Balance the two DCS by matching their call side delta with their put side delta but only when one of the delta drops by half.
 
@@ -292,8 +292,10 @@ Create a short strangle like so:
 		- A too steep line implies that even a slight move in that direction will result in a `quick` and `huge` loss.
 6. Repeat step 1 through 5 on the next 30 min candle close.
 
-### Approach 3.3. Neutralize delta after 50% drop w/o touching the hedges
+## Approach 5. Rebalance delta after 50% drop w/o touching the hedges
 [...](https://www.youtube.com/watch?v=HalqbeA-wK0)
+
+When we neutralize delta we save ourselves from gamma and protect position from radical market moves.
 
 Balance the two DCS by matching their call side delta with their put side delta when one of the delta drops by half but without touching the hedges.
 
