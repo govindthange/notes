@@ -63,7 +63,12 @@ Monitor daily @ 10:30 AM.
 
 Act when market breaks through an overhead resistance or underlying support.
 
-# Step 7 (A). Adjust position w/ breakevens
+# Step 7. Adjust
+
+## Approach 1. Follow straddle's adjustments
+[[Short Straddle Playbook#1 3 Monthly Position]]
+
+## Approach 2. Slide hedges, sell option and roll
 [...](https://youtu.be/9IodHBgG8Z8?t=1291)
 
 The only reason you do adjustments in Iron Fly is because when the back turn happens you can benefit from it.
@@ -73,7 +78,7 @@ The only reason you do adjustments in Iron Fly is because when the back turn hap
 		- I.E. bring the hedge 0.55% to 0.75% inside on that side of the breakeven.
 	- For the other side, which is far away from the spot, follow all the steps from Stage 1 to Stage 4.
 
-## Stage 1. Risk defined straddle
+### Stage 1. Risk defined straddle
 
 ##### Action: Start w/ outside hedges
 [...](https://youtu.be/9IodHBgG8Z8?t=911)
@@ -83,142 +88,177 @@ Start with a defined risk straddle.
 - Cut cost by not putting hedges around breakeven right from the start.
 - For `weekly`, directly deploy a straddle at 10:20 AM `with stop loss but without hedges`.
 - For `monthly`, define risk by putting hedges far outside of breakevens and trade it like a straddle.
-	- Put `hedges 12% outside of breakeven`. It is 200 points in Nifty.
+	- Put `hedges 2% outside of breakeven`.
+		- It is 200 points in Nifty.
 	- The breakeven range will decrease after deploying the hedges.
 		- This breakeven range would be far less if you hedged right at the breakevens.
-	- This will also increase your Prob. of Profit.
+	- This will also increase your Probability of Profit.
 
-## Stage 2. Waiting
+### Stage 2. 11% DTE wait
 
 ##### Action: Wait till 11% of DTE
 
-- Wait for 11% of DTE
+- `Either` wait for 11% of DTE to pass.
 	- In `weekly` trades, after deploying a naked straddle at 10:20 AM, `wait till 03:20 PM` before proceeding to next stage.
 	- In `monthly` trades, after deploying a defined risk straddle, `wait for 3-5 days` before proceeding to next stage.
-- Wait for 1.5% impulsive move in any one direction. <== GovindThange Approach
+- `Or` wait for 1.5% impulsive move in any one direction. <== GovindThange Approach
 
 Waiting may lead to some MTM profit. Also the cost of buying hedges may go down. You can then convert this straddle into an `Iron Fly` or a `Loss Less Iron Fly`. [...](https://youtu.be/REA-YxpS14c?&t=281)
 
-## Stage 3.  Iron Fly launch
+### Stage 3.  Iron Fly launch
 
 ##### Action: Convert to Iron Fly
 [...](https://youtu.be/9IodHBgG8Z8?t=1056)
 
 1. Move hedges inwards to breakeven.
-	- Close hedges deployed 12% out side of breakevens.
+	- Close hedges deployed 2% out side of breakevens.
 	- Deploy new `hedges at the 2 breakevens`.
 	- This will convert straddle to a proper Iron Fly.
 	- This will reduce the breakeven range.
 	- This will reduce max. loss by few points.
 2. Start following the market.
 
-### Make a Loss Less Iron Fly
-[...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=276) | [...](https://youtu.be/REA-YxpS14c?t=167)
-
-You can only make an Iron Fly loss less after you see some MTM profit.
-
-1. Do not attempt to make Iron Fly loss less right in the beginning.
-	- If you make an Iron Fly loss less right from the beginning then you will not get enough range to ride the trade.
-	- The cone in the payoff chart will become very narrow and thin.
-2. Wait to accumulate some MTM profit.
-3. Create an Iron Fly with hedges inside its breakeven points.
-	- Create `hedges 1% to 1.2% inside breakevens`.
-	- This is typically 400 points inside breakevens in Bank Nifty.
-4. Analyze payoff chart to confirm Loss Less Iron Fly.
-	- Note that you sacrificed your Max Profit potential in order to make it loss less.
-
-> Do not make Iron Fly completely loss less. Leave enough on table so that you are not fearful and at the same time have enough room to be in the trade (do adjustments) till expiry. [...](https://youtu.be/REA-YxpS14c?t=1085)
-
-## Stage 4. Directional move
+### Stage 4. Directional move
 [...](https://youtu.be/9IodHBgG8Z8?t=1200)
 
 As a guideline 1.5% move in any one direction in Nifty is bothersome and requires adjustments.
 
-> Shifting hedges decreases the breakeven range so do this step only if the breakeven range is over 7.5% (i.e. 100 x range/spot). We need a good breakeven range to do adjustments.
+Shifting hedges decreases the breakeven range so do this step only when the breakeven range is over 7.5% (i.e. 100 x range/spot). We need a good breakeven range to do adjustments later.
 
-### Case 1. When price approaches call side breakeven
+> Step 1 through 4 are alternative to shifting Straddle. If you don't follow these 1-4 steps or shift straddle then the step 6 alone, i.e. selling an extra option and rolling it, won't recover much losses.
 
 #### Stage 4.1 Price moves impulsively
 
 ##### Action: Roll down the hedged long call
 
-1. Wait for 1.5% to 1.7% impulsive move towards upside. This is 180-200 points move in Nifty.
-2. Slide down the `call side hedge 0.55% to 0.75% inside breakeven`.
-	1. Exit the call side long position and book the profit.
-		- You may not be able to book profit if many days have passed and the call side incurred some theta decay. [...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=821)
-	2. Buy a new call with strike 0.55% to 0.75% inwards from the breakeven.
-		- It is best to do this just once. This was your first turn.
+1. Wait for 1.5% to 1.7% impulsive move in one direction.
+	- This is 180-200 points move in Nifty.
+2. `Roll the trending side hedge` 0.55% to 0.75% inwards from the breakeven.
+	1. Slide the `hedge inwards breakeven by 0.55% to 0.75%`.
+	2. Exit the long option on the trending side.
+		- You may see some profit.
+		- You may not see profit if volatility drops.
+		- You may not see profit if many days have passed and there was theta decay. [...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=821)
+	3. Buy a new option as hedge on the tested side.
+		- Pick a strike 0.55% to 0.75% inwards from the breakeven point.
+		- It is best to do this just once. This was the first turn.
 		- 0.75% is 100 points in Nifty.
 		- 0.55% is 200 points in Bank Nifty.
 3. Observe the payoff chart.
-		- The losses on the call side will go down.
-		- This losses on the put side will slightly rise.
-		- The blue t+0 line in opstra will become flatter on the call side.
+		- The losses on the trending side will go down.
+		- This losses on the non trending side will slightly rise.
+		- The blue t+0 line in opstra will become flatter on the trending side.
 		- The breakeven range will reduce which is bad for future adjustment.
 
-==Do not touch the put side hedge yet!==
+==Do not touch the hedge on the non trending side yet!==
 
-You can only do few shifts on the put side. So save this for later.
+You can only do few shifts on the non trending side. So save this for later.
 
 #### Stage 4.2 Price approaches call side breakeven
 
-Skip this step if Iron Fly is too small or breached the breakeven too fast.
+Skip this step if Iron Fly is too small or price breaches the breakeven too fast.
 
-##### Action: Roll down hedges on both sides
+##### Action: Roll hedges inwards on both sides
 
-1. Wait for price to come close to the call side breakeven.
-2. `Roll down the hedged long call` i.e. slide down the `call side hedge 0.55% to 0.75% inside breakeven` like so:
-	1. Exit the call side long position and book the profit.
-		- You may not be able to book profit if many days have passed and the call side incurred some theta decay. [...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=821)
-	2. Buy a new call with strike 0.55% to 0.75% inwards from the breakeven.
+1. Wait for price to approach closer to breakeven point on the trending side.
+2. `Roll the trending side hedge` 0.55% to 0.75% inwards from the breakeven.
+	1. Exit the long option on the trending side.
+		- You may see some profit.
+		- You may not see profit if volatility drops.
+		- You may not see profit if many days have passed and there was theta decay. [...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=821)
+	2. Buy a new option as hedge on the tested side.
+		- Pick a strike which is inwards from breakeven point by 0.55% to 0.75% of the spot price.
+		- It is best to do this just once. This was the first turn.
 		- This was your second turn. It is best to shift call side hedge only once.
 		- Do not do this more than twice.
 		- 0.75% is 100 points in Nifty.
 		- 0.55% is 200 points in Bank Nifty.
 3. Observe the payoff chart again.
-		- The losses on the call side will further go down.
-		- This losses on the put side will slightly rise.
-		- The blue t+0 line in opstra will become flatter on the call side.
+		- The losses on the trending side will go down.
+		- This losses on the non trending side will slightly rise.
+		- The blue t+0 line in opstra will become flatter on the trending side.
 		- The breakeven range will further reduce.
-4. `Roll up the hedged long put` i.e. slide up the `put side hedge 0.75% inside breakeven` for safety from the gap downs like so:
-	1. Exit the put side long position and book the loss.
-	2. Buy a new put with strike 0.55% to 0.75% inwards to the breakeven.
-		- This will reduce losses on the put side.
-		- This would reduce the breakeven range even more.
+4. Next, for the safety from gap-ups/down, also `roll the non trending side hedge` 0.75% inwards from the breakeven.
+	1. `Exit the long` option on the non trending side.
+		- You will see some loss.
+	2. Buy a new option as hedge on the non trending side.
+		- Pick a strike which is inwards from breakeven point by 0.55% to 0.75% of the spot price.
 		- 0.75% is 100 points in Nifty.
 		- 0.55% is 200 points in Bank Nifty.
+		- This will reduce losses on the non trending side.
+		- This would reduce the breakeven range even more.
 
-### Case 2. When price approaches put side breakeven
+### Stage 5. Breakeven approach w/ MTM profit ≥ 1% while
 
-## Stage 5. Breakeven breach
+##### Action: Convert to a Loss Less Iron Fly
+[...](https://youtu.be/REA-YxpS14c?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=276) | [...](https://youtu.be/REA-YxpS14c?t=167)
+
+You can only make an Iron Fly loss less after you see some MTM profit.
+
+1. Wait for 50% DTE to pass.
+	- Do not attempt to make Iron Fly loss less right in the beginning.
+	- If you make an Iron Fly loss less right from the beginning then you will not get enough range to ride the trade.
+	- The cone in the payoff chart will become very narrow and thin.
+2. Wait to `accumulate 1% MTM profit`.
+	- This is 1% of `capital deployed as margin` + surplus `margin saved for selling of extra options`.
+3. Make an Iron Fly loss less only when...
+		- The spot price is too far away from the Max Profit zone (the green structure in payoff chart).
+		- `And` the MTM is showing considerable profit that you don't want to risk loosing.
+		- `And` the DTE is close i.e. very less time is remaining for expiry.
+		- `And` your confidence level is not high.
+		- `And` there is little hope of market returning.
+4. Wait for price to approach the breakeven point on one side.
+5. Bring hedges inside the breakeven point of the side being tested.
+	- Slide the hedge inwards by 1% to 1.2%.
+		- Exit from the existing hedge on the tested side.
+		- Create a new hedge `hedge 1% to 1.2% inside breakeven`.
+	- This is typically 400 points inside breakevens in Bank Nifty.
+	- Do not bring hedges inwards on both sides at the same time.
+	- Analyze payoff chart to confirm a proper `One Sided Loss Less Iron Fly`.
+		- The side which was made loss should appear all green w/o distorting the structure of chart.
+		- Note that you sacrificed your Max Profit potential in order to make it loss less.
+6. Now wait for price to approach the breakeven point on the other side.
+7. Bring hedges inside the breakeven point of the other side which is being tested.
+	- Slide the hedge inwards by 1% to 1.2%.
+		- Exit from the existing hedge position on the tested side.
+		- Create a new `hedge 1% to 1.2% inside breakeven`.
+	- This is typically 400 points inside breakevens in Bank Nifty.8. Analyze payoff chart to confirm Loss Less Iron Fly.
+	- Analyze the payoff chart to confirm a  `Complete Loss Less Iron Fly` that is loss less on both the sides.
+8. To lock MTM gains even further `repeat step 3 through 7`.
+	- Making Iron Fly loss less drastically reduces the Max. Profit.
+	- Do this in conjunction with a proper technical analysis.
+
+> Do not make Iron Fly completely loss less. Leave enough on table so that you are not fearful and at the same time have enough room to be in the trade (do adjustments) till expiry. [...](https://youtu.be/REA-YxpS14c?t=1085)
+
+### Stage 6. Breakeven breach
 [...](https://youtu.be/9IodHBgG8Z8?t=1362)
 
 Once price breaches the breakeven point the entire goal of doing adjustment is to gradually reduce losses caused by the directional move of the market. We can comfortably manage the trade till expiry and close it with a minimum possible loss.
 
 ##### Action: Sell an extra option and roll
 
-1. Sell an extra option w/ 1 lot from breakeven on the non tested side. [...](https://youtu.be/9IodHBgG8Z8?t=1792)
+1. Sell an extra option w/ `1 lot` from `breakeven` of the `same monthly expiry` on the non tested side. [...](https://youtu.be/9IodHBgG8Z8?t=1792)
 	1. Pick a `strike at or close to the breakeven` on the non tested side.
 	2. Now short an option with this selected strike.
-2. Wait for this option premium to reduce to ₹20 (₹30 in Bank Nifty) and then exit it.
+2. Wait for the above option premium to `reduce by 50%`, or `by ₹20 in Nifty`, or `by ₹30 in Bank Nifty` and then exit it.
 3. If market moves further in the same direction then again short an option on the non tested side.
 	- If premiums are high enough then
-		- `Either` select a strike with premium ₹20 lesser (₹30 in Bank Nifty) than the one you shorted earlier.
+		- `Either` select a strike with premium ₹20 (in Nifty) or ₹30 (in Bank Nifty) lesser than the one you shorted in steps above.
 		- `Or` select a strike with premium same as earlier one when you shorted it.
-		- `Or` select a strike that is far enough (say 7% to 8% or 1000 points in Nifty).
+		- `Or` select a strike that is far by 7% to 8% (i.e. 1000 points in Nifty).
 	- Ensure that the strike price is safe as per your analysis.
 		- Keep analyzing the chart for support region.
 		- If the short put strike distance from the spot is 7% to 8% (say 1000 points in Nifty) then it can be considered a safe distance.
 		- If the market has shown a straight impulsive move towards upside and only few days are left for the monthly expiry then you can even short options till the strike distance from the spot is 3.5% to 4% (i.e. 500 points in Nifty).
 4. Exit this short option when...
 	- The strike price of put crosses the middle of payoff chart i.e. the middle of original straddle cone (green zone).
-	- The current price reverses, moves in the oppsite direction and crosses the middle point of the Iron Fly.
+	- `Or` the VIX is high and rising and the current price has reversed, moved in the oppsite direction and came within the breakeven.
 5. Repeat step 2 through 4 as market moves further in the same direction.
 	- Never cut your Iron Fly trade if you can bear the loss shown on the right side.
 	- Although selling option on the non tested side pose undefined risk, but before causing  this loss it will first come inside the straddle range to incur Max Profit. Your staddle is the first primary protection from the undefined loss.
 	- As you keep selling options and come inwards from the left side you will no more see a triangle/cone in payoff chart. It will become flat on the top. [...](https://youtu.be/IaEjcuBNPgg?t=1193)
-	- Be warned about shifting put too deep inside on the non tested side.
-		- The loss shown on the right side of payoff chart has been fixed.
+	- Be warned about shifting put too deep inside from the non tested side.
+		- By selling an extra option on the non tested side the loss on the tested side of payoff chart is fixed.
 		- New short puts created with strikes too deep inside will pose risk if market reverses.
 		- Once market reverses the short put will quickly become ITM.
 		- Say you created a straddle at 13,300 then go inside by just 300 to 400 points only.
@@ -227,12 +267,12 @@ Once price breaches the breakeven point the entire goal of doing adjustment is t
 			- If you move inside by 300 points then you lose profit by ₹15,000 (300 x 50).
 			- If market reverses your final profit will be reduced by ₹15,000.
 
-## Stage 6. Iron Fly failure
+### Stage 7. Iron Fly failure
 
 1. Exit with the lowest drawdown, cost to cost, or at the current MTM profit.
 2. Create new Iron Fly in the direction of the market.
 
-# Step 7 (B). Adjust position w/ delta
+## Approach 3. Rebalance delta
 [...](https://www.youtube.com/watch?v=DKJ5LnYgzQA)
 
 1. Create an Iron Fly using 50Δ CE/PE w/ 20Δ hedges
@@ -256,9 +296,11 @@ Once price breaches the breakeven point the entire goal of doing adjustment is t
 	1. You did several adjustment to manage loss.
 	2. Price after several adjustment has gone beyond one end of the Iron Fly's breakeven.
 	3. The price then reversed back.
-	4. The price moved substantially in the opposite direction.
-	5. Finally the price is on verge of crossing the middle point of Iron Fly.
-	6. Since the price is crossing the midle of the Iron Fly again and as several days may have passed w/ lot of adjustment you finally see some MTM profit to safely exit.
+	4. The price continued its move in the opposite directoin.
+	5. The price moved substantially in the opposite direction.
+	6. The price is on the verge of crossing the mid point of Iron Fly.
+	7. Several days have passed.
+	8. There is still some MTM profit left for a safe exit.
 - Exit when the volatility rises substantially and it makes more sense to initiate a new Iron Fly with better premiums and increased breakeven range compared to the current one.
 - If Iron Fly fails then exit with the lowest drawdown, cost to cost, or at the current MTM profit.
 
