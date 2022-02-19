@@ -235,6 +235,8 @@ You can only make an Iron Fly loss less after you see some MTM profit.
 
 Once price breaches the breakeven point the entire goal of doing adjustment is to gradually reduce losses caused by the directional move of the market. We can comfortably manage the trade till expiry and close it with a minimum possible loss.
 
+> In contrast to straddles, in Iron Fly we wait until breach of breakevens and then react. This is because in naked straddles we don't have hedges and therefore we must react faster.
+
 ##### Action: Sell an extra option and roll
 
 1. Sell an extra option w/ `1 lot` from `breakeven` of the `same monthly expiry` on the non tested side. [...](https://youtu.be/9IodHBgG8Z8?t=1792)

@@ -1,5 +1,7 @@
 Short Strangle w/o Hedge
 
+Strangle's failure comes before straddle's failure.
+
 # Step 1. Wait for the setup
 [...](https://youtu.be/fZe6ClmdbZg?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=476)
 

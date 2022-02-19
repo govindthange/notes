@@ -79,7 +79,7 @@ The very meaning of straddle is that you have deployed a strategy to create bala
 
 The entire logic behind straddle is collection of high premium. As long as you are in the center there is no reason to fear.
 
-> Compared to Iron Fly where we wait until breach of breakevens and then react. In naked straddles we don't have hedges and therefore we must react faster.
+> In contrast to Iron Fly, where we wait until breach of breakevens and then react, in naked straddles we don't have hedges and therefore we must react fast.
 
 ### 1.1. Intraday in weekly position
 [...](https://youtu.be/A-zpeOlgtOY?t=868)
@@ -306,7 +306,56 @@ Act when market breaks through an overhead resistance or underlying support.
 
 [Weekly Backtest](https://youtu.be/H8z3Es-Rgso?t=1000)
 
-## Approach 7. Iron Fly upon breakeven breach
+## Approach 7. Adjust using Vega and Delta | Intraday
+[...](https://www.youtube.com/watch?v=7OMUWmSo9Ow)
+
+Delta adjustment works only when market moves steadily in a given direction. If market shows radical big spikes then just managing delta doesn't help. In this case we have to manage delta in conjunction with vega.
+
+1. Create a near weekly expiry straddle with 7 DTE.
+2. Wait for an impulsive move in one direction.
+	- Say you see a ₹2,000 loss in Nifty.
+	- You will see Vega beyond -2100.
+		- A negative vega means our position expects volatility to go low.
+		- It can't handle high volatility.
+3. Monitor vega for its negativity.
+4. Upon an impulsive move reduce the vega negativity.
+	- Make vega little positive by buying options.
+5. Buy an option with positional delta.
+	- If market is going up then buy a call option with delta as that of positional delta of the whole position.
+		- Say positional delta is showing -55.63Δ, then look for a strike with delta around 50Δ and go long on it.
+		- If vega was -2100 earlier, it would go down to -744. Thus we reduced the vega negativity.
+	- Similarly, if market is falling then buy a put option with delta as that of positional delta.
+	- Once we adjust vega, we no more need to touch it.
+	- Beyond this we will only manage the delta of the other 2 short options w/o touching the long option.
+6. Monitor delta of both strikes in every 15 minutes. [...](https://youtu.be/7OMUWmSo9Ow?t=466)
+	- Do not touch options till the difference between their deltas goes above 10Δ.
+	- Managing delta too frequently  is problematic.
+7. Wait for one of the short option's delta to go below other option's delta by over 10Δ.
+	- When you reach this point the delta of one side is faster than the other side delta.
+		- So the rate at which one side premium decreases is greater than the rate at which the other side premium increases.
+		- Due to delta imbalance the gains of one side can't compensate for the other side's losses.
+8. Rebalance delta like so: [...](https://youtu.be/7OMUWmSo9Ow?t=481)
+	- `If` short put delta goes below short call delta by over 10Δ `then`
+		- `Either` exit the current short put.
+			- Sell a new put with delta that is slightly lower than the short call's delta.
+			- ==Try to match delta by 75% only.== <-- Requires Confirmation | Govind Thange
+			- ==Do not select put strike above spot price.== <-- Requires Confirmation | Govind Thange
+		- `Or` short an extra put with delta equal to the difference in deltas.
+			- Short call is at -77.99Δ.
+			- Short put is at 22.36Δ.
+			- Then short an extra put at 55.63Δ to rebalance the position.
+			- Note that doing this will require extra margin.
+	- `Else if` short call delta goes far below short put delta `then`
+		- follow similar approach as above but in opposite way.
+	- ==As and when we do adjustments the breakeven range will reduce.== <-- Requires Confirmation | Govind Thange
+9. Exit when...
+	- ==MTM loss exceeds 2% of deployed margin.== <-- Requires Confirmation | Govind Thange
+10. Go to step 5.
+
+[Strong Trend | 20 Sep 2019 - Intraday](https://youtu.be/7OMUWmSo9Ow?t=103)
+- Market rallied 2800 points in a single intraday session.
+
+## Approach 8. Iron Fly upon breakeven breach
 [...](https://www.youtube.com/watch?v=obXDTxHDjhk)
 
 ##### Action: Convert to Iron Fly and exit
