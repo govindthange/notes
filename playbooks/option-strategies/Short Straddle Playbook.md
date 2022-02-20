@@ -27,7 +27,7 @@ Straddles are best when you are able to collect good premiums and you can manage
 # Step 3. Deploy
 
 - For `intraday` in Bank Nifty, deploy on Wednesday and Thursday only.
-	- Enter @ 10:00 AM.
+	- Enter @ 10:20 AM.
 	- Exit @ 12:00 PM to 1:00 PM.
 	- Between 10 AM to 1:00 PM there is not much movement in market.
 - Its not safe to do intraday ATM straddle on Friday and Monday.
@@ -257,56 +257,104 @@ This is not a very feasible adjustment technique because you end up with an inve
 	- At this stage you must rebalance this strangle.
 3. Upon mismatch, you exit from the lower delta option and buy another option with delta matching that of other higher delta. [...](https://youtu.be/A-zpeOlgtOY?t=1257)
 
-## Approach 5. ITM strangles w/ delta balancing
+## Approach 5. Rebalance delta w/ positional delta
+
+### Variation A. Rebalance delta upon positional 20Δ breach
+
+#### A.1. Straddle -> Inverted Strangle (Non recommended)
 [...](https://youtu.be/A-zpeOlgtOY?t=1201)
 
-### 4.1. Straddle -> Inverted Strangle (Non recommended)
-
-1. Wait for positional delta to breach 20Δ.
+1. Wait for positional delta to `breach 20Δ`.
 2. Rebalance delta.
-	- You may end up with an inverted strangle.
-	- Inverted strangle once formed, begins eating your max profit.
+	- Repeated rebalancing leads to an `Inverted Strangle`.
+3. ==Be warned...==
+	- Inverted strangle once formed eats up max profit.
 	- Inverted strangle ultimately turns into a red payoff chart.
-3. Go to step 1.
+4. Go to step 1.
 	- With iterations a straddle becomes inverted strangle.
 
 > This is not a recommended approach because you end up with an inverted strangle. You will eventually see a red payoff chart and become clueless about what to do next.
 
-### 4.2. Straddle -> Inverted Strangle -> Strangle -> Straddle (Recommended)
+#### A.2. Straddle -> Inverted Strangle -> Strangle -> Straddle (Recommended)
 [...](https://youtu.be/A-zpeOlgtOY?t=1321)
 
-1. Wait for positional delta to breach 20Δ.
+1. Wait for positional delta to `breach 20Δ`.
 2. Rebalance delta.
-	- You may end up with an inverted strangle.
-	- Inverted strangle once formed, begins eating your max profit.
+	- Repeated rebalancing leads to an `Inverted Strangle`.
+3. ==Be warned...==
+	- Inverted strangle once formed eats up max profit.
 	- Inverted strangle ultimately turns into a red payoff chart.
-3. If any of the option turns ITM then exit both options and `create a strangle` at those strikes.
+4. If any of the option turns ITM then exit both options and `create a strangle` at those strikes.
 	- You can bear the loss caused due to exiting ITM options.
-4. Go to step 1.
+5. Go to step 1.
 	- With iterations a `straddle becomes an inverted strangle`.
 	- You shift `inverted strangle to strangle`.
 	- With iterations a `strangle becomes straddle`.
 
-## Approach 6.  Adjust using TA
-[...](https://youtu.be/H8z3Es-Rgso?t=392)
+### Variation B. Rebalance delta around 40 positional delta
 
-Act when market breaks through an overhead resistance or underlying support.
+#### B.1. Straddle -> Short Gut (Risky)
+[...](https://youtu.be/ruRR24ZRV2w?t=474)
 
-1. Monitor S/R levels or candlestick patterns.
-2. Do not do anything if market is within your defined straddle range.
-3. When market `goes up by 0.55% to 0.75%` or `approaches an overhead resistance`... [...](https://youtu.be/H8z3Es-Rgso?t=735)
-	1. First, roll up the short put.
-	2. Next, as market follows up, gradually increase short put quantity (i.e. sell extra puts).
-		- 0.75% is 100 points in Nifty.
-		- 0.55% is 200 points in Bank Nifty.
-4. When market attempts to `breach overhead resistance`...
-	1. Decrease short call quantity by half and `convert it to a Ratio Spread`.
-	2. Do not touch the next expiry long call as its working in your favor.
-5. `Roll up the extra short put` when its premium become worthless.
+The positional delta refers to the combine delta of straddle's PE/CE pair.
 
-[Weekly Backtest](https://youtu.be/H8z3Es-Rgso?t=1000)
+1. Monitor positional delta (the straddle PE/CE combination).
+	- Monitor `daily @ 10:30 AM` for monthly expiry.
+	- Monitor `every 30 minutes` after 1+ adjustment.
+	- Monitor `every 15 minutes` after `positional delta breaches 25Δ`
+	- Monitor `every 5 minutes` if volatility has gone up.
+2. Wait for positional delta to `approach 40Δ`.
+	- If positional delta is `around 35Δ @ 03:15 PM` then rebalance. <== GovindThange
+3. Monitor vega for negativity when... <== GovindThange
+	- There is an impulsive move in the underlying.
+	- `Or` positional delta instantly changes by ±15Δ or more.
+	- `Or` MTM profit looses over 1% of deployed capital `and` positional delta goes beyond ±20Δ.
+4. Adjust vega upon `impulsive move`, `±15Δ change`, or `over 1% loss of MTM profit`. <== GovindThange
+	- Buy an option with positional delta.
+		- If market is going up then buy a call option with delta as that of positional delta of the whole position.
+			- Say positional delta is showing -55.63Δ, then look for a strike with delta around 50Δ and go long on it.
+			- If vega was -2100 earlier, it would go down to -744. Thus we reduced the vega negativity.
+		- Similarly, if market is falling then buy a put option with delta as that of positional delta.
+	- Once we adjust vega, we no more need to touch it.
+	- Beyond this we will only manage the delta of the other 2 short options w/o touching the long option.
+5. Rebalance delta when positional delta is around 40Δ (or 35Δ post 3:15 PM).
+	- `If` MTM loss exceeds over 2% to 2.5% of deployed margin `then`... <== GovindThange Approach
+		- `Exit from long option` for managing vega.
+		- `Exit from current straddle`.
+		- `Create a new straddle` from the current point.
+	- `Else if` delta of any side breaches 90 `then`... <== GovindThange Approach
+		- `Exit from long option` for managing vega.
+		- `Exit from current straddle`.
+		- `Create a new straddle` from the current point.
+	- `Else if` both sides are in profit `and` current straddle's ATM has shifted `and` MTM > 1.5% of deployed capital (margin) `then`... <== GovindThange Approach
+		- `Exit from long option` for managing vega.
+		- `Exit from current straddle`.
+		- `Create a new straddle` from the current point.
+	- `Else if` one side is in profit `or` both sides are in loss `then`...
+		- Exit the short option that is in most profit `or` is in least loss (if both sides are in loss).
+		- Sell a new option again like so:
+			- `Either` sell an option with `delta` as that of the option which is still open.
+			- `Or` sell an option with `premium` as that of the option which is still open.
+		- There is no need of exactly matching the delta/premium.
+		- Be warned that you will end up selling an ITM option.
+6. ==Be warned...==
+	- Repeated rebalancing leads to a `Short Gut`.
+	- A short gut is similar to short straddle/strangle, but in contrast `returns profit from a wider price range` than both of those.
+	- In contrast to Straddle/Strangle the potential `profits are less` in short gut.
+	- With short gut potential `losses are unlimited` if the security moves substantially in either direction, so you need to be confident that such a move is unlikely before using this strategy.
+7. Go to step 1.
 
-## Approach 7. Adjust using Vega and Delta | Intraday
+[Strong Trend | 01 Feb 2021 - 04 Feb 2021](https://www.youtube.com/watch?v=EKgs7pIB6Go)
+- On the budge day nifty spiked 9.25% up with 1261 points.
+
+[22 Jul 2021](https://www.youtube.com/watch?v=OUVmA9_9bnM)
+[08 Aug 2021](https://www.youtube.com/watch?v=PWgRGy5yxQA)
+
+## Approach 6. Rebalance delta w/ vega | Intraday
+
+### Variation A. Rebalance upon 25Δ gap
+
+### Variation B. Rebalance upon 10Δ gap
 [...](https://www.youtube.com/watch?v=7OMUWmSo9Ow)
 
 Delta adjustment works only when market moves steadily in a given direction. If market shows radical big spikes then just managing delta doesn't help. In this case we have to manage delta in conjunction with vega.
@@ -314,7 +362,7 @@ Delta adjustment works only when market moves steadily in a given direction. If 
 1. Create a near weekly expiry straddle with 7 DTE.
 2. Wait for an impulsive move in one direction.
 	- Say you see a ₹2,000 loss in Nifty.
-	- You will see Vega beyond -2100.
+	- You will see Vega go beyond -2100.
 		- A negative vega means our position expects volatility to go low.
 		- It can't handle high volatility.
 3. Monitor vega for its negativity.
@@ -355,7 +403,46 @@ Delta adjustment works only when market moves steadily in a given direction. If 
 [Strong Trend | 20 Sep 2019 - Intraday](https://youtu.be/7OMUWmSo9Ow?t=103)
 - Market rallied 2800 points in a single intraday session.
 
-## Approach 8. Iron Fly upon breakeven breach
+## Approach 7.  Roll shorts -> make ratio spread
+[...](https://youtu.be/H8z3Es-Rgso?t=392)
+
+Act when market breaks through an overhead resistance or underlying support.
+
+1. Monitor S/R levels or candlestick patterns.
+2. Do not do anything if market is within your defined straddle range.
+3. When market `goes up by 0.55% to 0.75%` or `approaches an overhead resistance`... [...](https://youtu.be/H8z3Es-Rgso?t=735)
+	1. First, roll up the short put.
+	2. Next, as market follows up, gradually increase short put quantity (i.e. sell extra puts).
+		- 0.75% is 100 points in Nifty.
+		- 0.55% is 200 points in Bank Nifty.
+4. When market attempts to `breach overhead resistance`...
+	1. Decrease short call quantity by half and `convert it to a Ratio Spread`.
+	2. Do not touch the next expiry long call as its working in your favor.
+5. `Roll up the extra short put` when its premium become worthless.
+
+[Weekly Backtest](https://youtu.be/H8z3Es-Rgso?t=1000)
+
+## Approach 8. Sell ITM option @ B/E on opposite side | Weekly
+[...](https://youtu.be/sx4YJ8Tj8Fw?t=382)
+
+##### Deployment
+
+- For weekly, deploy it on Tuesday or Wednesday after 10:30 AM.
+
+##### Adjustment
+
+1. Wait for price to `breach B/E`.
+2. Upon breach `buy an ITM option` of the same type at the non tested side B/E.
+	- If price breaks B/E on the call side then buy an ITM call at the put side B/E.
+	- If price breaks B/E on the put side then buy an ITM put at the call side B/E. [...](https://youtu.be/sx4YJ8Tj8Fw?t=613)
+3. Exit ITM long option when...
+	- Price reverses, returns to the tested side B/E, and crosses it back.
+		- `If` price had breached the call side B/E, it returns back, and crosses below it to the downside, `then` exit the long call created at the put side B/E.
+		- `If` price had breached the put side B/E, it returns back, and crosses over it to the upside, `then` exit the long put created at the call side B/E.
+4. Exit straddle when...
+	- You see profit by 1:30 PM. After this time volatility increases and you risk your entire profit.
+
+## 9. Iron Fly upon breakeven breach
 [...](https://www.youtube.com/watch?v=obXDTxHDjhk)
 
 ##### Action: Convert to Iron Fly and exit
