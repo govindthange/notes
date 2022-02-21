@@ -40,6 +40,7 @@ Strangle's failure comes before straddle's failure.
 	- Strangles creates problem to weekly traders due to delta. [...](https://youtu.be/fZe6ClmdbZg?t=965)
 	- New traders should do monthly strangles for first 6 months.
 - For `monthly`, deploy w/ 45 DTE [...](https://youtu.be/fZe6ClmdbZg?t=637)
+	- Strangles are not reliable for monthly strategy.
 	- Many don't prefer in Indian market.
 	- Its better for new traders.
 	- For monthly strangles, don't try to collect high credit at the time of deployment. [...](https://youtu.be/fZe6ClmdbZg?t=861)
@@ -227,6 +228,7 @@ Backtesting:
 
 Reference:
 - [04 May 2020 | Strangle vs Straddle Adjustments | ThetaGainers](https://youtu.be/MIF7oq2J9Pw?t=77)
+- [04 June 2020 | Recvering from overnight strangles | ThetaGainers](https://www.youtube.com/watch?v=6VP7UuoN7Ho)
 - [22 June 2020 | Q&A on strangles | ThetaGainers - Premium](https://youtu.be/zMwFaIqWYhs?t=4756)
 - [01 Nov 2020 | Strangle adjustments | ThetaGainers](https://www.youtube.com/watch?v=ZnSVMv7jgTc)
 - [12 Nov 2021 | All about strangles | ThetaGainers](https://www.youtube.com/watch?v=fZe6ClmdbZg)

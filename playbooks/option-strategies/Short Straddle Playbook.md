@@ -149,19 +149,28 @@ The entire logic behind straddle is collection of high premium. As long as you a
 		- 140 points in Nifty.
 		- 350-400 Points in Bank Nifty.
 	- Configure alerts on TradingView.
-2. Wait for price to `cross 50% of the shifting threshold` defined above.
+2. Monitor spot price for threshold breach at regular intervals.
+	- Monitor `daily @ 10:30 AM` for monthly expiry before adjustment.
+	- Monitor `every 30 minutes` after 1+ adjustment.
+	- Monitor `every 5 minutes` if breakeven range is less than 6% of the spot price.
+	- Monitor `every 5 minutes` if volatility is already high or will go high.
+3. Wait for price to `cross 50% of the shifting threshold` defined in step 1 above.
 	- Await `0.6% to 0.75% move` in one direction. [...](https://youtu.be/A-zpeOlgtOY?t=1845)
 	- In points this is roughly 15% of the total received credit.
-3. Upon 50% breach of shifting threshold `sell an extra option` on the non tested side. [...](https://youtu.be/A-zpeOlgtOY?t=1886)
-	- `Sell an OTM Weekly option` w/ 1 lot.
+4. Upon 50% breach of shifting threshold `sell an extra weekly option` on the non tested side. [...](https://youtu.be/A-zpeOlgtOY?t=1886)
+	- `Sell an OTM Weekly option` w/ same lot.
 		- Pick an OTM strike which in points is `far by 2.75%` of the spot price.
 		- This is 1000 points in Bank Nifty.
 	- This helps in offseting losses on the tested side.
 	- This also helps in covering the cost of shifting straddle. [...](https://youtu.be/A-zpeOlgtOY?t=1165)
 	- By selling extra options on non tested you not only make money out of your comfort zone, you also get to shift straddle at low cost, and then return back to your comfort zone.
-4. Regularly monitor that extra sold option's premium.
+5. Monitor extra sold option's premium regularly.
+	 - Monitor in every 5 minutes candle close when breakeven range is less than 5% of the spot price.
 	 - Configure alerts on MTM.
-5. Exit that extra sold option when its premium goes below ₹15. [...](https://youtu.be/A-zpeOlgtOY?t=1955)
+6. Exit from the extra sold option when...
+	- Its premium goes below ₹15. [...](https://youtu.be/A-zpeOlgtOY?t=1955)
+	- Spot price reverses, moves in the opposite direction, and crosses the mid point of the current straddle.
+7. Exit that extra sold option when
 	1. Exit the exsiting short option.
 	2. Sell another OTM Weekly option.
 		- Pick an OTM strike which in points is far by 2.75% of the spot price.
@@ -174,14 +183,14 @@ The entire logic behind straddle is collection of high premium. As long as you a
 
 #### Stage 2. Threshold breach by 100%
 
-6. Wait for price to `completely breach the shifting threshold`.
+8. Wait for price to `completely breach the shifting threshold`.
 	- Await `1.5% to 1.7% move` from the middle in one direction.
-7. Monitor P/L of the newly created straddle.
+9. Monitor P/L of the newly created straddle.
 	- When your straddle is in profit that means your straddle is working.
 	- Only focus on the P/L of recently shorted CE & PE option combination.
 	- Ignore all other transactions related to previous straddle/s and their adjustments.
 	- Ignore the overall P/L shown in opstra. Use calculator to calculate P/L of the new combo.
-8. `Exit from current straddle` when...
+10. `Exit from current straddle` when...
 	- When spot price completely `breaches the shifting threshold`.
 	- `Or` spot price `breaches the breakeven range` i.e. it has gone beyond total points received in credit. [...](https://youtu.be/c9bcctkLV7A?t=145)
 	- `Or` ratio of the `two premiums goes beyond 1:3+` and they can no more offset each other's losses. [...](https://youtu.be/c9bcctkLV7A?t=806)
@@ -189,7 +198,7 @@ The entire logic behind straddle is collection of high premium. As long as you a
 		- You are not concerned with gains/losses of straddle in previous iterations. Focus on P/L of newer straddle only.
 		- In first iteration, where you started from ₹0 MTM, exit upon ₹2,000 loss.
 		- In subsequent iteration, say you are at  ₹6,200 MTM when you set up a new straddle, then exit as soon you go below ₹4,200 MTM profit.
-9. `Create a new straddle` from the current point.
+11. `Create a new straddle` from the current point.
 	1. Analyze chart to pick a proper strike and breakeven.
 		- Analyze premiums in daily.
 		- Find the percent move for daily beyond which the loss will start.
@@ -199,14 +208,14 @@ The entire logic behind straddle is collection of high premium. As long as you a
 		- You may loose 500 points to 800 points.
 		- These losses my accumulate to 2000.
 		- But if you close near the center of this straddle by the end of expiry, these losses won't matter much.
-10. `Stop shifting` straddle when...
+12. `Stop shifting` straddle when...
 	- You reach 2 DTE.
 		- You can't collect much credit when only 2 days are left for expiry.
-11. `Exit straddle` when...
+13. `Exit straddle` when...
 	- MTM loss goes over 2% to 2.5% of deployed margin.
 	- MTM profit is over 4% of the deployed margin (i.e. 4% [[Glossary#RoC]]).
 	- You reach 2 DTE.
-12. Go to step 2.
+14. Go to step 2.
 	- Try to bear some loss. Shifting too quickly drains away the max profit potential in situtation when market reverts.
 
 [Strong Trend | 01 Oct 2021 - 28 Oct 2021](https://youtu.be/A-zpeOlgtOY?t=1588)
@@ -296,13 +305,20 @@ This is not a very feasible adjustment technique because you end up with an inve
 #### B.1. Straddle -> Short Gut (Risky)
 [...](https://youtu.be/ruRR24ZRV2w?t=474)
 
+##### Warning
+- Deep ITM options have a lot of liquidity issues
+- Requires higher margin at the time of entering trade.
+- Exiting position becomes a challenge due to low liquidity.
+
+##### Adjustment
+
 The positional delta refers to the combine delta of straddle's PE/CE pair.
 
 1. Monitor positional delta (the straddle PE/CE combination).
 	- Monitor `daily @ 10:30 AM` for monthly expiry.
 	- Monitor `every 30 minutes` after 1+ adjustment.
 	- Monitor `every 15 minutes` after `positional delta breaches 25Δ`
-	- Monitor `every 5 minutes` if volatility has gone up.
+	- Monitor `every 5 minutes` if volatility is already high or will go high.
 2. Wait for positional delta to `approach 40Δ`.
 	- If positional delta is `around 35Δ @ 03:15 PM` then rebalance. <== GovindThange
 3. Monitor vega for negativity when... <== GovindThange
@@ -455,6 +471,7 @@ Act when market breaks through an overhead resistance or underlying support.
 
 Reference:
 - [04 Oct 2013 | Iron Fly vs Short Straddle | TastyTrade](https://www.youtube.com/watch?v=YcQcpZ3EmCE)
+- [04 June 2020 | Recovering from overnight straddles | ThetaGainers](https://www.youtube.com/watch?v=6VP7UuoN7Ho)
 - [18 Jul 2020 | Straddle basics w/ adjustments | ThetaGainers](https://www.youtube.com/watch?v=H8z3Es-Rgso)
 - [19 Nov 2021 | All about adjustments | ThetaGainers](https://www.youtube.com/watch?v=A-zpeOlgtOY)
 - [27 Nov 2021 | Adjustment in large zig-zag moves | ThetaGainers](https://www.youtube.com/watch?v=c9bcctkLV7A)
