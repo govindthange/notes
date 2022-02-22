@@ -87,7 +87,24 @@ Strangle's failure comes before straddle's failure.
 	- Suppose you are short CE @ 18500, short PE @ 17500 and spot price has reached 18300 then you must address this ASAP.
 	- And if you are near expiry gamma further accelerates delta's effect on premium.
 
-## Approach 1. Adjust upon delta imbalance | Weekly
+## Approach 1.  Rebalance delta till Straddle | Weekly
+[...](https://www.youtube.com/watch?v=OUVmA9_9bnM)
+
+1. Create a strangle by selling 20Δ call & put.
+	- `Or` sell 3% OTM call & put.
+2. Monitor premiums of short call & put.
+3. Exit the leg whose premium reduces 50% in value (i.e. 50% profit).
+4. Sell another option with type that of above exited leg and `delta matching the positional delta` after exiting.
+5. Rebalance the delta.
+6. Stop adjustments when...
+	- Strangle becomes straddle.
+		- Now follow [[Short Strangle Playbook#Step 3 Adjust]]
+7. Go to step 2.
+
+[Strong trend | 14 Jan 2021](https://youtu.be/OUVmA9_9bnM?t=158)
+- Managed 7% up move.
+
+## Approach 2. Rebalance delta till Iron Fly | Weekly
 [...](https://youtu.be/ZnSVMv7jgTc?t=204) | [...](https://youtu.be/fZe6ClmdbZg?t=1126)
 
 When you have deployed a strangle, your view is that market should stay neutral and volatiltiy should also stay down.
@@ -137,7 +154,7 @@ When you have deployed a strangle, your view is that market should stay neutral 
 	- You are risking an inverted strangle and see a slight profit.
 8. Go to step 1.
 
-## Approach 2. Adjust upon premium imbalance
+## Approach 3. Rebalance premium till Iron Fly | Weekly
 [...](https://youtu.be/ZnSVMv7jgTc?t=711)
 
 ##### Action: Roll shorts to match price/premiums

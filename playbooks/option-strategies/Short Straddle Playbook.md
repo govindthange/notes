@@ -300,7 +300,7 @@ This is not a very feasible adjustment technique because you end up with an inve
 	- You shift `inverted strangle to strangle`.
 	- With iterations a `strangle becomes straddle`.
 
-### Variation B. Rebalance delta around 40 positional delta
+### Variation B. Rebalance delta around 40 positional delta | Weekly
 
 #### B.1. Straddle -> Short Gut (Risky)
 [...](https://youtu.be/ruRR24ZRV2w?t=474)
@@ -317,7 +317,8 @@ The positional delta refers to the combine delta of straddle's PE/CE pair.
 1. Monitor positional delta (the straddle PE/CE combination).
 	- Monitor `daily @ 10:30 AM` for monthly expiry.
 	- Monitor `every 30 minutes` after 1+ adjustment.
-	- Monitor `every 15 minutes` after `positional delta breaches 25Δ`
+	- Monitor `every 15 minutes` after `positional delta breaches 25Δ`.
+	- Monitor `every 5 minutes` if breakeven range is less than 6% of the spot price.
 	- Monitor `every 5 minutes` if volatility is already high or will go high.
 2. Wait for positional delta to `approach 40Δ`.
 	- If positional delta is `around 35Δ @ 03:15 PM` then rebalance. <== GovindThange
@@ -363,8 +364,10 @@ The positional delta refers to the combine delta of straddle's PE/CE pair.
 [Strong Trend | 01 Feb 2021 - 04 Feb 2021](https://www.youtube.com/watch?v=EKgs7pIB6Go)
 - On the budge day nifty spiked 9.25% up with 1261 points.
 
-[22 Jul 2021](https://www.youtube.com/watch?v=OUVmA9_9bnM)
 [08 Aug 2021](https://www.youtube.com/watch?v=PWgRGy5yxQA)
+
+#### B.2. Straddle -> Strangle -> Straddle (A2 + B1)
+
 
 ## Approach 6. Rebalance delta w/ vega | Intraday
 
