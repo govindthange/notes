@@ -5,7 +5,7 @@ Short Strangle w/o Hedge
 
 - Never deploy any strategy without hedges.
 - Never short a 45 DTE naked strangle.
-- 45 DTE is even bad for strangles w/ hedges (i.e. Iron Condors)
+- In high VIX environment 45 DTE is bad even for strangles w/ hedges (i.e. Iron Condors).
 - Naked strangles should only be deployed near expiry.
 - Strangle's failure comes before straddle's failure.
 
@@ -52,7 +52,7 @@ Short Strangle w/o Hedge
 	- Its better for new traders.
 	- For monthly strangles, don't try to collect high credit at the time of deployment. [...](https://youtu.be/fZe6ClmdbZg?t=861)
 		- Try to collect small premium and then increase your collection by slowly increasing the lot size and/or premium.
-		- Adjustment in monthly strangles in inevitable. If you start with a high credit in the beginning, with more adjustment you will eventually have a small breakeven range to ride the market. Instead start small and collect by doing more adjustments.
+		- Adjustment in monthly strangles is inevitable. If you start with a high credit in the beginning, with more adjustment you will eventually have a small breakeven range to ride the market. Instead start small and collect by doing more adjustments.
 		- Note that whenever you adjust a strangle, it increases your credit. So you end up earning more than what you had originally targetted. [...](https://youtu.be/fZe6ClmdbZg?t=821)
 			- Start with 30 premium.
 			- Then book profits in 30 premium.
@@ -97,26 +97,51 @@ Short Strangle w/o Hedge
 ## Approach 1.  Rebalance delta till Straddle | Weekly
 [...](https://www.youtube.com/watch?v=OUVmA9_9bnM)
 
-1. Create a strangle by selling 20Δ call & put.
+1. Create a strangle by selling 20Δ to 22Δ call & put.
 	- `Or` sell 3% OTM call & put.
-2. Monitor premiums of short call & put.
-3. Exit the leg whose premium reduces 50% in value (i.e. 50% profit).
-4. Sell another option with type that of above exited leg and `delta matching the positional delta` after exiting.
-5. Rebalance the delta.
-6. Stop adjustments when...
+2. Deploy strangle only when...
+	1. B/E > 2.75% of the spot price for DTE <= 2.
+		- `Or` B/E > 3.75% of the spot price for DTE > 2.
+	2. `And` B/E range fully covers/engulfs the expected move.
+		- Calculate expected average move for the day using one of the following formulas:
+			- `Expected % Move` = `IV` / √(365/3)
+			- `Expected % Move` = `IV` * √(3/365)
+			- [[Option Greeks#Calculating Expected Move or Range using IV]]
+		- The use the expected move to calculate the upper and lower range that price can touch.
+3. Monitor premiums of short call & short put.
+	- Wait for one of the premiums to drop by 50%.
+4. Exit the leg whose premium has dropped by 50% from the value that was there in delta neutral state.
+	- This means, as you iterate through the steps, track premium to become half from its value that was there at the time you adjusted it to delta neutral state.
+	- Don't compare 50% drop from the initial price when you added the contract.
+5. Exit the other leg `when`...
+	- `Either` other leg's delta (or positional delta) is ≥ 45Δ.
+		- Do not sell ITM contracts by choosing 50+ delta values.
+		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
+		- Gauge delta using this upper and lower values.
+	- `Or` other leg's delta (or positional delta) is ≥ 40Δ.
+		- `And` current price after adjustment would still be towards one end of the breakeven range.
+6. `If` both legs are closed `then` create a fresh straddle like so:
+	- `Either` create a strangle by selling 25Δ call & put `when` DTE <= 2.
+	- `Or` create a strangle by selling 20Δ call & put `when` DTE > 2.
+7. `If` you created a new strangle after exiting both the legs `then` go to step 2.
+8. Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
+		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
+		- Gauge delta using this upper and lower values.
+		- You may even match the premium of the other option.
+9. Stop adjustments `when`...
 	- Strangle becomes straddle.
 		- Now follow [[Short Strangle Playbook#Step 3 Adjust]]
-7. Go to step 2.
+10. Go to step 3.
 
-[Strong trend | 14 Jan 2021](https://youtu.be/OUVmA9_9bnM?t=158)
+[Strong trend | 01 Jan 2021 - 14 Jan 2021](https://youtu.be/OUVmA9_9bnM?t=158)
 - Managed 7% up move.
 
 ## Approach 2. Rebalance delta till Iron Fly | Weekly
 [...](https://youtu.be/ZnSVMv7jgTc?t=204) | [...](https://youtu.be/fZe6ClmdbZg?t=1126)
 
 When you have deployed a strangle, your view is that market should stay neutral and volatiltiy should also stay down.
-	- When volatility comes, main problem comes when premium stops dropping and market starts moving.
-	- This movement is your delta.
+	- When volatility increases, main problem comes when premium stops dropping and market starts moving.
+	- Essentially this movement itself is your delta.
 	- To address this problem you should try to neutralize this delta to 0.
 	- Neutralizing delta means balancing the position.
 	- When premium of one side substantially decreases in relation to the other side then it can no more offset otherside losses.
@@ -213,7 +238,6 @@ Backtesting:
 	- The small losses are very easy to cover.
 	- The loss would have been ₹7,972 had we not converted strangle into an Iron Fly. [...](https://youtu.be/ZnSVMv7jgTc?t=1702)
 - [09 Sep 2021 | 4 weekly strangles in a trending move](https://youtu.be/fZe6ClmdbZg?t=2062)
-
 
 ## Approach 4. Shift strangle upon huge overnight move
 [...](https://youtu.be/6VP7UuoN7Ho?t=684)
