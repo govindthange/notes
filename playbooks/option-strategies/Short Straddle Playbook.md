@@ -7,6 +7,11 @@ Straddle works better than Strangles.
 
 Straddles are best when you are able to collect good premiums and you can manage position actively.
 
+## Warning
+[...](https://youtu.be/6VP7UuoN7Ho?t=583)
+
+- Never deploy any strategy without hedges.
+
 # Step 1. Wait for the setup
 [...](https://www.youtube.com/watch?v=H8z3Es-Rgso)
 
@@ -190,10 +195,11 @@ The entire logic behind straddle is collection of high premium. As long as you a
 	- Only focus on the P/L of recently shorted CE & PE option combination.
 	- Ignore all other transactions related to previous straddle/s and their adjustments.
 	- Ignore the overall P/L shown in opstra. Use calculator to calculate P/L of the new combo.
-10. `Exit from current straddle` when...
+10. `Exit from current straddle` when... ^75314d
 	- When spot price completely `breaches the shifting threshold`.
 	- `Or` spot price `breaches the breakeven range` i.e. it has gone beyond total points received in credit. [...](https://youtu.be/c9bcctkLV7A?t=145)
 	- `Or` ratio of the `two premiums goes beyond 1:3+` and they can no more offset each other's losses. [...](https://youtu.be/c9bcctkLV7A?t=806)
+	- `Or` there was a sudden gap up/down which resulted in considerable loss. [...](https://youtu.be/6VP7UuoN7Ho?t=377)
 	- `Or` the most recent straddle pair incurs ₹1,500 to ₹2,000 loss (in Bank Nifty).
 		- You are not concerned with gains/losses of straddle in previous iterations. Focus on P/L of newer straddle only.
 		- In first iteration, where you started from ₹0 MTM, exit upon ₹2,000 loss.
@@ -218,21 +224,29 @@ The entire logic behind straddle is collection of high premium. As long as you a
 14. Go to step 2.
 	- Try to bear some loss. Shifting too quickly drains away the max profit potential in situtation when market reverts.
 
-[Strong Trend | 01 Oct 2021 - 28 Oct 2021](https://youtu.be/A-zpeOlgtOY?t=1588)
-- We safely managed a trending directional move of 4500 points in Bank Nifty.
+#### Stage 3. Loss due to sudden gap-up/down
+[...](https://youtu.be/6VP7UuoN7Ho?t=377)
 
-[Zig-Zag Move | 1 Sep 2021 - 30 Sep 2021](https://youtu.be/c9bcctkLV7A?t=276)
-- This was a challenging scenario where managing straddles was extremely difficult.
-- The move had highest probability of a straddle failing.
-- Since the straddle collected ₹1,000 as premium it easily managed first 3 moves.
-	- First move was 937 points down in 4 days 3 hours.
-	- Second move was 663 points up in 1 day.
-	- Third move was 540 points down 4 days 6 hour.
-- Market showed radical 1000 points move on both directions. [...](https://youtu.be/c9bcctkLV7A?t=688)
-	- Forth move was 1795 move in 3 days. [...](https://youtu.be/c9bcctkLV7A?t=736)
-	- Fifth move was 1615 points down in 5 days.
-	- Sixth move was 1831 points up in 5 days 18 hours.
-	- Final move was 1016 points down in 2 days 4 hours.
+Go to [[#^75314d | step 10]] above.
+- Do not keep staring at this loss.
+- Immediately shift the straddle.
+
+Backtests:
+- [Recoverning loss right in the beginning | 01 Jun 2020 ](https://youtu.be/6VP7UuoN7Ho?t=377)
+- [Strong Trend | 01 Oct 2021 - 28 Oct 2021](https://youtu.be/A-zpeOlgtOY?t=1588)
+	- We safely managed a trending directional move of 4500 points in Bank Nifty.
+- [Zig-Zag Move | 1 Sep 2021 - 30 Sep 2021](https://youtu.be/c9bcctkLV7A?t=276)
+	- This was a challenging scenario where managing straddles was extremely difficult.
+	- The move had highest probability of a straddle failing.
+	- Since the straddle collected ₹1,000 as premium it easily managed first 3 moves.
+		- First move was 937 points down in 4 days 3 hours.
+		- Second move was 663 points up in 1 day.
+		- Third move was 540 points down 4 days 6 hour.
+	- Market showed radical 1000 points move on both directions. [...](https://youtu.be/c9bcctkLV7A?t=688)
+		- Forth move was 1795 move in 3 days. [...](https://youtu.be/c9bcctkLV7A?t=736)
+		- Fifth move was 1615 points down in 5 days.
+		- Sixth move was 1831 points up in 5 days 18 hours.
+		- Final move was 1016 points down in 2 days 4 hours.
 
 ## Approach 3. Shift straddle upon high VIX
 [...](https://www.youtube.com/watch?v=KbFS8dciI24)
@@ -364,7 +378,9 @@ The positional delta refers to the combine delta of straddle's PE/CE pair.
 [Strong Trend | 01 Feb 2021 - 04 Feb 2021](https://www.youtube.com/watch?v=EKgs7pIB6Go)
 - On the budge day nifty spiked 9.25% up with 1261 points.
 
-[08 Aug 2021](https://www.youtube.com/watch?v=PWgRGy5yxQA)
+[All failed weekly naked straddles | 08 Aug 2021](https://www.youtube.com/watch?v=PWgRGy5yxQA)
+- [16 Jul 2020 - 23 Jul 2020](https://youtu.be/PWgRGy5yxQA?t=243)
+- [20 Aug 2020 - 27 Aug 2020](https://youtu.be/PWgRGy5yxQA?t=752)
 
 #### B.2. Straddle -> Strangle -> Straddle (A2 + B1)
 
@@ -474,7 +490,7 @@ Act when market breaks through an overhead resistance or underlying support.
 
 Reference:
 - [04 Oct 2013 | Iron Fly vs Short Straddle | TastyTrade](https://www.youtube.com/watch?v=YcQcpZ3EmCE)
-- [04 June 2020 | Recovering from overnight straddles | ThetaGainers](https://www.youtube.com/watch?v=6VP7UuoN7Ho)
+- [04 June 2020 | Recovering losses in overnight straddles | ThetaGainers](https://www.youtube.com/watch?v=6VP7UuoN7Ho)
 - [18 Jul 2020 | Straddle basics w/ adjustments | ThetaGainers](https://www.youtube.com/watch?v=H8z3Es-Rgso)
 - [19 Nov 2021 | All about adjustments | ThetaGainers](https://www.youtube.com/watch?v=A-zpeOlgtOY)
 - [27 Nov 2021 | Adjustment in large zig-zag moves | ThetaGainers](https://www.youtube.com/watch?v=c9bcctkLV7A)

@@ -1,6 +1,13 @@
 Short Strangle w/o Hedge
 
-Strangle's failure comes before straddle's failure.
+## Warning
+[...](https://youtu.be/6VP7UuoN7Ho?t=307)
+
+- Never deploy any strategy without hedges.
+- Never short a 45 DTE naked strangle.
+- 45 DTE is even bad for strangles w/ hedges (i.e. Iron Condors)
+- Naked strangles should only be deployed near expiry.
+- Strangle's failure comes before straddle's failure.
 
 # Step 1. Wait for the setup
 [...](https://youtu.be/fZe6ClmdbZg?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=476)
@@ -207,7 +214,15 @@ Backtesting:
 	- The loss would have been ₹7,972 had we not converted strangle into an Iron Fly. [...](https://youtu.be/ZnSVMv7jgTc?t=1702)
 - [09 Sep 2021 | 4 weekly strangles in a trending move](https://youtu.be/fZe6ClmdbZg?t=2062)
 
-## Approach 3.  Adjust as market trends
+
+## Approach 4. Shift strangle upon huge overnight move
+[...](https://youtu.be/6VP7UuoN7Ho?t=684)
+
+Your goal is to recover losses due to a huge move in overnight strangle by...
+1. Shifting option inwards on the non tested side to match the non tested premium.
+2. Shifting option outwards on the tested side.
+
+## Approach 5.  Sell extra option upon new swing high/lows
 [...](https://youtu.be/MIF7oq2J9Pw?t=712)
 
 ### Scenario 1. As market makes higher-highs/lows
@@ -245,7 +260,7 @@ Backtesting:
 
 Reference:
 - [04 May 2020 | Strangle vs Straddle Adjustments | ThetaGainers](https://youtu.be/MIF7oq2J9Pw?t=77)
-- [04 June 2020 | Recvering from overnight strangles | ThetaGainers](https://www.youtube.com/watch?v=6VP7UuoN7Ho)
+- [04 June 2020 | Recvering losses in overnight strangles | ThetaGainers](https://youtu.be/6VP7UuoN7Ho?t=684)
 - [22 June 2020 | Q&A on strangles | ThetaGainers - Premium](https://youtu.be/zMwFaIqWYhs?t=4756)
 - [01 Nov 2020 | Strangle adjustments | ThetaGainers](https://www.youtube.com/watch?v=ZnSVMv7jgTc)
 - [12 Nov 2021 | All about strangles | ThetaGainers](https://www.youtube.com/watch?v=fZe6ClmdbZg)
