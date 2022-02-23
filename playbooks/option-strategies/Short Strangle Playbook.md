@@ -95,46 +95,79 @@ Short Strangle w/o Hedge
 	- And if you are near expiry gamma further accelerates delta's effect on premium.
 
 ## Approach 1.  Rebalance delta till Straddle | Weekly
+
+### Variation A. 14 DTE
 [...](https://www.youtube.com/watch?v=OUVmA9_9bnM)
 
-1. Create a strangle by selling 20Δ to 22Δ call & put.
-	- `Or` sell 3% OTM call & put.
+1. Create a strangle.
+	- `Either` sell 15Δ call & put on Friday w/ 14 DTE.
+	- `Or` sell 3% OTM call & put on Friday w/ 14 DTE.
+2. Monitor premiums of short call & short put.
+	- Wait for one of the premiums to drop by 50%.
+3. Exit the leg whose premium has dropped by 50% in value.
+4. Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
+5. Stop adjustments `when`...
+	- Strangle becomes straddle.
+6. Follow straddle adjustment once strangle becomes straddle.
+	- Refer [[Short Straddle Playbook#Variation B Rebalance delta around 40 positional delta Weekly]]
+7. Go to step 2.
+
+[Strong trend | 01 Jan 2021 - 14 Jan 2021](https://youtu.be/OUVmA9_9bnM?t=158)
+- Managed 7% up move.
+
+### Variation B. 8 DTE
+
+1. Create a strangle by selling 18Δ to 22Δ call & put w/ 8 DTE.
+	- Enter on Thursday @ 10:30 AM.
+	- Consider picking 23Δ if 18Δ to 22Δ are not available and premiums are too low for below 18Δ.
 2. Deploy strangle only when...
-	1. B/E > 2.75% of the spot price for DTE <= 2.
+	1. B/E > 2.75% of the spot price for DTE ≤ 2.
 		- `Or` B/E > 3.75% of the spot price for DTE > 2.
 	2. `And` B/E range fully covers/engulfs the expected move.
 		- Calculate expected average move for the day using one of the following formulas:
-			- `Expected % Move` = `IV` / √(365/3)
-			- `Expected % Move` = `IV` * √(3/365)
+			- `Expected % Move` = `IV` / √(365/2)
+			- `Expected % Move` = `IV` * √(2/365)
 			- [[Option Greeks#Calculating Expected Move or Range using IV]]
 		- The use the expected move to calculate the upper and lower range that price can touch.
 3. Monitor premiums of short call & short put.
 	- Wait for one of the premiums to drop by 50%.
 4. Exit the leg whose premium has dropped by 50% from the value that was there in delta neutral state.
 	- This means, as you iterate through the steps, track premium to become half from its value that was there at the time you adjusted it to delta neutral state.
+	- Exit the other leg if its premium too has dropped by 50%.
 	- Don't compare 50% drop from the initial price when you added the contract.
+	- Don't exit before 50% drop in value.
+	- Do not approximate (i.e. don't treat 51% as 50% drop) especially when...
+		- The premium has not gone below 50%.
+		- `Or` the premium is over 50% of the other leg.
+		- `Or` its over 20 in Nifty.
 5. Exit the other leg `when`...
-	- `Either` other leg's delta (or positional delta) is ≥ 45Δ.
+	- Its premium too has dropped by 50% from the value that was there in delta neutral state.
+	- `Or` its delta (or positional delta) is ≥ 50Δ.
 		- Do not sell ITM contracts by choosing 50+ delta values.
 		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
 		- Gauge delta using this upper and lower values.
-	- `Or` other leg's delta (or positional delta) is ≥ 40Δ.
+	- `Or` its delta (or positional delta) is ≥ 40Δ.
 		- `And` current price after adjustment would still be towards one end of the breakeven range.
-6. `If` both legs are closed `then` create a fresh straddle like so:
-	- `Either` create a strangle by selling 25Δ call & put `when` DTE <= 2.
-	- `Or` create a strangle by selling 20Δ call & put `when` DTE > 2.
-7. `If` you created a new strangle after exiting both the legs `then` go to step 2.
-8. Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
+6. Exit both the legs `when`...
+	- Their deltas go below 15Δ.
+	- Their premiums are already too low leading to lower theta decay rate and there are better premiums between 18Δ to 22Δ.
+7. `If` both legs are closed `then` create a fresh straddle like so:
+	- `Either` create a strangle by selling ≤ 30Δ call & put `when` DTE is 1.
+	- `Or` create a strangle by selling ≤ 28Δ call & put `when` DTE ≤ 2.
+	- `Or` create a strangle by selling ≤ 25Δ call & put `when` DTE is between 3 - 4.
+	- `Or` create a strangle by selling ≤ 22Δ call & put `when` DTE > 4.
+8. `If` you created a new strangle after exiting both the legs `then` go to step 2.
+9. Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
 		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
 		- Gauge delta using this upper and lower values.
 		- You may even match the premium of the other option.
-9. Stop adjustments `when`...
+10. Stop adjustments `when`...
 	- Strangle becomes straddle.
-		- Now follow [[Short Strangle Playbook#Step 3 Adjust]]
-10. Go to step 3.
-
-[Strong trend | 01 Jan 2021 - 14 Jan 2021](https://youtu.be/OUVmA9_9bnM?t=158)
-- Managed 7% up move.
+11. Follow straddle adjustment once strangle becomes straddle.
+	- Refer [[Short Straddle Playbook#Step 4 Adjust]]
+12. Exit `when`...
+	- Its Thursday (i.e. on the day of expiry) @ 10:30 AM.
+13. Go to step 3.
 
 ## Approach 2. Rebalance delta till Iron Fly | Weekly
 [...](https://youtu.be/ZnSVMv7jgTc?t=204) | [...](https://youtu.be/fZe6ClmdbZg?t=1126)
