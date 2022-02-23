@@ -280,7 +280,10 @@ This is not a very feasible adjustment technique because you end up with an inve
 	- At this stage you must rebalance this strangle.
 3. Upon mismatch, you exit from the lower delta option and buy another option with delta matching that of other higher delta. [...](https://youtu.be/A-zpeOlgtOY?t=1257)
 
-## Approach 5. Rebalance delta w/ positional delta
+## Approach 5. Shift straddle upon 1% move
+[...](https://www.youtube.com/watch?v=qZeP5i9DSqQ)
+
+## Approach 6. Rebalance delta w/ positional delta
 
 ### Variation A. Rebalance delta upon positional 20Δ breach
 
@@ -385,7 +388,7 @@ The positional delta refers to the combine delta of straddle's PE/CE pair.
 #### B.2. Straddle -> Strangle -> Straddle (A2 + B1)
 
 
-## Approach 6. Rebalance delta w/ vega | Intraday
+## Approach 7. Rebalance delta w/ vega | Intraday
 
 ### Variation A. Rebalance upon 25Δ gap
 
@@ -438,7 +441,7 @@ Delta adjustment works only when market moves steadily in a given direction. If 
 [Strong Trend | 20 Sep 2019 - Intraday](https://youtu.be/7OMUWmSo9Ow?t=103)
 - Market rallied 2800 points in a single intraday session.
 
-## Approach 7.  Roll shorts -> make ratio spread
+## Approach 8.  Roll shorts -> make ratio spread
 [...](https://youtu.be/H8z3Es-Rgso?t=392)
 
 Act when market breaks through an overhead resistance or underlying support.
@@ -457,7 +460,7 @@ Act when market breaks through an overhead resistance or underlying support.
 
 [Weekly Backtest](https://youtu.be/H8z3Es-Rgso?t=1000)
 
-## Approach 8. Sell ITM option @ B/E on opposite side | Weekly
+## Approach 9. Sell ITM option @ B/E on opposite side | Weekly
 [...](https://youtu.be/sx4YJ8Tj8Fw?t=382)
 
 ##### Deployment
@@ -477,7 +480,7 @@ Act when market breaks through an overhead resistance or underlying support.
 4. Exit straddle when...
 	- You see profit by 1:30 PM. After this time volatility increases and you risk your entire profit.
 
-## 9. Iron Fly upon breakeven breach
+## 10. Iron Fly upon breakeven breach
 [...](https://www.youtube.com/watch?v=obXDTxHDjhk)
 
 ##### Action: Convert to Iron Fly and exit
