@@ -3,3 +3,7 @@
 - Theta is positive for sellers because he is receiving premium.
 - Sellers make more profit when they keep position overnight.
 - Option selling is tough for intraday because major theta decay happens overnight.
+
+# Time Decay Prevention
+[...]https://www.youtube.com/watch?v=tulEP6IDLmk
+
