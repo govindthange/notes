@@ -264,7 +264,7 @@ Next wait for the breach of breakeven point and after 1-2 day when market settle
 
 ![[#Action Sell an extra call and roll]]
 
-## Approach 3. Adjust position w/ delta | Weekly Expiry
+## Approach 3. Rebalance delta | Weekly
 
 #### Setup
 
@@ -272,7 +272,7 @@ Wait for VIX to come between 15 to 20.
 - 15+ VIX gets better premiums even for strikes that are far from ATM.
 - Avoid Iron Fly for 15+ VIX due to high volatility around ATM.
 
-### Approach 1. Adjust upon delta imbalance
+### Variation A. Adjust upon delta imbalance
 [...](https://youtu.be/szT7slKc4Vc?t=255)
 
 #### Deployment
@@ -304,7 +304,7 @@ Wait for VIX to come between 15 to 20.
 	- Once we reach `Iron Fly` position then follow [[Iron Fly Playbook#Step 7 B Adjust position w delta]] or exit.
 6. Go to step 1.
 
-### Approach 2. Adjust upon breakeven breach
+### Variation B. Adjust upon breakeven breach
 [...](https://www.youtube.com/watch?v=rnYRlexnc0Y)
 
 #### Deployment
@@ -328,3 +328,113 @@ Wait for VIX to come between 15 to 20.
 6. `Last Adjustment:` Short an option with the outstanding delta like so:
 	- `If` the outstanding delta is negative `then` short a call to balance.
 	- `Else` short a put to balance.
+
+## Approach 4.  Rebalance delta and shift | Weekly
+Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
+
+### Variation A. Hedges @ B/E
+
+1. Create an Iron Fly.
+	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
+	- Buy the hedges.
+		- Buy call & put w/ strikes at breakeven points.
+	- Enter on Thursday @ 10:30 AM.
+	- Consider picking 23Δ if 18Δ to 22Δ are not available and premiums are too low for below 18Δ.
+2. Deploy strangle only when...
+	1. B/E > 2.75% of the spot price for DTE ≤ 2.
+		- `Or` B/E > 3.75% of the spot price for DTE > 2.
+	2. `And` B/E range fully covers/engulfs the expected move.
+		- Calculate expected average move for the day using one of the following formulas:
+			- `Expected % Move` = `IV` / √(365/2)
+			- `Expected % Move` = `IV` * √(2/365)
+			- [[Option Greeks#Calculating Expected Move or Range using IV]]
+		- The use the expected move to calculate the upper and lower range that price can touch.
+3. Monitor premiums of short call & short put.
+	- Wait for one of the premiums to drop by 50%.
+4. Exit the leg whose premium has dropped by `50% from the value` that was there in delta neutral state `or` its premium has reduced to `50% of the other leg`.
+	- This means wait for one of the following to happen.
+		1. Wait for one leg's premium to reduce to half from its value at the time you had adjusted for a delta neutral state.
+		2. `Or` wait for one leg's premium to become half of the other leg's premium.
+	- Don't compare 50% drop from the initial price when you added the contract.
+	- Don't exit before 50% drop in value.
+	- Do not approximate (i.e. don't treat 51% as 50% drop) especially when...
+		- The premium has not gone below 50%.
+		- `Or` the premium is over 50% of the other leg.
+		- `Or` its over 20 in Nifty.
+5. Exit the other leg `when`...
+	- Its premium too has dropped by 50% from the value that was there in delta neutral state.
+	- `Or` its premium is too low. Like below ₹12 in Nifty.
+	- `Or` its delta (or positional delta) is ≥ 40Δ.
+		- Do not sell ITM contracts by choosing 50+ delta values.
+		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
+		- Gauge delta using this upper and lower values.
+	- `Or` current price after adjustment would still be towards one end of the breakeven range.
+6. Exit both the legs `when`...
+	- Deltas of both legs go below 15Δ.
+	- Premiums of both legs are too low leading to lower theta decay rate while there are better premiums between 18Δ to 22Δ.
+	- There is still premium/delta imbalance after exiting one leg.
+	- Both legs have same strikes leading to a straddle formation.
+7. `If` both legs are closed `then` create a fresh straddle like so:
+	- `Either` create a strangle by selling ≤ 30Δ call & put `when` DTE is 1.
+	- `Or` create a strangle by selling ≤ 28Δ call & put `when` DTE ≤ 2.
+	- `Or` create a strangle by selling ≤ 25Δ call & put `when` DTE is between 3 - 4.
+	- `Or` create a strangle by selling ≤ 22Δ call & put `when` DTE > 4.
+8. `If` you created a new strangle after exiting both the legs `then` go to step 2.
+9. Replace the exited leg.
+		- Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
+		- Buy hedges.
+			- Buy call & put w/ strikes at breakeven points.
+		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
+		- Gauge delta using this upper and lower values.
+		- You may even match the premium of the other option.
+10. Exit `when`...
+	- Its Thursday (i.e. on the day of expiry) @ 10:30 AM.
+11. Go to step 3.
+
+### Variation B. Hedges @ 50% of short strike's delta
+
+1. Create an Iron Fly.
+	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
+	- Buy the hedges.
+		- `Or` buy 9Δ to 11Δ call & put w/ 8 DTE.
+	- Enter on Thursday @ 10:30 AM.
+	- Consider picking 23Δ if 18Δ to 22Δ are not available and premiums are too low for below 18Δ.
+
+Step 2 through 8 of Variation A.
+
+9. Replace the exited leg.
+		- Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
+		- Buy hedges.
+			- Buy call & put w/ delta half of short options.
+		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
+		- Gauge delta using this upper and lower values.
+		- You may even match the premium of the other option.
+
+### Variation C. Hedges @ twice of B/E hedge in Variation A
+
+1. Create an Iron Fly.
+	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
+	- Buy the hedges.
+		- Pick strikes beyond breakeven points for twice as much width of strikes at breakeven points.
+			1. First, pick the strikes at breakeven points.
+			2. Calculate the width/distance between the above picked strike and shorted option.
+			3. Now select a strike which is 2 times far the above calculated distance.
+	- Enter on Thursday @ 10:30 AM.
+	- Consider picking 23Δ if 18Δ to 22Δ are not available and premiums are too low for below 18Δ.
+
+Step 2 through 8 of Variation A.
+
+9. Replace the exited leg.
+		- Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
+		- Buy hedges.
+			- Pick strikes beyond breakeven points for twice as much width of strikes at breakeven points.
+				1. First, pick the strikes at breakeven points.
+				2. Calculate the width/distance between the above picked strike and shorted option.
+				3. Now select a strike which is 2 times far the above calculated distance.
+		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
+		- Gauge delta using this upper and lower values.
+		- You may even match the premium of the other option.
+
+### Variation D. Deploy strangle @ 30Δ
+
+### Variation E. Adjust or shift upon breakeven breach
