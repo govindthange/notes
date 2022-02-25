@@ -115,7 +115,7 @@ Short Strangle w/o Hedge
 [Strong trend | 01 Jan 2021 - 14 Jan 2021](https://youtu.be/OUVmA9_9bnM?t=158)
 - Managed 7% up move.
 
-### Variation B. 8 DTE
+### Variation B. 7 DTE
 
 1. Create a strangle by selling 18Δ to 22Δ call & put w/ 8 DTE.
 	- Enter on Thursday @ 10:30 AM.
@@ -131,8 +131,9 @@ Short Strangle w/o Hedge
 		- The use the expected move to calculate the upper and lower range that price can touch.
 3. Monitor premiums of short call & short put.
 	- Wait for one of the premiums to drop by 50%.
-4. Exit the leg whose premium has dropped by 50% from the value that was there in delta neutral state.
+4. Exit the leg whose premium has dropped by 50% from the value that was there in delta neutral state `or` its premium has reduced to 50% of the other leg.
 	- This means, as you iterate through the steps, track premium to become half from its value that was there at the time you adjusted it to delta neutral state.
+		- `Or` wait for it to become half of the other leg's premium.
 	- Exit the other leg if its premium too has dropped by 50%.
 	- Don't compare 50% drop from the initial price when you added the contract.
 	- Don't exit before 50% drop in value.
