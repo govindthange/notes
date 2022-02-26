@@ -336,14 +336,18 @@ Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
 
 1. Create an Iron Fly.
 	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
+		- Sell 18Δ call & put when IV/VIX goes above 30.
+		- Sell 16Δ call & put when IV/VIX goes above 40.
 	- Buy the hedges.
 		- Buy call & put w/ strikes at breakeven points.
 	- Enter on Thursday @ 10:30 AM.
 	- Consider picking 23Δ if 18Δ to 22Δ are not available and premiums are too low for below 18Δ.
 2. Deploy strangle only when...
-	1. B/E > 2.75% of the spot price for DTE ≤ 2.
+	1. The max loss is under 10% of the deployed margin.
+		- For 75 lot Nifty Iron Condor it is ₹6,500 for a ₹60,000 margin.
+	2. `And` B/E > 2.75% of the spot price for DTE ≤ 2.
 		- `Or` B/E > 3.75% of the spot price for DTE > 2.
-	2. `And` B/E range fully covers/engulfs the expected move.
+	3. `And` B/E range fully covers/engulfs the expected move.
 		- Calculate expected average move for the day using one of the following formulas:
 			- `Expected % Move` = `IV` / √(365/2)
 			- `Expected % Move` = `IV` * √(2/365)
@@ -375,7 +379,9 @@ Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
 	- There is still premium/delta imbalance after exiting one leg.
 	- Both legs have same strikes leading to a straddle formation.
 7. `If` both legs are closed `then` create a fresh straddle like so:
-	- `Either` create a strangle by selling ≤ 30Δ call & put `when` DTE is 1.
+	- create a strangle by selling ≤ 18Δ call & put `when` IV/VIX is over 30 .
+		- `Or` create a strangle by selling ≤ 16Δ call & put `when` IV/VIX is over 40 .
+	- `Otherwise` create a strangle by selling ≤ 30Δ call & put `when` DTE is 1.
 	- `Or` create a strangle by selling ≤ 28Δ call & put `when` DTE ≤ 2.
 	- `Or` create a strangle by selling ≤ 25Δ call & put `when` DTE is between 3 - 4.
 	- `Or` create a strangle by selling ≤ 22Δ call & put `when` DTE > 4.
@@ -395,6 +401,8 @@ Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
 
 1. Create an Iron Fly.
 	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
+		- Sell 18Δ call & put when IV/VIX goes above 30.
+		- Sell 16Δ call & put when IV/VIX goes above 40.
 	- Buy the hedges.
 		- `Or` buy 9Δ to 11Δ call & put w/ 8 DTE.
 	- Enter on Thursday @ 10:30 AM.
@@ -414,6 +422,8 @@ Step 2 through 8 of Variation A.
 
 1. Create an Iron Fly.
 	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
+		- Sell 18Δ call & put when IV/VIX goes above 30.
+		- Sell 16Δ call & put when IV/VIX goes above 40.
 	- Buy the hedges.
 		- Pick strikes beyond breakeven points for twice as much width of strikes at breakeven points.
 			1. First, pick the strikes at breakeven points.
