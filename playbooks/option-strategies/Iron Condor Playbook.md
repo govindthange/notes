@@ -336,9 +336,10 @@ Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
 
 1. Create an Iron Fly.
 	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
-		- Sell ≤ 20Δ call & put when IV/VIX goes above 22.
-		- Sell ≤ 18Δ call & put when IV/VIX goes above 26.
-		- Sell ≤ 16Δ call & put when IV/VIX goes above 40.
+		- Sell ≤ 22Δ call & put `when` IV/VIX is between 16 - 20.
+		- Sell ≤ 20Δ call & put `when` IV/VIX is between 20 - 26.
+		- Sell ≤ 18Δ call & put `when` IV/VIX is between 26 - 40.
+		- Sell ≤ 16Δ call & put `when` IV/VIX is over 40.
 	- Buy the hedges.
 		- Buy call & put w/ strikes at breakeven points.
 	- Enter on Thursday @ 10:30 AM.
@@ -381,32 +382,39 @@ Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
 	- There is still premium/delta imbalance after exiting one leg.
 	- Both legs have same strikes leading to a straddle formation.
 7. `If` both legs are closed `then` create a fresh straddle like so:
-	- create a strangle by selling ≤ 20Δ call & put `when` IV/VIX is over 22 .
-		- `Or` create a strangle by selling ≤ 18Δ call & put `when` IV/VIX is over 26 .
-		- `Or` create a strangle by selling ≤ 16Δ call & put `when` IV/VIX is over 40 .
-	- `Otherwise` create a strangle by selling ≤ 30Δ call & put `when` DTE is 1.
-	- `Or` create a strangle by selling ≤ 28Δ call & put `when` DTE ≤ 2.
-	- `Or` create a strangle by selling ≤ 25Δ call & put `when` DTE is between 3 - 4.
-	- `Or` create a strangle by selling ≤ 22Δ call & put `when` DTE > 4.
-8. `If` you created a new strangle after exiting both the legs `then` go to step 2.
-9. Replace the exited leg.
+	- Create a strangle by selling ≤ 24Δ call & put when IV/VIX is between 16 - 20.
+		- Sell ≤ 30Δ call & put `when` DTE is 1.
+		- `Or` sell ≤ 28Δ call & put `when` DTE ≤ 2.
+		- `Or` sell ≤ 25Δ call & put `when` DTE is between 3 - 4.
+		- `Or` sell ≤ 22Δ call & put `when` DTE > 4.
+	- `Or` create a strangle by selling ≤ 22Δ call & put when IV/VIX  is between 20 - 22.
+		- Sell ≤ 30Δ call & put `when` DTE is 1.
+		- `Or` sell ≤ 28Δ call & put `when` DTE ≤ 2.
+		- `Or` sell ≤ 25Δ call & put `when` DTE is between 3 - 4.
+		- `Or` sell ≤ 22Δ call & put `when` DTE > 4.
+	- `Or` create a strangle by selling ≤ 20Δ call & put when IV/VIX  is between 22 - 26.
+	- `Or` create a strangle by selling ≤ 18Δ call & put when IV/VIX  is between 26 - 40.
+	- `Or` create a strangle by selling ≤ 16Δ call & put when IV/VIX  is over 40.
+1. `If` you created a new strangle after exiting both the legs `then` go to step 2.
+2. Replace the exited leg.
 		- Sell another option with type that of above exited leg and `delta lower/matching the positional delta` after exiting.
 		- Buy hedges.
 			- Buy call & put w/ strikes at breakeven points.
 		- If opstra shows 0 or 100 as delta then refer options chain and check what are the delta values of the upper and lower strike price.
 		- Gauge delta using this upper and lower values.
 		- You may even match the premium of the other option.
-10. Exit `when`...
+3. Exit `when`...
 	- Its Thursday (i.e. on the day of expiry) @ 10:30 AM.
-11. Go to step 3.
+4. Go to step 3.
 
 ### Variation B. Hedges @ 50% of short strike's delta
 
 1. Create an Iron Fly.
 	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
-		- Sell ≤ 20Δ call & put when IV/VIX goes above 22.
-		- Sell ≤ 18Δ call & put when IV/VIX goes above 26.
-		- Sell ≤ 16Δ call & put when IV/VIX goes above 40.
+		- Sell ≤ 22Δ call & put `when` IV/VIX is between 16 - 20.
+		- Sell ≤ 20Δ call & put `when` IV/VIX is between 20 - 26.
+		- Sell ≤ 18Δ call & put `when` IV/VIX is between 26 - 40.
+		- Sell ≤ 16Δ call & put `when` IV/VIX is over 40.
 	- Buy the hedges.
 		- `Or` buy 9Δ to 11Δ call & put w/ 8 DTE.
 	- Enter on Thursday @ 10:30 AM.
@@ -426,9 +434,10 @@ Step 2 through 8 of Variation A.
 
 1. Create an Iron Fly.
 	- Sell 18Δ to 22Δ call & put w/ 8 DTE.
-		- Sell ≤ 20Δ call & put when IV/VIX goes above 22.
-		- Sell ≤ 18Δ call & put when IV/VIX goes above 26.
-		- Sell ≤ 16Δ call & put when IV/VIX goes above 40.
+		- Sell ≤ 22Δ call & put `when` IV/VIX is between 16 - 20.
+		- Sell ≤ 20Δ call & put `when` IV/VIX is between 20 - 26.
+		- Sell ≤ 18Δ call & put `when` IV/VIX is between 26 - 40.
+		- Sell ≤ 16Δ call & put `when` IV/VIX is over 40.
 	- Buy the hedges.
 		- Pick strikes beyond breakeven points for twice as much width of strikes at breakeven points.
 			1. First, pick the strikes at breakeven points.
