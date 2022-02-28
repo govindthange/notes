@@ -385,15 +385,20 @@ Evolved from [[Short Strangle Playbook#Variation B 7 DTE]]
 	- Create a strangle by selling ≤ 24Δ call & put when IV/VIX is between 16 - 20.
 		- Sell ≤ 30Δ call & put `when` DTE is 1.
 		- `Or` sell ≤ 28Δ call & put `when` DTE ≤ 2.
-		- `Or` sell ≤ 25Δ call & put `when` DTE is between 3 - 4.
-		- `Or` sell ≤ 22Δ call & put `when` DTE > 4.
+		- `Or` sell ≤ 26Δ call & put `when` DTE is between 3 - 4.
+		- `Or` sell ≤ 24Δ call & put `when` DTE > 4.
 	- `Or` create a strangle by selling ≤ 22Δ call & put when IV/VIX  is between 20 - 22.
-		- Sell ≤ 30Δ call & put `when` DTE is 1.
-		- `Or` sell ≤ 28Δ call & put `when` DTE ≤ 2.
-		- `Or` sell ≤ 25Δ call & put `when` DTE is between 3 - 4.
-		- `Or` sell ≤ 22Δ call & put `when` DTE > 4.
+		- Sell ≤ 26Δ call & put `when` DTE is 1.
+		- `Or` sell ≤ 24Δ call & put `when` DTE ≤ 2.
+		- `Or` sell ≤ 22Δ call & put `when` DTE > 3.
 	- `Or` create a strangle by selling ≤ 20Δ call & put when IV/VIX  is between 22 - 26.
+		- Sell ≤ 24Δ call & put `when` DTE is 1.
+		- `Or` sell ≤ 22Δ call & put `when` DTE ≤ 2.
+		- `Or` sell ≤ 20Δ call & put `when` DTE > 3.
 	- `Or` create a strangle by selling ≤ 18Δ call & put when IV/VIX  is between 26 - 40.
+		- Sell ≤ 22Δ call & put `when` DTE is 1.
+		- `Or` sell ≤ 20Δ call & put `when` DTE ≤ 2.
+		- `Or` sell ≤ 18Δ call & put `when` DTE > 3.
 	- `Or` create a strangle by selling ≤ 16Δ call & put when IV/VIX  is over 40.
 1. `If` you created a new strangle after exiting both the legs `then` go to step 2.
 2. Replace the exited leg.
