@@ -8,7 +8,7 @@ Iron Condor + Diagonal Calendar
 - Double DCS works better when `VIX is between 17 to 25`.
 - Double DCS is a better `substitute when Iron Condor fails`.
 - Double DCS is best suited `for weekly option selling`.
-- Double DCS is not suited for monthly option selling as you end up too much for the back month hedge.
+- Double DCS is not suited for monthly option selling as you end up paying too much for the back month hedge.
 - References:
 	- [Rules for calendar/diagonal spreads](https://www.thestreet.com/investing/options/15-rules-for-calendardiagonal-spreads-12003637)
 

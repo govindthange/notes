@@ -245,7 +245,7 @@ Once price breaches the breakeven point the entire goal of doing adjustment is t
 2. Wait for the above option premium to `reduce by 50%`, or `by ₹20 in Nifty`, or `by ₹30 in Bank Nifty` and then exit it.
 3. If market moves further in the same direction then again short an option on the non tested side.
 	- If premiums are high enough then
-		- `Either` select a strike with premium ₹20 (in Nifty) or ₹30 (in Bank Nifty) lesser than the one you shorted in steps above.
+		- `Either` select a strike with premium ₹20 (in Nifty) or ₹30 (in B04ank Nifty) lesser than the one you shorted in steps above.
 		- `Or` select a strike with premium same as earlier one when you shorted it.
 		- `Or` select a strike that is far by 7% to 8% (i.e. 1000 points in Nifty).
 	- Ensure that the strike price is safe as per your analysis.
