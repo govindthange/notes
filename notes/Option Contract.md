@@ -94,7 +94,7 @@ Selling Call @ OTM Strike is like Shorting shares at a higher price than the mar
 
 ## Long Put
 
-It allows the put owner to sell his shares at a higher price than the market on a future date (expiration) if it has intrinsic value at expiration. Buying a Put is a good insurance against a potential downtrend.
+It allows the put owner to sell his shares at a premium on a future date (expiration) if it has intrinsic value at expiration. Buying a Put is a good insurance against a potential downtrend.
 
 > Selling at a higher price in future.
 

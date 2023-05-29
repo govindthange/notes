@@ -119,7 +119,7 @@ Reading:
 ==TO BE CLARIFIED==
 
 - σ is the measure of dispersion where as variance is the measure of variability.
-- σ tells you to what extent (imagine the size of the bell curve and 64-95-99 % rules) the data is likely to vary around its mean whereas variance tells you how far a set of numbers are spread out from their average value.
+- σ tells you to what extent/amount (in percent; imagine the size of the bell curve and 64-95-99 % rules) the data is likely to vary around its mean whereas variance tells you how far a set of numbers are spread out from their average value.
 - σ is the average distance that a value lies from the mean while the variance tells us the square of this value.
 
 ## Standard Deviation (σ)
