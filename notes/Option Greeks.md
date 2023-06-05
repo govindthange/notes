@@ -50,7 +50,7 @@ Adjusting delta is the simplest form of risk management.
 
 > Delta is another word for the directional risk so Managing Delta = Managing Position.
 
-In small sized trading accounts knowing and managing deltas is an essential aspect of overall trading strategy. It is an essential risk management tool and a key to succesful trading.
+In small sized trading accounts knowing and managing deltas is an essential aspect of overall trading strategy. It is an essential risk management tool and a key to successful trading.
 
 Note that if you have limited capital you can make limited adjustment. It is very important that one understands this adjustment game as you cannot buy/short a lot of stocks.
 
@@ -91,7 +91,7 @@ When you want to define risk in a small sized account use spreads as opposed to 
 
 ## Gamma (𝛾)
 
-> Measures change in δ when stock price moves.
+> Measures change in delta when stock price moves.
 
 It is the rate of change of [[#Delta]].
 - It is expressed in percentage/decimal.
@@ -144,11 +144,11 @@ Intraday is tough for Option Sellers because [...](https://youtu.be/9E2PETrQ01M?
 
 > Option Sellers make more money when they hold their position overnight when there is less volatility and there are no gap-up/down.
 
-## Implied Volatility  & VIX
+## Implied Volatility and VIX
 
 ### VIX
 
-VIX is about market and its movement.
+VIX is about ==market and its movement== (not the underlying stock).
 
 It is a measure of predicted future movement.
 - It increases when there is uncertainity or anticipated news.
@@ -162,7 +162,7 @@ IV is about strikes and the movement of its premium.
 
 - IV depends upon VIX and forthcoming event (expiry, budget etc).
 - If VIX increases then IV increases with it but the opposite may not hold true.
-	- I.e. it is not necessary that VIX too will move with IV.
+	- I.e. it is not necessary that VIX too will move with IV. Again, VIX is about the market not about the underlying stock itself, so IV change doesn't lead to VIX change.
 	- On budget days IV crosses above 100 and VIX may not move as much on these days.
 - IV behaves readically on defined events (like budgets)
 	- As budget day approach IV will increase.
@@ -200,6 +200,7 @@ Quick Tips
 
 #### Increasing VIX
 
+- VIX is a measure of fear in the market. And fear is when market is falling.
 - Over 70% of the times VIX increases when the market is going down and VIX decreases when the market is going up.
 - In Opstra Options Analytics, the gap between the dashed-blue-line i.e. `t+0 P&L` and the solid-green-line i.e. `P&L`. The dashed-blue-line moves away from the 0 line to the downside. [...](https://youtu.be/Uj1wAy_p_Ko?list=PLpLkTHBumJ3M4shHm45QrcWBdNG9TpSRX&t=583)
 	- If VIX is increasing i.e. blue-line is moving away from the 0 line then you can control this by adding hedge i.e. buying more options.
@@ -231,20 +232,20 @@ When VIX is decreasing you will `add more SHORT positions` in your overall Optio
 
 When elections/budget days are coming closer VIX increases and only Option Buyers make money until the day before the election/budget day. Option Writer do not make money until the day before election/budget day.
 
-And on the day of election/bundge, as soon as Finance Minister starts speaking, the VIX starts to go down rapidly. From that day, when election/budge are done, Optoin Writer starts making money. From that day you can start adding SHORT positions to your overall strategy.
+And on the day of election/budget, as soon as Finance Minister starts speaking, the VIX starts to go down rapidly. From that day, when election/budgets are done, Option Writer starts making money. From that day you can start adding SHORT positions to your overall strategy.
 
 ## Vega (ν)
 
 > Measures change in option price when volatility moves.
 
 Its a measure of impact of `changes in the underlying volatility` on the premium.
-- Its the change in premium for every 1% change in [[#Implied Volatility VIX]] assumption.
-	- vega is added to preimium when volatility goes up and vega is subtracted from premium when volatility drops.
+- Its the change in premium for every 1% change in [[#Implied Volatility and VIX]] assumption.
+	- vega is added to premium when volatility goes up and vega is subtracted from premium when volatility drops.
 
 ### Characteristics
 
 - premium goes up as volatility (VIX) goes up and premium falls as volatility drops.
-- Longer term options have a higer vega compared to near term options.
+- Longer term options have a higher vega compared to near term options.
 	- Longer term options are more expensive.
 	- A 1% change in IV would represent larger $ amount of that premium than an option with a lower premium.
 
@@ -306,7 +307,7 @@ It is the 2nd Order Greek.
 
 ## Delta:Theta (δ:θ) Ratio
 
-{ `δ:θ` < `0.3 to 0.4` } => "You have `No Directoinal Risks`!"
+{ `δ:θ` < `0.3 to 0.4` } => "You have `No Directional Risks`!"
 
 { `δ:θ` > `0.4` } => "You have `Directional Risks`"
 
@@ -329,18 +330,18 @@ Hedging by buying OTM options to safeguard 800 point movement on up and downside
 ## Adjusting for Volatility
 
 - If market is going to be sideways then you may keep Vega (-)ve to neutral.
-- If market is going to be volatilie you should keep Vega (+)ve.
+- If market is going to be volatile you should keep Vega (+)ve.
 
 ## Adjusting Credit Strategy
 
 - Have (+)ve Theta
-- Convert to `Debit Strategy` (by buying otpions to add hedges) if VIX rises.
-- Exit strategy before the day of expiry and be safe from Gamma. Do not hold your positoin beyond 01:00 PM on Thursday.
+- If VIX rises then convert to `Debit Strategy` (by buying options to add hedges).
+- Exit strategy before the day of expiry and be safe from Gamma. Do not hold your position beyond 01:00 PM on Thursday.
 
 ## Adjusting Debit Strategy
 
 - May have (-)ve Theta
-- Convert to `Credit Strategy` (by shorting more otpions) if VIX falls.
+- If VIX falls then convert to `Credit Strategy` (by shorting more options).
 - May hang around till the day of expiry in anticipation of a larger directional move. Gamma is your friend!
 
 ## Adjusting using Opstra

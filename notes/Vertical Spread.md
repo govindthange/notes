@@ -17,7 +17,7 @@ Bull Put Spread = Short Put Spread = Put Credit Spread
 	- Defining risks.
 	- Defining how much money you want to make out of this trade.
 
-> `Nake Trading` is level 1, `Spread Trading` is level 2.
+> `Naked Trading` is level 1, `Spread Trading` is level 2.
 
 # Debit Spread
 [...](https://www.youtube.com/watch?v=LNtjyfgZWcA)

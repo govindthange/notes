@@ -6,12 +6,16 @@ The sense of call and put becomes clearer if one thinks of the writer of these o
 
 See Calls and puts from the perspective of the option writer, along with the corresponding prepositions `away` and `to`.
 
-- a stock getting `called away` from the investor (for selling).
-- a stock being `put to` the investor (for buying).
+- A stock is `called away` from its writer (for selling).
+	- A stock has been `called away` from the writer, and now he is forced to sell it (at option strike price).
+	- Here, the preposition _away_ tells the direction of the stock's motion: It is _away_ from the call writer.
+- A stock is `put to` its writer (for buying).
+	- A stock has been `put to` the writer, and now he is forced to buy it (at option strike price).
+	- Here, the preposition _to_ tells the direction of the stock's motion: It is _to_ the put writer.
 
 ## CALLed away
 
-When I write calls my broker will report, "My stock has been called away."
+When I write CALLs my broker will report, "My stock has been called away."
 
 This is a shorthand for "Your (underlying) stock (on which the call was written) has been called away (and you have sold at the option's strike price to the option buyer)." (He could also say, "The call has been exercised" and hope that the option writer is well versed in the mechanics of options.)
 
@@ -29,7 +33,7 @@ INFY gets `called away` from the investor at ₹1600.
 
 ## PUT to
 
-When I write puts my broker will report, "The stock has been put to you."
+When I write PUTs my broker will report, "The stock has been put to you."
 
 This is shorthand for "The put buyer has exercised his right to sell the underlying stock to you, the put writer, at the option's strike price."
 
@@ -37,7 +41,7 @@ Here, the preposition _to_ tells you the direction of the stock's motion: It is 
 
 ##### Example
 
-Imagine an investor who has written a cash-covered put on stock INFY with a strike of ₹1600. And let's suppose that ABC falls to ₹1500.
+Imagine an investor who has written a cash-covered PUT on INFY with a strike of ₹1600. And let's suppose INFY falls to ₹1500.
 
 INFY will be `put to` the investor at ₹1600.
 
@@ -62,12 +66,36 @@ A put option gives the holder the right to sell an asset by a certain date for a
 
 | If your view is   | but definitely NOT | then to profit | how?       | when?     | with     |
 |-------------------|--------------------|----------------|------------|-----------|----------|
-| bullish today     | in future          | buy            | @ discount | today     | Short PE |
+| bullish TODAY     | in future          | buy            | @ discount | TODAY     | Short PE |
 | bullish in future | today              | buy            | @ discount | in future | Long CE  |
-| bearish today     | in future          | sell           | @ premium  | today     | Short CE |
+| bearish TODAY     | in future          | sell           | @ premium  | TODAY     | Short CE |
 | bearish in future | today              | sell           | @ premium  | in future | Long PE  |
 
 Buying options is like buying an insurance and an option seller/writer is like an Insurance Broker.
+
+### How to think?
+
+If your view is **bullish today** but **NOT in future** then
+- to profit you must **buy low today** i.e. **buy @ discount w.r.t. today's price** by
+	- collecting option premium today.
+	- by being forced to buy
+	- by stock being **put to** you
+	- by writing put (i.e. short PE)
+- and by not being bullish in future, you hope price remain sideways or go down in future.
+
+If your view is **bullish in future** but **NOT today** then
+- to profit you must **buy low in future** i.e. **buy @ discount in future**
+
+If your view is **bearish today** but **NOT in future** then
+- to profit you must **sell high today** i.e. **sell @ premium w.r.t. today's price** by
+	- collecting option premium today.
+	- by being forced to sell
+	- by stock being **called away** from you
+	- by writing get (i.e. short CE)
+- and by not being bearish in future, you hope price remain sideways or go up in future.
+
+If your view is **bullish in future** but **NOT today** then
+- to profit you must **buy low in future** i.e. **buy @ discount in future**
 
 ## Long Call
 
@@ -81,13 +109,14 @@ Selling Call @ OTM Strike is like Shorting shares at a higher price than the mar
 
 > Selling at a higher price today.
 
-##### Example
+##### Expected Analysis (ALWAYS think on these lines)
 
 - ABC is trading at ₹100 today i.e. on 23-July.
 - Your view on ABC is not bullish in the near future i.e. till 29-July expiry.
 - As per your analysis ABC will trade sideways, trend down, or may slightly go up but not substantially to rally beyond ₹120.
 - You think ₹120 level can act as a strong resistance where sellers would take charge.
-- If your analysis is correct then you can benefit from this situtation by `selling a Call @ OTM strike`.
+	- These sellers are those who bought at lower levels and would like to book profit.
+- If your analysis is correct then you can benefit from this situation by `selling a Call @ OTM strike`.
 - When you short `120CE 7/29 (6d)` at ₹5 you are obligated to sell ABC @ ₹120 on 29-July if it gains intrinsic value.
 - But, in today's context, when ABC is trading at ₹100 you are getting to sell ABC at a higher price of ₹120 and also get to collect ₹5 premium just by selling the Call. And you don't even need to own ABC to short it.
 - By selling an OTM Call option you make money when market trades sideways, goes down, or even goes up but stays below ₹120. You only loose when market rallies beyond ₹120 by 29-July. Your Probability of success is high.
@@ -104,13 +133,14 @@ Selling Put @ OTM Strike is like owning shares at a lower price than what the st
 
 > Buying at a discount today.
 
-##### Example
+##### Expected Analysis (ALWAYS think on these lines)
 
 - ABC is trading at ₹100 today i.e. on 23-July.
 - Your view on ABC is not bearish in the near future i.e. till 29-July expiry.
-- As per your anlaysis ABC will trade sideways, trend up, or may slightly go down but not substantially to crash below ₹80.
+- As per your analysis ABC will trade sideways, trend up, or may slightly go down but not substantially to crash below ₹80.
 - You think ₹80 level can act as a strong support where buyers would jump in to prevent further drop in price.
-- If your analysis is correct then you can benefit from this situtation by `selling a Put @ OTM strike`.
+	- These buyers are those who shorted at higher levels and would like to book profit or are new buyers who would like to create new positions.
+- If your analysis is correct then you can benefit from this situation by `selling a Put @ OTM strike`.
 - When you short `80PE 7/29 (6d)` at ₹7 you are obligated to buy ABC @ ₹80 on 29-July if it gains intrinsic value.
 - But, in today's context, when ABC is trading at ₹100 you are getting to buy ABC at a far lower price of ₹80 and also get to collect ₹7 premium just by selling the Put.
 - By selling an OTM Put option you make money when market trades sideways, goes up, or even goes down but stays above ₹80. You only loose when market trends below ₹80 by 29-July. Your Probability of success is high.

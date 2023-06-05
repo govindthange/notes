@@ -23,26 +23,33 @@
 
 `v3.0`
 
-| If your view is | when?     | i.e. the market will          | but definitely NOT | when?     | then to profit | how?       | when?     | with     |
-|-----------------|-----------|-------------------------------|--------------------|-----------|----------------|------------|-----------|----------|
-| NOT bearish     | today     | be sideways to little bullish | bullish            | in future | buy shares     | @ discount | today     | SHORT PE |
-| bullish         | in future | start trending up             | bullish            | today     | buy shares     | @ discount | in future | LONG CE  |
-| NOT bullish     | today     | be sideways to little bearish | bearish            | in future | sell shares    | @ premium  | today     | SHORT CE |
-| bearish         | in future | start trending down           | bearish            | today     | sell shares    | @ premium  | in future | LONG PE  |
+You profit by buying low and selling high.
+You buy stock by going long CE or short PE.
+You sell stock by going long PE or short CE.
+
+If you are not bearish today then to profit you need to buy low (i.e. buy at discount), i.e. you short PE. You don't want to go long CE since you are not bullish in future.
+- If you are not bearish today, and if you were bullish in future, then you need not buy at discount to profit. But if you are NOT bullish in future too, then to profit you must buy at discount.
+
+| If your view is | when?     | i.e. the market will          | but definitely | when?     | then to profit | how?       | when?     | with     |
+|-----------------|-----------|-------------------------------|----------------|-----------|----------------|------------|-----------|----------|
+| NOT bearish     | today     | be sideways to little bullish | NOT bullish    | in future | buy shares     | @ discount | today     | SHORT PE |
+| bullish         | in future | start trending up             |                |           | buy shares     | @ discount | in future | LONG CE  |
+| NOT bullish     | today     | be sideways to little bearish | NOT bearish    | in future | sell shares    | @ premium  | today     | SHORT CE |
+| bearish         | in future | start trending down           |                |           | sell shares    | @ premium  | in future | LONG PE  |
 
 # Rules
 
 [[Trading Commandments]]
 
 - Be conservative and keep the position size down. It is the most important thing!
-	- Keeping the size down is the only defence you have against the bad trades. Size is where Genius fails.
+	- Keeping the size down is the only defense you have against the bad trades. Size is where Genius fails.
 	- There are only 2 kind of trades viz: `Good Trades` and `Bad Trades`.
 	- You need not worry about Good Trades.
 	- With Bad Trades, if you have the buying power, and you give your self a little time and manage those then you only have Good Trades.
 - Make sure you enter 45 day contract. [...](https://youtu.be/Cm2gkiT5bV8?t=765)
 - Take profits at around 50%.
 - See where the IV is.
-- Never close your position unless you do atleast rolls. Give your positoin a little time.
+- Never close your position unless you do at least 2 rolls. Give your position a little time.
 
 # Guidelines
 

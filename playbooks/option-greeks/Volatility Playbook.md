@@ -1,13 +1,13 @@
 [...](https://www.youtube.com/watch?v=a_B3sTTzK08)
 
-When VIX is rising (falling market)
+When VIX is rising (falling market) or will likely rise then
 - Become buyer.
 - Choose debit strategies.
 - Buy put to suppress effects of rising VIX.
 - Do not short calls. It won't be able to compensate as much.
 - When VIX is high (over 25) then stocks tend to move way out of their standard deviation.
 
-When VIX is falling (rising market)
+When VIX is falling (rising market) or will likely fall (i.e. revert to its mean) then
 - Become seller.
 - Choose credit strategies.
 - Short puts to take advantage of falling VIX (due to falling premium)
@@ -23,7 +23,7 @@ When VIX is falling (rising market)
 |           | You will get less premium.                                                          |
 |           | Prefer calendar strategies.                                                         |
 |           | Prefer +ve vega in overall position to support volatility.                          |
-|           | Prefer less theta trade.                                                            |
+|           | Expect less theta trade.                                                            |
 |           | Choose low theta and high vega strategy.                                            |
 |           | Do NOT use Iron Fly! It is a vega negative trade.                                   |
 |           | With Iron Fly if price a little bit, it will breach your range.                     |
