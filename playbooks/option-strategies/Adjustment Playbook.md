@@ -1,3 +1,4 @@
+Option trading is a business of managing risk and making continuous returns.
 
 # Non Directional Strategy
 

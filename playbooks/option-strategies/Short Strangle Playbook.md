@@ -19,6 +19,8 @@ Short Strangle w/o Hedge
 	- High premiums gives better breakeven range.
 	- Generally VIX shoots up when market falls. This is ideally the best time to enter strangle but since there is lot of fear only few do it. [...](https://youtu.be/fZe6ClmdbZg?list=PLWWIQDCw20f2k9frpTPK9bhZQO50Hyg1g&t=541)
 
+> Note: Strangles can also be deployed for directional views. For example, if you think market will go up then you can sell call at far OTM strike and sell put near OTM strike.
+
 ## Deploying far OTM strangles
 [...](https://youtu.be/MIF7oq2J9Pw?t=145)
 
@@ -53,6 +55,9 @@ Short Strangle w/o Hedge
 	- For monthly strangles, don't try to collect high credit at the time of deployment. [...](https://youtu.be/fZe6ClmdbZg?t=861)
 		- Try to collect small premium and then increase your collection by slowly increasing the lot size and/or premium.
 		- Adjustment in monthly strangles is inevitable. If you start with a high credit in the beginning, with more adjustment you will eventually have a small breakeven range to ride the market. Instead start small and collect by doing more adjustments.
+			- Again, you start by selling options with a bit far OTM strikes w/ lesser premium BUT you increase your profit by doing adjustments.
+			- Every time you do adjustments by shifting option, you book profit of existing option, and collect higher premium of the newly shifted option.
+			- So, essentially you make money by booking profit and by collecting higher and higher premium as you shift towards the side market is moving.
 		- Note that whenever you adjust a strangle, it increases your credit. So you end up earning more than what you had originally targetted. [...](https://youtu.be/fZe6ClmdbZg?t=821)
 			- Start with 30 premium.
 			- Then book profits in 30 premium.
@@ -72,6 +77,13 @@ Short Strangle w/o Hedge
 [Selecting monthly vs weekly strangles | ThetaGainers](https://youtu.be/fZe6ClmdbZg?t=695)
 
 > Note that whenever you adjust a strangle, it increases your credit. So you end up earning more than what you had originally targetted. [...](https://youtu.be/fZe6ClmdbZg?t=821)
+> 	- You earn through shifting your options in 2 ways:
+> 		1. You close option that was showing profit. So, essentially you book profit.
+> 		2. You sell, new option by matching delta/price. That means you collect even higher premium.
+
+[Deciding risk | ThetaGainers](https://youtu.be/fZe6ClmdbZg?t=3570) 
+- Cap your loss at 2%. If you see 2%+ loss, exit your strangle.
+- For 3L account, limit loss at 6k, For 10L account, limit it at 20k.
 
 [Decide earning target | ThetaGainers](https://youtu.be/fZe6ClmdbZg?t=1910)
 - How much you want to earn if your capital is ₹4,00,000?
@@ -312,13 +324,15 @@ Your goal is to recover losses due to a huge move in overnight strangle by...
 	- Move on to next strangle instead of chasing profits in an existing strangle.
 	- Run with time.
 - Exit when MTM loss exceeds 2% of deployed margin.
-- Exit ASAP if an adjust lead to an inverted strangle and still you see a slight profit.
+- Exit ASAP if an adjustment lead to an inverted strangle and still you see a slight profit.
+- Also keep tracking the charts i.e. EXIT if you see a breakout from a critical level.
 
 ---
 
 Reference:
 - [04 May 2020 | Strangle vs Straddle Adjustments | ThetaGainers](https://youtu.be/MIF7oq2J9Pw?t=77)
-- [04 June 2020 | Recvering losses in overnight strangles | ThetaGainers](https://youtu.be/6VP7UuoN7Ho?t=684)
+- [17 Sep 2021 | Navigating high VIX 'V' shape recovery | ThetaGainers](https://youtu.be/fZe6ClmdbZg?t=2947)
+- [04 June 2020 | Recovering losses in overnight strangles | ThetaGainers](https://youtu.be/6VP7UuoN7Ho?t=684)
 - [22 June 2020 | Q&A on strangles | ThetaGainers - Premium](https://youtu.be/zMwFaIqWYhs?t=4756)
 - [01 Nov 2020 | Strangle adjustments | ThetaGainers](https://www.youtube.com/watch?v=ZnSVMv7jgTc)
 - [12 Nov 2021 | All about strangles | ThetaGainers](https://www.youtube.com/watch?v=fZe6ClmdbZg)
