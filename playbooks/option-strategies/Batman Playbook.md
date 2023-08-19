@@ -2,7 +2,20 @@ Its a double 1:2 ratio spread
 
 # Step 1. Deploy
 
-## Approach 1: Many batmans
+## Approach 1: Batman w/ 600 strike
+
+> First of every month @ 3:15 PM
+
+1. Long 1 CE 600 strikes above ATM
+2. Short 2 CE 700 strikes above ATM
+3. Long 1 CE 600 strikes below ATM
+4. Short 2 CE 700 strikes below ATM
+
+Exit?
+- When VIX crosses 25?
+- When MTM loss exceeds 3%?
+
+## Approach 2: Many batmans
 [...](https://youtu.be/cMTLBTt2jdU?t=344)
 
 Enter 1st of every month @ 9:50 like so: [...](https://youtu.be/cMTLBTt2jdU?t=468)
@@ -21,7 +34,7 @@ Say ATM is @ 17850 strike
 5. Follow same approach on CE side.
 
 
-## Approach 2: Balanced legs w/ Delta
+## Approach 3: Balanced legs w/ Delta
 [...](https://www.youtube.com/watch?v=SxLwcdWJhWI&t=17s)
 
 > Deploy on Friday @ 9:30 AM. [4th March 2022](https://youtu.be/SxLwcdWJhWI?t=215)
@@ -38,7 +51,7 @@ Margin: ₹1.6L for Nifty w/ 1:2 lots
 	- Count the distance of each CE option from ATM or from the 40Δ option strike and then set up PE side leg accordingly.
 	- If we sold 3 CE options 500 points away from ATM, then we will sell 500 points PE options away from ATM.
 
-## Approach 3: Double ratio spread w/ Delta
+## Approach 4: Double ratio spread w/ Delta
 [Jul 2023 Deployment](https://youtu.be/fxr9MYgCSZY?t=122) | [Aug 2023 Deployment](https://www.youtube.com/watch?v=JaZagM0-O5g)
 
 > Deploy on first Monday of every month @ 10 AM
@@ -60,7 +73,7 @@ The above sample deployment gave a range of 1000 to 1200 point range.
 
 # Step 2. Adjust
 
-## Approach 2 Adjustment
+## Approach 3 Adjustment
 
 Adjust upon breach of break-even point. [...](https://youtu.be/SxLwcdWJhWI?t=456)
 
@@ -74,7 +87,7 @@ OR we will bring the 2 bought option on the break-even side inwards.
 5. `If market reverses` and comes inside the strike of the 3 sold option on the breached break-even side then we exit the 3 newly short options in step 3 above. [...](https://youtu.be/SxLwcdWJhWI?t=503)
 6. Now after adjustment #5, if market reverses again, then we wait for it to breach the new breakeven and exit [...](https://youtu.be/SxLwcdWJhWI?t=576)
 
-## Approach 3 Adjustment
+## Approach 4 Adjustment
 
 - Do not lose more than 2-3 percent.
 - Exit when MTM loss ≥ 3%
