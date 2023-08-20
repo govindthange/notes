@@ -5,12 +5,12 @@ Step 1 to 4 are about marking market structure. [...](https://www.youtube.com/wa
 [...](https://youtu.be/YyHjyZ15Z9w?t=317)
 
 1. Start by marking the market structure using SMC.
-2. Monitor `pullbacks`
+2. Monitor `throwbacks/pullbacks`
 3. Wait for the `BoS`.
-4. While monitoring pullbacks also mark the `inducement` and keep shifting it as market forms new minor highs/lows.
+4. While monitoring throwbacks/pullbacks also mark the `inducement` and keep shifting it as market forms new minor highs/lows.
 5. Upon BoS you must wait for market to confirm its `HL` (in uptrend) or `LH` (in downtrend).
 6. To confirm HL/LH, wait for market to take the inducement. [...](https://www.youtube.com/watch?v=YyHjyZ15Z9w&t=525s)
-	- Market must sweep and grab liquidity from the recent most pullback (inducement)
+	- Market must sweep and grab liquidity from the recent most throwback/pullback (inducement)
 	- Refrain from taking trades before market takes the inducement.
 	- The entire market move till it takes the inducement is an internal move and there is a high probability for a trader to get trapped in this.
 7. After market takes the inducement mark the HH (for uptrend) or LL (for downtrend).
@@ -18,45 +18,47 @@ Step 1 to 4 are about marking market structure. [...](https://www.youtube.com/wa
 9. Mark the 2 important PoIs after marking the HH/LL.
 10. Wait for market to tap unmitigated order block (OB)
 
-# Step 1. Monitor `pullbacks` in HTF
+# Step 1. Monitor `throwbacks/pullbacks` in HTF
 
-> We must spot a valid pullback to confirm a prpoer Higher High (HH) in an uptrend or a Lower Low (LL) in a downtrend. [...](https://youtu.be/eMkwY8WahSg?t=317)
+Pullback occurs in a downtrend when price returns back for a short moment in upward direction. Throwback occurs in an uptrend when price returns down for a short moment.
 
-Monitoring pullbacks is crucial because only a valid pullback become inducement (IDB) or an Order Block (OB).
+> We must identify a valid throwback in an uptrend to confirm a proper Higher High (HH) and a valid pullback in a downtrend to confirm a proper Lower Low (LL). [...](https://youtu.be/eMkwY8WahSg?t=317)
 
-Not all corrections are pullbacks and even a small correcting candle can be a pullback.
+Monitoring throwbacks/pullbacks is crucial because only a valid throwback/pullback becomes an inducement (IDB) or an Order Block (OB).
 
-#### What is a valid pullback?
+Not all corrections are throwbacks/pullbacks and even a small correcting candle can be a throwback/pullback.
+
+#### What is a valid throwback/pullback?
 [...](https://youtu.be/eMkwY8WahSg?t=94) | [...](https://youtu.be/eMkwY8WahSg?t=755)
 
-In an uptrend, if a candle sweeps or closes below the low of previous candle then it is a pullback. This pullback structure will complete when market sweeps/breaks above the recent most minor high. [...](https://youtu.be/eMkwY8WahSg?t=1027)
+In an uptrend, if a candle sweeps or closes below the low of previous candle then it is a throwback. This throwback structure will complete when market sweeps/breaks above the recent most minor high. [...](https://youtu.be/eMkwY8WahSg?t=1027)
 
 Similarly, in a downtrend, if a candle sweeps or closes above the high of previous candle then that is considered a pullback. This pullback structure will complete when market sweeps/breaks below the recent most minor low. [...](https://youtu.be/eMkwY8WahSg?t=1027)
 
-A pullback structure can be a larger structure.
+A throwback/pullback structure can be a larger structure comprising of many candles or a as small as 1 to 2 candles only.
 
-The color of the candle which sweeps/breaks the low/high of previous candle does not matter.
+> The color of the candle which sweeps/breaks the low/high of previous candle does not matter!
 
-#### What is an invalid pullback?
+#### What is an invalid throwback/pullback?
 [...](https://youtu.be/eMkwY8WahSg?t=139)
 
-In an uptrend, if a candle is an inside bar and its subsequent candle sweeps or breaks its low then it is not a valid pullback. In an uptrend the candle must create new highs and then the subsequent candle must break this previous candle's low to qualify for a valid pullback structure.
-- For the above inside bar case, if the subsequent candle breaks the low of the main master candle which is just before the inside bar candle then that too can be treated as a valid pullback. [...](https://youtu.be/eMkwY8WahSg?t=249)
+In an uptrend, if a candle is an inside bar and its subsequent candle sweeps or breaks its low then it is not a valid throwback. In an uptrend the candle must create new highs and then the subsequent candle must break this previous candle's low to qualify for a valid throwback structure.
+- For the above inside bar case, if the subsequent candle breaks the low of the main master candle which is just before the inside bar candle then that too can be treated as a valid throwback. [...](https://youtu.be/eMkwY8WahSg?t=249)
 
 Similarly, in a downtrend, a candle must create new low and then its subsequent candle must sweep or break its high to form a pullback.
 - For the above inside bar case, if the subsequent candle breaks the high of the main master candle which is just before the inside bar candle then that too can be treated as a valid pullback. [...](https://youtu.be/eMkwY8WahSg?t=249)
 
-> Also, when you spot a large master candle followed by a series of candle as inside bars to this master candle then should ignore all these candles and not mark any pullbacks here. [...](https://youtu.be/eMkwY8WahSg?t=667)
+> Also, when you spot a large master candle followed by a series of candle as inside bars to this master candle then should ignore all these candles and not mark any throwbacks/pullbacks here. [...](https://youtu.be/eMkwY8WahSg?t=667)
 
-#### When do we need to identify pullback?
+#### When do we need to identify throwback/pullback?
 [...](https://youtu.be/eMkwY8WahSg?t=476)
 
-We need to spot pullback only on following occassions:
+We need to spot a throwback/pullback only on following occassions:
 1. At the time of break of structure.
 2. At the time of identifying inducement.
 3. At the time of spotting order blocks.
 
-#### From where should we start identifying pullbacks?
+#### From where should we start identifying throwbacks/pullbacks?
 [...](https://youtu.be/eMkwY8WahSg?t=578)
 
 Upon BoS always look left and start from the higher low for uptrend (or lower high for downtrend).
@@ -64,17 +66,17 @@ Upon BoS always look left and start from the higher low for uptrend (or lower hi
 # Step 2. Mark & shift `IDM` in HTF
 #### Look left, mark inducement and shift
 
-> An inducement (IDM) is that pullback which just precedes the recently made minor (or major) high/low. Only when market takes this pullback a new major high/low is confirmed.
+> An inducement (IDM) is that throwback/pullback which just precedes the recently made minor (or major) high/low. Only when market takes this throwback/pullback a new major high/low is confirmed.
 
 Market makes considerable minor highs/lows before making a major high/low aka HH/LL.
-- Not all pullbacks are inducements.
-- Its the recent most pullback which just precedes the current minor high/low.
-- Inducement are not to be spotted on the right side of the minor highs/lows but on the left side of it.
-- There can only be one inducement in the market structure and you keep shifting it.
+- Not all throwbacks/pullbacks are inducements.
+- Its the recent most throwback/pullback which just precedes the current minor high/low respectively.
+- An inducement is not to be spotted on the right side of the minor high/low but on the left side of it.
+- There can only be one inducement in a market structure and you should keep shifting it.
 
 ### 1. Look on LHS of minor high/low to spot an inducement.
 
-As market makes new "minor" highs in an uptrend (or new "minor" lows in a downtrend), the very first pullback (counting from right to left) which lies just before the newly formed minor high/low can be marked as inducement. [...](https://youtu.be/eMkwY8WahSg?t=348)
+As market makes new "minor" highs in an uptrend (or new "minor" lows in a downtrend), the very first throwback/pullback (counting from right to left) which lies just before the newly formed minor high/low can be marked as inducement. [...](https://youtu.be/eMkwY8WahSg?t=348)
 
 ### 2. Shifting inducement as new minor highs/lows are made
 
@@ -110,11 +112,11 @@ If you have spotted 2 PoIs, then there is a higher probability that the market w
 ### 1. Mark the middle PoI
 
 1. Identify the inducement.
-  - Inducement is the recent most internal pullback which occurred just before the current minor high/low or BoS.
-  - It is the very first pullback made just after a new minor high/low is made (w/ or w/o BoS).
+  - Inducement is the recent most internal throwback/pullback which occurred just before the current minor high/low or BoS.
+  - It is the very first throwback/pullback made just after a new minor high/low is made (w/ or w/o BoS).
   - To identify an inducement look backwards (towards left) from the current minor high/low.
-    - Inducement is the recent most internal low (pullback) in case of an uptrend as price makes new internal highs.
-    - Inducement is the recent most internal high (pullback) in case of a downtrend as price makes new internal lows.
+    - Inducement is the recent most internal low (throwback/pullback) in case of an uptrend as price makes new internal highs.
+    - Inducement is the recent most internal high (throwback/pullback) in case of a downtrend as price makes new internal lows.
 
 2. Skip the OF/OB created within the inducement and search for a PoI after this inducement.
 
@@ -123,9 +125,9 @@ Look beyond this inducement and mark the first PoI which you find after it. This
 4. Mark the PoI after inducement as the middle PoI.
 
 To spot the middle PoI look past the inducement and spot a PoI that is created `after` the inducment.
-  1. Spot the very recent "internal" pullback just after a new minor low/high (not BoS) is made.
+  1. Spot the very recent "internal" throwback/pullback just after a new minor low/high (not BoS) is made.
     - In a downtrend, when a new internal minor low is made (may or may not be a BoS) then look backward (towards left) from the current price and spot the recent most internal high. Thats your inducement.
-    - Similarly, in an uptrend, when a new internal minor high is made (may or may not be a BoS) then look backward (towards left) from the current price and spot the recent most internal pullback low. Thats your inducement.
+    - Similarly, in an uptrend, when a new internal minor high is made (may or may not be a BoS) then look backward (towards left) from the current price and spot the recent most internal throwback/pullback low. Thats your inducement.
   2. After spotting an inducement, look past it and spot a PoI immediately after it.
   3. This PoI is your middle PoI. In short, a PoI just above the recent inducement is important!
 
@@ -148,8 +150,8 @@ And after market takes the inducement, it attempts to tap the immmediately next 
 > Extreme PoI are at high or low points of the major structure.
 
 1. In a downtrend, Identify the point from where the market started falling.
-2. Identify the very first pullback (a high), from that point. Lets call it internal first "pullback" high.
-3. Spot the Order Block (OB) just above this internal 1st pullback high
+2. Identify the very first throwback/pullback (a high), from that point. Lets call it internal first "throwback/pullback" high.
+3. Spot the Order Block (OB) just above this internal 1st throwback/pullback high
 4. This OB is the extreme PoI.
 
 > Sometime there is not inducement after BoS. In that case the extreme PoI will be used.
@@ -164,15 +166,15 @@ All PoIs other than middle and extreme are not high probability PoIs. They are S
 
 # Step 6. Mark `OFs` in HTF
 
-An order flow is a pullback that comprises of one or more candles.
+An order flow is a throwback/pullback that comprises of one or more candles.
 
 > The last selling move in an uptrend, or the last buying move in a downtrend forms an Order Flow (OF).
 
 # Step 7. Mark `OBs` in HTF
 
 An Order Block (OB) is formed from Order Flow (OF)
-	- Order Block in an uptrend is the last/bottom-most selling candle before the buying starts.
-	- Order Block in a downtrend is the last/top-most buying candle before the selling starts.
+	- In a throwback move Order Block is the last/bottom-most selling candle before the buying starts.
+	- In a pullback move Order Block in a downtrend is the last/top-most buying candle before the selling starts.
 	- There are many Order Blocks (OB) between a major HL to HH (in uptrend) or a major LH to LL (in downtrend).
 
 ### Mark OB within OFs
@@ -181,11 +183,45 @@ An Order Block (OB) is formed from Order Flow (OF)
 2. Discard all OFs which are mitigated by the subsequent candles.
 3. Highlight only those OFs which are unmitigated.
 
-# Step 8. Wait for price to tap OB in HTF
+### Mark Single Candle Order Blocks (SCOB)
+[...](https://www.youtube.com/watch?v=YyHjyZ15Z9w&t=525s)
+
+1. Criteria 1: Wait for a valid throwback/pullback.
+	- In a sustained up move wait for a valid throwback. Call last candle of this throwback as candle #1 of OB pattern.
+	- In a sustained down move wait for a valid pullback. Call last candle of this pullback as candle #1 of OB pattern.
+2. Criteria 2: Wait for candle #1 of OB pattern to form.
+	- In a throwback, wait for the bottom candle, candle #1, to sweep/close below the low of previous candle.
+	- In a pullback, wait for the topmost candle, candle #1, to sweep/close above the high of previous candle.
+3. Criteria 3: The subsequent candle, candle #2, must sweep the liquidity of candle #1.
+	- Within a throwback following wick & body pattern for candle #2 should emerge:
+		1. Candle #2's lower wick should go lower than the candle #1's low.
+		2. ==AND== candle #2's lower wick should be noticeable. Its best if its a long lower shadow.
+		3. ==AND== __candle #2's lower body should NOT end below candle #1's low__ which means candle #2 should just sweep candle #1.
+	- Withing a pullback following wick & body pattern for candle #2 should emerge:
+		1. Candle #2's upper wick should go above the candle #1's high.
+		2. ==AND== candle #2's upper wick should be noticeable. Its best if its a long upper shadow.
+		3. ==AND== __candle #2's upper body should NOT end above candle #1's high__ which means candle #2 should just sweep candle #1. [...](https://youtu.be/1UaN8lC9S0w?t=126)
+4. Criteria 4: The 3rd candle must close beyond the 2nd candle's high/low in opposite direction:
+	- In a throwback move, candle #3 should close above the candle #2's high.
+	- In a pullback move, candle #3 should close below the candle #2's low.
+5. Criteria 5: The 3rd candle must also show an imbalance or inefficiency.
+	- Combination of candle #2, #3, and #4 should create a `Fair Value Gap (FVG)`.
+	- The FAG should show in candle #3.
+1. Once all 5 criteria are fulfilled mark the entire range of candle #2 as an Order Block (OB).
+2. If any of the 5 criteria is not satisfied, go to step #1 and wait for the valid order block pattern to emerge and then mark it in step #5.
+
+# Step 8. Tag OB/PoI as mitigated or unmitigated
+
+A mitigated OB/PoI is an OB/PoI which has already been swept/tapped by a price action. Mitigated OB/PoI of no use to us.
+
+An unmitigated OB/PoI is an OB/PoI which has not been tapped yet and is a potential entry point a trade.
+
+Keep tagging each OB/PoI as mitigated and unmitigated and focus only on unmitigated OB/PoIs.
+# Step 9. Wait for price to tap unmitigated OB in HTF
 
 Monitor price till it taps OB in the HTF.
 
-# Step 9. Switch to LTF upon tap
+# Step 10. Switch to LTF upon tap
 
 ### Wait for market to react to PoI
 
@@ -194,19 +230,29 @@ Act when market taps one of the above marked unmitigated PoIs then follow this:
 2. Wait for market to show reaction upon entering PoI.
 3. To see market reaction switch to LTF when price taps the OB in HTF.
 	- i.e. move to 1m in case you marking market structure in 5m or 15m)
+
+# Step 11. Enter position in LTF
+
 ### Approach 1. Single Candle Order Block (SCOB)
 [...](https://www.youtube.com/watch?v=YyHjyZ15Z9w&t=525s)
 
-1. Wait for the candle to tap on the OB (lets call it candle #1).
-2. The subsequent candle (#2) should sweep the liquidity of candle #1.
-	- For a bearish OB while going up (for short position), candle #2's upper wick should go above the candle #1's high but  its closing should NOT be above candle #1's high. [...](https://youtu.be/1UaN8lC9S0w?t=126)
-	- For a bullish OB while going down (for long position), candle #2's lower wick should go lower than the candle #1's low but  its closing should NOT be below candle #1's low.
-3. The 3rd candle should create imbalance/inefficiency like so:
-	- For a bearish OB while going up (for short position), candle #3 should close below candle #2's low.
-	- For a bullish OB while going down (for long position), candle #3 should close above candle #2's high.
-4. The 3rd candle creates imbalance when you can spot Fair Value Gap (FVG) between 3rd and 4th candle.
-5. Mark the OB by highlighting the entire range of candle #2.
-6. If any of the criteria in step #2 to step #4 is not satisfied, again go to step #1 and keep searching forward for the pattern required by candle #1, #2, #3, and #4.
-7. Once OB is marked in LTF, enter trade as soon as market taps this OB in LTF.
+1. Wait for the candle to tap on the OB or FVG.
+	1. If FVG is big, then skip the FVG area which is not part of Order Flow (OF)
 
-# Step 10. Enter position in LTF
+# Step 12. Exit position
+
+- Exit at 3:20 PM (EoD)
+	- Re-enter trade if the market is in the direction of your position.
+- Exit when market taps any of the following market structure
+	- Exit when new LL/HH
+	- LH/HL is formed
+		- This means exit when market takes inducement
+	- OB of the opposite side is tapped.
+		- You have taken a bullish trade and a bearish OB is tapped.
+		- You have taken a bearish trade and a bullish OB is tapped.
+- Exit when __BoS/CHoCH occurs on the opposite side__
+
+### Trailing Stop Loss
+
+Continue the trade as market forms new BoS in the direction of the trade.
+Shift stop loss to next BoS in the direction of trade
