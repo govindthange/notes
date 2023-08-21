@@ -5,7 +5,7 @@ Step 1 to 4 are about marking market structure. [...](https://www.youtube.com/wa
 
 | Higher Timeframe | Trading Timeframe | Factor |
 |------------------|-------------------|--------|
-| Daily            | 15 Min            | 25     |
+| Daily            | 30 Min            | 13     |
 | 4 Hour           | 15 Min            | 16     |
 | 1 Hour           | 5 Min             | 12     |
 | 15 Min           | 1 Min             | 15     |
@@ -18,15 +18,17 @@ Step 1 to 4 are about marking market structure. [...](https://www.youtube.com/wa
 2. Monitor `throwbacks/pullbacks`
 3. Wait for the `BoS`.
 4. While monitoring throwbacks/pullbacks also mark the `inducement` and keep shifting it as market forms new minor highs/lows.
-5. Upon BoS you must wait for market to confirm its `HL` (in uptrend) or `LH` (in downtrend).
-6. To confirm HL/LH, wait for market to take the inducement. [...](https://www.youtube.com/watch?v=YyHjyZ15Z9w&t=525s)
-	- Market must sweep and grab liquidity from the recent most throwback/pullback (inducement)
-	- Refrain from taking trades before market takes the inducement.
+5. Upon BoS mark the new `HL` (in uptrend) or `LH` (in downtrend).
+6. To confirm a `HH/LL`, wait for the market to take inducement. [...](https://www.youtube.com/watch?v=YyHjyZ15Z9w&t=525s)
+	- Market must sweep liquidity from its recent most throwback/pullback.
+	- Refrain from taking trades before market sweep/takes its inducement.
 	- The entire market move till it takes the inducement is an internal move and there is a high probability for a trader to get trapped in this.
-7. After market takes the inducement mark the HH (for uptrend) or LL (for downtrend).
-8. Note your range between HL to HH in an uptrend or from LH to LL in case of a downtrend.
-9. Mark the 2 important PoIs after marking the HH/LL.
-10. Wait for market to tap unmitigated order block (OB)
+	- Any trade before taking the inducement is called as Smart Money Trap (SMT).
+7. After market takes the inducement mark the `HH` (for uptrend) or `LL` (for downtrend).
+8. After marking HL-HH or LH-LL you have a full range to search for Order Block (OB).
+9. Mark the 3 important PoIs for the next entry setup.
+10. Finally, wait for the market to tap into the unmitigated order block (OB).
+11. Enter trade in teh lower time frame.
 
 # Step 1. Monitor `throwbacks/pullbacks` in HTF
 
