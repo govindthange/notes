@@ -1,6 +1,16 @@
 
 Step 1 to 4 are about marking market structure. [...](https://www.youtube.com/watch?v=YyHjyZ15Z9w)
 
+### Playbook Timeframe
+
+| Higher Timeframe | Trading Timeframe | Factor |
+|------------------|-------------------|--------|
+| Daily            | 15 Min            | 25     |
+| 4 Hour           | 15 Min            | 16     |
+| 1 Hour           | 5 Min             | 12     |
+| 15 Min           | 1 Min             | 15     |
+| 5 Min            | 1 Min             | 5      |
+
 ### Playbook Summary
 [...](https://youtu.be/YyHjyZ15Z9w?t=317)
 
