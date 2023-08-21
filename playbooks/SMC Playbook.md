@@ -179,10 +179,31 @@ An order flow is a throwback/pullback that comprises of one or more candles.
 
 # Step 7. Mark `OBs` in HTF
 
-An Order Block (OB) is formed from Order Flow (OF)
-	- In a throwback move Order Block is the last/bottom-most selling candle before the buying starts.
-	- In a pullback move Order Block in a downtrend is the last/top-most buying candle before the selling starts.
-	- There are many Order Blocks (OB) between a major HL to HH (in uptrend) or a major LH to LL (in downtrend).
+An Order Block (OB) is formed from Order Flow (OF) like so:
+
+	- In a throwback move OB is the last/bottom-most selling candle before the buying starts.
+    1. OB candle is often formed at the end of throwback. Call the throwback candle preceding OB candle as candle #1.
+    2. OB candle #2 must sweeping the low of candle #1.
+    3. OB candle #2 must cause imbalance or ineffeciencies through candle #3 and #4.
+      - OB candle #2 is often seen below the FVG.
+      - FVG must appear on candle #3 caused by high of candle #2's wick and low of candle #4's wick.
+	- In a pullback move OB is the last/top-most buying candle before the selling starts.
+    1. OB candle is often formed at the end of pullback. Call the pullback candle preceding OB candle as candle #1.
+    2. OB candle #2 must sweeping the high of candle #1.
+    3. OB candle #2 must cause imbalance or ineffeciencies through candle #3 and #4.
+      - OB candle #2 is often seen above the FVG.
+      - FVG must appear on candle #3 caused by low of candle #2's wick and high of candle #4's wick.
+  - Mark OB by highlighting the entire range of candle #2.
+  - If candle #4 sweeps this OB, i.e. candle #4 mitigates candle #2 range, then shift candle numbering by one like so:
+    - Shift all candle counts after candle #1 by one.
+    - After shifting candle #1 remains as is, but candle #3 becomes candle #2, and candle #4 becomes candle #3.
+    - Refer following [demonstration](https://www.youtube.com/watch?v=6G5ScFDeuO4&t=129s)
+  - There are many Order Blocks (OB) between a major HL to HH (in uptrend) or a major LH to LL (in downtrend).
+
+### Note
+  - Ignore the OB candle color. It does not matter.
+  - Ignore all inside bar candles inside an OF/OB structure.
+  - The OB candle must show liquidity sweep i.e. it must grab the liquidity of its previous candle in a throwback/pullback move.
 
 ### Mark OB within OFs
 
@@ -215,7 +236,7 @@ An Order Block (OB) is formed from Order Flow (OF)
 	- Combination of candle #2, #3, and #4 should create a `Fair Value Gap (FVG)`.
 	- The FAG should show in candle #3.
 6. Once all 5 criteria are fulfilled mark the entire range of candle #2 as an Order Block (OB).
-7. If candle #4 itself sweeps this OB, i.e. candle #4 mitigates the above marked candle #2 OB, then shift candles by one like so:
+7. If candle #4 itself sweeps this OB, i.e. candle #4 mitigates the above marked candle #2 OB, then shift candle numbering by one like so:
 	- Shift all candle counts after candle #1 by one.
 	- After shifting candle #1 remains as is, but candle #3 becomes candle #2, and candle #4 becomes candle #3.
 	- Refer following [demonstration](https://www.youtube.com/watch?v=6G5ScFDeuO4&t=129s)
