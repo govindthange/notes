@@ -214,8 +214,12 @@ An Order Block (OB) is formed from Order Flow (OF)
 5. Criteria 5: The 3rd candle must also show an imbalance or inefficiency.
 	- Combination of candle #2, #3, and #4 should create a `Fair Value Gap (FVG)`.
 	- The FAG should show in candle #3.
-1. Once all 5 criteria are fulfilled mark the entire range of candle #2 as an Order Block (OB).
-2. If any of the 5 criteria is not satisfied, go to step #1 and wait for the valid order block pattern to emerge and then mark it in step #5.
+6. Once all 5 criteria are fulfilled mark the entire range of candle #2 as an Order Block (OB).
+7. If candle #4 itself sweeps this OB, i.e. candle #4 mitigates the above marked candle #2 OB, then shift candles by one like so:
+	- Shift all candle counts after candle #1 by one.
+	- After shifting candle #1 remains as is, but candle #3 becomes candle #2, and candle #4 becomes candle #3.
+	- Refer following [demonstration](https://www.youtube.com/watch?v=6G5ScFDeuO4&t=129s)
+8. If any of the 5 criteria is not satisfied, go to step #1 and wait for the valid order block pattern to emerge and then mark it in step #5.
 
 # Step 8. Tag OB/PoI as mitigated or unmitigated
 
