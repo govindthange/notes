@@ -78,7 +78,7 @@ Market makes considerable minor highs/lows before making a major high/low aka HH
 
 As market makes new "minor" highs in an uptrend (or new "minor" lows in a downtrend), the very first throwback/pullback (counting from right to left) which lies just before the newly formed minor high/low can be marked as inducement. [...](https://youtu.be/eMkwY8WahSg?t=348)
 
-### 2. Shifting inducement as new minor highs/lows are made
+### 2. Shift inducement as new minor highs/lows are made
 
 Look on the left hand side of the minor/high to mark an inducement and then keep shifting the inducement marker forward as and when market breaks the current minor high/low.
 - It is NOT BoS when market breaks a minor high/low.
@@ -103,9 +103,10 @@ Keep shifting inducement as and when new minor highs/lows are formed. And as soo
 
 > Note that there are many PoI created in a downtrend as compared to an uptrend.
 
-There are only 2 PoIs that are effective.
+There are only 3 PoIs which are effective.
 1. The middle PoI
 2. The extreme PoI
+3. The Engineering Liquidity
 
 If you have spotted 2 PoIs, then there is a higher probability that the market will go till the extreme PoI and from there the market either sees a reversal or a continuation of trend.
 
@@ -158,11 +159,17 @@ And after market takes the inducement, it attempts to tap the immmediately next 
 
 > The entire game is of spotting liquidity. Extreme PoI makes most sense when the trend line liquidity is grabbed.
 
+### 3. Mark the engineering liqudity
+
+Engineering liquidity is the liquidity sweep that you see just before extreme PoI.
+
 ### 4. Ignore other PoIs
 
-All PoIs other than middle and extreme are not high probability PoIs. They are SMT (Smart Money Traps).
+Note that there are many PoI created in a downtrend as compared to an uptrend.
 
-> Note that there are many PoI created in a downtrend as compared to an uptrend.
+> PoIs other than middle/extreme PoI or engineering liquidity are of no use.
+
+> PoIs that occur before inducement are termed as SMT (Smart Money Traps).
 
 # Step 6. Mark `OFs` in HTF
 
@@ -220,6 +227,10 @@ Keep tagging each OB/PoI as mitigated and unmitigated and focus only on unmitiga
 # Step 9. Wait for price to tap unmitigated OB in HTF
 
 Monitor price till it taps OB in the HTF.
+
+> If market just sweeps an inducements and does NOT close beyond it, then its a valid entry point in the direction of the trend. Switch to LTF and take an entry.
+
+> Market generally moves and taps the middle PoI, extreme PoI, or engineering liquidity if it closes beyond the inducement level without sweeping.
 
 # Step 10. Switch to LTF upon tap
 
