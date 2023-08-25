@@ -11,6 +11,22 @@ Step 1 to 4 are about marking market structure. [...](https://www.youtube.com/wa
 | 15 Min           | 1 Min             | 15     |
 | 5 Min            | 1 Min             | 5      |
 
+### Playbook Cheatsheet
+
+1. Wait for `BoS`
+2. Mark `HL/LH`
+3. Wait for `IDM` sweep/breach
+4. Mark `HH/LL`
+5. Mark `Middle OB`, `Extreme OB`, or `Engineering Liquidity` in HL-HH or LH-LL
+6. Wait for `OB` tap
+7. Switch to LTM
+8. `CHoCH` (no taking IDM in LTM)
+9. Ride trend by entering trade in LTM
+	- Entry: CHoCH closing
+	- SL: End of OB in HTF
+	- Target: recent HH or LL in HTF
+10. Prepare for `Flip Entry` if applicable.
+
 ### Playbook Summary
 [...](https://youtu.be/YyHjyZ15Z9w?t=317)
 
