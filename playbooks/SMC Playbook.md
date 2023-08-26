@@ -209,8 +209,8 @@ An order flow is a throwback/pullback that comprises of one or more candles.
 
 An Order Block (OB) is formed from Order Flow (OF) like so:
 
-	- In a throwback move OB is the last/bottom-most selling candle before the buying starts.
-    1. OB candle is often formed at the end of throwback. Call the throwback candle preceding OB candle as candle #1.
+In a throwback, OB is the last set of selling candles before which the buying starts. To identify an OB within this correcting move do as follows:
+    1. OB candle is often formed at the end of this correction. The 2nd last candle in this correction is the very candle which precedes our OB candle. We refer it as candle #1.
     2. OB candle #2 must sweeping the low of candle #1.
     3. OB candle #2 must cause imbalance or ineffeciencies through candle #3 and #4.
       - OB candle #2 is often seen below the FVG.

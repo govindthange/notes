@@ -1,8 +1,11 @@
-# Layerd Short Spread Delta Enhancement
 
-This name reflects the step-by-step approach of the strategy, where we begin with a base position and then layer on the spread components. It also highlights the delta aspect, which is central to the strategy's design. The name is broad enough to encompass both the call and put variations of our strategy.
+# Delta Enhanced Short Spread Thrust (DESST)
 
-### Delta Spread
+This name reflects the step-by-step enhancement of a short spread, where we begin with a long position and then layer on the spread components. It also highlights the delta aspect, which is central to the strategy's design. The name is broad enough to encompass both the call and put variations of our strategy.
+
+"Delta Enhanced Thrust" implies the forceful directional bias achieved through the combination of the option and spread.  The initial 24 delta option purchase followed by the spread with different delta levels creates a powerful and overwhelming flow of gains.
+
+### Delta
 
 With delta we control the option's sensitivity to changes in the underlying asset's price.
 
@@ -23,7 +26,7 @@ This name effectively communicates the structure and intent of our strategy, ind
 
 # Stretegy
 
-In this strategy we  combining a long put/call option with a short put/call spread involving two lots. Here's how this combination might look:
+In this strategy we combine a long put/call option with a short put/call spread involving two lots. Here's how this combination might look:
 
 Long Put Option (1 Lot):
     Buy 1 lot of put options at a specific strike price.
