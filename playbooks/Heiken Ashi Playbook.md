@@ -109,6 +109,28 @@ Look at a higher timeframe to get a sense of overall direction of the market and
 2. The 10 EMA is below the 30 EMA
 3. The trading timeframe should satisfy both criteria 1 and 2 as well.
 
+### Approach 2: With 9, 21, 55 EMAs
+
+#### Bullish View
+
+1. The recent highest swing high must be broken by the Heiken Ashi candle.
+2. Wait for 9 EMA to cross above the 55 EMA.
+3. Wait for 21 EMA to cross above the 55 EMA.
+4. Buy at the close of the candlestick following the moving average crossover.
+	1. Before buying watch for the previous swing high on the left side.
+	2. We should only buy from the close of the candlestick that breaks the previous swing high.
+5. Put SL at a few pips below the low of the entry candle.
+
+#### Short View
+[...](https://youtu.be/nYrXM1h4QCk?t=491)
+
+1. Pay attention to the recent lowest swing low of the range because it must be broken by the Heiken Ashi candle to consider opening a short position.
+2. Wait for 9 EMA to cross below the 55 EMA.
+3. Wait for 21 EMA to cross below the 55 EMA.
+4. Sell at the close of the candlestick following the moving average crossover.
+	1. Before selling watch for the previous swing low on the left side.
+	2. We should only buy from the close of the candlestick that breaks the previous swing low.
+5. Put SL at a few pips above the high of the entry candle.
 # Step 3. Enter
 
 ### Approach 1: With 10 & 30 EMAs
