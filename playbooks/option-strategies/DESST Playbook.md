@@ -10,14 +10,25 @@ This name reflects the step-by-step enhancement of a short spread, where we begi
 With delta we control the option's sensitivity to changes in the underlying asset's price.
 
 - By combining different delta options, we create a nuanced position that reacts to changes in the underlying's price.
-    - 24, 12, 8 gives 3% max loss
-	    - => 0.13% gives % gain or % loss
-	    - => 0.2% change gives % gain or % loss
-	    - => 0.3% change gives 1% gain or ?% loss
-    - 50, 30, 20 gives 6% max loss
+    - 24, 12, 8 gives 6% max loss (47k)
+	    - => 0.15% gives 0.56% gain or 0.4% loss
+	    - => 0.2% change gives 0.66% gain or 0.4% loss
+	    - => 0.28% change gives 1% gain or 0.65% loss
+	    - => 0.65% change gives 3% gain or 1.2% loss
+    - 48, 24, 16 gives 9% max loss (52k)
+	    - => 0.10% gives 0.88% gain or 0.7% loss
+	    - => 0.18% change gives 1.16% gain or 1.09% loss
+	    - => 0.28% change gives 1.89% gain or 1.65% loss
+	    - => 0.65% change gives 5% gain3151 or 3.16% loss2155
+    - 50, 30, 20 gives 6% max loss ==RECHECK==
 	    - => 0.13% gives % gain or % loss
 	    - => 0.2% change gives % gain or % loss
 	    - => 0.3% change gives % gain or % loss
+    - 72, 36, 24 gives 14% max loss (58k)
+	    - => 0.13% gives 1.28% gain or 1.05% loss
+	    - => 0.2% change gives 1.98% gain or 1.74% loss
+	    - => 0.3% change gives 2.93% gain or 2.63% loss
+	    - => 0.65% change gives 6.5% gain3784 or 5% loss
     - 80, 50, 30 gives 15% max loss
 	    - => 0.13% gives 1.56% gain or 1.18% loss
 	    - => 0.2% change gives 2.1% gain or 1.7% loss
