@@ -68,7 +68,7 @@ Center of the MACD chart
 
 ## Do Top-Down Multi-Timeframe Analysis first
 
-![[Trading Framework#Multi Timeframe Analysis]]
+![[Trading Framework#Market Structure Top-Down Multi-Timeframe Analysis]]
 
 Multi-timeframe analysis helps in identifying price points where MACD can give good entry signal.
 
@@ -99,7 +99,7 @@ Identify exactly the end of the pullback by recognizing swing highs/lows.
 
 ## Do not judge MACD after 10 trades.
 
-![[Money Management#Risk to Reward Ratio]]
+![[Risk Management#R/R Ratio]]
 
 `Take Profit` = 1.5 X `Stop Loss`
 `Win Rate` = 60% (approx.)
@@ -149,7 +149,7 @@ Use MACD to filter trend and have a bias so that you are always by default tradi
 1. If a higher timeframe `MACD Line` crosses above `Signal Line` then have a `Long Bias`
 2. If a higher timeframe `MACD Line` crosses below `Signal Line` then have a `Short Bias`
 
-![[Market Structure#Choosing Higher Timeframe]]
+![[Market Analysis#Choosing Higher Timeframe]]
 
 ## High Probability Breakouts
 
