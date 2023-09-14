@@ -1,0 +1,2 @@
+- current candle to cross high of previous or previous to previous candle
+- exit when candle touches the SL OR exit when candle closes below the MA
