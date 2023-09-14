@@ -104,3 +104,51 @@ Bearish Trade
 6. There should not be a large gap betwen the trigger candle and entry candle. And both should be of same color.
 7. Use trailing SL for target i.e. shift SL along w/ 20 MA.
 8. Exit trade when a bullish Heiken Ashi candle with a flat bottom is formed.
+
+
+## Approach 5. Heiken Ashi w/ 2 stochastic
+
+Setup
+
+- Use 1 minute chart
+- Set candles to Heiken Ashi
+- Configure Stochastic Oscillator (50, 3, 3)
+	- %K Length = 50
+	- %K Smoothing = 3
+	- %D Smoothing = 3
+	- Highlight middle band at 50
+- Configure Stochastic Oscillator (14, 3, 3)
+	- %K Length = 14
+	- %K Smoothing = 3
+	- %D Smoothing = 3
+	- Highlight middle band at 50
+- Configure 20 SMA or 20 EMA
+
+Bullish Trade
+
+1. %K is above %D line of Stoch(50, 3, 3)
+2. %K is above %D line of Stoch(14, 3, 3)
+3. A bullish Heiken Ashi candle has formed. We call this a trigger candle.
+4. Buy CE at the open of the next candle w/ SL below the low of trigger candle. We call this entry candle.
+5. There should not be a large gap betwen the trigger candle and entry candle. And both should be of same color.
+6. Use trailing SL for target i.e. shift SL along w/ 20 MA.
+7. Exit trade when a bearish red/black candle is formed such that its low breaches the low of its previous candle.
+
+Bearish Trade
+
+1. %K is below %D line of Stoch(50, 3, 3)
+2. %K is below %D line of Stoch(14, 3, 3)
+3. A bearish Heiken Ashi candle has formed. We call this a trigger candle.
+4. Buy PE at the open of the next candle w/ SL above the low of trigger candle. We call this entry candle.
+5. There should not be a large gap betwen the trigger candle and entry candle. And both should be of same color.
+6. Use trailing SL for target i.e. shift SL along w/ 20 MA.
+7. Exit trade when a bullish green/white candle is formed such that its high breaches the high of its previous candle.
+
+### Confluence
+
+- Use choppiness index. Enter trade only when choppiness line is coming down in past 5 candles. Do not enter trade if it is going up.
+
+### To Do
+
+- Check if we can enter bullish trade when there is hanging man candle formed. That is a HA candle which has a small or no body, no upper wick, and a long lower wick.
+- Check if we can enter bearish trade when there is hammer candle formed. That is a HA candle which has a small or no body, no lower wick and a long upper wick.
