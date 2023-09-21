@@ -41,6 +41,8 @@ Entry Approach 1 + Entry Approach 2
 
 ### Enter the trade
 
+> Do not enter if the price is below the midline/SMA of BB.
+
 Enter at the open of candle #3 with
   - SL at high of candle #1 (use ATR)
   - Target at 1:2, 1:3 (configurable)
