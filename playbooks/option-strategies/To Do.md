@@ -54,7 +54,9 @@ Enter at the open of candle #3 with
 Exit when
 - Following HOLD/NURTURE criteria satisfies
   - (Do not close for the 1st n candles - make it configurable (n=3 by default) - during this exit only upon SL/Target)
-- Candle closes above the previous candle high
+- Candle closes above the previous candle `high` (OR candle closes above the previous candle `close`)
+  - Use candle close above the previous candle high IN SIDEWAYS MARKET. Use indicators like choppiness index to read consolidation.
+  - Use candle close above the previous candle close IN TRENDING MARKET. Use indicators like choppiness index to read consolidation.
 - A candle touches the lower band
 
 ### Exit Approach 2
@@ -62,7 +64,9 @@ Exit when
 Exit when
 - Following HOLD/NURTURE criteria satisfies
   - (Do not close for the 1st n candles - make it configurable (n=3 by default) - during this exit only upon SL/Target)
-- Candle closes above the previous candle high
+- Candle closes above the previous candle `high` (OR candle closes above the previous candle `close`)
+  - Use candle close above the previous candle high IN SIDEWAYS MARKET. Use indicators like choppiness index to read consolidation.
+  - Use candle close above the previous candle close IN TRENDING MARKET. Use indicators like choppiness index to read consolidation.
 - DO NOT EXIT WHEN THE LOWER BAND IS TOUCHED
 
 ### Exit Approach 3
