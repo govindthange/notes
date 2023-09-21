@@ -4,6 +4,7 @@
 - Check behavior of spreads.
 - Check behavior of calendar spreads.
 - Check beahvior of inverse calendar spreads.
+- Try sar+macd+stoch straregy with vertical spreads (not naked option buys)
 
 # Bollinger Band
 
