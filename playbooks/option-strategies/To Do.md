@@ -6,6 +6,9 @@
 - Check beahvior of inverse calendar spreads.
 - Try sar+macd+stoch straregy with vertical spreads (not naked option buys)
 
+- Add winning/losing streak counts along with percent gain for winning and losing streaks to the indicator
+
+
 # Bollinger Band
 
 ## Go Short
@@ -21,10 +24,6 @@ Trigger #2
       AND candle #2 doesn't touch the upper band
       AND candle #2 doesn't touch the midline of BB
 
-Enter at the open of candle #3 with
-  - SL at high of candle #1 (use ATR)
-  - Target at 1:2, 1:3 (configurable)
-
 ### Entry Approach 2
 Trigger #1
   - candle #1 low is above the upper band
@@ -34,10 +33,18 @@ Trigger #2
   - canlde #2 closes below the low of candle #1
       AND candle #2 doesn't touch the midline of BB
 
+### Entry Approach 3
+
+
+### Entry Approach 3
+
+Entry Approach 1 + Entry Approach 2
+
+### Enter the trade
+
 Enter at the open of candle #3 with
   - SL at high of candle #1 (use ATR)
   - Target at 1:2, 1:3 (configurable)
-
 
 ### Exit Approach 1
 
@@ -47,10 +54,16 @@ Exit when
 - Candle closes above the previous candle high
 - A candle touches the lower band
 
-### Exit Approach 1
+### Exit Approach 2
 
 Exit when
 - Following HOLD/NURTURE criteria satisfies
   - (Do not close for the 1st n candles - make it configurable (n=3 by default) - during this exit only upon SL/Target)
 - Candle closes above the previous candle high
 - DO NOT EXIT WHEN THE LOWER BAND IS TOUCHED
+
+### Exit Approach 3
+
+Add a 5 EMA
+
+- Exit when any candle opens, and closes above the 5 EMA without its low touching the 5 EMA.
