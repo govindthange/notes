@@ -22,7 +22,7 @@ Trigger #1
 Trigger #2
   - canlde #2 closes below the low of candle #1 (OR candle #2 closes below the close of candle #1)
       AND candle #2 doesn't touch the upper band
-      AND candle #2 doesn't touch the midline of BB
+      AND candle #2 doesn't touch the midline SMA of BB (OR candle #2 doesn't close below the midline)
 
 ### Entry Approach 2
 Trigger #1
@@ -31,7 +31,7 @@ Trigger #1
 
 Trigger #2
   - canlde #2 closes below the low of candle #1
-      AND candle #2 doesn't touch the midline of BB
+      AND candle #2 doesn't touch the midline SMA of BB (OR candle #2 doesn't close below the midline)
 
 ### Entry Approach 3
 
