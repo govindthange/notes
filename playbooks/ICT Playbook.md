@@ -39,6 +39,11 @@ This pattern occurs at the end of the trends when they get exhausted resulting i
 
 ![[ict-flip-market-example.png]]
 
+
+### Identifying flip patterns & flip zones for entry
+[...](https://youtu.be/7eSW5K4DNfo?t=67)
+
+
 ## 2. Liquidity Grab Pattern
 [...](https://youtu.be/JsysIKw06pc?t=439)
 
@@ -61,6 +66,9 @@ A bearish ABC pattern is only valid when the C wave sweeps the liquidity above t
 ![[ict-bearish-abc-invalid.png]]
 
 Similarly, a bullish ABC pattern is only valid when the C wave sweeps the liquidity below the lowest point of the A wave, with only one candle/wick and a second candle/wick should not form or close lower the first candle's body or wick.
+
+## 4. Market Structure Shift Pattern
+[...](https://youtu.be/QlgggyB7XGk?t=158)
 
 # ICT Key Factors
 
