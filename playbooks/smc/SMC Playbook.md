@@ -18,6 +18,10 @@ Use weekly and daily time frames to only mark the key levels that price has rece
 4. On the daily time frame, adjust the weekly levels to get the greatest number of touches from the daily perspective. [AUS/US Daily Chart](https://youtu.be/dnnFb9V9uLI?t=842)
 5. Draw additional daily key levels of the market structure with another color.
 
+We use weekly/daily levels in following ways:
+1. `To identify market direction`: Breaking each one into the up/downsides indicates whether the supply or demand is in control and price can continue pushing to the next level.
+2. `To set our targets`
+
 ## Marking guidelines
 
 - Higher the time frame, the greater the importance of its levels, so draw daily and weekly levels with different colors.
@@ -58,21 +62,25 @@ This is a level where the price did not show a tiny reaction but a true reversal
 
 The recent most levels in front of the price are always more effective since they are current and new whether they are traditional support, resistance, or an order block.
 
-
-# Step 2. Mark the market structure in MTF
-
-Follow [[ICT Structure Mapping Playbook]] to mark the structure in Medium Time Frame (MTF).
-
-# Step 3. Analyze the market structure in MTF
-[...](https://youtu.be/dnnFb9V9uLI?t=543)
+# Step 2. Mark ICT structure in MTF
 
 4h/1h time frames are the Medium Time Frame (MTF).
 
-In the 4h/1h time frame we should have both weekly and daily levels clearly visible. Each of these levels will act as a strong support/resistance when the market reaches them.
+Follow [[ICT Structure Mapping Playbook]] to highlight key market features on the MTF chart.
 
-We use weekly/daily levels in following ways:
-1. To identify market direction: Breaking each one into the up/downsides indicates whether the supply or demand is in control and price can continue pushing to the next level.
-2. To set our target: 
+1. [[ICT Structure Mapping Playbook#Step 1. Mark liquidity sweep zones]]
+2. [[ICT Structure Mapping Playbook#Step 2. Mark buy/sell side liquidity resting zones]]
+3. [[ICT Structure Mapping Playbook#Step 3. Mark inefficiencies / Fair Value Gaps (FVG)]]
+4. [[ICT Structure Mapping Playbook#Step 4. Mark order blocks (OB) near the current market price]]
+5. [[ICT Structure Mapping Playbook#Step 5. Mark premium/discount zones]]
+6. [[ICT Structure Mapping Playbook#Step 6. Mark the market structure using SMC]]
+
+# Step 3. Analyze market features in MTF
+[...](https://youtu.be/dnnFb9V9uLI?t=543)
+
+Analyze charts after marking SMC and ICT structures in MTF.
+
+Again, both weekly and daily levels must be clearly visible on MTF (4h/1h). Each of these levels will act as a strong support/resistance when the market reaches them.
 
 1. Switch to 4h. [AUS/USD 4h Chart](https://youtu.be/dnnFb9V9uLI?t=852)
 2. Apply SMC on 4h time frame. This includes identifying the following. [...](https://youtu.be/dnnFb9V9uLI?t=577)
@@ -104,6 +112,5 @@ Use 15m/5m for taking confirmations and entering trades.
 4. Once the daily level is rached, the price may continue pushing to reach the next weekly level in front of the price.
 
 ---
-
 
 [AUS/USD Trade](https://www.youtube.com/watch?v=dnnFb9V9uLI&t=823s)

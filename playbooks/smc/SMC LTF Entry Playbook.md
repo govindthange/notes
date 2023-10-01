@@ -1,10 +1,11 @@
 [...](https://www.youtube.com/watch?v=s1TCUQs6HPA)
 
-# Step 1.  Mark structure in HTF
+# Step 1.  Mark market structure in HTF
 
-Analyze market structure in HTF (preferably 15 min), mark OB, and wait for price to tap it.
-
-[[SMC HTF Entry Playbook]]
+1. Follow [[SMC Playbook]] steps.
+2. Follow [[SMC MTF Entry Playbook]] steps.
+3. Analyze market structure in HTF (preferably 15 min)
+4. Mark an order block in the HTF.
 
 [Euro/USD Trade - 15m Chart](https://youtu.be/s1TCUQs6HPA?t=434)
 ![[smc-HTF-15m-OB-EURUSD.png]]
@@ -17,20 +18,22 @@ Analyze market structure in HTF (preferably 15 min), mark OB, and wait for price
 ![[smc-HTF-15m-OB-tap-EURUSD.png]]
 
 ![[smc-HTF-15m-OB-tap-USDJPY.png]]
-# Step 3. Follow price in LTF
+# Step 3. Switch to LTF
 [...](https://youtu.be/s1TCUQs6HPA?t=472)
 
-1. Switch to LTF (if HTF is 15m then use 1m as LTF).
-2. Wait for price to form a CHoCH in LTF and close beyond it.
-		![[smc-LTF-entry-EURUSD-1m.png]]
-		
-		![[smc-LTF-entry-EURJPY-1m.png]]
-3. Mark the order block (OB) in LTF (AKA minor OB).
-		![[smc-LTF-entry-EURUSD-1m-OB.png]]
-		
-		![[smc-LTF-entry-EURJPY-1m-OB.png]]
+Switch to LTF (if HTF is 15m then use 1m as LTF).
 
-# Step 4. Take RSI confirmation in LTF
+# Step 4. Wait for CHoCH in LTF
+
+Wait for price to form a CHoCH in LTF and close beyond it.
+
+![[smc-LTF-entry-EURUSD-1m.png]]
+
+![[smc-LTF-entry-EURJPY-1m.png]]
+
+# Step 5. Take RSI confirmation in LTF
+
+Take RSI confirmation upon CHoCH.
 
 Analyze RSI in LTF (preferably 1 min) and wait for the divergence signals for confirmation.
 
@@ -38,11 +41,21 @@ Analyze RSI in LTF (preferably 1 min) and wait for the divergence signals for co
 
 ![[smc-LTF-USDJPY-entry-rsi-confirmation.png]]
 
-# Step 5. Wait for price to approach OB in LTF
+
+# Step 6. Mark OB in LTF
+
+Upon CHoCH and RSI confirmation mark the minor order block (mOB) in LTF.
+
+![[smc-LTF-entry-EURUSD-1m-OB.png]]
+
+![[smc-LTF-entry-EURJPY-1m-OB.png]]
+
+# Step 7. Wait for price to approach OB in LTF
 
 1. Wait for price to approach OB in LTF.
 2. Be ready to place a limit order at this LTF minor Order Block.
-# Step 6. Enter position in LTF
+
+# Step 8. Enter position in LTF
 
 Place a limit order before the price taps this LTF Order Block. Use 1:2 R/R. You may set next major level structure as target.
 
@@ -50,15 +63,7 @@ Place a limit order before the price taps this LTF Order Block. Use 1:2 R/R. You
 
 ![[smc-LTF-USDJPY-entry-2nd-take-profit.png]]
 
-# Step 7. Trail stop loss in LTF
-
-1. Keep track of you profits.
-2. Every time the price makes a new higher low in LTF, move your SL couple of pips below the lowest point of the higher low. Follow the opposite for bearish trade.
-	![[smc-LTF-EURUSD-EURUSD-entry-sl-trail1.png]]
-3. Keep trailing this SL as new higher lows are formed.
-	![[smc-LTF-EURUSD-entry-sl-trail2.png]]
-
-# Step 8. Exit position
+# Step 9. Exit position
 
 > Never terminate your trade before price reaches your targets.
 
@@ -74,7 +79,15 @@ For the second take profit, target the next major level structure in front of th
 
 ![[smc-LTF-USDJPY-entry-2nd-take-profit.png]]
 
-# Step 9. Ride trend in LTF (Optional)
+# Step 10. Trail stop loss in LTF
+
+1. Keep track of your profits.
+2. Every time the price makes a new higher low in LTF, move your SL couple of pips below the lowest point of the higher low. Follow the opposite for bearish trade.
+	![[smc-LTF-EURUSD-EURUSD-entry-sl-trail1.png]]
+3. Keep trailing this SL as new higher lows are formed.
+	![[smc-LTF-EURUSD-entry-sl-trail2.png]]
+
+# Step 11. Ride trend in LTF (Optional)
 
 > This is an optional step and should be practiced after gaining experience.
 

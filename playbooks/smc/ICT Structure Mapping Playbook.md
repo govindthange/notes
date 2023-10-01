@@ -1,5 +1,5 @@
 
-Use ICT to mark all the key factors to your price chart that you need to analyze the market.
+For analysis mark all the key factors on your price chart using Inner Circle Trader (ICT) concepts.
 
 # Step 1. Mark liquidity sweep zones
 [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=84s)
@@ -52,13 +52,36 @@ FVG can only be calculated by taking the impulse up/down candle, as well as the 
 # Step 4. Mark order blocks (OB) near the current market price
 [...](https://youtu.be/k5slVs26Nks?t=400)
 
-`Order Blocks (OB)` are very important optimized supply/demand zones that include a large amount of buy/sell orders. When price reaches them it may potentially change its direction to the opposite way.
+`Order Blocks (OB)` are highly optimized supply/demand zones that include a large amount of buy/sell orders. When price reaches them it may potentially change its direction to the opposite way.
 
-> Note that for having a valid OB the recent market structure must be broken.
+> To have a valid OB the recent market structure must be broken.
 
 ![[ict-ob.png]]
 
 ![[ict-ob-marking.png]]
+
+## Supply & Demand Zone Criteria
+[...](https://www.youtube.com/watch?v=JsysIKw06pc&t=311s)
+
+If a supply/demand zone lacks any of the following criteria then it won't be considered a valid supply/demand zone.
+
+#### Criteria 1. Imbalance
+[...](https://youtu.be/JsysIKw06pc?t=328)
+
+Imbalance indicates lack of proportion between buyers and sellers which causes massive move in price.
+
+#### Criteria 2. BoS & CHoCH
+[...](https://youtu.be/JsysIKw06pc?t=340)
+
+Market must break the structure (BoS) or change its character (CHoCH).
+
+#### Criteria 3. Unmitigated
+[...](https://youtu.be/JsysIKw06pc?t=346)
+
+Supply & Demand zones are of one time use only, so the ones which were mitigated before are no longer considered valid zones. 
+
+> Example: We have a valid demand/supply zone where there is a BoS and an imbalance.
+
 # Step 5. Mark premium/discount zones
 [...](https://youtu.be/k5slVs26Nks?t=468)
 
