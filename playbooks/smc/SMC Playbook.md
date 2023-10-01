@@ -58,7 +58,12 @@ This is a level where the price did not show a tiny reaction but a true reversal
 
 The recent most levels in front of the price are always more effective since they are current and new whether they are traditional support, resistance, or an order block.
 
-# Step 2. Analyze market structure in MTF
+
+# Step 2. Mark the market structure in MTF
+
+Follow [[ICT Structure Mapping Playbook]] to mark the structure in Medium Time Frame (MTF).
+
+# Step 3. Analyze the market structure in MTF
 [...](https://youtu.be/dnnFb9V9uLI?t=543)
 
 4h/1h time frames are the Medium Time Frame (MTF).
@@ -84,7 +89,7 @@ We use weekly/daily levels in following ways:
 5. Apply SMC on the 1h time frame. [...](https://youtu.be/dnnFb9V9uLI?t=634)
 6. You want 4h and 1h to be in the same direction.
 
-# Step 3. Trade in LTF
+# Step 4. Trade in LTF
 [...](https://youtu.be/dnnFb9V9uLI?t=691)
 
 The LTF (15m/5m) is the last time for analysis in the process.

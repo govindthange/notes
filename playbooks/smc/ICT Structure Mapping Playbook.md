@@ -89,6 +89,8 @@ Whenever the price is below the equilibrium level (in discount zone) we should t
 
 Spot market direction and structures created in the market and mark general outline of the market using SMC.
 
+Use [[SMC Structure Mapping Playbook]] to mark HH/HL, LL/LH, BoS, CHoCH, IDM etc.
+
 ![[ict-market-outline.png]]
 
 1. Price has been moving up.
