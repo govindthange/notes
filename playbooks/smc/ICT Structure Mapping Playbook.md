@@ -1,83 +1,10 @@
 
-Inner Circle Trader (ICT) concept, is a trading approach developed by Michael J. Huddleston that focuses on identifying and profiting from the actions of smart money traders by using price action analysis, market structure, and order flow to make trading decisions.
+Use ICT to mark all the key factors to your price chart that you need to analyze the market.
 
-# Market Structure
-
-# Supply & Demand Zone Criteria
-[...](https://www.youtube.com/watch?v=JsysIKw06pc&t=311s)
-
-If a supply/demand zone lacks any of the following criteria then it won't be considered a valid supply/demand zone.
-
-## Criteria 1. Imbalance
-[...](https://youtu.be/JsysIKw06pc?t=328)
-
-Lack of proportion between buyers and sellers which causes massive move in price.
-
-## Criteria 2. BoS & CHoCH
-[...](https://youtu.be/JsysIKw06pc?t=340)
-
-Market must break the structure or change its character.
-
-## Criteria 3. Unmitigated
-[...](https://youtu.be/JsysIKw06pc?t=346)
-
-Supply & Demand zones are of one time use only, so the ones which were mitigated before are no longer considered valid zones. 
-
-> Example: We have a valid demand/supply zone where there is a BoS and an imbalance.
-
-# Market Structure Patterns
-[...](https://youtu.be/JsysIKw06pc?t=365)
-
-## 1. Market Flip Pattern
-[...](https://youtu.be/JsysIKw06pc?t=374)
-
-This pattern occurs at the end of the trends when they get exhausted resulting in a direction change.
-
-> Example: We have a valid demand zone where there is a BoS and an imbalance. Now, the market mitigates this demand BUT fails to create a new HH showing a momentum loss, subsequently leading to a CHoCH and impbalance leaving behind a perfect trading opportunity at the newly formed supply zone. We go short, long PE, or short CE when price taps into this supply zone. We target the next unmitigated demand level.
-
-![[ict-market-flip.png]]
-
-![[ict-flip-market-example.png]]
-
-
-### Identifying flip patterns & flip zones for entry
-[...](https://youtu.be/7eSW5K4DNfo?t=67)
-
-
-## 2. Liquidity Grab Pattern
-[...](https://youtu.be/JsysIKw06pc?t=439)
-
-This pattern happens when traders take a fake-out as a CHoCH and the market continues to push in the same direction.
-
-![[ict-liquidity-grab.png]]
-
-![[ict-liquidity-grab-example.png]]
-
-
-## 3. ABC Pattern
-[...](https://youtu.be/QlgggyB7XGk?t=86)
-
-ABC pattern is created by 3 major waves of price. In the bullish move, the 2nd wave (B wave) may contain couple of bearish candles and doesn't need to have a significant down move, the 3rd wave (C wave) sweeps the liquidity accumulated above the highest point of the A wave.
-
-A bearish ABC pattern is only valid when the C wave sweeps the liquidity above the highest point of the A wave, with only one candle/wick and a second candle/wick should not form or close upper the first candle's body or wick.
-
-![[ict-bearish-abc.png]]
-
-![[ict-bearish-abc-invalid.png]]
-
-Similarly, a bullish ABC pattern is only valid when the C wave sweeps the liquidity below the lowest point of the A wave, with only one candle/wick and a second candle/wick should not form or close lower the first candle's body or wick.
-
-## 4. Market Structure Shift Pattern
-[...](https://youtu.be/QlgggyB7XGk?t=158)
-
-# ICT Key Factors
-
-First add all the key factors to your price chart that you need to analyze the market.
-
-## Factor 1. Most recent liquidity sweep areas
+# Step 1. Mark liquidity sweep zones
 [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=84s)
 
-Identify zones in the chart where liquidity has recently been swept.
+Identify the most recent liquidity areas in the chart where liquidity has recently been swept.
 
 1. Look for the candles forming major highs/lows.
 2. Ensure that these high/low candles have a long wick indicating that they took out liquidity accumulated above/under the highs/lows due to the stop orders.
@@ -85,7 +12,7 @@ Identify zones in the chart where liquidity has recently been swept.
 	- ![[ict-liquidity-sweep-EURUSD.png]]
 1. Draw the liquidity sweep zone with a line.
 	![[ict-liquidity-sweep-line.png]]
-## Factor 2. Buy/Sell side liquidity resting zones
+# Step 2. Mark buy/sell side liquidity resting zones
 [...](https://youtu.be/k5slVs26Nks?t=122)
 
 Identify the liquidity resting zones on the chart that price may move to grab.
@@ -99,7 +26,7 @@ The below image shows how the downward impulsive move created buy-side liquidity
 ![[ict-buy-side-liquidity-resting-zones.png]]
 
 As the downward impulse swept the sell-side liquidity, expect the price to now rise in response to sweep buy-side internal liquidity highlighted w/ yellow ""$ RL" lines.
-## Factor 3. Inefficiency / Fair Value Gap (FVG)
+# Step 3. Mark inefficiencies / Fair Value Gaps (FVG)
  [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=176s)
 
 `Inefficiency` occurs when there is an imblanace between buyers and sellers on the market, which leaves disequilibrium that needs to be filled. In other words, if there is a gap within the candles, we call it an inefficiency.
@@ -122,7 +49,7 @@ FVG can only be calculated by taking the impulse up/down candle, as well as the 
 
 ![[ict-fvg-marking.png]]
 
-## Factor 4. Order Blocks (OB) near the current market price
+# Step 4. Mark order blocks (OB) near the current market price
 [...](https://youtu.be/k5slVs26Nks?t=400)
 
 `Order Blocks (OB)` are very important optimized supply/demand zones that include a large amount of buy/sell orders. When price reaches them it may potentially change its direction to the opposite way.
@@ -132,7 +59,7 @@ FVG can only be calculated by taking the impulse up/down candle, as well as the 
 ![[ict-ob.png]]
 
 ![[ict-ob-marking.png]]
-## Factor 5. Premium/Discount zones
+# Step 5. Mark premium/discount zones
 [...](https://youtu.be/k5slVs26Nks?t=468)
 
 For high probability setups, we want price to be in the best areas. To gain probability, in our trading, we are using the `Fibonacci` tool to see if price is in premium/discount zone. We buy in discount and sell in premium.
@@ -157,10 +84,10 @@ Step 2. Draw a line over 0.5 Fibonacci 50% level (the equilibrium level)
 ![[ict-premium-discount-marking3.png]]
 
 Whenever the price is below the equilibrium level (in discount zone) we should take a long position and whenever the price is above equilibrium level (in premium/expensive zone) we should take a short position.
-## Factor 6. General outline of the market
+# Step 6. Mark the market structure using SMC
 [...](https://youtu.be/k5slVs26Nks?t=600)
 
-Spot market direction and structures created in the market.
+Spot market direction and structures created in the market and mark general outline of the market using SMC.
 
 ![[ict-market-outline.png]]
 
