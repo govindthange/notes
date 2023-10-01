@@ -295,6 +295,7 @@ Act when market taps one of the above marked unmitigated PoIs then follow this:
 3. To see market reaction switch to LTF when price taps the OB in HTF.
 	- i.e. move to 1m in case you marking market structure in 5m or 15m)
 
+> Refer [[SMC LTF Entry Playbook]] for details.
 # Step 11. Enter position in LTF
 
 ### Approach 1. Single Candle Order Block (SCOB)

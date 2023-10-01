@@ -81,15 +81,24 @@ Identify zones in the chart where liquidity has recently been swept.
 
 1. Look for the candles forming major highs/lows.
 2. Ensure that these high/low candles have a long wick indicating that they took out liquidity accumulated above/under the highs/lows due to the stop orders.
-3. Draw the liquidity using a line.
+	- In the example below the current price with the help of its long wick (see 3rd last candle from the right) swept the liquidity of the stop loss orders under the candles highlighted with white circle.
+	- ![[ict-liquidity-sweep-EURUSD.png]]
+1. Draw the liquidity sweep zone with a line.
+	![[ict-liquidity-sweep-line.png]]
 ## Factor 2. Buy/Sell side liquidity resting zones
 [...](https://youtu.be/k5slVs26Nks?t=122)
 
-Detect the liquidity resting zones on the chart that price potentially may move to grab them.
+Identify the liquidity resting zones on the chart that price may move to grab.
 
-![[ict-buysell-liquidity-resting-zones.png]]
+The below image shows how the strong impulsive price movement to the downside swept away the sell-side internal liquidity.
 
-The sharp downward impulsive price move took all the sell-side internal liquidity highlighted w/ white circles, so now we should anticipate that the price will rise in response to sweeping buy-side internal liquidity resting zones highlighted w/ yellow ""$ RL" lines.
+![[ict-sell-side-liquidity-resting-zones.png]]
+
+The below image shows how the downward impulsive move created buy-side liquidity resting zones.
+
+![[ict-buy-side-liquidity-resting-zones.png]]
+
+As the downward impulse swept the sell-side liquidity, expect the price to now rise in response to sweep buy-side internal liquidity highlighted w/ yellow ""$ RL" lines.
 ## Factor 3. Inefficiency / Fair Value Gap (FVG)
  [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=176s)
 
