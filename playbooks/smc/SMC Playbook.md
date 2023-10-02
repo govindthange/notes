@@ -29,7 +29,7 @@ We use weekly/daily levels in following ways:
 - Drawing from the bodies of the candles has a higher priority.
 - Treat levels as areas, not solid lines.
 
-## Marking criteria
+### Marking criteria
 [...](https://youtu.be/dnnFb9V9uLI?t=448)
 
 The key level should satisfy following criteria
@@ -74,6 +74,7 @@ Follow [[ICT Structure Mapping Playbook]] to highlight all key market features o
 4. [[ICT Structure Mapping Playbook#Step 4. Mark order blocks (OB) near the current market price]]
 5. [[ICT Structure Mapping Playbook#Step 5. Mark premium/discount zones]]
 6. [[ICT Structure Mapping Playbook#Step 6. Mark the market structure using SMC]]
+7. [[ICT Structure Mapping Playbook#Step 7. Combine LRZ, FVG, OB and Fibs]]
 
 # Step 3. Analyze market features in MTF
 [...](https://youtu.be/dnnFb9V9uLI?t=543)

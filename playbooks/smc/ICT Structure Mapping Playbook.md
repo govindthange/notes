@@ -11,11 +11,22 @@ Identify the most recent liquidity areas in the chart where liquidity has recent
 	- In the example below the current price with the help of its long wick (see 3rd last candle from the right) swept the liquidity of the stop loss orders under the candles highlighted with white circle.
 	- ![[ict-liquidity-sweep-EURUSD.png]]
 1. Draw the liquidity sweep zone with a line.
-	![[ict-liquidity-sweep-line.png]]
+		- Connect a line from `high/low wicks of the candle(s)` to the `candle with a long wick which swept the liquidity of "from candle wicks"`
+		![[ict-liquidity-sweep-line.png]]
 # Step 2. Mark buy/sell side liquidity resting zones
 [...](https://youtu.be/k5slVs26Nks?t=122)
 
-Identify the liquidity resting zones on the chart that price may move to grab.
+Identify the buy/sell side liquidity resting zones (LRZ) on the chart that price may move to grab.
+
+`Sell Side LRZ`: These liquidity spots, characterized by long lower wicks in an up move, are termed `sell-side` LRZ because they usually attract selling pressure to grab them.
+- We usually find sell side liquidity as price forms swing lows (higher lows) while moving up.
+- Expect price to reverse and make an impulsive down move in order to grab all these sell-side liquidity spots.
+
+`Buy Side LRZ`:  These liquidity spots, characterized by long upper wicks in a down move, are termed `buy-side` LRZ because they usually attract buying pressure to grab them.
+- We usually find buy side liquidity as price forms swing highs (lower ihghs) while moving down.
+- Expect price to reverse and make an impulsive up move in order to grab all these buy-side liquidity spots.
+
+###### Example:
 
 The below image shows how the strong impulsive price movement to the downside swept away the sell-side internal liquidity.
 
@@ -29,7 +40,7 @@ As the downward impulse swept the sell-side liquidity, expect the price to now r
 # Step 3. Mark inefficiencies / Fair Value Gaps (FVG)
  [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=176s)
 
-`Inefficiency` occurs when there is an imblanace between buyers and sellers on the market, which leaves disequilibrium that needs to be filled. In other words, if there is a gap within the candles, we call it an inefficiency.
+`Inefficiency` occurs when there is an imbalance between buyers and sellers on the market, which leaves disequilibrium that needs to be filled. In other words, if there is a gap within the candles, we call it an inefficiency.
 
 ![[ict-fvg.png]]
 
@@ -41,11 +52,19 @@ You can anticipate that the price will eventually fill the gap by returning to t
 - FVG can become a magnet for price in the future to fill the inefficiency as there are many resting orders.
 - They can be used as targets for entries.
 
+`Bullish FVG candle` is formed when the upper and lower wicks of its neighboring candle do not fully overlap in its body.
+
+`Bearish FVG candle` is formed when the lower and upper wicks of its neighboring candle do not fully overlap in its body.
+
 FVG can only be calculated by taking the impulse up/down candle, as well as the candles on either side of it. Everything else does not contribute to that gap. [...](https://youtu.be/k5slVs26Nks?t=284)
 
 - Look where the current price is.
 - Then highlight all the FVG above/below the price.
-- Only focus on FVG in the vicinity of the current price.
+- FVG can act as a strong entry point as the market is drawn to liquidity.
+	- Which means when price is planning to move downward it would first want to sweep the potential liquidity zones above it. FVG are great areas where the price would most likely rise to and test them before continuing the down move with even more strength.
+	- Similarly, when price plans to move up it would first attempt to sweep the potential liquidity zones below it. FVG are great areas where the price would most likely fall to and test them before continuing the up move with even more strength.
+	- Note that when there are multiple FVGs then the price can move and tap into any of the FVG.
+	- Only focus on FVG in the vicinity of the current price trend and not on those which are part of far away trends.
 
 ![[ict-fvg-marking.png]]
 
@@ -54,12 +73,13 @@ FVG can only be calculated by taking the impulse up/down candle, as well as the 
 
 `Order Blocks (OB)` are highly optimized supply/demand zones that include a large amount of buy/sell orders. When price reaches them it may potentially change its direction to the opposite way.
 
-> To have a valid OB the recent market structure must be broken.
+> To have a valid OB the recent market structure must be broken i.e. there must be a valid BoS/CHoCH for an OB to be valid.
 
 ![[ict-ob.png]]
 
 ![[ict-ob-marking.png]]
 
+> OB near a FVG and LRZ are high probability.
 ## Supply & Demand Zone Criteria
 [...](https://www.youtube.com/watch?v=JsysIKw06pc&t=311s)
 
@@ -144,3 +164,22 @@ The price clearly shows how it has swept `sell-side liquidity` level. See yellow
 Expect the price to rise in order to sweep the `buy-side liquidity` level. See yellow arrow. The price may even continue upward to take the FVG just above it. After that price may reverse and continue its bearish movement.
 
 ![[ict-buy-side-liquidity-sweep.png]]
+
+# Step 7. Combine LRZ, FVG, OB and Fibs
+[...](https://youtu.be/k5slVs26Nks?t=659)
+
+#### Spotting bearish entry
+
+1. As price sweeps sell-side LRZ it creates multiple FVG.
+2. Focus on the FVGs located in the premium zone (< 0.5 fib level).
+3. Furthermore, the FVG that have buy-side LRZ just below them are the most significant.
+4. Expect price to reverse from this FVG.
+5. As price taps into this FVG switch to LTF and follow [[SMC Entry Playbook]].
+
+#### Spotting bullish entry
+
+1. As price sweeps buy-side LRZ it creates multiple FVG.
+2. Focus on the FVGs located in the discount zone (< 0.5 fib level).
+3. Furthermore, the FVG that have sell-side LRZ just above them are the most significant.
+4. Expect price to reverse from this FVG.
+5. As price taps into this FVG switch to LTF and follow [[SMC Entry Playbook]].
