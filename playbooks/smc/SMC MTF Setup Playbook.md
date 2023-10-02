@@ -32,6 +32,14 @@ This pattern happens when traders take a fake-out as a CHoCH and the market cont
 
 ![[smc-choch-entry.png]]
 
+
+# Fibonacci Retracement Entries
+[...](https://youtu.be/NEagFJB1vjw?t=290)
+
+#### 1. Trend continuation setups
+
+#### 2. Reversal setups
+
 # ABC Entry
 [...](https://youtu.be/QlgggyB7XGk?t=86)
 
@@ -45,5 +53,6 @@ A bearish ABC pattern is only valid when the C wave sweeps the liquidity above t
 
 Similarly, a bullish ABC pattern is only valid when the C wave sweeps the liquidity below the lowest point of the A wave, with only one candle/wick and a second candle/wick should not form or close lower the first candle's body or wick.
 
-## 4. Market Structure Shift Pattern
+
+# Market Structure Shift Pattern
 [...](https://youtu.be/QlgggyB7XGk?t=158)
