@@ -1,9 +1,9 @@
 [...](https://www.youtube.com/watch?v=s1TCUQs6HPA)
 
-# Step 1.  Mark market structure in HTF
+# Step 1.  Prepare for entry setup in HTF
 
-1. Follow [[SMC Playbook]] steps.
-2. Follow [[SMC MTF Entry Playbook]] steps.
+1. Follow [[SMC Playbook]] to highlight all the key aspects of the market on chart.
+2. Follow [[SMC MTF Setup Playbook]] for the entry setup.
 3. Analyze market structure in HTF (preferably 15 min)
 4. Mark an order block in the HTF.
 
@@ -55,7 +55,47 @@ Upon CHoCH and RSI confirmation mark the minor order block (mOB) in LTF.
 1. Wait for price to approach OB in LTF.
 2. Be ready to place a limit order at this LTF minor Order Block.
 
-# Step 8. Enter position in LTF
+# Step 8. Take final confluence
+
+Finally, take proper confluence before entering a position.
+
+#### Confluence 1. Clear of HTF market structure
+[...](https://youtu.be/NEagFJB1vjw?t=420)
+
+The price should always be clear of any major level structure in front of it that can potentially reject the price.
+
+The major structure should show enough room before entering a trade.
+
+Always ask following questions:
+###### Q1. Where the price has come from?
+
+- If we have recently broken above a supply zone  in HTF and the price has lot of room before it reaches next resistance level.
+	- [GOLD/USD 4h for going long](https://youtu.be/NEagFJB1vjw?t=470)
+###### Q2. How much room it has to go before a HTF demand or supply?
+
+- If there is a pullback in a downtrend and there is a HTF demand zone in front of the price and we have a lot of room before reaching it then it makes sense to open short position.
+	- [GOLD/USD 4h for going short](https://youtu.be/NEagFJB1vjw?t=434)
+- Suppose, if the price has just mitigated a HTF demand level then we should not be opening a short position upon pullback because the market can easily change direction and ignore the LTF supply areas.
+	- [GOLD/USD 4h for NOT going short](https://youtu.be/NEagFJB1vjw?t=450)
+
+#### Confluence 2. Fibonacci retracement Level
+[...](https://youtu.be/NEagFJB1vjw?t=147)
+
+The main retracement levels that indicates area of value are 38.2%, 50%, 61.8%, and 78.6%.
+
+- OB present within 38.2% and 50% levels indicates a small pullback and sign of a strong trending market.
+- OB present above 78.6 level indicates a deeper pullback and is a sign of weakness in a trending market.
+- In an uptrend, OB present between 0 to 0.5 indicate premium zone. Taking trades here may encounter losses since market often loves to take out early buyers and benefit from liquidity.
+- In an uptrend, OB present between 0 to 0.5 indicate discounted zone. If you look to go long in this area may result in missing many trades but could lead to higher RRR.
+
+- For long positions the Fibonacci level being tapped in HTF and LTF should be
+	- Ideally 0.618.
+	- With 0.786 it is a deeper pullback/throwback.
+	- within 0.5 means it is a discount zone.
+
+> Combine retracement levels with price action in trend continuation setups and reversal trading strategies. [...](https://youtu.be/NEagFJB1vjw?t=290)
+
+# Step 9. Enter position in LTF
 
 Place a limit order before the price taps this LTF Order Block. Use 1:2 R/R. You may set next major level structure as target.
 
@@ -63,7 +103,7 @@ Place a limit order before the price taps this LTF Order Block. Use 1:2 R/R. You
 
 ![[smc-LTF-USDJPY-entry-2nd-take-profit.png]]
 
-# Step 9. Exit position
+# Step 10. Exit position
 
 > Never terminate your trade before price reaches your targets.
 
@@ -79,7 +119,7 @@ For the second take profit, target the next major level structure in front of th
 
 ![[smc-LTF-USDJPY-entry-2nd-take-profit.png]]
 
-# Step 10. Trail stop loss in LTF
+# Step 11. Trail stop loss in LTF
 
 1. Keep track of your profits.
 2. Every time the price makes a new higher low in LTF, move your SL couple of pips below the lowest point of the higher low. Follow the opposite for bearish trade.
@@ -87,7 +127,7 @@ For the second take profit, target the next major level structure in front of th
 3. Keep trailing this SL as new higher lows are formed.
 	![[smc-LTF-EURUSD-entry-sl-trail2.png]]
 
-# Step 11. Ride trend in LTF (Optional)
+# Step 12. Ride trend in LTF (Optional)
 
 > This is an optional step and should be practiced after gaining experience.
 

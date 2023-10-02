@@ -66,7 +66,7 @@ The recent most levels in front of the price are always more effective since the
 
 4h/1h time frames are the Medium Time Frame (MTF).
 
-Follow [[ICT Structure Mapping Playbook]] to highlight key market features on the MTF chart.
+Follow [[ICT Structure Mapping Playbook]] to highlight all key market features on the middle time frame chart.
 
 1. [[ICT Structure Mapping Playbook#Step 1. Mark liquidity sweep zones]]
 2. [[ICT Structure Mapping Playbook#Step 2. Mark buy/sell side liquidity resting zones]]
@@ -106,10 +106,12 @@ Use 15m/5m for taking confirmations and entering trades.
 - For 4h time frame order block (OB), we look for confirmation in 15m.
 - For 1h time frame order block (OB), we look for confirmation in 5m.
 
-1. Wait for the price to enter the MTF order block zone.
-2. Wait for CHoCH to confirm that the short term pullback/throwback move is over and market may continue in the direction of the trend.
-3. Set the daily level in front of the price as the first target.
-4. Once the daily level is rached, the price may continue pushing to reach the next weekly level in front of the price.
+Follow [[SMC Entry Playbook]] to take entry like so:
+1. Wait for the price to tap the OB in middle time frame.
+2. Switch to LTF.
+3. Wait for CHoCH (in LTF) to confirm that the short term pullback/throwback move is over and market may continue in the direction of the trend.
+4. Set the daily levels in front of the price as the first target.
+5. Once the daily level is rached, the price may continue pushing to reach the next weekly level in front of the price.
 
 ---
 
