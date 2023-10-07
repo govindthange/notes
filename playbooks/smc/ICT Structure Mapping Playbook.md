@@ -1,7 +1,59 @@
 
 For analysis mark all the key factors on your price chart using Inner Circle Trader (ICT) concepts.
 
-# Step 1. Mark liquidity sweep zones
+# Step 1. Mark liquidity footprint
+
+#### 1. Equal or Swing highs/lows
+[...](https://youtu.be/0UTvF4SWdQM?t=128)
+
+![[smc-liquidity-below-equal-lows.png]]
+
+![[smc-liquidity-above-equal-highs.png]]
+
+#### 2. Dynamic [[Trend]] lines / channel boundaries
+
+![[smc-liquidity-around-trendlines.png]]
+
+#### 3. Order Blocks & Order Flows
+
+![[smc-liquidity-around-ob.png]]
+
+#### 4. [[Support & Resistance]] levels
+
+![[smc-liquidity-support-resistance.png]]
+
+
+#### 6. Daily candle's body and shadow
+[...](https://youtu.be/0UTvF4SWdQM?t=177)
+
+![[smc-liquidity-candle-wicks.png]]
+
+#### 6. Session highs/lows
+[...](https://youtu.be/0UTvF4SWdQM?t=187)
+
+##### 7. Fibonacci levels
+[...](https://youtu.be/0UTvF4SWdQM?t=195)
+
+Traders often look for opportunities around key Fibonacci retracement or extension levels.
+
+### Where can we find the liqudity?
+
+Liquidity is a zone on the chart where large pool of money is resting, such as stop losses, buy or sell orders, because when somebody gets stopped out of a position that money gets taken by the market.
+
+1. Below equal lows, swing lows, or dynamic trend lines/channels, bullish order block
+3. Above equal highs, swing highs, or dynamic dynamic trend lines/channels, beearish order blocks
+
+![[smc-liquidity.png]]
+
+### How to spot liquidity footprint?
+
+[Euro / U.S. Dollar - 4h](https://youtu.be/0UTvF4SWdQM?t=211)
+
+![[smc-liqudity-eurusd-4h.png]]
+
+# Step 2. Mark external liquidity
+
+### 2.1 Mark liquidity sweep zones
 [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=84s)
 
 Identify the most recent liquidity areas in the chart where liquidity has recently been swept.
@@ -13,7 +65,8 @@ Identify the most recent liquidity areas in the chart where liquidity has recent
 1. Draw the liquidity sweep zone with a line.
 		- Connect a line from `high/low wicks of the candle(s)` to the `candle with a long wick which swept the liquidity of "from candle wicks"`
 		![[ict-liquidity-sweep-line.png]]
-# Step 2. Mark buy/sell side liquidity resting zones
+
+### 2.2. Mark buy/sell side liquidity resting zones (LRZ)
 [...](https://youtu.be/k5slVs26Nks?t=122)
 
 Identify the buy/sell side liquidity resting zones (LRZ) on the chart that price may move to grab.
@@ -37,7 +90,9 @@ The below image shows how the downward impulsive move created buy-side liquidity
 ![[ict-buy-side-liquidity-resting-zones.png]]
 
 As the downward impulse swept the sell-side liquidity, expect the price to now rise in response to sweep buy-side internal liquidity highlighted w/ yellow ""$ RL" lines.
-# Step 3. Mark inefficiencies / Fair Value Gaps (FVG)
+# Step 3. Mark internal liquidity
+
+#### Mark liquidity gaps / liquidity voids / inefficiencies / fair value gaps (FVG)
  [...](https://www.youtube.com/watch?v=k5slVs26Nks&t=176s)
 
 `Inefficiency` occurs when there is an imbalance between buyers and sellers on the market, which leaves disequilibrium that needs to be filled. In other words, if there is a gap within the candles, we call it an inefficiency.
@@ -127,7 +182,42 @@ Step 2. Draw a line over 0.5 Fibonacci 50% level (the equilibrium level)
 ![[ict-premium-discount-marking3.png]]
 
 Whenever the price is below the equilibrium level (in discount zone) we should take a long position and whenever the price is above equilibrium level (in premium/expensive zone) we should take a short position.
-# Step 6. Mark the market structure using SMC
+
+# Step 6. Mark inducements
+
+### 6.1 Mark order blocks
+
+![[smc-liquidity-around-ob.png]]
+
+### 6.2 Mark [[Support & Resistance]] levels
+
+![[smc-liquidity-support-resistance.png]]
+
+### 6.3 Mark equal highs/lows
+[...](https://youtu.be/0UTvF4SWdQM?t=128)
+
+![[smc-liquidity-below-equal-lows.png]]
+
+![[smc-liquidity-above-equal-highs.png]]
+
+### 6.4 Mark [[Swing#Swing High]] and [[Swing#Swing Low]]
+[...](https://www.youtube.com/watch?v=xOR1XNpt-L8&t=240s)
+
+- Mark the highest and lowest points that price has recently hit.
+- Traders typically get induced by swing high/low points and place their buy orders (at swing low) and sell orders (at swing high) with the argument that the price will respect these areas and will change its direction when it reaches them.
+- Price typically makes fake breakouts in these areas and hit stop loss orders of both buyers and sellers.
+
+### 6.5 Mark [[Trend]] lines / channel boundaries
+[...](https://youtu.be/xOR1XNpt-L8?t=300)
+
+- Trend lines are drawn over pivot highs or under pivot lows to show the prevailing direction of price.
+- Trend lines also represent support/resistance.
+- Traders get induced to trend lines and place their orders as price reaches the trend line or breaks through it.
+
+![[smc-liquidity-around-trendlines.png]]
+
+
+# Step 7. Mark the market structure using SMC
 [...](https://youtu.be/k5slVs26Nks?t=600)
 
 Spot market direction and structures created in the market and mark general outline of the market using SMC.
@@ -165,7 +255,7 @@ Expect the price to rise in order to sweep the `buy-side liquidity` level. See y
 
 ![[ict-buy-side-liquidity-sweep.png]]
 
-# Step 7. Combine LRZ, FVG, OB and Fibs
+# Step 8. Analyze liquidity, OB, fib levels w/ inducements
 [...](https://youtu.be/k5slVs26Nks?t=659)
 
 #### Spotting bearish entry
@@ -183,3 +273,77 @@ Expect the price to rise in order to sweep the `buy-side liquidity` level. See y
 3. Furthermore, the FVG that have sell-side LRZ just above them are the most significant.
 4. Expect price to reverse from this FVG.
 5. As price taps into this FVG switch to LTF and follow [[SMC Entry Playbook]].
+
+---
+
+# FAQ
+
+## What drives the market movements?
+[...](https://youtu.be/2mP-HUCOvGs?t=94)
+
+There are 2 market factors which continuously influence market movements.
+1. `Liquidity Zones`: The market continually seeks to sweep liquidity to generate momentum. Liquidity serves as the lifeblood of the market playing a vital role in its overall dynamics and functioning.
+2. `Liquidity or Fair Value Gaps`: The market consistently shows a tendency to fill and re-balance the gaps present within it.
+
+![[smc-market-movement.png]]
+
+## What is Liquidity?
+
+- Liquidity simply means money or large counter orders that must be fulfilled.
+- Market always needs to sweep the liquidity to gain momentum.
+- Liquidity is used as the fuel of the market, which is vital and necessary for the market dynamics.
+
+##### Liquidity Types
+
+1. Internal (FVG)
+2. External (Swigh Highs/Lows)
+
+![[smc-liquidity-types.png]]
+
+## How does the price moves?
+
+![[smc-price-movement-between-liquidity.png]]
+
+
+## What is Inducement?
+
+Inducements are the places on chart designed by big SMC traders (like central banks and large financial institutions) to deceive/induce retail traders to have buy/sell positions in the market and eventually build more liquidity for them.
+
+![[smc-inducement1.png]]
+
+![[smc-inducement2.png]]
+
+- Inducement can be used to identify the market liquidity zones.
+- Additionally, it enables us to move with market liquidity and take profits instead of getting trapped in the liquidity of the market's major players.
+
+> There is no guarantee that the price will always take the inducement. It may sweep it now or some distant point in future. The only thing which is advisable is avoid trading from areas where liquidity pool is resting.
+
+[Example 1](https://youtu.be/xOR1XNpt-L8?t=678)
+
+In below example, traders would have got lucky by going short at the first inducement OB which is next to the equal highs but the 2nd inducement OB, which is created by both the earlier equal high liquidity pool and the new trend line liquidity pool, would definitely act as a trap AKA `Smart Money Trap`.
+
+![[smc-inducement-example1.png]]
+
+[Example 2](https://youtu.be/xOR1XNpt-L8?t=908)
+
+![[smc-inducement-example2.png]]
+
+[Euro / U.S. Dollar - 1h](https://youtu.be/xOR1XNpt-L8?t=1034)
+
+- 1st OB is valid because it is unmitigated and above the liquidity pool created by equal highs and trend line. It is also valid because it comes after the inducement.
+- 2nd OB is invalid because it is below the liquidity pool created by equal highs. This OB must be avoided.
+- 3rd OB is invalid and an inducement because it lies on the trend line and just below the liquidity pool created by previous unmitigated equal highs and the trend line. 
+
+![[smc-inducement-example3.png]]
+
+## What is the difference between liquidity and inducement?
+
+Liquidity does not take traders in the market it takes them out, but inducement forces traders to get into the market and eventually they get caught by the traps that market makers already designed for them.
+
+## Why always the extreme order block works?
+[...](https://youtu.be/0UTvF4SWdQM?t=289)
+
+The extreme OB often works because the market sweeps liquidity below the upper order blocks and recent consolidation zone. The price gathers momentum by sweeping liquidity and gains the necessary fuel to move upwards.
+
+![[smc-liqudity-sweep-eurusd-4h.png]]
+

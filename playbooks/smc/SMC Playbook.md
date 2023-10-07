@@ -68,13 +68,14 @@ The recent most levels in front of the price are always more effective since the
 
 Follow [[ICT Structure Mapping Playbook]] to highlight all key market features on the middle time frame chart.
 
-1. [[ICT Structure Mapping Playbook#Step 1. Mark liquidity sweep zones]]
-2. [[ICT Structure Mapping Playbook#Step 2. Mark buy/sell side liquidity resting zones]]
-3. [[ICT Structure Mapping Playbook#Step 3. Mark inefficiencies / Fair Value Gaps (FVG)]]
+1. [[ICT Structure Mapping Playbook#Step 1. Mark liquidity footprint]]
+2. [[ICT Structure Mapping Playbook#Step 2. Mark external liquidity]]
+3. [[ICT Structure Mapping Playbook#Step 3. Mark internal liquidity]]
 4. [[ICT Structure Mapping Playbook#Step 4. Mark order blocks (OB) near the current market price]]
 5. [[ICT Structure Mapping Playbook#Step 5. Mark premium/discount zones]]
-6. [[ICT Structure Mapping Playbook#Step 6. Mark the market structure using SMC]]
-7. [[ICT Structure Mapping Playbook#Step 7. Combine LRZ, FVG, OB and Fibs]]
+6. [[ICT Structure Mapping Playbook#Step 6. Mark inducements]]
+7. [[ICT Structure Mapping Playbook#Step 7. Mark the market structure using SMC]]
+8. [[ICT Structure Mapping Playbook#Step 8. Analyze liquidity, OB, fib levels w/ inducements]]
 
 # Step 3. Analyze market features in MTF
 [...](https://youtu.be/dnnFb9V9uLI?t=543)

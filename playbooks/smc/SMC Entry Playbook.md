@@ -31,7 +31,9 @@ Wait for price to form a CHoCH in LTF and close beyond it.
 
 ![[smc-LTF-entry-EURJPY-1m.png]]
 
-# Step 5. Take RSI confirmation in LTF
+# Step 5. Take confirmation in LTF
+
+### Option 1. RSI confirmation
 
 Take RSI confirmation upon CHoCH.
 
@@ -41,8 +43,12 @@ Analyze RSI in LTF (preferably 1 min) and wait for the divergence signals for co
 
 ![[smc-LTF-USDJPY-entry-rsi-confirmation.png]]
 
+### Option 2. Wait for BoS as a double confirmation to CHoCH
 
-# Step 6. Mark OB in LTF
+
+# Step 6. Mark entry zone in LTF
+
+### Option 1. Mark OB
 
 Upon CHoCH and RSI confirmation mark the minor order block (mOB) in LTF.
 
@@ -50,10 +56,15 @@ Upon CHoCH and RSI confirmation mark the minor order block (mOB) in LTF.
 
 ![[smc-LTF-entry-EURJPY-1m-OB.png]]
 
-# Step 7. Wait for price to approach OB in LTF
+# Step 7. Wait for price to approach entry zone in LTF
+
+### Option 1. Wait for price to approach OB
 
 1. Wait for price to approach OB in LTF.
 2. Be ready to place a limit order at this LTF minor Order Block.
+
+### Option 2. Wait for price to approach Fibonacci level
+
 
 # Step 8. Take final confluence
 
