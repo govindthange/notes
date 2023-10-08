@@ -209,6 +209,57 @@ An order flow is a throwback/pullback that comprises of one or more candles.
 
 An Order Block (OB) is formed from Order Flow (OF) like so:
 
+## Type 1. Standard Order Block (SOB)
+[...](https://youtu.be/iw0OmpybKzc?t=146)
+
+- To go short in a downtrend, its the last up move before the impulsive down move.
+- To go long in an uptrend, its the last down move before the impulsive up move.
+
+#### Option 1. Mark SOB w/ wicks
+
+#### Option 2. Mark SOB w/ body
+
+#### Option 3. Mark small SOB w/ wicks and large SOB w/ body
+
+#### Option 4. Mark wick as OB if wick > body
+
+## Type 2. Engulfed Order Block (EOB)
+[...](https://youtu.be/iw0OmpybKzc?t=332)
+
+- To go short in a downtrend, its the last up move before the impulsive down move but here the last up move candle must be engulfed by the down moving candle especially the bottom part of the last up move candle must be engulfed/covered.
+- To go long in an uptrend, its the last down move before the impulsive up move but here the last down move candle must be engulfed by the up moving candle especially the top part of the last down move candle must be engulfed/covered.
+- It doesn't matter whether the last up/down move candle is a buy/sell i.e. the candle color doesn't matter.
+
+#### Option 1. Mark EOB w/ wicks
+
+#### Option 2. Mark EOB w/ body
+
+#### Option 3. Mark small EOB w/ wicks and large EOB w/ body
+
+## Type 3. Breaker Order Block (BOB)
+[...](https://youtu.be/iw0OmpybKzc?t=673)
+
+- A previous OB that has been broken through and we are now returning back to it.
+	- ![[smc-breaker-block.png]]
+- BOB is most effective when price is moving very bullish/bearish with minimal pullbacks (i.e. not returning to more premium/discount areas such as a standard order block)
+- Its closest thing to support and resistance, buts more pin point.
+
+#### Option 1. Mark BOB w/ liquidity void
+[...](https://youtu.be/iw0OmpybKzc?t=728)
+
+Example: On the extreme left the OB was broken w/ a FVG.
+
+![[smc-bob-liquidity-void.png]]
+
+#### Option 2. Mark BOB w/ SOB
+[...](https://youtu.be/iw0OmpybKzc?t=844)
+
+Example: On the extreme left there is an OB followed by another SOB.
+
+![[smc-bob-with-sob.png]]
+
+## Type 4. Single Candle Order Block (SCOB)
+
 In a throwback, OB is the last set of selling candles before which the buying starts. To identify an OB within this correcting move do as follows:
     1. OB candle is often formed at the end of this correction. The 2nd last candle in this correction is the very candle which precedes our OB candle. We refer it as candle #1.
     2. OB candle #2 must sweeping the low of candle #1.
@@ -233,13 +284,13 @@ In a throwback, OB is the last set of selling candles before which the buying st
   - Ignore all inside bar candles inside an OF/OB structure.
   - The OB candle must show liquidity sweep i.e. it must grab the liquidity of its previous candle in a throwback/pullback move.
 
-### Mark OB within OFs
+#### 1. Mark OB within OFs
 
 1. Follow the OF for spotting a high probability OB
 2. Discard all OFs which are mitigated by the subsequent candles.
 3. Highlight only those OFs which are unmitigated.
 
-### Mark Single Candle Order Blocks (SCOB)
+#### 2. Mark SCOB
 [...](https://www.youtube.com/watch?v=YyHjyZ15Z9w&t=525s)
 
 1. Criteria 1: Wait for a valid throwback/pullback.
