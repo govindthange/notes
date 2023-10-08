@@ -237,14 +237,44 @@ An Order Block (OB) is formed from Order Flow (OF) like so:
 #### Option 3. Mark small EOB w/ wicks and large EOB w/ body
 
 ## Type 3. Breaker Order Block (BOB)
-[...](https://youtu.be/iw0OmpybKzc?t=673)
+[...](https://youtu.be/iw0OmpybKzc?t=673) | [...](https://www.youtube.com/watch?v=ZupXGL0qGFU)
 
-- A previous OB that has been broken through and we are now returning back to it.
+In a normal uptrend, a price is expected to make a correction and an OB rejects the price result in end of correction and creates a HL. Similarly, in a normal downtrend, a bearish OB creates a LH. [...](https://youtu.be/dcIdzqD3kMU?t=41)
+
+A bearish BOB turns support into resistance and a bullish BOB turns resistance into support.
+
+When the price approaches an OB with `momentum` and the OB fails to reject the price, then that OB zone becomes a breaker OB. [...](https://youtu.be/ZupXGL0qGFU?t=42)
+- When a bearish OB (supply zone) fails to reject a price, and price pears through it, then that bearish OB zone will turn into a bullish BOB (demand zone).
+- When a bullish OB (demand zone) fails to reject a price, and breaks through it, then that bullish OB zone will turn into a bearish BOB (supply zone).
+- The price often returns back to a BOB.
 	- ![[smc-breaker-block.png]]
 - BOB is most effective when price is moving very bullish/bearish with minimal pullbacks (i.e. not returning to more premium/discount areas such as a standard order block)
 - Its closest thing to support and resistance, buts more pin point.
 
-#### Option 1. Mark BOB w/ liquidity void
+##### How to mark a valid BOB?
+[...](https://youtu.be/ZupXGL0qGFU?t=71)
+
+A BOB is formed by a failed CHoCH.
+
+1. Wait for a BoB which appears like a CHoCH.
+2. Mark a normal OB and expect price to retrace back to this zone.
+3. Wait for price to tap this OB.
+4. If the `price approaches the OB with a strong move and breaks through it` without respect it then this failed OB turns into a BOB.
+	-  Following example shows a bullish BOB formed by an impulsive bullish candle which also created FVG.
+	- Price must break through an OB and create an imbalance.
+	- ![[smc-bullish-bob.png]]
+5. Formation of BOB indicates that new set of    orders were injected to turn a supply zone to demand zone or vice versa.
+
+##### How does an invalid BOB looks?
+[...](https://youtu.be/ZupXGL0qGFU?t=218)
+
+When the price approaches an OB, which created a CHoCH, but does not show an aggressive reaction then that means that OB held and no new orders were injected. In this case this OB will NOT TURN into a BOB. [...](https://youtu.be/ZupXGL0qGFU?t=268)
+
+- [Example of an invalid BOB](https://youtu.be/ZupXGL0qGFU?t=350)
+- In this example the price did NOT pierce through the bullish OB with `strong candle` it indicated that no new sell orders were injected to over power the buy orders of bullish OB.
+- ![[smc-invalid-bob.png]]
+
+####  Option 1. Mark BOB w/ liquidity void
 [...](https://youtu.be/iw0OmpybKzc?t=728)
 
 Example: On the extreme left the OB was broken w/ a FVG.
@@ -371,4 +401,4 @@ Act when market taps one of the above marked unmitigated PoIs then follow this:
 ### Trailing Stop Loss
 
 Continue the trade as market forms new BoS in the direction of the trade.
-Shift stop loss to next BoS in the direction of trade
+Shift stop loss to next BoS in the direction of trade.
