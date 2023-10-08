@@ -7,6 +7,8 @@
 3. Analyze market structure in HTF (preferably 15 min)
 4. Mark an order block in the HTF.
 
+[Eur / U.S. Dollar - 15m + 5m](https://youtu.be/3yLTDSwHKXU?t=75)
+
 [Euro/USD Trade - 15m Chart](https://youtu.be/s1TCUQs6HPA?t=434)
 ![[smc-HTF-15m-OB-EURUSD.png]]
 

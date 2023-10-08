@@ -128,6 +128,8 @@ FVG can only be calculated by taking the impulse up/down candle, as well as the 
 
 `Order Blocks (OB)` are highly optimized supply/demand zones that include a large amount of buy/sell orders. When price reaches them it may potentially change its direction to the opposite way.
 
+[[SMC Structure Mapping Playbook#Step 7. Mark `OBs` in HTF]]
+
 > To have a valid OB the recent market structure must be broken i.e. there must be a valid BoS/CHoCH for an OB to be valid.
 
 ![[ict-ob.png]]
@@ -300,7 +302,9 @@ There are 2 market factors which continuously influence market movements.
 
 ![[smc-liquidity-types.png]]
 
-## How does the price moves?
+## How does the price move?
+
+Price always move from internal liquidity to external liquidity and vice-versa.
 
 ![[smc-price-movement-between-liquidity.png]]
 

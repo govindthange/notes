@@ -13,10 +13,10 @@ When you zoom out to HTF (say 1h), then you can quickly identify market trend. B
 Use weekly and daily time frames to only mark the key levels that price has recently reacted to.
 
 1. Switch to weekly time frame.
-2. On the weekly time frame only draw the most recent levels near the current price that have high chances for the price to react to when it taps into them. [AUS/US Weekly Chart](https://youtu.be/dnnFb9V9uLI?t=832)
+2. Mark the most recent levels near the current price that have high chances for the price to react to when it taps into them. [AUS/US Weekly Chart](https://youtu.be/dnnFb9V9uLI?t=832)
 3. Switch to daily time frame.
-4. On the daily time frame, adjust the weekly levels to get the greatest number of touches from the daily perspective. [AUS/US Daily Chart](https://youtu.be/dnnFb9V9uLI?t=842)
-5. Draw additional daily key levels of the market structure with another color.
+4. Adjust the weekly levels to get the greatest number of touches from the daily perspective. [AUS/US Daily Chart](https://youtu.be/dnnFb9V9uLI?t=842)
+5. Mark additional daily key levels of the market structure with another color.
 
 We use weekly/daily levels in following ways:
 1. `To identify market direction`: Breaking each one into the up/downsides indicates whether the supply or demand is in control and price can continue pushing to the next level.
