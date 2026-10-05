@@ -1,6 +1,34 @@
 # Limits, Continuity, and Differentiability Formulas
 
-## I. Basic Limit Properties and Algebra of Limits
+## I. Limits and Standard Forms
+
+* Definition of Limit: $\lim_{x \to a} f(x) = L$
+
+* Indeterminate Forms: $\frac{0}{0}, \frac{\infty}{\infty}, 0 \cdot \infty, \infty - \infty, 0^0, 1^\infty, \infty^0$
+
+* L'Hôpital's Rule: If $\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{0}{0}$ or $\frac{\infty}{\infty}$, then $\lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)}$
+
+* Fundamental Trigonometric Limit: $\lim_{x \to 0} \frac{\sin x}{x} = 1$ (where $x$ is in radians)
+
+* Fundamental Trigonometric Limit (Tan): $\lim_{x \to 0} \frac{\tan x}{x} = 1$
+
+* Fundamental Algebraic Limit: $\lim_{x \to a} \frac{x^n - a^n}{x - a} = n a^{n-1}$
+
+* Exponential Limit: $\lim_{x \to 0} \frac{e^x - 1}{x} = 1$
+
+* Logarithmic Limit: $\lim_{x \to 0} \frac{\ln(1 + x)}{x} = 1$
+
+* General Exponential Limit: $\lim_{x \to 0} \frac{a^x - 1}{x} = \ln a$ ($a > 0$)
+
+* Standard Expansion ($e^x$): $e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots$
+
+* Standard Expansion ($\ln(1+x)$): $\ln(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \dots$ (|x| < 1)
+
+* Standard Expansion ($\sin x$): $\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \dots$
+
+* Standard Expansion ($\cos x$): $\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \dots$
+
+## II. Basic Limit Properties and Algebra of Limits
 
 * Limit of a Constant: $\lim_{x \to a} c = c$
 
@@ -20,7 +48,7 @@
 
 * Root Rule: $\lim_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim_{x \to a} f(x)}$
 
-## II. Standard Limits and Indeterminate Forms
+## III. Standard Limits and Indeterminate Forms
 
 * Definition of Limit: $\lim_{x \to a} f(x) = L$ implies $\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = L$
 
@@ -46,7 +74,7 @@
 
 * General Exponential Limit: $\lim_{x \to 0} \frac{a^x - 1}{x} = \ln a$ ($a > 0$)
 
-## III. Exponential and Power Limits (One-Infinity Forms)
+## IV. Exponential and Power Limits (One-Infinity Forms)
 
 * Standard Form 1: $\lim_{x \to 0} (1 + x)^{\frac{1}{x}} = e$
 
@@ -58,7 +86,7 @@
 
 * Functional Form: If $\lim_{x \to a} f(x) = 1$ and $\lim_{x \to a} g(x) = \infty$, then $\lim_{x \to a} [f(x)]^{g(x)} = e^{\lim_{x \to a} [f(x) - 1]g(x)}$
 
-## IV. Continuity of Functions
+## V. Continuity of Functions
 
 * Continuity at a Point: A function $f(x)$ is continuous at $x = c$ if:
   1. $f(c)$ is defined
@@ -71,7 +99,7 @@
 
 * Intermediate Value Theorem (IVT): If $f(x)$ is continuous on $[a, b]$ and $u$ is any number between $f(a)$ and $f(b)$, then there exists at least one $c \in (a, b)$ such that $f(c) = u$.
 
-## V. Algebra and Properties of Continuous Functions
+## VI. Algebra and Properties of Continuous Functions
 
 * Sum/Difference of Continuous Functions: If $f$ and $g$ are continuous at $x = c$, then $f \pm g$ is continuous at $x = c$.
 
@@ -81,7 +109,7 @@
 
 * Composite Function Continuity: If $g$ is continuous at $c$ and $f$ is continuous at $g(c)$, then the composite function $(f \circ g)(x) = f(g(x))$ is continuous at $c$.
 
-## VI. Continuity of Standard Functions
+## VII. Continuity of Standard Functions
 
 * Polynomial Functions: Continuous everywhere ($\mathbb{R}$).
 
@@ -97,7 +125,7 @@
 
 * Logarithmic Functions ($\log_a x$): Continuous everywhere on their domain $(0, \infty)$.
 
-## VII. Differentiability and Continuity Relationship
+## VIII. Differentiability and Continuity Relationship
 
 * Differentiability Implies Continuity: If a function $f(x)$ is differentiable at $x = c$, then it is guaranteed to be continuous at $x = c$.
 
