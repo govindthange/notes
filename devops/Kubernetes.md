@@ -1,14 +1,14 @@
 # Is deploying with Terraform same as deploying with Kubernetes or KinD?
 
-Deploying with Terraform is not the same as deploying with Kubernetes or KinD (Kubernetes in Docker); rather, they serve completely different purposes and go hand-in-hand together. [1, 2, 3, 4]  
+Deploying with Terraform is not the same as deploying with Kubernetes or KinD (Kubernetes in Docker); rather, they serve completely different purposes and go hand-in-hand together.
 
-While Terraform builds the foundational terrain (the servers, networks, and cluster container itself), Kubernetes/KinD acts as the manager living inside that terrain to run your actual application containers. [2, 5, 6]  
+While Terraform builds the foundational terrain (the servers, networks, and cluster container itself), Kubernetes/KinD acts as the manager living inside that terrain to run your actual application containers.
 
 ## How Terraform differs from Kubernetes or KinD?
 
 • Terraform is an Infrastructure-as-Code (IaC) tool. It talks to cloud or local hypervisors to provision raw infrastructure like networks, databases, and servers. 
 • Kubernetes (K8s) is a container orchestration tool. It does not provision hardware; instead, it manages the lifecycle, scaling, and networking of containerized applications running on existing hardware. 
-• KinD (Kubernetes in Docker) is a tool specifically used to run local Kubernetes clusters using Docker container "nodes". It is strictly meant for local development and testing. [9, 10]  
+• KinD (Kubernetes in Docker) is a tool specifically used to run local Kubernetes clusters using Docker container "nodes". It is strictly meant for local development and testing.
 
 ## How They Work Hand-in-Hand?
 
@@ -40,4 +40,4 @@ Use `Terraform` solely for foundational cluster infrastructure, AND use `native 
 
 A common architectural pattern is using Terraform to bootstrap the KinD or Kubernetes cluster.
 
-Once the cluster is alive, you hand over application delivery to Kubernetes-native tools like , Helm, or GitOps operators (like ArgoCD) rather than forcing Terraform to manage your daily application updates. [2, 11, 12]  
+Once the cluster is alive, you hand over application delivery to Kubernetes-native tools like , Helm, or GitOps operators (like ArgoCD) rather than forcing Terraform to manage your daily application updates.
